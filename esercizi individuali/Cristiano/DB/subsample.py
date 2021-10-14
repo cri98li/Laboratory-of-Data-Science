@@ -12,20 +12,7 @@ cursor = conn.cursor()
 
 percentage = .3
 
-selectedRows = {
-    "Male":
-        {
-            "samples": [],
-            "nOfSelectedRecord": 0,
-            "nOfOriginalRecord": 0
-        },
-    "Female":
-        {
-            "samples": [],
-            "nOfSelectedRecord": 0,
-            "nOfOriginalRecord": 0
-        }
-}
+selectedRows = {}
 
 cur = cursor.execute("""SELECT sex, COUNT(*) as n
                         FROM census
@@ -36,6 +23,11 @@ total = 0
 print("Original distribution")
 
 for el in cur.fetchall():
+    selectedRows[el.sex] = {
+            "samples": [],
+            "nOfSelectedRecord": 0,
+            "nOfOriginalRecord": 0
+        }
     selectedRows[el.sex]["nOfOriginalRecord"] = el.n
     total += el.n
 
