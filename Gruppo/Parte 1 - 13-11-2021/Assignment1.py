@@ -70,6 +70,9 @@ for row in tennis:
 DICTtoCSV("output/players.csv", toWrite, playerHeader)
 
 
+column_to_exclude = ['winner_age', 'winner_ioc', 'winner_ht', 'winner_hand', 'winner_name', 'winner_entry']\
+                  + ['loser_age', 'loser_ioc', 'loser_ht', 'loser_hand', 'loser_name', 'loser_entry']
 
-matchHeader = [x for x in tennis[0].keys() if x not in playerHeader + tournamentHeader + dateHeader]
+
+matchHeader = [x for x in tennis[0].keys() if x not in playerHeader + tournamentHeader + dateHeader + column_to_exclude]
 DICTtoCSV("output/match.csv", tennis, matchHeader)
