@@ -1,47 +1,9 @@
 import csv
 import datetime
 from dateutil.relativedelta import relativedelta
-
-def CSVtoLISTDICT(filepath="", header=False, separator=','):
-    data = []
-    columns = []
-    with open(filepath, "r") as file:
-        if type(header) is bool and header:
-            for column in file.readline()[:-1].split(separator):
-                columns.append(column)
-        elif type(header) is list:
-            columns = header
-
-        for line in file:
-            row = {}
-            for i, value in enumerate(line[:-1].split(separator)):
-                row[columns[i]] = value
-            data.append(row)
-
-    return data
-
-def loadNames(filepath, replace=[",", " "], skipheader=True):
-    returnList = set()
-    with open(filepath, "r") as file:
-        for row in file:
-            returnList.add(row[:-1].replace(replace[0], replace[1]))
-    return returnList
-
-def DICTtoCSV(filepath="", data=[{}], header=True,):
-    with open(filepath, "w", newline='') as file:
-        keys = data[0].keys()
-        if type(header) is list:
-            keys = header
-
-        fileCSV = csv.DictWriter(file, keys)
-        toWrite = map(lambda row: {key: row[key] for key in keys}, data)
-        fileCSV.writeheader()
-        toWrite = [dict(t) for t in {tuple(d.items()) for d in toWrite}] #Elimina i duplicati
-        fileCSV.writerows(toWrite)
-
+from Utils import CSVtoLISTDICT, loadNames, DICTtoCSV
 
 tennis = CSVtoLISTDICT("dati/tennis.csv", True, ",")
-
 
 #DATE
 #Aggiungo ad ogni riga le info sulla data
@@ -54,8 +16,6 @@ for row in tennis:
 
 dateHeader = ['tourney_date', 'day', 'month', 'year', 'quarter'] #date_id = tourney_date
 DICTtoCSV("output/date.csv", tennis, dateHeader)
-
-
 
 
 #TOURNAMENT
