@@ -14,8 +14,9 @@ def CSVtoLISTDICT(filepath="", header=False, separator=','):
             columns = header
 
         for line in file:
+            #line = line.lower()
             row = {}
-            for i, value in enumerate(line[:-1].split(separator)):
+            for i, value in enumerate(line.replace("\n", "").split(separator)):
                 row[columns[i]] = value
             data.append(row)
 
