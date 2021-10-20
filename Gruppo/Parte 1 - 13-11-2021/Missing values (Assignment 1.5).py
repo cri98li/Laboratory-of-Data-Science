@@ -2,7 +2,8 @@ from Utils import CSVtoLISTDICT, DICTtoCSV
 
 def cast(attribute=None):
     try:
-        return int(attribute)
+        if attribute.is_integer():
+            return int(attribute)
     except:
         ""
     try:

@@ -9,17 +9,17 @@ tennis = CSVtoLISTDICT("dati/tennis.csv", True, ",")
 #Aggiungo ad ogni riga le info sulla data
 for row in tennis:
     data = datetime.datetime.strptime(row['tourney_date'], "%Y%m%d")
-    row['day'] = data.day
-    row['month'] = data.month
-    row['year'] = data.year
-    row['quarter'] = int((data.month+2)/3)
+    row['date_id'] = data.strftime("%Y") + str(int((data.month + 2) / 3)) + data.strftime("%m%d")
+#    row['year'] = data.year
+#    row['month'] = data.month
+#    row['day'] = data.day
 
 dateHeader = ['tourney_date', 'day', 'month', 'year', 'quarter'] #date_id = tourney_date
-DICTtoCSV("output/date.csv", tennis, dateHeader)
+#DICTtoCSV("output/date.csv", tennis, dateHeader)
 
 
 #TOURNAMENT
-tournamentHeader = ["tourney_id", "tourney_date", "tourney_name", "surface", "draw_size", "tourney_level", "tourney_spectators", "tourney_revenue"]
+tournamentHeader = ["tourney_id", "date_id", "tourney_name", "surface", "draw_size", "tourney_level", "tourney_spectators", "tourney_revenue"]
 DICTtoCSV("output/tournament.csv", tennis, tournamentHeader)
 
 
