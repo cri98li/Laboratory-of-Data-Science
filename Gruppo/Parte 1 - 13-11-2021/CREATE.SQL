@@ -6,8 +6,8 @@ create table Geography
             primary key
         constraint FK_Geography_Geography1
             references Geography,
-    country_name varchar(20) not null,
-    continent    varchar(20) not null,
+    country_name varchar(7) not null,
+    continent    varchar(7) not null,
     language     varchar(20)
 )
 go
