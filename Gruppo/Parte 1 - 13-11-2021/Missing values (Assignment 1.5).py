@@ -136,3 +136,7 @@ fillna(tournament, "surface", lambda x: "unknown")
 DICTtoCSV("output/tournament_noNull.csv", tournament, tournament[0].keys())
 
 print("\n\n\n\n")
+
+
+countries = CSVtoLISTDICT("dati/countries.csv", True, ",")
+printdescribe(describe(countries))
