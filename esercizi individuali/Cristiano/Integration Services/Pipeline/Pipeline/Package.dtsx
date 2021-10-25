@@ -11,8 +11,8 @@
   DTS:LocaleID="1040"
   DTS:ObjectName="Package"
   DTS:PackageType="5"
-  DTS:VersionBuild="11"
-  DTS:VersionGUID="{EEA79542-ED16-456E-BCCC-FDF5B5ABCBCA}">
+  DTS:VersionBuild="12"
+  DTS:VersionGUID="{7F5BBE54-70AA-4FEF-AE0D-FD8A447F156E}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -74,7 +74,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAASwWrmCWQ4k6Jf9XW9NwqYwAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAB17uD86kJKK2zV6RMk4wjM51jPwBLIpEN1Zo1MQrKRNQAAAAAOgAAAAAIAACAAAADjfHfGTbMHzSC0S16Dbv9cVsJi95Qqb6SypeMrxVVvnxAAAABg0zo/D85KhaaH/F9mtADoQAAAAM4n55gXMKwT8vH5Eg21hogRcSizaFJ1b+pPMXi9oXOHjfg7pB5yHXsZsVDVgltZJ3HDstK4OU/DyS+9M3xwp94</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAASwWrmCWQ4k6Jf9XW9NwqYwAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAAY6Lz0ve3WB3mJrakq26XEHBvJLTKZr1rNyb4eYYPP2QAAAAAOgAAAAAIAACAAAAACn0pqn1CzGOw46Rl4QWdPDTGv8R68dkop7Vag8oWfPhAAAADxTjuAxkxJDhItW77IU6v1QAAAABovj0Qnsmxfff/cEASd1TX2/d2abs556RVpxJSTsJkJYCxyK8Dtl0I8d7qT4lKG8rIziZDTDfDALRb2TW8WV40</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -91,7 +91,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAASwWrmCWQ4k6Jf9XW9NwqYwAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAACCj+9uRFZizyawjU4KdTTcZFO2w1IC6wRT2mvVc2HfKQAAAAAOgAAAAAIAACAAAAA4MnZ30iZo/HjohBrbwIw6Y/uuSpyuq8zSrJex220MhxAAAABzSF9RWy1D8ZlkSDIjh7XdQAAAAGR+CnTFR+YZZu/mM2M2PLJo9UgUs8Tk+rdaqvL+/R3w6VnZYyYtWSxSF80qsTo8yVliHnYUqgHpiWbpQY13rMU</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAASwWrmCWQ4k6Jf9XW9NwqYwAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAADGoMkSJxNQ/VkTSYJ9zyZj5QOtM+9gAA1K26vppIbeUgAAAAAOgAAAAAIAACAAAAAONg+K/CDuTEXM/VcQwIN4p+baXcaz5S0tgx5hhh2rNxAAAABK3d0NHczRKWB4lrBb9F4jQAAAAJaQzUCdjvseItrXgGDJK9IA6q2HG4U0SeeHMYRwC4L1QinE2AfvKXn1lP4966m8b7pTK8XQea8Q+b2bXZPx0ks</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -108,7 +108,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAASwWrmCWQ4k6Jf9XW9NwqYwAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAADJ0btGs4rxmmNuaDDrOnfzt4o3kw6pHZGNKOYvChC8ywAAAAAOgAAAAAIAACAAAACabLUzbjproMazGx9YPGLyodDMSXAtMqM9T5Jbj+13DhAAAADUCBbvbFM7ahPsZ4x8RcI5QAAAAMmCjTLOKgBHiToezbXI0mHJStRAuK9qthQsbTYzzEnWiHLR9YLAQoiBfO6n+82LWhwBHBbqW3yxQNe8q8Rh5y0</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAASwWrmCWQ4k6Jf9XW9NwqYwAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAADItqjlmxcjoxi2RrRNbySOmlzyN/iVGePM91PR5nNJ1AAAAAAOgAAAAAIAACAAAADH930s98cvNp1Uot1ZfKGmOD3h6jjyeOV19X0rzPPHFRAAAAAD3+/6ldLx9ufhXVoQGNUTQAAAAGvmzQPs8ZzKsxwkEpg3skhTFpNuv2TWHUHR3thvgRsZZ8a1/uNnaxsec1Dgg4RICqZ1wgc8azXt1h2F9+9MhbM</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -123,7 +123,7 @@
           <DTS:Password
             DTS:Name="pwd"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAASwWrmCWQ4k6Jf9XW9NwqYwAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAADi14RdqcddUE4ibr+8ldqQ5Izmuom6IXdr88KttyB7bQAAAAAOgAAAAAIAACAAAACkYFLkp1joNMsfVbEVkzrAePh6rJZ8/NuGagpSSxvMeRAAAACndHQEI4W4f9MaOe42jxlsQAAAAEYzxur5yiaHAbqnL+ISPSwUIEktg9BaPHogVmkoaScbhj6tHkVwtnrKiq0O2k0pEOZOumPB3IDqebqBNb5RAKs</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAASwWrmCWQ4k6Jf9XW9NwqYwAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAAlYhg+mNLQEFTCXF6NB+95HQMNDBumIKGwRoXaXYNrxwAAAAAOgAAAAAIAACAAAADWnOYXPKla95PrAATyTX5Bihc4F5UKdaD+Zg/iu6IhlRAAAAANDyxvYxFSmCJmqZooPXakQAAAAH4Lu2hSIjqIiS7Ab5AWH0RYdQfpCeggpaU0+kgYhtawZNBtJNKlwO/NqeHs6FNGRPgPR2Ww1WjAU3Mv5j5PFnQ</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -844,7 +844,7 @@
                       refId="Package\Attività Flusso di dati\Ordinamento 1.Inputs[Input ordinamento].Columns[product_class_id]"
                       cachedDataType="i4"
                       cachedName="product_class_id"
-                      lineageId="Package\Attività Flusso di dati\Origine OLE DB 1.Outputs[Output origine OLE DB].Columns[product_class_id]">
+                      lineageId="Package\Attività Flusso di dati\251:invalid">
                       <properties>
                         <property
                           dataType="System.Int32"
@@ -877,7 +877,7 @@
                       cachedDataType="wstr"
                       cachedLength="255"
                       cachedName="brand_name"
-                      lineageId="Package\Attività Flusso di dati\Origine OLE DB 1.Outputs[Output origine OLE DB].Columns[brand_name]">
+                      lineageId="Package\Attività Flusso di dati\253:invalid">
                       <properties>
                         <property
                           dataType="System.Int32"
@@ -910,7 +910,7 @@
                       refId="Package\Attività Flusso di dati\Ordinamento 1.Inputs[Input ordinamento].Columns[SKU]"
                       cachedDataType="r8"
                       cachedName="SKU"
-                      lineageId="Package\Attività Flusso di dati\Origine OLE DB 1.Outputs[Output origine OLE DB].Columns[SKU]">
+                      lineageId="Package\Attività Flusso di dati\255:invalid">
                       <properties>
                         <property
                           dataType="System.Int32"
@@ -926,7 +926,7 @@
                       refId="Package\Attività Flusso di dati\Ordinamento 1.Inputs[Input ordinamento].Columns[SRP]"
                       cachedDataType="cy"
                       cachedName="SRP"
-                      lineageId="Package\Attività Flusso di dati\Origine OLE DB 1.Outputs[Output origine OLE DB].Columns[SRP]">
+                      lineageId="Package\Attività Flusso di dati\256:invalid">
                       <properties>
                         <property
                           dataType="System.Int32"
@@ -942,7 +942,7 @@
                       refId="Package\Attività Flusso di dati\Ordinamento 1.Inputs[Input ordinamento].Columns[gross_weight]"
                       cachedDataType="r4"
                       cachedName="gross_weight"
-                      lineageId="Package\Attività Flusso di dati\Origine OLE DB 1.Outputs[Output origine OLE DB].Columns[gross_weight]">
+                      lineageId="Package\Attività Flusso di dati\257:invalid">
                       <properties>
                         <property
                           dataType="System.Int32"
@@ -958,7 +958,7 @@
                       refId="Package\Attività Flusso di dati\Ordinamento 1.Inputs[Input ordinamento].Columns[net_weight]"
                       cachedDataType="r4"
                       cachedName="net_weight"
-                      lineageId="Package\Attività Flusso di dati\Origine OLE DB 1.Outputs[Output origine OLE DB].Columns[net_weight]">
+                      lineageId="Package\Attività Flusso di dati\258:invalid">
                       <properties>
                         <property
                           dataType="System.Int32"
@@ -974,7 +974,7 @@
                       refId="Package\Attività Flusso di dati\Ordinamento 1.Inputs[Input ordinamento].Columns[recyclable_package]"
                       cachedDataType="bool"
                       cachedName="recyclable_package"
-                      lineageId="Package\Attività Flusso di dati\Origine OLE DB 1.Outputs[Output origine OLE DB].Columns[recyclable_package]">
+                      lineageId="Package\Attività Flusso di dati\259:invalid">
                       <properties>
                         <property
                           dataType="System.Int32"
@@ -990,7 +990,7 @@
                       refId="Package\Attività Flusso di dati\Ordinamento 1.Inputs[Input ordinamento].Columns[low_fat]"
                       cachedDataType="bool"
                       cachedName="low_fat"
-                      lineageId="Package\Attività Flusso di dati\Origine OLE DB 1.Outputs[Output origine OLE DB].Columns[low_fat]">
+                      lineageId="Package\Attività Flusso di dati\260:invalid">
                       <properties>
                         <property
                           dataType="System.Int32"
@@ -1006,7 +1006,7 @@
                       refId="Package\Attività Flusso di dati\Ordinamento 1.Inputs[Input ordinamento].Columns[units_per_case]"
                       cachedDataType="i2"
                       cachedName="units_per_case"
-                      lineageId="Package\Attività Flusso di dati\Origine OLE DB 1.Outputs[Output origine OLE DB].Columns[units_per_case]">
+                      lineageId="Package\Attività Flusso di dati\261:invalid">
                       <properties>
                         <property
                           dataType="System.Int32"
@@ -1022,7 +1022,7 @@
                       refId="Package\Attività Flusso di dati\Ordinamento 1.Inputs[Input ordinamento].Columns[cases_per_pallet]"
                       cachedDataType="i2"
                       cachedName="cases_per_pallet"
-                      lineageId="Package\Attività Flusso di dati\Origine OLE DB 1.Outputs[Output origine OLE DB].Columns[cases_per_pallet]">
+                      lineageId="Package\Attività Flusso di dati\262:invalid">
                       <properties>
                         <property
                           dataType="System.Int32"
@@ -1038,7 +1038,7 @@
                       refId="Package\Attività Flusso di dati\Ordinamento 1.Inputs[Input ordinamento].Columns[shelf_width]"
                       cachedDataType="r4"
                       cachedName="shelf_width"
-                      lineageId="Package\Attività Flusso di dati\Origine OLE DB 1.Outputs[Output origine OLE DB].Columns[shelf_width]">
+                      lineageId="Package\Attività Flusso di dati\263:invalid">
                       <properties>
                         <property
                           dataType="System.Int32"
@@ -1054,7 +1054,7 @@
                       refId="Package\Attività Flusso di dati\Ordinamento 1.Inputs[Input ordinamento].Columns[shelf_height]"
                       cachedDataType="r4"
                       cachedName="shelf_height"
-                      lineageId="Package\Attività Flusso di dati\Origine OLE DB 1.Outputs[Output origine OLE DB].Columns[shelf_height]">
+                      lineageId="Package\Attività Flusso di dati\264:invalid">
                       <properties>
                         <property
                           dataType="System.Int32"
@@ -1070,7 +1070,7 @@
                       refId="Package\Attività Flusso di dati\Ordinamento 1.Inputs[Input ordinamento].Columns[shelf_depth]"
                       cachedDataType="r4"
                       cachedName="shelf_depth"
-                      lineageId="Package\Attività Flusso di dati\Origine OLE DB 1.Outputs[Output origine OLE DB].Columns[shelf_depth]">
+                      lineageId="Package\Attività Flusso di dati\265:invalid">
                       <properties>
                         <property
                           dataType="System.Int32"
@@ -1102,7 +1102,7 @@
                           containsID="true"
                           dataType="System.Int32"
                           description="Specifica l'identificatore di derivazione della colonna di input associata a questa colonna di output."
-                          name="SortColumnId">#{Package\Attività Flusso di dati\Origine OLE DB 1.Outputs[Output origine OLE DB].Columns[product_class_id]}</property>
+                          name="SortColumnId">#{Package\Attività Flusso di dati\251:invalid}</property>
                       </properties>
                     </outputColumn>
                     <outputColumn
@@ -1130,7 +1130,7 @@
                           containsID="true"
                           dataType="System.Int32"
                           description="Specifica l'identificatore di derivazione della colonna di input associata a questa colonna di output."
-                          name="SortColumnId">#{Package\Attività Flusso di dati\Origine OLE DB 1.Outputs[Output origine OLE DB].Columns[brand_name]}</property>
+                          name="SortColumnId">#{Package\Attività Flusso di dati\253:invalid}</property>
                       </properties>
                     </outputColumn>
                     <outputColumn
@@ -1157,7 +1157,7 @@
                           containsID="true"
                           dataType="System.Int32"
                           description="Specifica l'identificatore di derivazione della colonna di input associata a questa colonna di output."
-                          name="SortColumnId">#{Package\Attività Flusso di dati\Origine OLE DB 1.Outputs[Output origine OLE DB].Columns[SKU]}</property>
+                          name="SortColumnId">#{Package\Attività Flusso di dati\255:invalid}</property>
                       </properties>
                     </outputColumn>
                     <outputColumn
@@ -1170,7 +1170,7 @@
                           containsID="true"
                           dataType="System.Int32"
                           description="Specifica l'identificatore di derivazione della colonna di input associata a questa colonna di output."
-                          name="SortColumnId">#{Package\Attività Flusso di dati\Origine OLE DB 1.Outputs[Output origine OLE DB].Columns[SRP]}</property>
+                          name="SortColumnId">#{Package\Attività Flusso di dati\256:invalid}</property>
                       </properties>
                     </outputColumn>
                     <outputColumn
@@ -1183,7 +1183,7 @@
                           containsID="true"
                           dataType="System.Int32"
                           description="Specifica l'identificatore di derivazione della colonna di input associata a questa colonna di output."
-                          name="SortColumnId">#{Package\Attività Flusso di dati\Origine OLE DB 1.Outputs[Output origine OLE DB].Columns[gross_weight]}</property>
+                          name="SortColumnId">#{Package\Attività Flusso di dati\257:invalid}</property>
                       </properties>
                     </outputColumn>
                     <outputColumn
@@ -1196,7 +1196,7 @@
                           containsID="true"
                           dataType="System.Int32"
                           description="Specifica l'identificatore di derivazione della colonna di input associata a questa colonna di output."
-                          name="SortColumnId">#{Package\Attività Flusso di dati\Origine OLE DB 1.Outputs[Output origine OLE DB].Columns[net_weight]}</property>
+                          name="SortColumnId">#{Package\Attività Flusso di dati\258:invalid}</property>
                       </properties>
                     </outputColumn>
                     <outputColumn
@@ -1209,7 +1209,7 @@
                           containsID="true"
                           dataType="System.Int32"
                           description="Specifica l'identificatore di derivazione della colonna di input associata a questa colonna di output."
-                          name="SortColumnId">#{Package\Attività Flusso di dati\Origine OLE DB 1.Outputs[Output origine OLE DB].Columns[recyclable_package]}</property>
+                          name="SortColumnId">#{Package\Attività Flusso di dati\259:invalid}</property>
                       </properties>
                     </outputColumn>
                     <outputColumn
@@ -1222,7 +1222,7 @@
                           containsID="true"
                           dataType="System.Int32"
                           description="Specifica l'identificatore di derivazione della colonna di input associata a questa colonna di output."
-                          name="SortColumnId">#{Package\Attività Flusso di dati\Origine OLE DB 1.Outputs[Output origine OLE DB].Columns[low_fat]}</property>
+                          name="SortColumnId">#{Package\Attività Flusso di dati\260:invalid}</property>
                       </properties>
                     </outputColumn>
                     <outputColumn
@@ -1235,7 +1235,7 @@
                           containsID="true"
                           dataType="System.Int32"
                           description="Specifica l'identificatore di derivazione della colonna di input associata a questa colonna di output."
-                          name="SortColumnId">#{Package\Attività Flusso di dati\Origine OLE DB 1.Outputs[Output origine OLE DB].Columns[units_per_case]}</property>
+                          name="SortColumnId">#{Package\Attività Flusso di dati\261:invalid}</property>
                       </properties>
                     </outputColumn>
                     <outputColumn
@@ -1248,7 +1248,7 @@
                           containsID="true"
                           dataType="System.Int32"
                           description="Specifica l'identificatore di derivazione della colonna di input associata a questa colonna di output."
-                          name="SortColumnId">#{Package\Attività Flusso di dati\Origine OLE DB 1.Outputs[Output origine OLE DB].Columns[cases_per_pallet]}</property>
+                          name="SortColumnId">#{Package\Attività Flusso di dati\262:invalid}</property>
                       </properties>
                     </outputColumn>
                     <outputColumn
@@ -1261,7 +1261,7 @@
                           containsID="true"
                           dataType="System.Int32"
                           description="Specifica l'identificatore di derivazione della colonna di input associata a questa colonna di output."
-                          name="SortColumnId">#{Package\Attività Flusso di dati\Origine OLE DB 1.Outputs[Output origine OLE DB].Columns[shelf_width]}</property>
+                          name="SortColumnId">#{Package\Attività Flusso di dati\263:invalid}</property>
                       </properties>
                     </outputColumn>
                     <outputColumn
@@ -1274,7 +1274,7 @@
                           containsID="true"
                           dataType="System.Int32"
                           description="Specifica l'identificatore di derivazione della colonna di input associata a questa colonna di output."
-                          name="SortColumnId">#{Package\Attività Flusso di dati\Origine OLE DB 1.Outputs[Output origine OLE DB].Columns[shelf_height]}</property>
+                          name="SortColumnId">#{Package\Attività Flusso di dati\264:invalid}</property>
                       </properties>
                     </outputColumn>
                     <outputColumn
@@ -1287,7 +1287,7 @@
                           containsID="true"
                           dataType="System.Int32"
                           description="Specifica l'identificatore di derivazione della colonna di input associata a questa colonna di output."
-                          name="SortColumnId">#{Package\Attività Flusso di dati\Origine OLE DB 1.Outputs[Output origine OLE DB].Columns[shelf_depth]}</property>
+                          name="SortColumnId">#{Package\Attività Flusso di dati\265:invalid}</property>
                       </properties>
                     </outputColumn>
                   </outputColumns>
@@ -1666,15 +1666,6 @@
                   name="Output origine OLE DB">
                   <outputColumns>
                     <outputColumn
-                      refId="Package\Attività Flusso di dati\Origine OLE DB 1.Outputs[Output origine OLE DB].Columns[product_class_id]"
-                      dataType="i4"
-                      errorOrTruncationOperation="Conversione"
-                      errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Attività Flusso di dati\Origine OLE DB 1.Outputs[Output origine OLE DB].ExternalColumns[product_class_id]"
-                      lineageId="Package\Attività Flusso di dati\Origine OLE DB 1.Outputs[Output origine OLE DB].Columns[product_class_id]"
-                      name="product_class_id"
-                      truncationRowDisposition="FailComponent" />
-                    <outputColumn
                       refId="Package\Attività Flusso di dati\Origine OLE DB 1.Outputs[Output origine OLE DB].Columns[product_id]"
                       dataType="i4"
                       errorOrTruncationOperation="Conversione"
@@ -1682,16 +1673,6 @@
                       externalMetadataColumnId="Package\Attività Flusso di dati\Origine OLE DB 1.Outputs[Output origine OLE DB].ExternalColumns[product_id]"
                       lineageId="Package\Attività Flusso di dati\Origine OLE DB 1.Outputs[Output origine OLE DB].Columns[product_id]"
                       name="product_id"
-                      truncationRowDisposition="FailComponent" />
-                    <outputColumn
-                      refId="Package\Attività Flusso di dati\Origine OLE DB 1.Outputs[Output origine OLE DB].Columns[brand_name]"
-                      dataType="wstr"
-                      errorOrTruncationOperation="Conversione"
-                      errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Attività Flusso di dati\Origine OLE DB 1.Outputs[Output origine OLE DB].ExternalColumns[brand_name]"
-                      length="255"
-                      lineageId="Package\Attività Flusso di dati\Origine OLE DB 1.Outputs[Output origine OLE DB].Columns[brand_name]"
-                      name="brand_name"
                       truncationRowDisposition="FailComponent" />
                     <outputColumn
                       refId="Package\Attività Flusso di dati\Origine OLE DB 1.Outputs[Output origine OLE DB].Columns[product_name]"
@@ -1702,105 +1683,6 @@
                       length="255"
                       lineageId="Package\Attività Flusso di dati\Origine OLE DB 1.Outputs[Output origine OLE DB].Columns[product_name]"
                       name="product_name"
-                      truncationRowDisposition="FailComponent" />
-                    <outputColumn
-                      refId="Package\Attività Flusso di dati\Origine OLE DB 1.Outputs[Output origine OLE DB].Columns[SKU]"
-                      dataType="r8"
-                      errorOrTruncationOperation="Conversione"
-                      errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Attività Flusso di dati\Origine OLE DB 1.Outputs[Output origine OLE DB].ExternalColumns[SKU]"
-                      lineageId="Package\Attività Flusso di dati\Origine OLE DB 1.Outputs[Output origine OLE DB].Columns[SKU]"
-                      name="SKU"
-                      truncationRowDisposition="FailComponent" />
-                    <outputColumn
-                      refId="Package\Attività Flusso di dati\Origine OLE DB 1.Outputs[Output origine OLE DB].Columns[SRP]"
-                      dataType="cy"
-                      errorOrTruncationOperation="Conversione"
-                      errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Attività Flusso di dati\Origine OLE DB 1.Outputs[Output origine OLE DB].ExternalColumns[SRP]"
-                      lineageId="Package\Attività Flusso di dati\Origine OLE DB 1.Outputs[Output origine OLE DB].Columns[SRP]"
-                      name="SRP"
-                      truncationRowDisposition="FailComponent" />
-                    <outputColumn
-                      refId="Package\Attività Flusso di dati\Origine OLE DB 1.Outputs[Output origine OLE DB].Columns[gross_weight]"
-                      dataType="r4"
-                      errorOrTruncationOperation="Conversione"
-                      errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Attività Flusso di dati\Origine OLE DB 1.Outputs[Output origine OLE DB].ExternalColumns[gross_weight]"
-                      lineageId="Package\Attività Flusso di dati\Origine OLE DB 1.Outputs[Output origine OLE DB].Columns[gross_weight]"
-                      name="gross_weight"
-                      truncationRowDisposition="FailComponent" />
-                    <outputColumn
-                      refId="Package\Attività Flusso di dati\Origine OLE DB 1.Outputs[Output origine OLE DB].Columns[net_weight]"
-                      dataType="r4"
-                      errorOrTruncationOperation="Conversione"
-                      errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Attività Flusso di dati\Origine OLE DB 1.Outputs[Output origine OLE DB].ExternalColumns[net_weight]"
-                      lineageId="Package\Attività Flusso di dati\Origine OLE DB 1.Outputs[Output origine OLE DB].Columns[net_weight]"
-                      name="net_weight"
-                      truncationRowDisposition="FailComponent" />
-                    <outputColumn
-                      refId="Package\Attività Flusso di dati\Origine OLE DB 1.Outputs[Output origine OLE DB].Columns[recyclable_package]"
-                      dataType="bool"
-                      errorOrTruncationOperation="Conversione"
-                      errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Attività Flusso di dati\Origine OLE DB 1.Outputs[Output origine OLE DB].ExternalColumns[recyclable_package]"
-                      lineageId="Package\Attività Flusso di dati\Origine OLE DB 1.Outputs[Output origine OLE DB].Columns[recyclable_package]"
-                      name="recyclable_package"
-                      truncationRowDisposition="FailComponent" />
-                    <outputColumn
-                      refId="Package\Attività Flusso di dati\Origine OLE DB 1.Outputs[Output origine OLE DB].Columns[low_fat]"
-                      dataType="bool"
-                      errorOrTruncationOperation="Conversione"
-                      errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Attività Flusso di dati\Origine OLE DB 1.Outputs[Output origine OLE DB].ExternalColumns[low_fat]"
-                      lineageId="Package\Attività Flusso di dati\Origine OLE DB 1.Outputs[Output origine OLE DB].Columns[low_fat]"
-                      name="low_fat"
-                      truncationRowDisposition="FailComponent" />
-                    <outputColumn
-                      refId="Package\Attività Flusso di dati\Origine OLE DB 1.Outputs[Output origine OLE DB].Columns[units_per_case]"
-                      dataType="i2"
-                      errorOrTruncationOperation="Conversione"
-                      errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Attività Flusso di dati\Origine OLE DB 1.Outputs[Output origine OLE DB].ExternalColumns[units_per_case]"
-                      lineageId="Package\Attività Flusso di dati\Origine OLE DB 1.Outputs[Output origine OLE DB].Columns[units_per_case]"
-                      name="units_per_case"
-                      truncationRowDisposition="FailComponent" />
-                    <outputColumn
-                      refId="Package\Attività Flusso di dati\Origine OLE DB 1.Outputs[Output origine OLE DB].Columns[cases_per_pallet]"
-                      dataType="i2"
-                      errorOrTruncationOperation="Conversione"
-                      errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Attività Flusso di dati\Origine OLE DB 1.Outputs[Output origine OLE DB].ExternalColumns[cases_per_pallet]"
-                      lineageId="Package\Attività Flusso di dati\Origine OLE DB 1.Outputs[Output origine OLE DB].Columns[cases_per_pallet]"
-                      name="cases_per_pallet"
-                      truncationRowDisposition="FailComponent" />
-                    <outputColumn
-                      refId="Package\Attività Flusso di dati\Origine OLE DB 1.Outputs[Output origine OLE DB].Columns[shelf_width]"
-                      dataType="r4"
-                      errorOrTruncationOperation="Conversione"
-                      errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Attività Flusso di dati\Origine OLE DB 1.Outputs[Output origine OLE DB].ExternalColumns[shelf_width]"
-                      lineageId="Package\Attività Flusso di dati\Origine OLE DB 1.Outputs[Output origine OLE DB].Columns[shelf_width]"
-                      name="shelf_width"
-                      truncationRowDisposition="FailComponent" />
-                    <outputColumn
-                      refId="Package\Attività Flusso di dati\Origine OLE DB 1.Outputs[Output origine OLE DB].Columns[shelf_height]"
-                      dataType="r4"
-                      errorOrTruncationOperation="Conversione"
-                      errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Attività Flusso di dati\Origine OLE DB 1.Outputs[Output origine OLE DB].ExternalColumns[shelf_height]"
-                      lineageId="Package\Attività Flusso di dati\Origine OLE DB 1.Outputs[Output origine OLE DB].Columns[shelf_height]"
-                      name="shelf_height"
-                      truncationRowDisposition="FailComponent" />
-                    <outputColumn
-                      refId="Package\Attività Flusso di dati\Origine OLE DB 1.Outputs[Output origine OLE DB].Columns[shelf_depth]"
-                      dataType="r4"
-                      errorOrTruncationOperation="Conversione"
-                      errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Attività Flusso di dati\Origine OLE DB 1.Outputs[Output origine OLE DB].ExternalColumns[shelf_depth]"
-                      lineageId="Package\Attività Flusso di dati\Origine OLE DB 1.Outputs[Output origine OLE DB].Columns[shelf_depth]"
-                      name="shelf_depth"
                       truncationRowDisposition="FailComponent" />
                   </outputColumns>
                   <externalMetadataColumns
@@ -1875,83 +1757,6 @@
                   name="Output errori origine OLE DB">
                   <outputColumns>
                     <outputColumn
-                      refId="Package\Attività Flusso di dati\Origine OLE DB 1.Outputs[Output errori origine OLE DB].Columns[product_class_id]"
-                      dataType="i4"
-                      lineageId="Package\Attività Flusso di dati\Origine OLE DB 1.Outputs[Output errori origine OLE DB].Columns[product_class_id]"
-                      name="product_class_id" />
-                    <outputColumn
-                      refId="Package\Attività Flusso di dati\Origine OLE DB 1.Outputs[Output errori origine OLE DB].Columns[product_id]"
-                      dataType="i4"
-                      lineageId="Package\Attività Flusso di dati\Origine OLE DB 1.Outputs[Output errori origine OLE DB].Columns[product_id]"
-                      name="product_id" />
-                    <outputColumn
-                      refId="Package\Attività Flusso di dati\Origine OLE DB 1.Outputs[Output errori origine OLE DB].Columns[brand_name]"
-                      dataType="wstr"
-                      length="255"
-                      lineageId="Package\Attività Flusso di dati\Origine OLE DB 1.Outputs[Output errori origine OLE DB].Columns[brand_name]"
-                      name="brand_name" />
-                    <outputColumn
-                      refId="Package\Attività Flusso di dati\Origine OLE DB 1.Outputs[Output errori origine OLE DB].Columns[product_name]"
-                      dataType="wstr"
-                      length="255"
-                      lineageId="Package\Attività Flusso di dati\Origine OLE DB 1.Outputs[Output errori origine OLE DB].Columns[product_name]"
-                      name="product_name" />
-                    <outputColumn
-                      refId="Package\Attività Flusso di dati\Origine OLE DB 1.Outputs[Output errori origine OLE DB].Columns[SKU]"
-                      dataType="r8"
-                      lineageId="Package\Attività Flusso di dati\Origine OLE DB 1.Outputs[Output errori origine OLE DB].Columns[SKU]"
-                      name="SKU" />
-                    <outputColumn
-                      refId="Package\Attività Flusso di dati\Origine OLE DB 1.Outputs[Output errori origine OLE DB].Columns[SRP]"
-                      dataType="cy"
-                      lineageId="Package\Attività Flusso di dati\Origine OLE DB 1.Outputs[Output errori origine OLE DB].Columns[SRP]"
-                      name="SRP" />
-                    <outputColumn
-                      refId="Package\Attività Flusso di dati\Origine OLE DB 1.Outputs[Output errori origine OLE DB].Columns[gross_weight]"
-                      dataType="r4"
-                      lineageId="Package\Attività Flusso di dati\Origine OLE DB 1.Outputs[Output errori origine OLE DB].Columns[gross_weight]"
-                      name="gross_weight" />
-                    <outputColumn
-                      refId="Package\Attività Flusso di dati\Origine OLE DB 1.Outputs[Output errori origine OLE DB].Columns[net_weight]"
-                      dataType="r4"
-                      lineageId="Package\Attività Flusso di dati\Origine OLE DB 1.Outputs[Output errori origine OLE DB].Columns[net_weight]"
-                      name="net_weight" />
-                    <outputColumn
-                      refId="Package\Attività Flusso di dati\Origine OLE DB 1.Outputs[Output errori origine OLE DB].Columns[recyclable_package]"
-                      dataType="bool"
-                      lineageId="Package\Attività Flusso di dati\Origine OLE DB 1.Outputs[Output errori origine OLE DB].Columns[recyclable_package]"
-                      name="recyclable_package" />
-                    <outputColumn
-                      refId="Package\Attività Flusso di dati\Origine OLE DB 1.Outputs[Output errori origine OLE DB].Columns[low_fat]"
-                      dataType="bool"
-                      lineageId="Package\Attività Flusso di dati\Origine OLE DB 1.Outputs[Output errori origine OLE DB].Columns[low_fat]"
-                      name="low_fat" />
-                    <outputColumn
-                      refId="Package\Attività Flusso di dati\Origine OLE DB 1.Outputs[Output errori origine OLE DB].Columns[units_per_case]"
-                      dataType="i2"
-                      lineageId="Package\Attività Flusso di dati\Origine OLE DB 1.Outputs[Output errori origine OLE DB].Columns[units_per_case]"
-                      name="units_per_case" />
-                    <outputColumn
-                      refId="Package\Attività Flusso di dati\Origine OLE DB 1.Outputs[Output errori origine OLE DB].Columns[cases_per_pallet]"
-                      dataType="i2"
-                      lineageId="Package\Attività Flusso di dati\Origine OLE DB 1.Outputs[Output errori origine OLE DB].Columns[cases_per_pallet]"
-                      name="cases_per_pallet" />
-                    <outputColumn
-                      refId="Package\Attività Flusso di dati\Origine OLE DB 1.Outputs[Output errori origine OLE DB].Columns[shelf_width]"
-                      dataType="r4"
-                      lineageId="Package\Attività Flusso di dati\Origine OLE DB 1.Outputs[Output errori origine OLE DB].Columns[shelf_width]"
-                      name="shelf_width" />
-                    <outputColumn
-                      refId="Package\Attività Flusso di dati\Origine OLE DB 1.Outputs[Output errori origine OLE DB].Columns[shelf_height]"
-                      dataType="r4"
-                      lineageId="Package\Attività Flusso di dati\Origine OLE DB 1.Outputs[Output errori origine OLE DB].Columns[shelf_height]"
-                      name="shelf_height" />
-                    <outputColumn
-                      refId="Package\Attività Flusso di dati\Origine OLE DB 1.Outputs[Output errori origine OLE DB].Columns[shelf_depth]"
-                      dataType="r4"
-                      lineageId="Package\Attività Flusso di dati\Origine OLE DB 1.Outputs[Output errori origine OLE DB].Columns[shelf_depth]"
-                      name="shelf_depth" />
-                    <outputColumn
                       refId="Package\Attività Flusso di dati\Origine OLE DB 1.Outputs[Output errori origine OLE DB].Columns[ErrorCode]"
                       dataType="i4"
                       lineageId="Package\Attività Flusso di dati\Origine OLE DB 1.Outputs[Output errori origine OLE DB].Columns[ErrorCode]"
@@ -1963,6 +1768,17 @@
                       lineageId="Package\Attività Flusso di dati\Origine OLE DB 1.Outputs[Output errori origine OLE DB].Columns[ErrorColumn]"
                       name="ErrorColumn"
                       specialFlags="2" />
+                    <outputColumn
+                      refId="Package\Attività Flusso di dati\Origine OLE DB 1.Outputs[Output errori origine OLE DB].Columns[product_id]"
+                      dataType="i4"
+                      lineageId="Package\Attività Flusso di dati\Origine OLE DB 1.Outputs[Output errori origine OLE DB].Columns[product_id]"
+                      name="product_id" />
+                    <outputColumn
+                      refId="Package\Attività Flusso di dati\Origine OLE DB 1.Outputs[Output errori origine OLE DB].Columns[product_name]"
+                      dataType="wstr"
+                      length="255"
+                      lineageId="Package\Attività Flusso di dati\Origine OLE DB 1.Outputs[Output errori origine OLE DB].Columns[product_name]"
+                      name="product_name" />
                   </outputColumns>
                   <externalMetadataColumns />
                 </output>
@@ -2043,37 +1859,173 @@
     design-time-name="Package\Attività Flusso di dati">
     <LayoutInfo>
       <GraphLayout
-        Capacity="32" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+        Capacity="32" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
           Size="151.2,41.6"
           Id="Package\Attività Flusso di dati\Origine OLE DB"
           TopLeft="332,91" />
         <NodeLayout
-          Size="157.6,41.6"
-          Id="Package\Attività Flusso di dati\Colonna derivata"
-          TopLeft="332.1428570942,179.470588213845" />
+          Size="139.2,41.6"
+          Id="Package\Attività Flusso di dati\Ordinamento"
+          TopLeft="344.107148717252,429.382358963102" />
+        <NodeLayout
+          Size="128,41.6"
+          Id="Package\Attività Flusso di dati\Merge join"
+          TopLeft="490.535722639488,555.573536712612" />
+        <NodeLayout
+          Size="160,41.6"
+          Id="Package\Attività Flusso di dati\Origine OLE DB 1"
+          TopLeft="604.285724576639,361.323534479191" />
         <NodeLayout
           Size="166.4,41.6"
           Id="Package\Attività Flusso di dati\Colonna derivata 1"
           TopLeft="325.714284874955,353.573529419808" />
         <NodeLayout
+          Size="148.8,41.6"
+          Id="Package\Attività Flusso di dati\Ordinamento 1"
+          TopLeft="610.000010388238,431.500005560763" />
+        <NodeLayout
+          Size="157.6,41.6"
+          Id="Package\Attività Flusso di dati\Colonna derivata"
+          TopLeft="332.1428570942,179.470588213845" />
+        <NodeLayout
           Size="142.4,41.6"
           Id="Package\Attività Flusso di dati\Aggregazione"
           TopLeft="333.285713847803,268.470588213845" />
+        <NodeLayout
+          Size="173.6,41.6"
+          Id="Package\Attività Flusso di dati\Destinazione file flat"
+          TopLeft="467.857150824703,738.720597557749" />
+        <NodeLayout
+          Size="148.8,41.6"
+          Id="Package\Attività Flusso di dati\Ordinamento 2"
+          TopLeft="473.214293773077,653.441181806132" />
         <EdgeLayout
-          Id="Package\Attività Flusso di dati.Paths[Output origine OLE DB]"
-          TopLeft="409.2714285471,132.6">
+          Id="Package\Attività Flusso di dati.Paths[Output ordinamento2]"
+          TopLeft="551.13572229889,695.041181806132">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,46.8705882138447"
+              EndConnector="0,43.6794157516171"
               Start="0,0"
-              End="0,39.3705882138447">
+              End="0,36.1794157516171">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,39.3705882138447" />
+                    End="0,36.1794157516171" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Attività Flusso di dati.Paths[Output ordinamento1]"
+          TopLeft="413.707148717252,470.982358963102">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="120.828573922235,84.5911777495101"
+              Start="0,0"
+              End="120.828573922235,77.0911777495101">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,46.128105333043" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,46.128105333043"
+                    Point2="0,50.128105333043"
+                    Point3="4,50.128105333043" />
+                  <mssgle:LineSegment
+                    End="116.828573922235,50.128105333043" />
+                  <mssgle:CubicBezierSegment
+                    Point1="116.828573922235,50.128105333043"
+                    Point2="120.828573922235,50.128105333043"
+                    Point3="120.828573922235,54.128105333043" />
+                  <mssgle:LineSegment
+                    End="120.828573922235,77.0911777495101" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Attività Flusso di dati.Paths[Output ordinamento]"
+          TopLeft="684.400010388238,473.100005560763">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-109.86428774875,82.4735311518492"
+              Start="0,0"
+              End="-109.86428774875,74.9735311518492">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,44.8732036455403" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,44.8732036455403"
+                    Point2="0,48.8732036455403"
+                    Point3="-4,48.8732036455403" />
+                  <mssgle:LineSegment
+                    End="-105.86428774875,48.8732036455403" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-105.86428774875,48.8732036455403"
+                    Point2="-109.86428774875,48.8732036455403"
+                    Point3="-109.86428774875,52.8732036455403" />
+                  <mssgle:LineSegment
+                    End="-109.86428774875,74.9735311518492" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Attività Flusso di dati.Paths[Output merge join]"
+          TopLeft="551.075008206283,597.173536712612">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,56.2676450935203"
+              Start="0,0"
+              End="0,48.7676450935203">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,48.7676450935203" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Attività Flusso di dati.Paths[Output colonna derivata1]"
+          TopLeft="411.310716796104,395.173529419808">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,34.2088295432936"
+              Start="0,0"
+              End="0,26.7088295432936">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,26.7088295432936" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -2126,44 +2078,6 @@
             <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="160,41.6"
-          Id="Package\Attività Flusso di dati\Origine OLE DB 1"
-          TopLeft="604.285724576639,361.323534479191" />
-        <NodeLayout
-          Size="139.2,41.6"
-          Id="Package\Attività Flusso di dati\Ordinamento"
-          TopLeft="344.107148717252,429.382358963102" />
-        <NodeLayout
-          Size="148.8,41.6"
-          Id="Package\Attività Flusso di dati\Ordinamento 1"
-          TopLeft="610.000010388238,431.500005560763" />
-        <NodeLayout
-          Size="128,41.6"
-          Id="Package\Attività Flusso di dati\Merge join"
-          TopLeft="490.535722639488,555.573536712612" />
-        <EdgeLayout
-          Id="Package\Attività Flusso di dati.Paths[Output colonna derivata1]"
-          TopLeft="411.310716796104,395.173529419808">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,34.2088295432936"
-              Start="0,0"
-              End="0,26.7088295432936">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,26.7088295432936" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
         <EdgeLayout
           Id="Package\Attività Flusso di dati.Paths[Output origine OLE DB1]"
           TopLeft="684.342867482439,402.923534479191">
@@ -2183,121 +2097,25 @@
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="-8,2.538235540786,16,16"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Attività Flusso di dati.Paths[Output ordinamento]"
-          TopLeft="684.400010388238,473.100005560763">
+          Id="Package\Attività Flusso di dati.Paths[Output origine OLE DB]"
+          TopLeft="409.2714285471,132.6">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="-109.86428774875,82.4735311518492"
+              EndConnector="0,46.8705882138447"
               Start="0,0"
-              End="-109.86428774875,74.9735311518492">
+              End="0,39.3705882138447">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,44.8732036455403" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,44.8732036455403"
-                    Point2="0,48.8732036455403"
-                    Point3="-4,48.8732036455403" />
-                  <mssgle:LineSegment
-                    End="-105.86428774875,48.8732036455403" />
-                  <mssgle:CubicBezierSegment
-                    Point1="-105.86428774875,48.8732036455403"
-                    Point2="-109.86428774875,48.8732036455403"
-                    Point3="-109.86428774875,52.8732036455403" />
-                  <mssgle:LineSegment
-                    End="-109.86428774875,74.9735311518492" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Attività Flusso di dati.Paths[Output ordinamento1]"
-          TopLeft="413.707148717252,470.982358963102">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="120.828573922235,84.5911777495101"
-              Start="0,0"
-              End="120.828573922235,77.0911777495101">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,46.128105333043" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,46.128105333043"
-                    Point2="0,50.128105333043"
-                    Point3="4,50.128105333043" />
-                  <mssgle:LineSegment
-                    End="116.828573922235,50.128105333043" />
-                  <mssgle:CubicBezierSegment
-                    Point1="116.828573922235,50.128105333043"
-                    Point2="120.828573922235,50.128105333043"
-                    Point3="120.828573922235,54.128105333043" />
-                  <mssgle:LineSegment
-                    End="120.828573922235,77.0911777495101" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <NodeLayout
-          Size="173.6,41.6"
-          Id="Package\Attività Flusso di dati\Destinazione file flat"
-          TopLeft="467.857150824703,738.720597557749" />
-        <NodeLayout
-          Size="148.8,41.6"
-          Id="Package\Attività Flusso di dati\Ordinamento 2"
-          TopLeft="473.214293773077,653.441181806132" />
-        <EdgeLayout
-          Id="Package\Attività Flusso di dati.Paths[Output merge join]"
-          TopLeft="551.075008206283,597.173536712612">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,56.2676450935203"
-              Start="0,0"
-              End="0,48.7676450935203">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,48.7676450935203" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Attività Flusso di dati.Paths[Output ordinamento2]"
-          TopLeft="551.13572229889,695.041181806132">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,43.6794157516171"
-              Start="0,0"
-              End="0,36.1794157516171">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,36.1794157516171" />
+                    End="0,39.3705882138447" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
