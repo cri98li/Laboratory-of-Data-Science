@@ -1,0 +1,1560 @@
+product_id,result,product_name
+116,2,4261755741127344,Faux Products Toothpaste
+372,2,4152087272727272,Carlson Strawberry Yogurt
+1202,2,3999466135458167,Colossal Thai Rice
+781,2,3966475054229934,Cormorant Copper Pot Scrubber
+1310,2,3953511194029851,Booker Strawberry Yogurt
+746,2,3911141221374046,Consolidated 200 MG Ibuprofen
+148,2,3902860125260958,Denny Paper Towels
+641,2,3890494929006088,Bravo Chicken Soup
+109,2,3885703275529862,Golden Popsicles
+362,2,3859113300492609,Carlson Head Cheese
+222,2,3811472392638038,Best Choice Chocolate Chip Cookies
+330,2,376529861111111,Better Chicken Soup
+365,2,3754585937499999,Carlson Mild Cheddar Cheese
+141,2,3750070175438598,Denny 75 Watt Lightbulb
+306,2,3745776937618146,Super Strawberry Jam
+744,2,3640034482758621,Consolidated Childrens Aspirin
+135,2,3608393013100439,Denny Plastic Knives
+941,2,3583205980066446,Fabulous Strawberry Drink
+1180,2,357213793103448,Horatio Frosted Cookies
+1024,2,355756505576208,PigTail Low Fat French Fries
+853,2,3534794411177646,Nationeel Low Fat Popcorn
+1269,2,3532517241379307,Pleasant Canned Yams
+1424,2,3527589219330856,Hermanos New Potatos
+1448,2,3521391003460206,Hermanos Lemons
+409,2,3469487001733103,Big Time Beef TV Dinner
+379,2,3444205298013245,Moms Foot-Long Hot Dogs
+276,2,3429432188065098,Great Rye Bread
+50,2,3425901467505241,Club Havarti Cheese
+717,2,3421063097514336,Imagine Frozen Carrots
+146,2,3416460416666665,Denny AA-Size Batteries
+272,2,3410159784560141,Good White Zinfandel Wine
+993,2,3409124149659863,Even Better Large Curd Cottage Cheese
+1493,2,3396934653465347,Fort West Apple Fruit Roll
+1121,2,3384586206896554,Tri-State Red Pepper
+1525,2,3372300518134717,Modell Rye Bread
+668,2,3353704414587333,Gorilla Jack Cheese
+1467,2,3339493333333334,Fort West BBQ Potato Chips
+776,2,3334521126760563,Cormorant Room Freshener
+62,2,3310866537717603,Club Blueberry Yogurt
+136,2,3299601750547043,Denny C-Size Batteries
+263,2,3294368932038836,Medalist Spaghetti
+847,2,3276683636363638,Nationeel Potato Chips
+1168,2,3276533333333336,Horatio No Salt Popcorn
+104,2,3273116600790513,Golden Ice Cream Sandwich
+1313,2,3266909090909089,Lake Pimento Loaf
+1428,2,3240790697674418,Hermanos Green Pepper
+1049,2,3232754677754679,PigTail Frozen Chicken Wings
+175,2,3193527454242928,High Top New Potatos
+955,2,31826244813278,Just Right Creamed Corn
+83,2,3114862523540491,Golden Orange Popsicles
+712,2,3092641818181816,Imagine Waffles
+28,2,3084434210526315,Blue Label Canned Peas
+1178,2,3058000000000001,Horatio Low Fat Chips
+656,2,3056020599250933,Bravo Fancy Canned Clams
+225,2,3043872798434442,Best Choice Potato Chips
+702,2,3043268085106381,Jumbo Large Eggs
+123,2,2963200000000001,Faux Products Buffered Aspirin
+532,2,2962496153846153,Fast Sugar Cookies
+1327,2,2961128630705394,Giant Large Brown Eggs
+764,2,2924904867256637,Cormorant Toilet Bowl Cleaner
+1211,2,2914353463587922,Portsmouth Light Beer
+155,2,2852180970149254,Denny Frying Pan
+467,2,2838792706333972,Red Wing Copper Cleaner
+731,2,2827074074074076,Imagine Popsicles
+614,2,2827042769857435,Landslide Apple Jelly
+190,2,2761089147286819,High Top Dried Mushrooms
+1159,2,2744399999999998,Horatio Sugar Cookies
+16,2,2701454545454545,Blue Label Canned Beets
+65,2,2686342052313884,Red Spade Beef Bologna
+582,2,2652086021505373,Walrus Chardonnay
+1415,2,2645709219858157,Gauss Monthly Sports Magazine
+777,2,2597601503759397,Cormorant Frying Pan
+1094,2,2561188000000003,High Quality Copper Cleaner
+539,2,2557727447216891,Fast Cheese Crackers
+274,2,2552664596273289,Great Pumpernickel Bread
+358,2,2540482954545453,Carlson Muenster Cheese
+1426,2,2535049723756906,Hermanos Prepared Salad
+530,2,2459886178861788,Fast Corn Chips
+508,2,2437235632183907,Tell Tale Golden Delcious Apples
+1019,2,2381772455089823,National Egg Substitute
+105,2,2371408829174664,Golden Frozen Cauliflower
+559,2,2365768292682926,Fast Dried Dates
+193,2,2349134328358211,High Top Limes
+519,2,2333585284280937,Tell Tale Cantelope
+975,2,2327473684210526,Just Right Rice Soup
+708,2,2318289108910889,Imagine Low Fat French Fries
+390,2,2296780399274048,Urban Small Eggs
+1254,2,2272036144578315,Skinner Diet Soda
+446,2,2271607431340872,Red Wing Plastic Knives
+979,2,2253520446096653,James Bay Eyeglass Screwdriver
+1077,2,2234441767068276,High Quality Paper Plates
+762,2,2226574585635359,Cormorant Paper Cups
+335,2,2223995918367345,Better Regular Ramen Soup
+422,2,2220546448087428,Big Time Frozen Chicken Wings
+1345,2,2211162162162159,Carrington Turkey TV Dinner
+1231,2,2202442990654205,Plato Tomato Sauce
+221,2,2197168,Best Choice Sugar Cookies
+1342,2,2175430795847753,Carrington Frozen Mushroom Pizza
+405,2,2102170863309349,Big Time Apple Cinnamon Waffles
+506,2,2037942857142858,Tell Tale Almonds
+678,2,2033849315068492,Gorilla 2% Milk
+789,2,2028555118110238,Excel Monthly Auto Magazine
+309,2,1970615384615386,Super Extra Chunky Peanut Butter
+137,2,1930969479353681,Denny 100 Watt Lightbulb
+476,2,1881118518518519,Quick Seasoned Hamburger
+880,2,1854611398963733,Thresher Spicy Mints
+80,2,1851587649402386,Blue Medal Large Eggs
+265,2,18405,Medalist Rice Medly
+937,2,1833041322314046,BBB Best Apple Preserves
+1045,2,1827814960629923,PigTail Frozen Corn
+449,2,1816539019963703,Red Wing AAA-Size Batteries
+1161,2,1804312297734629,Horatio Fudge Cookies
+216,2,1791809145129224,Tip Top Scallops
+521,2,173487027027027,Tell Tale Fuji Apples
+988,2,1700777408637872,Even Better Havarti Cheese
+53,2,1699254368932039,Club Sharp Cheddar Cheese
+1117,2,16877225950783,Tri-State Green Pepper
+1380,2,1681979289940827,Hilltop Mint Mouthwash
+1136,2,1640638408304498,Tri-State Red Delcious Apples
+1091,2,1636143835616437,High Quality Scented Toilet Tissue
+1251,2,1580802047781571,Skinner Mango Drink
+484,2,1524873747494992,Tell Tale Asparagus
+1373,2,1495522388059705,Hilltop 200 MG Ibuprofen
+868,2,1492529999999999,Nationeel Raspberry Fruit Roll
+1112,2,1490064257028116,Tri-State Sweet Peas
+68,2,1415813559322037,Red Spade Foot-Long Hot Dogs
+4,2,1375285403050106,Washington Cream Soda
+1417,2,137193548387097,Gauss Monthly Computer Magazine
+1539,2,1343746268656716,CDR Regular Coffee
+695,2,1329831533477321,Cutting Edge Sliced Turkey
+419,2,1319385398981323,Big Time Frozen Peas
+474,2,1313492900608519,Red Wing Screw Driver
+1475,2,1256048000000001,Fort West Lemon Cookies
+675,2,1251117187499999,Gorilla Sharp Cheddar Cheese
+464,2,1235321585903084,Red Wing Scented Toilet Tissue
+1508,2,1207516853932584,Gulf Coast Mints
+1540,2,1181787234042555,CDR Vegetable Oil
+235,2,1167675350701405,Best Choice Cheese Dip
+11,2,1149630357142857,Washington Apple Drink
+491,2,1136689075630253,Tell Tale Shitake Mushrooms
+1387,2,1060488095238097,Sunset AAA-Size Batteries
+1368,2,1056338259441705,Hilltop Extra Moisture Shampoo
+1271,2,1053189493433395,Pleasant Canned Tomatos
+803,2,10214756097561,Ebony Lettuce
+1367,2,0945727767695099,Hilltop Conditioning Shampoo
+1495,2,0934912547528519,Fort West Raspberry Fruit Roll
+323,2,0930479452054791,Best Oatmeal
+1070,2,0910545936395759,High Quality 60 Watt Lightbulb
+713,2,0901353658536586,Imagine Frozen Pepperoni Pizza
+55,2,0880306603773584,Club Large Curd Cottage Cheese
+46,2,0878003780718339,Club Jack Cheese
+302,2,0877073863636366,Super Oregano
+866,2,087533333333333,Nationeel Apple Fruit Roll
+875,2,0865208633093526,Thresher Tasty Candy Bar
+445,2,0855133709981168,Red Wing Plastic Spoons
+1518,2,0834170542635659,Top Measure Chablis Wine
+150,2,082764270613108,Denny Scented Tissue
+986,2,0823352165725049,Even Better String Cheese
+1341,2,0805058939096268,Carrington Frozen Cheese Pizza
+367,2,080412977099237,Carlson 2% Milk
+1282,2,0782857142857143,Pleasant Fancy Canned Anchovies
+1073,2,0781062030075188,High Quality Plastic Knives
+1206,2,0771160493827159,Portsmouth Chardonnay Wine
+706,2,0745361538461538,Imagine Frozen Chicken Breast
+1198,2,0725316793893129,Musial White Chocolate Bar
+950,2,0724252446183953,Special Oatmeal
+111,2,0705694200351492,Golden Frozen Chicken Wings
+189,2,0693208661417319,High Top Baby Onion
+835,2,0686410071942443,Ebony Tangerines
+184,2,0664591439688715,High Top Garlic
+218,2,0640000000000001,Best Choice BBQ Potato Chips
+1309,2,0637384928716904,Booker Whole Milk
+439,2,0635147601476014,Steady Multi-Symptom Cold Remedy
+823,2,0614881355932204,Ebony Plums
+1114,2,0612957403651113,Tri-State Beets
+907,2,0590581613508445,Fantastic Bagels
+49,2,0566322314049588,Club Low Fat String Cheese
+1527,2,0552695095948827,Modell Cranberry Muffins
+66,2,0546181818181815,Red Spade Low Fat Bologna
+933,2,049236603773585,BBB Best Strawberry Jam
+1454,2,0462702020202022,Hermanos Mixed Nuts
+1506,2,0462468531468532,Gulf Coast Bubble Gum
+1336,2,0452798932384342,Carrington Frozen Sausage Pizza
+278,2,0422273381294964,Great Cranberry Muffins
+534,2,0395292372881353,Fast Fudge Cookies
+1157,2,0393536633663363,Horatio Corn Chips
+305,2,0378188908145582,Super Apple Jam
+450,2,0365711065573771,Red Wing Paper Plates
+1538,2,036067615658363,CDR Decaf Coffee
+194,2,0313641025641025,High Top Firm Tofu
+1413,2,0295464052287584,Gerolli Extra Lean Hamburger
+1201,2,0264123339658444,Colossal Spaghetti
+672,2,0238875518672197,Gorilla Havarti Cheese
+1369,2,0184899641577059,Hilltop Angled Toothbrush
+1457,2,0184393013100435,Hermanos Cantelope
+1430,2,0177750943396227,Hermanos Lettuce
+1292,2,0163330324909747,Booker Low Fat Cottage Cheese
+172,2,0161782608695651,High Top Corn on the Cob
+1516,2,0115280575539569,Top Measure Light Wine
+573,2,0106279503105591,Shady Lake Manicotti
+812,2,0098235897435894,Ebony Dried Mushrooms
+261,2,0095743055555553,Medalist Ravioli
+844,2,0051884057971017,Nationeel Chocolate Chip Cookies
+1088,1,9996164705882353,High Quality Scented Tissue
+1248,1,9920340036563069,Plato Apple Preserves
+1324,1,9919879396984923,Lake Potato Salad
+1273,1,9906779443254818,Pleasant Regular Ramen Soup
+517,1,990352688172043,Tell Tale Canned Peanuts
+1236,1,9892587155963302,Plato Pepper
+645,1,9813265651438239,Bravo Noodle Soup
+568,1,9802786086956523,Atomic Bubble Gum
+639,1,9794646728971963,Bravo Creamed Corn
+800,1,9711432258064516,Ebony Onions
+1497,1,9672576850094876,Fort West Dried Dates
+676,1,9668286806883364,Gorilla Mild Cheddar Cheese
+587,1,9660562977099239,Colony Rye Bread
+416,1,9656747474747474,Big Time Frozen Cauliflower
+1529,1,9631429126213593,Modell Bagels
+275,1,9597353040540539,Great White Bread
+1427,1,959290055248619,Hermanos Onions
+396,1,9478335877862596,Big Time Frozen Pancakes
+997,1,9438569832402235,Even Better 1% Milk
+1311,1,9430467153284672,Booker Blueberry Yogurt
+1076,1,9428895161290323,High Quality AAA-Size Batteries
+1171,1,9428518234165069,Horatio Avocado Dip
+1322,1,9421981981981984,Lake Sliced Turkey
+1099,1,9416686346863468,High Quality Scissors
+170,1,9368101265822786,Robust Monthly Fashion Magazine
+758,1,9357700197238659,Cormorant C-Size Batteries
+320,1,9347512864493996,Excellent Cranberry Juice
+1047,1,9340831282952551,PigTail Popsicles
+1119,1,9274492957746481,Tri-State Lettuce
+19,1,927325316455696,Blue Label Chicken Soup
+726,1,9263859719438878,Imagine Ice Cream Sandwich
+556,1,9238513513513513,Fast Strawberry Fruit Roll
+832,1,9201835820895521,Ebony Fuji Apples
+1290,1,9180784530386739,Framton Eyeglass Screwdriver
+223,1,9169537037037037,Best Choice Fudge Cookies
+991,1,9159228769497401,Even Better Sharp Cheddar Cheese
+842,1,909992277992278,Nationeel Low Fat BBQ Chips
+551,1,9081411449016101,Fast Low Fat Chips
+407,1,9074913941480207,Big Time Turkey TV Dinner
+638,1,9064271028037383,Bravo Canned Beets
+1150,1,9053157894736841,Tri-State Oranges
+246,1,9017375796178344,Best Choice Raspberry Fruit Roll
+659,1,9006578947368422,Bravo Rice Soup
+1197,1,8995026929982044,Musial Mints
+1398,1,8985817307692305,Sunset Soft Napkins
+394,1,898015660685155,Big Time Orange Popsicles
+418,1,8963219015280137,Big Time Frozen Corn
+502,1,8961868194842406,Tell Tale Fresh Lima Beans
+554,1,8956902877697841,Fast Dried Apples
+1063,1,8856933115823817,Bird Call 200 MG Acetominifen
+674,1,880979190751445,Gorilla Cheese Spread
+1011,1,87897700729927,American Sliced Turkey
+1453,1,8729505709624796,Hermanos Mandarin Oranges
+569,1,8708370370370371,Atomic Spicy Mints
+886,1,8697184782608696,Monarch Thai Rice
+295,1,8656542372881357,Super Grape Preserves
+1074,1,8647814004376368,High Quality C-Size Batteries
+39,1,8533635789473686,Green Ribbon Canned Peaches
+970,1,8444114688128772,Just Right Large Canned Shrimp
+990,1,8409235643564354,Even Better Cheese Spread
+69,1,8235614035087719,Red Spade Low Fat Cole Slaw
+1241,1,8096325925925925,Plato Apple Jelly
+863,1,8092551971326165,Nationeel Sesame Crackers
+322,1,8068642201834861,Excellent Apple Drink
+1279,1,805383546617916,Pleasant Canned Tuna in Water
+1509,1,8050113360323887,Gulf Coast White Chocolate Bar
+703,1,7995092555331991,Jumbo Egg Substitute
+1395,1,7992708737864078,Sunset AA-Size Batteries
+901,1,7958251346499101,Fantastic Pumpernickel Bread
+755,1,7893443609022557,Cormorant Plastic Forks
+63,1,7864320175438597,Red Spade Chicken Hot Dogs
+694,1,7843030303030303,Cutting Edge Corned Beef
+918,1,78335,BBB Best Vegetable Oil
+1226,1,7814345811051695,Plato French Roast Coffee
+811,1,7798,Ebony Baby Onion
+1142,1,7794148936170213,Tri-State Mandarin Oranges
+86,1,7781528497409327,Golden Low Fat French Fries
+1169,1,7761144508670521,Horatio Low Fat Popcorn
+17,1,7750873493975905,Blue Label Creamed Corn
+499,1,7729887445887447,Tell Tale Mushrooms
+948,1,7720344497607654,Fabulous Apple Juice
+106,1,7719033138401559,Golden Frozen Broccoli
+834,1,7719007194244603,Ebony Oranges
+121,1,7713229357798166,Faux Products Apricot Shampoo
+1118,1,7710102752293577,Tri-State Shitake Mushrooms
+1464,1,7701986636971048,Amigo Lox
+1323,1,7699888888888888,Lake Sliced Ham
+802,1,7696393684210527,Ebony Shitake Mushrooms
+1555,1,7690483870967741,CDR Strawberry Jam
+164,1,7675791907514451,Ship Shape Extra Lean Hamburger
+171,1,7654375,High Top Summer Squash
+157,1,7648641188959659,Denny Bees Wax Candles
+1009,1,7637101694915254,American Roasted Chicken
+1213,1,7614150337837839,Sphinx White Bread
+300,1,7601263513513512,Super Salt
+671,1,7595764378478664,Gorilla Low Fat String Cheese
+453,1,7595413223140497,Red Wing Toilet Bowl Cleaner
+957,1,7588226012793176,Just Right Chicken Soup
+1196,1,7585438794726931,Musial Spicy Mints
+1447,1,7580036297640653,Hermanos Red Delcious Apples
+843,1,7579614107883816,Nationeel Sugar Cookies
+724,1,7570823529411765,Imagine Lime Popsicles
+544,1,7569957118353345,Fast Avocado Dip
+677,1,7569157894736842,Gorilla Large Curd Cottage Cheese
+151,1,7561165644171779,Denny Toilet Paper
+465,1,7557241962774959,Red Wing Room Freshener
+197,1,7528434322033897,High Top Golden Delcious Apples
+241,1,7525577464788733,Best Choice Sesame Crackers
+1081,1,752331137724551,High Quality Counter Cleaner
+1503,1,7518843100189037,Gulf Coast Mint Chocolate Bar
+54,1,7497610800744881,Club Mild Cheddar Cheese
+470,1,7470813953488371,Red Wing Copper Pot Scrubber
+1541,1,7444593572778828,CDR Corn Oil
+883,1,7443202979515831,Monarch Ravioli
+952,1,743428372093023,Special Wheat Puffs
+1056,1,7431361313868614,Bird Call Conditioning Shampoo
+1343,1,7418178036605656,Carrington Apple Cinnamon Waffles
+1452,1,7401380530973451,Hermanos Broccoli
+44,1,7398307262569832,Club Low Fat Sour Cream
+421,1,7394447154471544,Big Time Frozen Chicken Thighs
+982,1,738865934065934,Even Better Low Fat Sour Cream
+915,1,7367740279937791,BBB Best French Roast Coffee
+478,1,7364932270916336,Dollar Monthly Auto Magazine
+691,1,7358476277372263,Cutting Edge Low Fat Cole Slaw
+1066,1,735648288973384,Bird Call Multi-Symptom Cold Remedy
+805,1,735434034416826,Ebony Red Pepper
+415,1,7337,Big Time Ice Cream Sandwich
+1458,1,7336270161290324,Hermanos Honey Dew
+1349,1,7330807017543859,Carrington Grape Popsicles
+288,1,7324124999999999,Super French Roast Coffee
+214,1,7322857142857144,High Top Party Nuts
+313,1,7315406976744188,Excellent Mango Drink
+1004,1,7313232876712328,American Low Fat Bologna
+711,1,7302029197080293,Imagine Fajita French Fries
+1139,1,7301246935201402,Tri-State Plums
+1034,1,7292138947368423,PigTail Turkey TV Dinner
+191,1,7277985714285715,High Top Fresh Lima Beans
+1535,1,7269534482758622,CDR Brown Sugar
+1374,1,725234835355286,Hilltop 200 MG Acetominifen
+152,1,7227543933054392,Denny Tissues
+548,1,7218027888446217,Fast Mini Donuts
+780,1,7217032015065912,Cormorant Silver Cleaner
+555,1,7208133086876156,Fast Apple Fruit Roll
+1208,1,7198281081081082,Portsmouth Merlot Wine
+946,1,7181104928457869,Fabulous Orange Juice
+1017,1,7172300458715597,National Small Eggs
+447,1,7165989672977626,Red Wing C-Size Batteries
+435,1,713583496732026,Steady 200 MG Ibuprofen
+1184,1,7095985663082438,Horatio Raspberry Fruit Roll
+279,1,7088875239923225,Great Muffins
+722,1,7079161417322835,Imagine Grape Popsicles
+940,1,7074471014492754,Fabulous Mango Drink
+799,1,705374193548387,Ebony Prepared Salad
+1278,1,7053166666666666,Pleasant Chicken Ramen Soup
+793,1,7045385462555067,Ebony Summer Squash
+971,1,7042278481012658,Just Right Fancy Canned Anchovies
+269,1,7027180555555554,Good Chablis Wine
+162,1,7024642147117297,Denny Large Sponge
+481,1,7019086799276673,Dollar Monthly Fashion Magazine
+1227,1,7008513307984789,Plato Decaf Coffee
+935,1,7005194805194805,BBB Best Strawberry Preserves
+1093,1,700365457685665,High Quality Frying Pan
+1,1,6987163265306122,Washington Berry Juice
+1377,1,6985926701570679,Hilltop Multi-Symptom Cold Remedy
+1421,1,693953064798599,Hermanos Corn on the Cob
+597,1,6929928057553956,Landslide Brown Sugar
+298,1,6919883767535069,Super Pepper
+1502,1,6904730612244898,Gulf Coast Tasty Candy Bar
+1194,1,6872314741035856,Musial Semi-Sweet Chocolate Bar
+581,1,6865799256505576,Walrus Merlot Wine
+42,1,6846255230125522,Queen City Map
+825,1,6841314647377938,Ebony Broccoli
+819,1,6823520069808029,Ebony Golden Delcious Apples
+630,1,6803967611336033,Token Orange Juice
+1431,1,6800228209191759,Hermanos Elephant Garlic
+331,1,6794940726577439,Better Canned Yams
+936,1,6781862595419847,BBB Best Extra Chunky Peanut Butter
+660,1,6778345323741006,Applause Canned Mixed Fruit
+865,1,6774547021943575,Nationeel Dried Apples
+383,1,6770373831775702,Moms Corned Beef
+1165,1,676781724137931,Horatio Graham Crackers
+77,1,6767265135699374,Blue Medal Small Brown Eggs
+1440,1,675080310880829,Hermanos Fresh Lima Beans
+264,1,6749256140350877,Medalist Thai Rice
+535,1,6746496062992127,Fast Fudge Brownies
+1060,1,674259727626459,Bird Call Childrens Aspirin
+84,1,6716803837953091,Golden Frozen Chicken Breast
+520,1,6715422138836773,Tell Tale Honey Dew
+341,1,670585102739726,Better Canned Tuna in Water
+1416,1,6705061769616028,Gauss Monthly Auto Magazine
+32,1,6704892116182573,Blue Label Large Canned Shrimp
+525,1,6702965517241379,Tell Tale Party Nuts
+1281,1,6694612794612793,Pleasant Large Canned Shrimp
+1237,1,6675905172413792,Plato Low Fat Apple Butter
+1110,1,666315424610052,Tri-State Corn on the Cob
+1299,1,6659076923076923,Booker Havarti Cheese
+1465,1,6653772646536411,Amigo Scallops
+575,1,6645782449725777,Shady Lake Thai Rice
+653,1,6645580952380954,Bravo Canned Tuna in Oil
+1450,1,6621468197879858,Hermanos Plums
+1012,1,6606998330550917,American Sliced Ham
+1160,1,6604956701030928,Horatio Chocolate Chip Cookies
+373,1,6602086677367576,Carlson Blueberry Yogurt
+351,1,659116129032258,ADJ Rosy Sunglasses
+179,1,6588984509466438,High Top Green Pepper
+1172,1,6581304940374786,Horatio Salted Pretzels
+607,1,6565123966942148,Landslide Columbian Coffee
+1366,1,6561373134328359,Hilltop Deodorant
+71,1,655635242290749,Red Spade Roasted Chicken
+1058,1,655416153846154,Bird Call Angled Toothbrush
+20,1,6552516377649327,Blue Label Canned Yams
+546,1,6536876090750436,Fast Cheese Dip
+117,1,6523047619047619,Faux Products Deodorant
+1537,1,6522573770491804,CDR French Roast Coffee
+953,1,6500718808193668,Special Grits
+414,1,6499705490848586,Big Time Ice Cream
+211,1,6492487804878049,High Top Walnuts
+768,1,6481876033057852,Cormorant AA-Size Batteries
+673,1,6463826086956523,Gorilla Head Cheese
+1331,1,6433616487455198,Carrington Low Fat Waffles
+798,1,6432071844660194,Ebony Beets
+778,1,6425777777777779,Cormorant Copper Cleaner
+647,1,6401226415094339,Bravo Chicken Noodle Soup
+648,1,6399596899224806,Bravo Turkey Noodle Soup
+1534,1,6395764485981308,CDR Hot Chocolate
+283,1,6395500000000001,Super Sesame Oil
+1002,1,6384903225806451,American Pimento Loaf
+892,1,6383000000000001,Discover Rice Medly
+924,1,6379424920127796,BBB Best Strawberry Jelly
+461,1,6352,Red Wing Scented Tissue
+1477,1,6344418604651163,Fort West Cheese Crackers
+756,1,6340618644067797,Cormorant Plastic Spoons
+417,1,6333097913322632,Big Time Frozen Broccoli
+205,1,63292375249501,High Top Mixed Nuts
+1270,1,6321108910891089,Pleasant Vegetable Soup
+1357,1,6313553662691651,Carrington Frozen Peas
+1505,1,6300179856115107,Gulf Coast Semi-Sweet Chocolate Bar
+1209,1,6280369649805448,Portsmouth Chardonnay
+1005,1,6278823529411763,American Turkey Hot Dogs
+1107,1,6258107606679035,Mighty Good Monthly Home Magazine
+1435,1,623322126929674,Hermanos Cauliflower
+72,1,6232336842105262,Red Spade Corned Beef
+138,1,6221303602058319,Denny AAA-Size Batteries
+153,1,6217170731707315,Denny Scented Toilet Tissue
+700,1,6214000000000002,Jumbo Large Brown Eggs
+658,1,6209276437847866,Bravo Fancy Canned Sardines
+862,1,618580412371134,Nationeel Low Fat Chips
+714,1,6183983050847457,Imagine Frozen Cheese Pizza
+234,1,617693203883495,Best Choice Salted Pretzels
+252,1,6174884476534297,Best Choice Frosted Donuts
+999,1,6156011627906977,Even Better Strawberry Yogurt
+512,1,6115784860557769,Tell Tale Plums
+801,1,6108847583643122,Ebony Green Pepper
+244,1,6099451795841209,Best Choice Apple Fruit Roll
+1404,1,6098473267326732,Sunset Frying Pan
+456,1,6095199367088606,Red Wing 25 Watt Lightbulb
+1320,1,6093483636363637,Lake Roasted Chicken
+1170,1,6074095634095633,Horatio Salsa Dip
+200,1,6058999999999999,High Top Fancy Plums
+749,1,6034196319018403,Consolidated Dishwasher Detergent
+1148,1,60289498997996,Tri-State Fuji Apples
+1552,1,6023050847457627,CDR Apple Jelly
+237,1,6011085714285713,Best Choice Mini Donuts
+896,1,6009633711507294,Pearl Chablis Wine
+13,1,6007983367983369,Jeffers Corn Puffs
+574,1,600771129707113,Shady Lake Spaghetti
+232,1,5996697183098592,Best Choice Salsa Dip
+606,1,5990476603119583,Landslide Grape Preserves
+231,1,5958474178403756,Best Choice Low Fat Popcorn
+82,1,5955812619502869,Golden Low Fat Waffles
+18,1,593812814645309,Blue Label Canned String Beans
+1179,1,5925953153153154,Horatio Sesame Crackers
+7,1,5924830188679246,Washington Diet Cola
+1030,1,5907372400756143,PigTail Frozen Cheese Pizza
+912,1,589964344262295,BBB Best Hot Chocolate
+500,1,5882850533807831,Tell Tale Baby Onion
+91,1,5880264150943397,Golden Frozen Pepperoni Pizza
+1363,1,5877654784240149,Hilltop Tartar Control Toothpaste
+1478,1,5865996116504855,Fort West Buttered Popcorn
+1010,1,5856005859375,American Corned Beef
+537,1,585418467583497,Fast Lemon Cookies
+1071,1,5849879417879418,High Quality Plastic Forks
+60,1,5838434389140272,Club Whole Milk
+1000,1,5836659574468086,Even Better Blueberry Yogurt
+1127,1,5828293333333334,Tri-State Baby Onion
+1389,1,5820591639871382,Sunset Paper Cups
+1556,1,5814787985865724,CDR Creamy Peanut Butter
+667,1,5795966666666668,Gorilla Sour Cream
+636,1,5775756653992394,Radius Wheat Puffs
+589,1,5770818882466282,Colony Cranberry Muffins
+493,1,5768996389891696,Tell Tale Elephant Garlic
+256,1,5763452138492873,Choice Semi-Sweet Chocolate Bar
+1205,1,5755424354243541,Portsmouth Light Wine
+27,1,575415798611111,Blue Label Beef Soup
+1101,1,5751439999999999,High Quality Screw Driver
+1396,1,5724558058925477,Sunset D-Size Batteries
+1408,1,5721938596491227,Sunset Copper Pot Scrubber
+1352,1,57166392092257,Carrington Ice Cream
+922,1,5712022388059701,BBB Best Grape Preserves
+1128,1,5710801785714286,Tri-State Dried Mushrooms
+1152,1,5690776198934282,Tri-State Party Nuts
+640,1,5689153846153845,Bravo Canned String Beans
+884,1,5685990639625584,Monarch Manicotti
+466,1,5676979284369115,Red Wing Frying Pan
+487,1,566852336448598,Tell Tale Beets
+609,1,5662087542087542,Landslide Pepper
+188,1,5650334507042254,High Top Mushrooms
+281,1,5595614130434783,Great Blueberry Muffins
+806,1,5561338289962827,Ebony Garlic
+1402,1,5555508982035928,Sunset Scented Toilet Tissue
+475,1,5545872693726939,Quick Extra Lean Hamburger
+250,1,554571924290221,Best Choice Golden Raisins
+1308,1,5536104761904761,Booker 1% Milk
+890,1,5522914018691589,Discover Spaghetti
+1433,1,5519046692607004,Hermanos Garlic
+584,1,5486909961685824,Walrus Light Beer
+577,1,5479507462686566,Walrus Imported Beer
+488,1,5476204210526314,Tell Tale Prepared Salad
+220,1,5472741935483871,Best Choice Low Fat BBQ Chips
+838,1,5464912280701755,Curlew Scallops
+242,1,5463528017241379,Best Choice Frosted Cookies
+8,1,5461500000000001,Washington Orange Juice
+1140,1,5455449330783939,Tri-State Peaches
+1383,1,5449776429809359,Sunset Plastic Spoons
+1340,1,543680035335689,Carrington Frozen Pepperoni Pizza
+916,1,5421716193656094,BBB Best Decaf Coffee
+649,1,5415161290322581,Bravo Beef Soup
+1146,1,5414822344322345,Tri-State Cantelope
+303,1,541429213483146,Super Apple Jelly
+1116,1,5403412887828163,Tri-State Onions
+763,1,5397543689320388,Cormorant 75 Watt Lightbulb
+444,1,5377963394342762,Red Wing Plastic Forks
+1384,1,5370612099644128,Sunset Plastic Knives
+1461,1,5358151624548735,Hermanos Oranges
+47,1,534910344827586,Club Muenster Cheese
+754,1,5317108540925266,Cormorant 60 Watt Lightbulb
+1086,1,5314708015267176,High Quality Paper Towels
+987,1,5310547237076648,Even Better Low Fat String Cheese
+1199,1,5298596119929453,Colossal Ravioli
+872,1,5290760563380281,Nationeel Golden Raisins
+871,1,5263283333333333,Nationeel Raisins
+634,1,5255190654205608,Radius Oatmeal
+1491,1,5227314606741573,Fort West Frosted Cookies
+1501,1,5224045454545454,Fort West Frosted Donuts
+1554,1,5217361853832441,CDR Apple Jam
+903,1,5204,Fantastic Rye Bread
+1277,1,5200609625668449,Pleasant Canned Peas
+498,1,5200432862190814,Tell Tale Tomatos
+1001,1,5163555555555555,American Chicken Hot Dogs
+1096,1,5158478342749531,High Quality Silver Cleaner
+1394,1,5137384751773051,Sunset 25 Watt Lightbulb
+882,1,5085351219512195,Thresher White Chocolate Bar
+783,1,5082697196261683,Cormorant Scissors
+1296,1,5056659695817491,Booker Muenster Cheese
+1372,1,5051137989778536,Hilltop Buffered Aspirin
+507,1,5041504310344826,Tell Tale Macintosh Apples
+949,1,5024500000000001,Fabulous Apple Drink
+1455,1,5010546641791045,Hermanos Canned Peanuts
+1348,1,4971100378787878,Carrington Pancake Mix
+219,1,4957227467811158,Best Choice Corn Chips
+1272,1,4954180530973451,Pleasant Noodle Soup
+1533,1,4946098562628336,CDR Chunky Peanut Butter
+966,1,4930204968944101,Just Right Canned Peas
+851,1,4913232774674114,Nationeel Buttered Popcorn
+943,1,4910850574712644,Fabulous Diet Soda
+624,1,4910383211678833,Token Mango Drink
+1089,1,4886016363636363,High Quality Toilet Paper
+452,1,4878715025906737,Red Wing 75 Watt Lightbulb
+208,1,4872928571428572,High Top Cantelope
+196,1,4861326848249028,High Top Macintosh Apples
+572,1,4857595026642985,Shady Lake Ravioli
+143,1,4855318982387475,Denny Counter Cleaner
+318,1,4843170731707316,Excellent Diet Cola
+1306,1,4839659183673468,Booker Buttermilk
+861,1,4815268336314849,Nationeel Chocolate Donuts
+1496,1,4814142292490118,Fort West Grape Fruit Roll
+1115,1,4794363256784968,Tri-State Prepared Salad
+166,1,47851351888668,Robust Monthly Sports Magazine
+1543,1,4780799999999998,CDR Canola Oil
+149,1,4778177242888404,Denny Soft Napkins
+251,1,4769330472103004,Best Choice Dried Apricots
+891,1,4763104204753199,Discover Thai Rice
+102,1,4761017110266159,Golden Lime Popsicles
+1284,1,4751553846153846,Pleasant Fancy Canned Oysters
+1321,1,4726115384615384,Lake Corned Beef
+1403,1,4723971171171171,Sunset Room Freshener
+134,1,4722641509433962,Denny Plastic Spoons
+1138,1,4700886405959031,Tri-State Fancy Plums
+1222,1,4699143356643358,Plato Chunky Peanut Butter
+1371,1,4686423149905123,Hilltop Childrens Aspirin
+1129,1,468168085106383,Tri-State Fresh Lima Beans
+233,1,4659122302158274,Best Choice Avocado Dip
+131,1,4655425330812855,Faux Products Mint Mouthwash
+830,1,4652034548944337,Ebony Cantelope
+719,1,4628838174273859,Imagine Chicken TV Dinner
+742,1,4618299227799227,Consolidated Angled Toothbrush
+1104,1,4605488410596028,Mighty Good Monthly Sports Magazine
+914,1,4596271523178808,BBB Best White Sugar
+326,1,4546393177737882,Best Grits
+9,1,4540639658848615,Washington Cranberry Juice
+592,1,4517866666666666,Colony Blueberry Muffins
+1470,1,4516896353166986,Fort West Sugar Cookies
+1385,1,4505660377358489,Sunset C-Size Batteries
+387,1,4502744932432432,Moms Sliced Chicken
+1360,1,450036684303351,Carrington Frozen Chicken Wings
+855,1,4471327390599675,Nationeel Avocado Dip
+356,1,4448488294314381,Carlson Sour Cream
+774,1,4448248031496063,Cormorant Tissues
+963,1,4418914185639231,Just Right Chicken Noodle Soup
+580,1,4406685251798561,Walrus Chablis Wine
+550,1,4405383177570092,Fast Chocolate Donuts
+1500,1,4402260416666666,Fort West Dried Apricots
+321,1,4399970695970694,Excellent Apple Juice
+1528,1,4399368836291913,Modell Muffins
+856,1,4386895008605851,Nationeel Salted Pretzels
+533,1,4386556737588652,Fast Chocolate Chip Cookies
+1335,1,4367683241252303,Carrington Low Fat French Fries
+1131,1,4360885311871228,Tri-State Limes
+1429,1,4359131886477461,Hermanos Shitake Mushrooms
+1264,1,4350471530249109,Johnson Grits
+277,1,4347315233785822,Great English Muffins
+163,1,4340464864864866,Denny Screw Driver
+489,1,4339983935742973,Tell Tale Onions
+1473,1,4323123877917414,Fort West Fudge Brownies
+183,1,431658282208589,High Top Red Pepper
+833,1,4291765454545455,Ebony Walnuts
+688,1,4263332089552239,Cutting Edge Low Fat Bologna
+1092,1,4259509933774834,High Quality Room Freshener
+1219,1,4255607675906183,Sphinx Blueberry Muffins
+271,1,4237711743772241,Good Chardonnay
+1167,1,4219508547008546,Horatio Buttered Popcorn
+1423,1,4212113144758736,Hermanos Sweet Peas
+612,1,4169844594594594,Landslide Apple Butter
+739,1,416982364729459,Consolidated Deodorant
+99,1,4164239520958084,Golden Pancake Mix
+366,1,4160457364341086,Carlson Large Curd Cottage Cheese
+567,1,4158989795918366,Atomic Semi-Sweet Chocolate Bar
+432,1,4146751760563379,Steady Apricot Shampoo
+1062,1,4146685816876123,Bird Call 200 MG Ibuprofen
+73,1,4116799242424243,Red Spade Sliced Turkey
+873,1,4109318965517241,Nationeel Dried Apricots
+661,1,4105838709677421,Applause Canned Peaches
+782,1,4099962499999998,Cormorant Economy Toilet Brush
+125,1,4095155378486057,Faux Products 200 MG Acetominifen
+1370,1,4084717948717951,Hilltop Apricot Shampoo
+942,1,4075773381294965,Fabulous Cream Soda
+1346,1,4042326007326007,Carrington Chicken TV Dinner
+527,1,40130184501845,Kiwi Scallops
+605,1,4010770870337479,Landslide Canola Oil
+905,1,4009125,Fantastic Cranberry Muffins
+655,1,4001075000000001,Bravo Fancy Canned Anchovies
+698,1,399165,Cutting Edge Sliced Chicken
+1173,1,3988747311827956,Horatio Cheese Dip
+381,1,3985146586345381,Moms Cole Slaw
+860,1,398507251908397,Nationeel Beef Jerky
+21,1,3974694497153701,Blue Label Vegetable Soup
+349,1,3962259136212625,Swell Canned Mixed Fruit
+388,1,3948842195540307,Urban Small Brown Eggs
+369,1,3946149914821124,Carlson Chocolate Milk
+681,1,3934519427402863,Gorilla 1% Milk
+1547,1,39332119089317,CDR Pepper
+718,1,3928241563055062,Imagine Turkey TV Dinner
+110,1,3923872651356992,Golden Frozen Chicken Thighs
+343,1,3913614457831325,Better Large Canned Shrimp
+547,1,3906434121621623,Fast Fondue Mix
+599,1,3869062730627306,Landslide French Roast Coffee
+1245,1,3867669172932331,Plato Creamy Peanut Butter
+600,1,3866427826086958,Landslide Decaf Coffee
+1520,1,386521052631579,Top Measure Chardonnay
+1488,1,3850184971098267,Fort West Chocolate Donuts
+375,1,3824106844741235,Moms Pimento Loaf
+113,1,379462891566265,Faux Products Silky Smooth Hair Conditioner
+1252,1,3783502423263327,Skinner Strawberry Drink
+142,1,3781450901803607,Denny Toilet Bowl Cleaner
+945,1,3779880733944956,Fabulous Diet Cola
+1027,1,3776517453798767,PigTail Fajita French Fries
+1291,1,3760094637223974,Framton City Map
+176,1,3757575757575757,High Top Beets
+578,1,3751528604118992,Walrus Light Wine
+58,1,3744500000000002,Club Chocolate Milk
+119,1,3731597678916827,Faux Products Extra Moisture Shampoo
+1239,1,3725211087420042,Plato Apple Butter
+145,1,3724285148514852,Denny 25 Watt Lightbulb
+610,1,369302097902098,Landslide Low Fat Apple Butter
+785,1,3676499040307102,Cormorant Screw Driver
+662,1,3671217228464421,Prelude Rosy Sunglasses
+1328,1,3668637065637066,Giant Small Eggs
+1545,1,3661267190569746,CDR Columbian Coffee
+15,1,3660766000000002,Jeffers Grits
+721,1,3642262230919766,Imagine Pancake Mix
+1240,1,3638735483870967,Plato Oregano
+1498,1,3625717054263566,Fort West Raisins
+848,1,3619592039800994,Nationeel Lemon Cookies
+354,1,3616170825335894,Carlson Low Fat Cottage Cheese
+22,1,3608682092555331,Blue Label Canned Tomatos
+1174,1,3583486434108527,Horatio Fondue Mix
+130,1,3578628415300547,Faux Products Laundry Detergent
+816,1,3559067326732672,Ebony Firm Tofu
+344,1,3556857610474631,Better Fancy Canned Anchovies
+457,1,3552139130434784,Red Wing AA-Size Batteries
+120,1,3550941883767536,Faux Products Angled Toothbrush
+201,1,353826530612245,High Top Plums
+1059,1,3525394285714287,Bird Call Apricot Shampoo
+270,1,3512314960629921,Good Merlot Wine
+1317,1,3508145315487572,Lake Foot-Long Hot Dogs
+1476,1,3484041493775933,Fort West Graham Crackers
+858,1,3458447272727274,Nationeel Fondue Mix
+413,1,345600158982512,Big Time Lime Popsicles
+619,1,3448844731977818,Landslide Strawberry Preserves
+526,1,3445303867403315,Kiwi Lox
+420,1,3427286458333334,Big Time Popsicles
+229,1,3426555323590814,Best Choice Buttered Popcorn
+1125,1,3425044680851064,Tri-State Tomatos
+1085,1,3422737614678899,High Quality D-Size Batteries
+1007,1,342122380106572,American Low Fat Cole Slaw
+186,1,3416729411764705,High Top Cauliflower
+376,1,3412800623052961,Moms Beef Bologna
+386,1,3408267605633803,Moms Potato Salad
+239,1,3397143925233646,Best Choice Chocolate Donuts
+1338,1,3377437371663243,Carrington Fajita French Fries
+857,1,3375734177215191,Nationeel Cheese Dip
+1353,1,3371826086956522,Carrington Ice Cream Sandwich
+1028,1,3346597785977858,PigTail Waffles
+1422,1,3336796477495108,Hermanos Asparagus
+442,1,3324095412844037,Steady Mint Mouthwash
+1079,1,3299896551724137,High Quality 75 Watt Lightbulb
+972,1,3299383093525179,Just Right Fancy Canned Clams
+1187,1,3295471698113206,Horatio Raisins
+332,1,3286752631578949,Better Vegetable Soup
+797,1,3283044014084506,Ebony New Potatos
+1228,1,3270809248554913,Plato Regular Coffee
+291,1,3265266272189349,Super Vegetable Oil
+1204,1,3253788944723619,Portsmouth Imported Beer
+108,1,3228272552783109,Golden Frozen Peas
+485,1,3222527573529412,Tell Tale Sweet Peas
+395,1,3200584837545126,Big Time Frozen Chicken Breast
+364,1,3196568457538995,Carlson Sharp Cheddar Cheese
+317,1,3186456014362657,Excellent Cola
+683,1,3163955390334574,Gorilla Strawberry Yogurt
+35,1,3162348837209303,Blue Label Fancy Canned Oysters
+408,1,3115862068965518,Big Time Chicken TV Dinner
+829,1,309879657794677,Ebony Sweet Onion
+654,1,3095181102362203,Bravo Large Canned Shrimp
+804,1,3095172541743969,Ebony Elephant Garlic
+751,1,3084375399361023,Consolidated Childrens Cold Remedy
+1015,1,3082275653923543,National Small Brown Eggs
+1381,1,3063670124481328,Sunset 60 Watt Lightbulb
+570,1,3062928695652174,Atomic Mints
+308,1,3062610894941633,Super Strawberry Preserves
+748,1,3061960784313724,Consolidated HCL Nasal Spray
+1048,1,3055650684931508,PigTail Frozen Chicken Thighs
+1259,1,3040648841354725,Skinner Apple Juice
+5,1,3038463636363637,Washington Diet Soda
+1166,1,3031204585537919,Horatio Cheese Crackers
+1558,1,3021509933774835,CDR Extra Chunky Peanut Butter
+1443,1,3014868243243243,Hermanos Firm Tofu
+78,1,3006566731141198,Blue Medal Large Brown Eggs
+1090,1,2996293436293436,High Quality Tissues
+529,1,2984,Fast BBQ Potato Chips
+1472,1,2983115044247788,Fort West Fudge Cookies
+585,1,2968216110019646,Colony Pumpernickel Bread
+273,1,2943239700374531,Good Light Beer
+960,1,2941254612546127,Just Right Canned Tomatos
+52,1,291853438113949,Club Cheese Spread
+311,1,2915053859964094,Super Grape Jelly
+1080,1,2914558823529412,High Quality Toilet Bowl Cleaner
+479,1,2909116607773852,Dollar Monthly Computer Magazine
+1425,1,2903407821229051,Hermanos Beets
+1250,1,2890586826347306,Skinner Berry Juice
+1216,1,2874531380753138,Sphinx Cranberry Muffins
+1036,1,2864737614678898,PigTail Beef TV Dinner
+160,1,2852195789473684,Denny Economy Toilet Brush
+1474,1,28457240704501,Fort West Potato Chips
+427,1,2835296703296704,Steady Toothpaste
+791,1,2817307692307693,Excel Monthly Home Magazine
+1097,1,2817238493723848,High Quality Copper Pot Scrubber
+869,1,2808958199356915,Nationeel Grape Fruit Roll
+346,1,2806323353293414,Better Fancy Canned Oysters
+243,1,2801204588910136,Best Choice Dried Apples
+792,1,2795375796178343,Excel Monthly Fashion Magazine
+345,1,27940272,Better Fancy Canned Clams
+1460,1,2767851711026617,Hermanos Walnuts
+1375,1,276498857142857,Hilltop HCL Nasal Spray
+602,1,2755809358752168,Landslide Vegetable Oil
+206,1,2746026369168357,High Top Canned Peanuts
+462,1,2737536764705883,Red Wing Toilet Paper
+81,1,2729326612903225,Blue Medal Egg Substitute
+1483,1,2712693641618498,Fort West Salted Pretzels
+824,1,271144214876033,Ebony Peaches
+736,1,2708331764705882,Consolidated Tartar Control Toothpaste
+1469,1,2697519148936172,Fort West Low Fat BBQ Chips
+1026,1,2697166666666666,PigTail Blueberry Waffles
+377,1,2695115452930728,Moms Low Fat Bologna
+312,1,2689558058925476,Excellent Berry Juice
+1191,1,2681808695652173,Musial Tasty Candy Bar
+1006,1,2647233463035019,American Foot-Long Hot Dogs
+96,1,2630840690978886,Golden Turkey TV Dinner
+601,1,2611912317327765,Landslide Regular Coffee
+657,1,2602875247524752,Bravo Fancy Canned Oysters
+1068,1,2587255238095238,Bird Call Laundry Detergent
+1358,1,2585627376425856,Carrington Popsicles
+122,1,2023830708661418,Faux Products Childrens Aspirin
+911,1,1888473977695169,BBB Best Chunky Peanut Butter
+964,1,1869975450081833,Just Right Turkey Noodle Soup
+693,1,1867599593495934,Cutting Edge Roasted Chicken
+227,1,1866031746031747,Best Choice Graham Crackers
+437,1,1850156405990016,Steady HCL Nasal Spray
+324,1,1843305803571429,Best Corn Puffs
+1242,1,1829714285714286,Plato Grape Jam
+870,1,1820774066797644,Nationeel Dried Dates
+1123,1,179320394736842,Tri-State Potatos
+238,1,1770940154440155,Best Choice Beef Jerky
+169,1,1750487804878049,Robust Monthly Home Magazine
+740,1,1748061797752809,Consolidated Conditioning Shampoo
+154,1,173913152400835,Denny Room Freshener
+483,1,1730684474123538,Tell Tale Corn on the Cob
+1220,1,1715572916666668,Sphinx Wheat Bread
+590,1,1702986564299425,Colony Muffins
+100,1,1700763209393346,Golden Grape Popsicles
+1463,1,1690684210526316,Hermanos Party Nuts
+1257,1,1685530612244899,Skinner Orange Juice
+733,1,1673730569948186,Imagine Frozen Chicken Wings
+765,1,1665777777777777,Cormorant Counter Cleaner
+1135,1,164810447761194,Tri-State Golden Delcious Apples
+951,1,1622888888888889,Special Corn Puffs
+438,1,1618527306967985,Steady Dishwasher Detergent
+750,1,160842541436464,Consolidated Multi-Symptom Cold Remedy
+1072,1,1600888429752065,High Quality Plastic Spoons
+899,1,1595665024630541,Pearl White Zinfandel Wine
+494,1,1572675521821632,Tell Tale Red Pepper
+132,1,1572645161290323,Denny 60 Watt Lightbulb
+1390,1,1564239600665558,Sunset 75 Watt Lightbulb
+1102,1,1555897435897435,Genteel Extra Lean Hamburger
+727,1,1541857142857144,Imagine Frozen Cauliflower
+14,1,1505180616740087,Jeffers Wheat Puffs
+1082,1,1504815642458099,High Quality Glass Cleaner
+1481,1,1502351162790696,Fort West Salsa Dip
+931,1,1484369449378331,BBB Best Grape Jam
+1411,1,1477395659432388,Sunset Large Sponge
+515,1,1473529166666667,Tell Tale Mandarin Oranges
+1207,1,1467565217391305,Portsmouth Chablis Wine
+772,1,1440666666666668,Cormorant Scented Tissue
+1379,1,1414746987951807,Hilltop Laundry Detergent
+753,1,141395652173913,Consolidated Mint Mouthwash
+259,1,1403660886319846,Choice Mints
+1155,1,1400857142857144,Horatio Low Fat Cookies
+867,1,1382320150659133,Nationeel Strawberry Fruit Roll
+821,1,1362510416666667,Ebony Lemons
+209,1,1341510548523206,High Top Honey Dew
+1513,1,1337353579175706,Jardon Thai Rice
+509,1,1325504950495049,Tell Tale Red Delcious Apples
+553,1,1319281535648995,Fast Frosted Cookies
+304,1,1285265600000001,Super Grape Jam
+759,1,1284192913385827,Cormorant 100 Watt Lightbulb
+728,1,1279739130434783,Imagine Frozen Broccoli
+1285,1,1279353728489485,Pleasant Fancy Canned Sardines
+900,1,126841680672269,Pearl Light Beer
+760,1,1266666068222622,Cormorant AAA-Size Batteries
+707,1,1263522682445759,Imagine Frozen Pancakes
+1033,1,1253083333333334,PigTail Frozen Carrots
+48,1,1247334565619225,Club String Cheese
+314,1,1246279069767442,Excellent Strawberry Drink
+541,1,1239857651245551,Fast No Salt Popcorn
+1065,1,1235415019762844,Bird Call Dishwasher Detergent
+593,1,1212084656084655,Colony Wheat Bread
+878,1,1207257240204429,Thresher Semi-Sweet Chocolate Bar
+1105,1,1201078629032257,Mighty Good Monthly Auto Magazine
+822,1,1170127041742288,Ebony Fancy Plums
+1553,1,1157538752362948,CDR Grape Jam
+1053,1,1149659735349717,Bird Call Whitening Toothpast
+285,1,1135413793103448,Super Hot Chocolate
+503,1,1117727272727274,Tell Tale Squash
+770,1,1113519313304721,Cormorant Paper Towels
+98,1,1103045714285713,Golden Beef TV Dinner
+841,1,1095817391304348,Nationeel Corn Chips
+738,1,1082988505747127,Consolidated Toothpaste
+182,1,1082095940959409,High Top Elephant Garlic
+1200,1,1064219224283305,Colossal Manicotti
+1295,1,1063762886597936,Booker Jack Cheese
+516,1,105668784029038,Tell Tale Mixed Nuts
+1302,1,1047246093750001,Booker Sharp Cheddar Cheese
+910,1,103968384879725,BBB Best Sesame Oil
+1393,1,1037885662431941,Sunset Glass Cleaner
+1456,1,1026784347826089,Hermanos Sweet Onion
+779,1,1009564899451554,Cormorant Bees Wax Candles
+260,1,1005308687615527,Choice White Chocolate Bar
+826,1,1003303370786517,Ebony Mandarin Oranges
+140,1,0994809815950921,Denny Paper Cups
+504,1,0981276595744682,Tell Tale Limes
+497,1,0978076923076923,Tell Tale Cauliflower
+67,1,0977838649155722,Red Spade Turkey Hot Dogs
+1134,1,0976894117647058,Tri-State Macintosh Apples
+363,1,0971679012345679,Carlson Cheese Spread
+643,1,09681083172147,Bravo Vegetable Soup
+962,1,0967063583815029,Just Right Regular Ramen Soup
+1218,1,0964323426573428,Sphinx Bagels
+292,1,0936777978339352,Super Corn Oil
+881,1,0936091234347047,Thresher Mints
+1156,1,0923784499054821,Horatio BBQ Potato Chips
+1507,1,0921485493230174,Gulf Coast Spicy Mints
+747,1,0894409001956946,Consolidated 200 MG Acetominifen
+613,1,0892984375000001,Landslide Oregano
+36,1,0891829268292683,Blue Label Fancy Canned Sardines
+669,1,0887272727272725,Gorilla Muenster Cheese
+1334,1,0884538775510204,Carrington Frozen Pancakes
+1412,1,0873953846153845,Sunset Screw Driver
+280,1,0866885869565217,Great Bagels
+887,1,0859062500000001,Monarch Rice Medly
+1361,1,0853698259187621,Carrington Lemon Popsicles
+716,1,0847463203463203,Imagine Apple Cinnamon Waffles
+139,1,081258661417323,Denny Paper Plates
+195,1,0812101190476191,High Top Almonds
+913,1,0809908771929826,BBB Best Brown Sugar
+107,1,0789397163120569,Golden Frozen Corn
+357,1,0787626841243863,Carlson Jack Cheese
+389,1,0783146579804559,Urban Large Brown Eggs
+670,1,0782487912087912,Gorilla String Cheese
+686,1,0777626204238921,Cutting Edge Pimento Loaf
+623,1,0776834782608695,Token Berry Juice
+536,1,0775093333333334,Fast Potato Chips
+1486,1,077131863727455,Fort West Mini Donuts
+236,1,0762483101391649,Best Choice Fondue Mix
+451,1,0761214408233275,Red Wing Paper Cups
+1432,1,0741297836938437,Hermanos Red Pepper
+1399,1,0723775768535262,Sunset Scented Tissue
+1550,1,0722468503937008,CDR Apple Butter
+1315,1,0715670634920635,Lake Low Fat Bologna
+663,1,0689349397590362,Akron Eyeglass Screwdriver
+430,1,0681318681318681,Steady Extra Moisture Shampoo
+1466,1,067453531598513,Fort West Low Fat Cookies
+1444,1,0649235087719298,Hermanos Almonds
+1188,1,0646462406015038,Horatio Golden Raisins
+992,1,0639172905525847,Even Better Mild Cheddar Cheese
+514,1,0637929718875503,Tell Tale Broccoli
+566,1,0634174468085107,Atomic Malted Milk Balls
+29,1,0631162454873646,Blue Label Chicken Ramen Soup
+1347,1,0626773710482529,Carrington Beef TV Dinner
+1181,1,0623470588235295,Horatio Dried Apples
+247,1,0610877263581489,Best Choice Grape Fruit Roll
+1137,1,0600333333333334,Tri-State Lemons
+689,1,058921875,Cutting Edge Turkey Hot Dogs
+492,1,0581790476190476,Tell Tale Lettuce
+1143,1,0576923076923077,Tri-State Mixed Nuts
+1175,1,0574070512820513,Horatio Mini Donuts
+1067,1,0566396226415093,Bird Call Childrens Cold Remedy
+87,1,0566277777777777,Golden Frozen Sausage Pizza
+1437,1,0555337142857144,Hermanos Mushrooms
+969,1,0553736654804271,Just Right Canned Tuna in Oil
+23,1,0519708737864077,Blue Label Noodle Soup
+898,1,0512138790035588,Pearl Chardonnay
+165,1,0497333333333334,Ship Shape Seasoned Hamburger
+664,1,049295652173913,Akron City Map
+268,1,0489165775401068,Good Chardonnay Wine
+433,1,0485170018281535,Steady Childrens Aspirin
+954,1,0433877777777778,Just Right Canned Beets
+224,1,0430642436149313,Best Choice Fudge Brownies
+814,1,041806,Ebony Squash
+329,1,0415229166666666,Better Canned String Beans
+729,1,0415098976109214,Imagine Frozen Corn
+127,1,0402131332082551,Faux Products Dishwasher Detergent
+1410,1,0397521126760563,Sunset Scissors
+1388,1,0397130434782609,Sunset Paper Plates
+1247,1,0393787709497206,Plato Extra Chunky Peanut Butter
+1120,1,0368681338028169,Tri-State Elephant Garlic
+1294,1,0367958071278827,Booker Sour Cream
+1164,1,0360045643153526,Horatio Lemon Cookies
+524,1,0355015444015445,Tell Tale Tangerines
+468,1,035236956521739,Red Wing Bees Wax Candles
+730,1,0323325131810193,Imagine Frozen Peas
+1253,1,0317000000000001,Skinner Cream Soda
+876,1,0309569468267581,Thresher Mint Chocolate Bar
+159,1,030544741873805,Denny Copper Pot Scrubber
+258,1,0301828779599271,Choice Spicy Mints
+1420,1,0301557117750439,Hermanos Summer Squash
+627,1,0298076923076922,Token Diet Soda
+24,1,0297418118466899,Blue Label Regular Ramen Soup
+1225,1,0295521821631877,Plato White Sugar
+846,1,0276171628721542,Nationeel Fudge Brownies
+1326,1,0256915831663327,Giant Small Brown Eggs
+1489,1,0256525490196078,Fort West Low Fat Chips
+980,1,0244442857142857,James Bay City Map
+1154,1,0226081330868761,Dual City Scallops
+290,1,0197943548387096,Super Regular Coffee
+1176,1,0178188235294117,Horatio Beef Jerky
+455,1,0170880989180835,Red Wing Glass Cleaner
+761,1,0159480286738352,Cormorant Paper Plates
+174,1,0148780487804878,High Top Sweet Peas
+199,1,0145835671342684,High Top Lemons
+1210,1,0141290322580645,Portsmouth White Zinfandel Wine
+817,1,0134697674418605,Ebony Almonds
+1319,1,0134266924564796,Lake Cole Slaw
+523,1,0117463768115942,Tell Tale Oranges
+299,1,0113665369649805,Super Low Fat Apple Butter
+563,1,0096069565217392,Fast Frosted Donuts
+1195,1,0079823943661972,Musial Bubble Gum
+1376,1,0079421686746988,Hilltop Dishwasher Detergent
+177,1,0076993762993762,High Top Prepared Salad
+34,1,0075957894736842,Blue Label Fancy Canned Clams
+1132,1,0062730844793712,Tri-State Firm Tofu
+652,1,0055881526104418,Bravo Canned Tuna in Water
+212,1,0047515947467167,High Top Oranges
+549,1,0042666666666666,Fast Beef Jerky
+1029,1,0042311787072242,PigTail Frozen Pepperoni Pizza
+76,1,0033146341463415,Red Spade Sliced Chicken
+1186,1,0031413441955193,Horatio Dried Dates
+480,1,0022018867924529,Dollar Monthly Home Magazine
+1351,0,99971821782178227,Carrington Lime Popsicles
+1494,0,99849600000000005,Fort West Strawberry Fruit Roll
+928,0,99508878504672893,BBB Best Apple Butter
+43,0,99498210116731511,Club Low Fat Cottage Cheese
+1329,0,9941653620352251,Giant Large Eggs
+642,0,99290563106796115,Bravo Canned Yams
+1046,0,99107790697674425,PigTail Frozen Peas
+1061,0,99067160493827167,Bird Call Buffered Aspirin
+505,0,98863430034129696,Tell Tale Firm Tofu
+1297,0,98821299524564188,Booker String Cheese
+849,0,98647412353923214,Nationeel Graham Crackers
+490,0,98629591836734698,Tell Tale Green Pepper
+1442,0,98569007633587802,Hermanos Limes
+1386,0,98391135135135133,Sunset 100 Watt Lightbulb
+1267,0,98365065502183402,Pleasant Canned String Beans
+583,0,98282042801556413,Walrus White Zinfandel Wine
+126,0,98227531760435571,Faux Products HCL Nasal Spray
+350,0,98180709342560557,Swell Canned Peaches
+543,0,98075313131313135,Fast Salsa Dip
+1108,0,98039768786127168,Mighty Good Monthly Fashion Magazine
+1087,0,98039104477611938,High Quality Soft Napkins
+1078,0,97818574181117535,High Quality Paper Cups
+382,0,97799999999999998,Moms Roasted Chicken
+704,0,9772606185567011,Imagine Low Fat Waffles
+406,0,97409591474245127,Big Time Frozen Carrots
+1526,0,97277631578947366,Modell English Muffins
+1451,0,97159021922428335,Hermanos Peaches
+266,0,970690099009901,Good Imported Beer
+204,0,97023999999999999,High Top Mandarin Oranges
+837,0,96953415929203535,Curlew Lox
+889,0,96907752212389386,Discover Manicotti
+1055,0,96878473282442745,Bird Call Deodorant
+938,0,96846829268292689,BBB Best Grape Jelly
+864,0,96826194852941183,Nationeel Frosted Cookies
+460,0,96740119453924922,Red Wing Soft Napkins
+1023,0,96547407407407404,PigTail Frozen Pancakes
+522,0,96493558052434469,Tell Tale Walnuts
+1162,0,96309349315068493,Horatio Fudge Brownies
+64,0,96182592592592597,Red Spade Pimento Loaf
+1559,0,96140250000000005,CDR Apple Preserves
+37,0,96030123203285422,Blue Label Rice Soup
+1095,0,95969923664122136,High Quality Bees Wax Candles
+1504,0,95905126353790615,Gulf Coast Malted Milk Balls
+319,0,95797183098591554,Excellent Orange Juice
+1145,0,95645396825396822,Tri-State Sweet Onion
+1418,0,95639090909090918,Gauss Monthly Home Magazine
+1364,0,95544689378757508,Hilltop Whitening Toothpast
+932,0,95523210332103325,BBB Best Apple Jam
+293,0,9547181467181467,Super Tomato Sauce
+1356,0,95424108658743634,Carrington Frozen Corn
+625,0,95167480314960629,Token Strawberry Drink
+1401,0,95151562499999998,Sunset Tissues
+877,0,95069819376026266,Thresher Malted Milk Balls
+978,0,95044866920152082,Symphony Rosy Sunglasses
+89,0,95019161676646702,Golden Fajita French Fries
+854,0,94918067978533094,Nationeel Salsa Dip
+831,0,94741137254901964,Ebony Honey Dew
+158,0,94655575868372932,Denny Silver Cleaner
+129,0,94588824662813098,Faux Products Childrens Cold Remedy
+909,0,9453690878378378,Fantastic Wheat Bread
+249,0,94449087378640773,Best Choice Raisins
+874,0,94206022304832715,Nationeel Frosted Donuts
+210,0,9414691629955948,High Top Fuji Apples
+353,0,94143654159869494,Black Tie City Map
+74,0,94120018867924526,Red Spade Sliced Ham
+287,0,93904982698961936,Super White Sugar
+1183,0,93525273069679848,Horatio Strawberry Fruit Roll
+1133,0,93486611842105261,Tri-State Almonds
+665,0,93075540540540547,Gorilla Low Fat Cottage Cheese
+715,0,93008348294434473,Imagine Frozen Mushroom Pizza
+1177,0,92936344827586204,Horatio Chocolate Donuts
+1471,0,92850961538461541,Fort West Chocolate Chip Cookies
+1130,0,92791571969696973,Tri-State Squash
+1523,0,92723233082706769,Modell Pumpernickel Bread
+25,0,92721644612476373,Blue Label Chicken Noodle Soup
+1043,0,92685303326810176,PigTail Frozen Cauliflower
+385,0,92622513661202177,Moms Sliced Ham
+919,0,92590771992818666,BBB Best Corn Oil
+1312,0,92505926640926639,Lake Chicken Hot Dogs
+448,0,92470617283950618,Red Wing 100 Watt Lightbulb
+650,0,92423255813953487,Bravo Canned Peas
+1075,0,92400000000000004,High Quality 100 Watt Lightbulb
+692,0,92371328671328679,Cutting Edge Cole Slaw
+685,0,92141517857142852,Cutting Edge Chicken Hot Dogs
+1246,0,92018031496062991,Plato Strawberry Preserves
+31,0,91935622317596566,Blue Label Canned Tuna in Oil
+965,0,9189015597920277,Just Right Beef Soup
+1106,0,91703703703703698,Mighty Good Monthly Computer Magazine
+192,0,91549264705882361,High Top Squash
+161,0,9154875717017209,Denny Scissors
+1549,0,91530313075506442,CDR Salt
+403,0,91483141447368421,Big Time Frozen Cheese Pizza
+588,0,91401406249999995,Colony English Muffins
+436,0,91370612903225801,Steady 200 MG Acetominifen
+12,0,91330706713780907,Jeffers Oatmeal
+374,0,9119970540098199,Moms Chicken Hot Dogs
+598,0,91196629711751664,Landslide White Sugar
+1013,0,90939832285115307,American Potato Salad
+1344,0,90569420289855074,Carrington Frozen Carrots
+429,0,90463939929328618,Steady Conditioning Shampoo
+325,0,90436265060240972,Best Wheat Puffs
+342,0,90311367380560137,Better Canned Tuna in Oil
+202,0,90254728682170549,High Top Peaches
+1492,0,90162962962962967,Fort West Dried Apples
+245,0,90101876247504986,Best Choice Strawberry Fruit Roll
+679,0,8999357723577236,Gorilla Buttermilk
+959,0,89947897623400364,Just Right Vegetable Soup
+725,0,89756689303904935,Imagine Ice Cream
+1249,0,8968666666666667,Plato Grape Jelly
+1485,0,89629003558718856,Fort West Fondue Mix
+1354,0,89555929549902158,Carrington Frozen Cauliflower
+1221,0,89485961538461534,Plato Sesame Oil
+458,0,8942671614100185,Red Wing D-Size Batteries
+787,0,89332035087719308,Footnote Seasoned Hamburger
+1362,0,89299172932330828,Hilltop Silky Smooth Hair Conditioner
+1022,0,8927680412371134,PigTail Frozen Chicken Breast
+930,0,89274021352313171,BBB Best Apple Jelly
+904,0,89206654991243428,Fantastic English Muffins
+1439,0,8889143426294821,Hermanos Dried Mushrooms
+1054,0,88814566929133854,Bird Call Toothpaste
+118,0,8880257839721255,Faux Products Conditioning Shampoo
+542,0,88773887850467281,Fast Low Fat Popcorn
+1238,0,88741739130434782,Plato Salt
+680,0,88473552631578944,Gorilla Chocolate Milk
+1215,0,88434641638225253,Sphinx English Muffins
+757,0,88266673866090706,Cormorant Plastic Knives
+1479,0,88259621928166354,Fort West No Salt Popcorn
+1203,0,88206640159045724,Colossal Rice Medly
+307,0,87776131147540981,Super Creamy Peanut Butter
+424,0,87732880434782612,Steady Silky Smooth Hair Conditioner
+1544,0,87693259911894283,CDR Grape Preserves
+735,0,87479848484848488,Consolidated Silky Smooth Hair Conditioner
+767,0,87466992882562278,Cormorant 25 Watt Lightbulb
+545,0,87288440860215055,Fast Salted Pretzels
+423,0,87242669039145915,Big Time Lemon Popsicles
+1300,0,87210223048327129,Booker Head Cheese
+51,0,8715194444444444,Club Head Cheese
+813,0,87049228395061717,Ebony Fresh Lima Beans
+699,0,86854524886877826,Jumbo Small Brown Eggs
+501,0,86788741721854301,Tell Tale Dried Mushrooms
+690,0,86677941176470596,Cutting Edge Foot-Long Hot Dogs
+95,0,86541315345699843,Golden Frozen Carrots
+1293,0,86535692307692302,Booker Low Fat Sour Cream
+1325,0,86357413479052825,Lake Sliced Chicken
+1025,0,86238183593749995,PigTail Frozen Sausage Pizza
+923,0,86186057142857153,BBB Best Columbian Coffee
+173,0,85870283553875237,High Top Asparagus
+400,0,85850133555926544,Big Time Fajita French Fries
+1459,0,85791006289308169,Hermanos Fuji Apples
+10,0,85734408602150547,Washington Apple Juice
+1147,0,85401039426523295,Tri-State Honey Dew
+286,0,85379278557114224,Super Brown Sugar
+807,0,85318352272727271,Ebony Potatos
+595,0,85148901515151521,Landslide Chunky Peanut Butter
+1276,0,85124,Pleasant Beef Soup
+586,0,85043155818540428,Colony White Bread
+1397,0,84998153078202998,Sunset Paper Towels
+808,0,84880981818181811,Ebony Cauliflower
+1057,0,84808043478260864,Bird Call Extra Moisture Shampoo
+1480,0,84720433996383371,Fort West Low Fat Popcorn
+845,0,84567054263565888,Nationeel Fudge Cookies
+618,0,84535957066189626,Landslide Creamy Peanut Butter
+1098,0,84529916839916841,High Quality Economy Toilet Brush
+1182,0,84202693602693601,Horatio Apple Fruit Roll
+30,0,84199212328767126,Blue Label Canned Tuna in Water
+434,0,8417022900763359,Steady Buffered Aspirin
+1287,0,83884511784511784,Toucan Canned Mixed Fruit
+1235,0,83793040540540542,Plato Strawberry Jelly
+339,0,83559036144578314,Better Canned Peas
+1532,0,83467208791208791,CDR Sesame Oil
+628,0,83335070140280554,Token Cola
+635,0,832748987854251,Radius Corn Puffs
+59,0,83175967413441954,Club 1% Milk
+1490,0,83111111111111113,Fort West Sesame Crackers
+885,0,83039073756432247,Monarch Spaghetti
+1052,0,83026562500000001,Bird Call Tartar Control Toothpaste
+1499,0,82993654188948307,Fort West Golden Raisins
+818,0,82577616279069765,Ebony Macintosh Apples
+958,0,82565161290322586,Just Right Canned Yams
+1288,0,82308330464716006,Toucan Canned Peaches
+412,0,82021188118811883,Big Time Home Style French Fries
+85,0,8201730129390018,Golden Frozen Pancakes
+1280,0,81987790432801821,Pleasant Canned Tuna in Oil
+1438,0,81862769230769228,Hermanos Baby Onion
+840,0,81850650000000003,Nationeel BBQ Potato Chips
+1084,0,81817129277566536,High Quality AA-Size Batteries
+33,0,81788654244306414,Blue Label Fancy Canned Anchovies
+621,0,81653434782608691,Landslide Apple Preserves
+921,0,81599738675958189,BBB Best Canola Oil
+397,0,81542700000000001,Big Time Low Fat French Fries
+1298,0,81433780068728523,Booker Low Fat String Cheese
+1414,0,81322830188679252,Gerolli Seasoned Hamburger
+1141,0,8113269724770642,Tri-State Broccoli
+289,0,81122621359223301,Super Decaf Coffee
+1185,0,80538354898336406,Horatio Grape Fruit Roll
+557,0,80492648221343877,Fast Raspberry Fruit Roll
+615,0,80353779069767439,Landslide Grape Jam
+294,0,80330993071593526,Super Canola Oil
+1339,0,80274143356643357,Carrington Waffles
+850,0,80269108527131783,Nationeel Cheese Crackers
+973,0,80066797853309479,Just Right Fancy Canned Oysters
+187,0,79981463414634146,High Top Tomatos
+1040,0,79966451612903222,PigTail Lime Popsicles
+518,0,79920793388429756,Tell Tale Sweet Onion
+697,0,79735311284046695,Cutting Edge Potato Salad
+796,0,79673987473903962,Ebony Sweet Peas
+178,0,79655300925925931,High Top Onions
+262,0,79585299455535385,Medalist Manicotti
+616,0,79583674698795182,Landslide Apple Jam
+1441,0,79553522537562604,Hermanos Squash
+1214,0,79504423440453686,Sphinx Rye Bread
+1330,0,79499589322381936,Giant Egg Substitute
+359,0,79437992565055759,Carlson String Cheese
+79,0,79395741444866919,Blue Medal Small Eggs
+1268,0,79338301559792024,Pleasant Chicken Soup
+1307,0,79260789473684201,Booker Chocolate Milk
+1536,0,79170136986301365,CDR White Sugar
+333,0,79126079999999999,Better Canned Tomatos
+1274,0,79072579439252333,Pleasant Chicken Noodle Soup
+1158,0,78841943319838059,Horatio Low Fat BBQ Chips
+626,0,78776939890710385,Token Cream Soda
+391,0,78470740037950659,Urban Large Eggs
+443,0,78321744749596123,Red Wing 60 Watt Lightbulb
+961,0,78317078039927412,Just Right Noodle Soup
+316,0,78238620689655181,Excellent Diet Soda
+1190,0,78196140350877197,Horatio Frosted Donuts
+859,0,77944999999999998,Nationeel Mini Donuts
+392,0,77920593368237345,Urban Egg Substitute
+1229,0,77757198443579767,Plato Vegetable Oil
+38,0,77732024539877298,Green Ribbon Canned Mixed Fruit
+360,0,77675169628432961,Carlson Low Fat String Cheese
+425,0,77375891341256375,Steady Tartar Control Toothpaste
+469,0,7729918294849023,Red Wing Silver Cleaner
+737,0,77152118959107807,Consolidated Whitening Toothpast
+828,0,77138988326848246,Ebony Canned Peanuts
+1530,0,76562210338680925,Modell Blueberry Muffins
+1217,0,76429769736842101,Sphinx Muffins
+1255,0,76238533604887992,Skinner Cola
+968,0,76174990990990998,Just Right Canned Tuna in Water
+410,0,7616720257234727,Big Time Pancake Mix
+981,0,76079568965517241,Even Better Low Fat Cottage Cheese
+646,0,75984695652173917,Bravo Regular Ramen Soup
+328,0,75806900369003694,Better Creamed Corn
+168,0,75724054054054057,Robust Monthly Computer Magazine
+571,0,75530821917808222,Atomic White Chocolate Bar
+1050,0,75517327766179543,PigTail Lemon Popsicles
+1446,0,75348816855753642,Hermanos Golden Delcious Apples
+404,0,75153186274509809,Big Time Frozen Mushroom Pizza
+1224,0,75147368421052629,Plato Brown Sugar
+1468,0,74676171079429743,Fort West Corn Chips
+604,0,74655532359081422,Landslide Tomato Sauce
+1044,0,74589154411764702,PigTail Frozen Broccoli
+348,0,74488267148014442,Better Rice Soup
+1524,0,74465726681127975,Modell White Bread
+1256,0,7439728119180633,Skinner Diet Cola
+998,0,74319679849340869,Even Better Whole Milk
+463,0,74123630672926444,Red Wing Tissues
+809,0,74031302325581405,Ebony Tomatos
+207,0,74004153846153842,High Top Sweet Onion
+1359,0,7377999999999999,Carrington Frozen Chicken Thighs
+380,0,73475808580858082,Moms Low Fat Cole Slaw
+1289,0,7340588349514563,Toretti Rosy Sunglasses
+603,0,73365082872928178,Landslide Corn Oil
+794,0,73199999999999998,Ebony Corn on the Cob
+1244,0,73192899999999994,Plato Strawberry Jam
+347,0,72696992481203004,Better Fancy Canned Sardines
+836,0,72487721088435375,Ebony Party Nuts
+124,0,72387593688362928,Faux Products 200 MG Ibuprofen
+1266,0,72266666666666668,Pleasant Creamed Corn
+956,0,7219001721170395,Just Right Canned String Beans
+1021,0,720356846473029,PigTail Orange Popsicles
+1511,0,7174863387978142,Jardon Manicotti
+560,0,7166538461538462,Fast Raisins
+230,0,71627595628415297,Best Choice No Salt Popcorn
+710,0,71525143403441682,Imagine Blueberry Waffles
+1031,0,70792603231597839,PigTail Frozen Mushroom Pizza
+1557,0,70725000000000005,CDR Strawberry Preserves
+1243,0,7051068301225919,Plato Apple Jam
+1016,0,70498190661478599,National Large Brown Eggs
+976,0,70264890756302523,Big City Canned Mixed Fruit
+617,0,70216131147540983,Landslide Strawberry Jam
+1275,0,7000349420849421,Pleasant Turkey Noodle Soup
+1551,0,69982649350649351,CDR Oregano
+591,0,69948387096774189,Colony Bagels
+1391,0,69733846153846157,Sunset Toilet Bowl Cleaner
+495,0,69615000000000005,Tell Tale Garlic
+1126,0,69370942028985505,Tri-State Mushrooms
+1042,0,69208492366412211,PigTail Ice Cream Sandwich
+336,0,68697850318471343,Better Chicken Noodle Soup
+1232,0,68562800718132855,Plato Canola Oil
+486,0,68480865051903106,Tell Tale New Potatos
+1103,0,68428212290502788,Genteel Seasoned Hamburger
+368,0,68407487684729062,Carlson Buttermilk
+6,0,68387690839694659,Washington Cola
+112,0,68265173041894356,Golden Lemon Popsicles
+995,0,68206684491978609,Even Better Buttermilk
+1522,0,68181599999999998,Top Measure Light Beer
+361,0,68054539249146762,Carlson Havarti Cheese
+1382,0,68027867768595041,Sunset Plastic Forks
+393,0,67589304812834228,Big Time Low Fat Waffles
+771,0,67514228456913827,Cormorant Soft Napkins
+917,0,67332236135957069,BBB Best Regular Coffee
+402,0,67128635578583762,Big Time Frozen Pepperoni Pizza
+378,0,6710726812816189,Moms Turkey Hot Dogs
+879,0,66518327759197327,Thresher Bubble Gum
+934,0,66455687606112046,BBB Best Creamy Peanut Butter
+1035,0,65947441406249996,PigTail Chicken TV Dinner
+1515,0,65496732026143789,Top Measure Imported Beer
+1192,0,60016433566433558,Musial Mint Chocolate Bar
+40,0,59769599999999989,King Rosy Sunglasses
+284,0,5958,Super Chunky Peanut Butter
+687,0,58850470588235293,Cutting Edge Beef Bologna
+902,0,58638978102189787,Fantastic White Bread
+786,0,58611623616236164,Footnote Extra Lean Hamburger
+528,0,58407476635514022,Fast Low Fat Cookies
+70,0,58396045694200349,Red Spade Cole Slaw
+795,0,58060075471698114,Ebony Asparagus
+315,0,5791406408094435,Excellent Cream Soda
+93,0,57849375000000003,Golden Frozen Mushroom Pizza
+1510,0,57584347826086957,Jardon Ravioli
+743,0,57342545454545457,Consolidated Apricot Shampoo
+775,0,57214923954372621,Cormorant Scented Toilet Tissue
+827,0,57200765696784073,Ebony Mixed Nuts
+1542,0,56897897196261682,CDR Tomato Sauce
+1487,0,56745242214532876,Fort West Beef Jerky
+431,0,56707459459459464,Steady Angled Toothbrush
+103,0,56580019305019302,Golden Ice Cream
+1301,0,55982808988764043,Booker Cheese Spread
+1318,0,55942154696132596,Lake Low Fat Cole Slaw
+282,0,55889200710479581,Great Wheat Bread
+1333,0,55870778761061946,Carrington Frozen Chicken Breast
+181,0,55678191268191268,High Top Lettuce
+114,0,55669663865546215,Faux Products Tartar Control Toothpaste
+454,0,55665434083601284,Red Wing Counter Cleaner
+1434,0,55410933125972006,Hermanos Potatos
+198,0,55278492063492057,High Top Red Delcious Apples
+1018,0,55244288224956062,National Large Eggs
+370,0,55228376623376618,Carlson 1% Milk
+1436,0,5510190630048466,Hermanos Tomatos
+538,0,55057788461538459,Fast Graham Crackers
+815,0,55050191570881235,Ebony Limes
+1350,0,54910208728652754,Carrington Home Style French Fries
+732,0,54752865612648227,Imagine Frozen Chicken Thighs
+1286,0,546452479338843,Pleasant Rice Soup
+893,0,54536655348047536,Pearl Imported Beer
+297,0,5424868421052631,Super Strawberry Jelly
+666,0,53878310940499041,Gorilla Low Fat Sour Cream
+1405,0,53650213523131673,Sunset Copper Cleaner
+1193,0,53464695481335944,Musial Malted Milk Balls
+565,0,53441443298969071,Atomic Mint Chocolate Bar
+253,0,53316957403651111,Choice Tasty Candy Bar
+888,0,53268085106382979,Discover Ravioli
+1449,0,53136791338582678,Hermanos Fancy Plums
+705,0,53063650793650796,Imagine Orange Popsicles
+1008,0,53038437500000002,American Cole Slaw
+41,0,52948707070707068,Queen Eyeglass Screwdriver
+644,0,52860323741007187,Bravo Canned Tomatos
+944,0,52730615384615387,Fabulous Cola
+1149,0,52674285714285718,Tri-State Walnuts
+399,0,52324077181208051,Big Time Blueberry Waffles
+26,0,52255789473684211,Blue Label Turkey Noodle Soup
+720,0,52233591836734694,Imagine Beef TV Dinner
+248,0,51983197278911564,Best Choice Dried Dates
+1144,0,51534233261339091,Tri-State Canned Peanuts
+637,0,51493146292585168,Radius Grits
+477,0,51489449081803007,Dollar Monthly Sports Magazine
+240,0,51480397350993379,Best Choice Low Fat Chips
+745,0,51405214152700185,Consolidated Buffered Aspirin
+1400,0,51375979020979023,Sunset Toilet Paper
+88,0,51280792792792795,Golden Blueberry Waffles
+752,0,5093503184713376,Consolidated Laundry Detergent
+996,0,50386978297161933,Even Better Chocolate Milk
+3,0,50113803131991053,Washington Strawberry Drink
+1263,0,50042015655577299,Johnson Wheat Puffs
+1419,0,50020493358633777,Gauss Monthly Fashion Magazine
+228,0,49759368029739776,Best Choice Cheese Crackers
+471,0,49701297297297298,Red Wing Economy Toilet Brush
+989,0,49684502814258913,Even Better Head Cheese
+92,0,49682362204724412,Golden Frozen Cheese Pizza
+496,0,49594620390455535,Tell Tale Potatos
+1392,0,49572156862745098,Sunset Counter Cleaner
+579,0,49144924731182793,Walrus Chardonnay Wine
+983,0,4912503731343284,Even Better Sour Cream
+632,0,49116470588235295,Token Apple Juice
+267,0,49095941499085921,Good Light Wine
+1163,0,49086069469835469,Horatio Potato Chips
+355,0,48990872093023258,Carlson Low Fat Sour Cream
+651,0,48927010309278351,Bravo Chicken Ramen Soup
+611,0,48920287253141831,Landslide Salt
+1124,0,48916232876712329,Tri-State Cauliflower
+622,0,48899628318584065,Landslide Grape Jelly
+1039,0,4882370036101083,PigTail Home Style French Fries
+472,0,48666242299794665,Red Wing Scissors
+1519,0,48479433962264151,Top Measure Merlot Wine
+984,0,48352581818181822,Even Better Jack Cheese
+398,0,48113691507798956,Big Time Frozen Sausage Pizza
+558,0,4809617486338798,Fast Grape Fruit Roll
+215,0,47868468271334796,Tip Top Lox
+974,0,47363581560283691,Just Right Fancy Canned Sardines
+334,0,47318346581875997,Better Noodle Soup
+631,0,4708291525423729,Token Cranberry Juice
+994,0,47023515625000001,Even Better 2% Milk
+1283,0,46916906474820147,Pleasant Fancy Canned Clams
+1111,0,46781895551257258,Tri-State Asparagus
+1003,0,46657514124293781,American Beef Bologna
+1230,0,4654113924050633,Plato Corn Oil
+1262,0,46368290909090909,Johnson Corn Puffs
+561,0,46330256959314775,Fast Golden Raisins
+925,0,4622009950248756,BBB Best Pepper
+977,0,45801428571428571,Big City Canned Peaches
+310,0,45792638888888892,Super Apple Preserves
+790,0,45764710920770879,Excel Monthly Computer Magazine
+226,0,45748450106157112,Best Choice Lemon Cookies
+90,0,45720593869731802,Golden Waffles
+2,0,45275116772823781,Washington Mango Drink
+1189,0,45198542805100178,Horatio Dried Apricots
+337,0,45150259067357518,Better Turkey Noodle Soup
+1038,0,44468066037735848,PigTail Grape Popsicles
+701,0,44357623318385653,Jumbo Small Eggs
+1445,0,4434591800356506,Hermanos Macintosh Apples
+61,0,44345020080321285,Club Strawberry Yogurt
+1233,0,44333082851637762,Plato Grape Preserves
+1122,0,44318865784499056,Tri-State Garlic
+920,0,4429667289719626,BBB Best Tomato Sauce
+1378,0,44254362068965514,Hilltop Childrens Cold Remedy
+482,0,44164999999999999,Tell Tale Summer Squash
+741,0,44116280087527354,Consolidated Extra Moisture Shampoo
+1265,0,44078373382624769,Pleasant Canned Beets
+633,0,43942312138728323,Token Apple Drink
+473,0,4389616766467066,Red Wing Large Sponge
+1462,0,43716571428571427,Hermanos Tangerines
+620,0,43619008264462811,Landslide Extra Chunky Peanut Butter
+1100,0,436025,High Quality Large Sponge
+696,0,43240706713780919,Cutting Edge Sliced Ham
+101,0,43134967741935482,Golden Home Style French Fries
+773,0,42768123861566482,Cormorant Toilet Paper
+985,0,4270020120724346,Even Better Muenster Cheese
+1041,0,42687847457627121,PigTail Ice Cream
+56,0,42650604751619869,Club 2% Milk
+1316,0,4261513321492007,Lake Turkey Hot Dogs
+820,0,4243777777777778,Ebony Red Delcious Apples
+939,0,4227008849557522,Fabulous Berry Juice
+133,0,42181754385964915,Denny Plastic Forks
+401,0,41763419483101388,Big Time Waffles
+180,0,41736686746987955,High Top Shitake Mushrooms
+1521,0,41691952054794518,Top Measure White Zinfandel Wine
+852,0,4162632,Nationeel No Salt Popcorn
+576,0,41489608177172066,Shady Lake Rice Medly
+908,0,41445206896551728,Fantastic Blueberry Muffins
+608,0,41148750000000001,Landslide Strawberry Jelly
+217,0,41118152610441772,Best Choice Low Fat Cookies
+75,0,4110606924643585,Red Spade Potato Salad
+1332,0,41035231053604437,Carrington Orange Popsicles
+1303,0,40857023060796649,Booker Mild Cheddar Cheese
+684,0,40825433070866141,Gorilla Blueberry Yogurt
+511,0,40792928942807627,Tell Tale Fancy Plums
+1260,0,40768601532567045,Skinner Apple Drink
+1304,0,40484613821138216,Booker Large Curd Cottage Cheese
+352,0,40389507299270072,Black Tie Eyeglass Screwdriver
+440,0,40386337386018234,Steady Childrens Cold Remedy
+1113,0,4013573712255773,Tri-State New Potatos
+1548,0,39931220930232558,CDR Low Fat Apple Butter
+371,0,39900479233226838,Carlson Whole Milk
+428,0,39881297297297297,Steady Deodorant
+115,0,3952347328244275,Faux Products Whitening Toothpast
+1484,0,3939973282442748,Fort West Cheese Dip
+839,0,39326767485822306,Nationeel Low Fat Cookies
+564,0,3927777301927195,Atomic Tasty Candy Bar
+947,0,39246033057851243,Fabulous Cranberry Juice
+895,0,39061215753424661,Pearl Chardonnay Wine
+1314,0,38800467836257313,Lake Beef Bologna
+255,0,38649552238805968,Choice Malted Milk Balls
+459,0,3860543209876543,Red Wing Paper Towels
+147,0,38455081967213112,Denny D-Size Batteries
+203,0,38262615062761507,High Top Broccoli
+734,0,38256716417910447,Imagine Lemon Popsicles
+906,0,38068524590163932,Fantastic Muffins
+927,0,37916084452975046,BBB Best Salt
+596,0,37591853360488797,Landslide Hot Chocolate
+340,0,37519420529801323,Better Chicken Ramen Soup
+94,0,37348336448598135,Golden Apple Cinnamon Waffles
+1407,0,37334584775086505,Sunset Silver Cleaner
+1355,0,37328421052631577,Carrington Frozen Broccoli
+1151,0,37288243992606285,Tri-State Tangerines
+766,0,37223526785714289,Cormorant Glass Cleaner
+1258,0,36947045951859958,Skinner Cranberry Juice
+682,0,36810627802690582,Gorilla Whole Milk
+967,0,36532449664429528,Just Right Chicken Ramen Soup
+1546,0,36299129593810447,CDR Strawberry Jelly
+1223,0,36154119718309857,Plato Hot Chocolate
+1261,0,3608494623655914,Johnson Oatmeal
+327,0,36045875251509052,Better Canned Beets
+531,0,35991907514450866,Fast Low Fat BBQ Chips
+57,0,35951037924151696,Club Buttermilk
+1482,0,35823005565862709,Fort West Avocado Dip
+426,0,35809649122807014,Steady Whitening Toothpast
+510,0,35700490367775828,Tell Tale Lemons
+167,0,35480816326530612,Robust Monthly Auto Magazine
+562,0,35385811623246494,Fast Dried Apricots
+594,0,35305641025641027,Landslide Sesame Oil
+1014,0,3525746534653465,American Sliced Chicken
+769,0,35110717054263568,Cormorant D-Size Batteries
+1517,0,34986328502415459,Top Measure Chardonnay Wine
+1514,0,34983844580777096,Jardon Rice Medly
+97,0,34971484794275493,Golden Chicken TV Dinner
+185,0,34538773584905658,High Top Potatos
+1037,0,34479217877094975,PigTail Pancake Mix
+709,0,3438253438113949,Imagine Frozen Sausage Pizza
+810,0,34299837067209776,Ebony Mushrooms
+1337,0,34294377049180325,Carrington Blueberry Waffles
+338,0,3427687861271676,Better Beef Soup
+1305,0,34257793240556661,Booker 2% Milk
+894,0,34247054409005628,Pearl Light Wine
+213,0,34080454545454542,High Top Tangerines
+513,0,34075276190476189,Tell Tale Peaches
+441,0,34030890052356022,Steady Laundry Detergent
+1069,0,33978452830188682,Bird Call Mint Mouthwash
+926,0,33952832369942199,BBB Best Low Fat Apple Butter
+1406,0,33417415506958248,Sunset Bees Wax Candles
+1234,0,33314166666666661,Plato Columbian Coffee
+629,0,3330631825273011,Token Diet Cola
+1109,0,33220693277310925,Tri-State Summer Squash
+552,0,33162349397590363,Fast Sesame Crackers
+156,0,33067463617463616,Denny Copper Cleaner
+788,0,33042226487523996,Excel Monthly Sports Magazine
+254,0,32879597989949749,Choice Mint Chocolate Bar
+897,0,32646562499999998,Pearl Merlot Wine
+1032,0,32290612244897959,PigTail Apple Cinnamon Waffles
+384,0,32281165048543692,Moms Sliced Turkey
+1512,0,32219237288135594,Jardon Spaghetti
+301,0,32024049733570159,Super Apple Butter
+929,0,31996672473867593,BBB Best Oregano
+1064,0,31954598540145984,Bird Call HCL Nasal Spray
+1365,0,31864350758853288,Hilltop Toothpaste
+257,0,31812045454545457,Choice Bubble Gum
+1153,0,31718132854578096,Dual City Lox
+1212,0,31718021582733813,Sphinx Pumpernickel Bread
+128,0,31640234657039712,Faux Products Multi-Symptom Cold Remedy
+784,0,315040157480315,Cormorant Large Sponge
+1409,0,31415729646697388,Sunset Economy Toilet Brush
+45,0,31196215686274509,Club Sour Cream
+723,0,30887821782178215,Imagine Home Style French Fries
+1051,0,30819221967963389,Bird Call Silky Smooth Hair Conditioner
+411,0,30734948453608246,Big Time Grape Popsicles
+144,0,30714133064516125,Denny Glass Cleaner
+1020,0,30586108949416346,PigTail Low Fat Waffles
+1531,0,30496075471698114,Modell Wheat Bread
+1083,0,30128623188405795,High Quality 25 Watt Lightbulb
+296,0,29912244897959184,Super Columbian Coffee
+540,0,29894878542510123,Fast Buttered Popcorn

@@ -1,7 +1,7 @@
 outputFile = open("census_from_xml.csv", "w")
 
 import xml.etree.ElementTree as ET
-tree = ET.parse('census_row.xml')
+tree = ET.parse('./data/census_row.xml')
 root = tree.getroot()
 
 str = ""
