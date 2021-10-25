@@ -11,8 +11,8 @@
   DTS:LocaleID="1040"
   DTS:ObjectName="Package"
   DTS:PackageType="5"
-  DTS:VersionBuild="12"
-  DTS:VersionGUID="{7F5BBE54-70AA-4FEF-AE0D-FD8A447F156E}">
+  DTS:VersionBuild="13"
+  DTS:VersionGUID="{974B395E-BE84-49EE-ABF1-DB0FFECBC14F}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -74,7 +74,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAASwWrmCWQ4k6Jf9XW9NwqYwAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAAY6Lz0ve3WB3mJrakq26XEHBvJLTKZr1rNyb4eYYPP2QAAAAAOgAAAAAIAACAAAAACn0pqn1CzGOw46Rl4QWdPDTGv8R68dkop7Vag8oWfPhAAAADxTjuAxkxJDhItW77IU6v1QAAAABovj0Qnsmxfff/cEASd1TX2/d2abs556RVpxJSTsJkJYCxyK8Dtl0I8d7qT4lKG8rIziZDTDfDALRb2TW8WV40</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAASwWrmCWQ4k6Jf9XW9NwqYwAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAACRK8JOaSLPYNGUrWTd7r0QtZWE+dSApvyvNEfVyPJ1/QAAAAAOgAAAAAIAACAAAACd6O6F641pIu4Enm2o90p5RAs3vGh8jk/JZlzWSVIp4xAAAACmmDPDNmMbL2u56ziQL/ONQAAAAMiqmZ6Pfoshy6+RhQzu0U4Zp40ne985aVh6jMRalhe735nR6wgmxqXXK5UMIDsDVoLPpMddenxtkPMn212KmsQ</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -91,7 +91,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAASwWrmCWQ4k6Jf9XW9NwqYwAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAADGoMkSJxNQ/VkTSYJ9zyZj5QOtM+9gAA1K26vppIbeUgAAAAAOgAAAAAIAACAAAAAONg+K/CDuTEXM/VcQwIN4p+baXcaz5S0tgx5hhh2rNxAAAABK3d0NHczRKWB4lrBb9F4jQAAAAJaQzUCdjvseItrXgGDJK9IA6q2HG4U0SeeHMYRwC4L1QinE2AfvKXn1lP4966m8b7pTK8XQea8Q+b2bXZPx0ks</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAASwWrmCWQ4k6Jf9XW9NwqYwAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAAlhC/8SfJeHxRe9Jug+WjOztpm354xcxp8fXAwGEnd7AAAAAAOgAAAAAIAACAAAADjzyBcFAUAxP1BiVWv6WFO/nQkgUEeUJXtCr/WztvYYBAAAABxI4hZaDCrX8pNHvG6/wW1QAAAAJp1ETXF993PG5SMuV7vk5sAd3e0yPnFiMD7BeuLyt251kX26htnOxia4OQyF6KIPxpwPV+a2AK2HShila9ttAQ</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -108,7 +108,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAASwWrmCWQ4k6Jf9XW9NwqYwAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAADItqjlmxcjoxi2RrRNbySOmlzyN/iVGePM91PR5nNJ1AAAAAAOgAAAAAIAACAAAADH930s98cvNp1Uot1ZfKGmOD3h6jjyeOV19X0rzPPHFRAAAAAD3+/6ldLx9ufhXVoQGNUTQAAAAGvmzQPs8ZzKsxwkEpg3skhTFpNuv2TWHUHR3thvgRsZZ8a1/uNnaxsec1Dgg4RICqZ1wgc8azXt1h2F9+9MhbM</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAASwWrmCWQ4k6Jf9XW9NwqYwAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAB6lvSx8ba4cMw0uUcSwnb54+qqtv+oCJX8byP/Ls85KAAAAAAOgAAAAAIAACAAAAAZjUbT+sfHbB3oMK0UJQzV52wte8HDTtFHXqVRIZiMWxAAAAAHxrxNSxUBFCXIwGz1nTljQAAAABqLefYJfSFyU3T0eOdVzbaf7hZ54JpcMbY9rf9n+dF67XtPge1sWajxuPJV4LgZgbeZrYe9s4bzJvGCis5bF0k</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -123,7 +123,7 @@
           <DTS:Password
             DTS:Name="pwd"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAASwWrmCWQ4k6Jf9XW9NwqYwAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAAlYhg+mNLQEFTCXF6NB+95HQMNDBumIKGwRoXaXYNrxwAAAAAOgAAAAAIAACAAAADWnOYXPKla95PrAATyTX5Bihc4F5UKdaD+Zg/iu6IhlRAAAAANDyxvYxFSmCJmqZooPXakQAAAAH4Lu2hSIjqIiS7Ab5AWH0RYdQfpCeggpaU0+kgYhtawZNBtJNKlwO/NqeHs6FNGRPgPR2Ww1WjAU3Mv5j5PFnQ</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAASwWrmCWQ4k6Jf9XW9NwqYwAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAADr/UyDGiyJtxU1sxvmNS6cdekj2kVs9o1n8ELEQ1h/YwAAAAAOgAAAAAIAACAAAACWIvSLMomNEHYWCakurWB0xe7le+j3hFeq1nA56y1uNxAAAAAOj0XLyUlCDYApofgL/0peQAAAAGGsfQpAePvSATYDFUUYfg3bThgQs7REIWgAgVgWH6DgZPPA17Ahb0yQ2mQlTzyDl7LBbhF43laQI/np55P+bKU</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -617,6 +617,20 @@
                   name="Output merge join">
                   <outputColumns>
                     <outputColumn
+                      refId="Package\Attività Flusso di dati\Merge join.Outputs[Output merge join].Columns[product_name]"
+                      dataType="wstr"
+                      length="255"
+                      lineageId="Package\Attività Flusso di dati\Merge join.Outputs[Output merge join].Columns[product_name]"
+                      name="product_name">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Colonna di input associata a questa colonna di output"
+                          name="InputColumnID">#{Package\Attività Flusso di dati\Merge join.Inputs[Input merge join destro].Columns[product_name]}</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
                       refId="Package\Attività Flusso di dati\Merge join.Outputs[Output merge join].Columns[product_id]"
                       dataType="i4"
                       lineageId="Package\Attività Flusso di dati\Merge join.Outputs[Output merge join].Columns[product_id]"
@@ -641,20 +655,6 @@
                           dataType="System.Int32"
                           description="Colonna di input associata a questa colonna di output"
                           name="InputColumnID">#{Package\Attività Flusso di dati\Merge join.Inputs[Input merge join sinistro].Columns[result]}</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\Attività Flusso di dati\Merge join.Outputs[Output merge join].Columns[product_name]"
-                      dataType="wstr"
-                      length="255"
-                      lineageId="Package\Attività Flusso di dati\Merge join.Outputs[Output merge join].Columns[product_name]"
-                      name="product_name">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="Colonna di input associata a questa colonna di output"
-                          name="InputColumnID">#{Package\Attività Flusso di dati\Merge join.Inputs[Input merge join destro].Columns[product_name]}</property>
                       </properties>
                     </outputColumn>
                   </outputColumns>
@@ -841,22 +841,6 @@
                   name="Input ordinamento">
                   <inputColumns>
                     <inputColumn
-                      refId="Package\Attività Flusso di dati\Ordinamento 1.Inputs[Input ordinamento].Columns[product_class_id]"
-                      cachedDataType="i4"
-                      cachedName="product_class_id"
-                      lineageId="Package\Attività Flusso di dati\251:invalid">
-                      <properties>
-                        <property
-                          dataType="System.Int32"
-                          description="Specifica le opzioni di confronto per i dati di tipo carattere."
-                          name="NewComparisonFlags">0</property>
-                        <property
-                          dataType="System.Int32"
-                          description="Specifica il tipo di ordinamento della colonna."
-                          name="NewSortKeyPosition">0</property>
-                      </properties>
-                    </inputColumn>
-                    <inputColumn
                       refId="Package\Attività Flusso di dati\Ordinamento 1.Inputs[Input ordinamento].Columns[product_id]"
                       cachedDataType="i4"
                       cachedName="product_id"
@@ -873,204 +857,11 @@
                       </properties>
                     </inputColumn>
                     <inputColumn
-                      refId="Package\Attività Flusso di dati\Ordinamento 1.Inputs[Input ordinamento].Columns[brand_name]"
-                      cachedDataType="wstr"
-                      cachedLength="255"
-                      cachedName="brand_name"
-                      lineageId="Package\Attività Flusso di dati\253:invalid">
-                      <properties>
-                        <property
-                          dataType="System.Int32"
-                          description="Specifica le opzioni di confronto per i dati di tipo carattere."
-                          name="NewComparisonFlags">0</property>
-                        <property
-                          dataType="System.Int32"
-                          description="Specifica il tipo di ordinamento della colonna."
-                          name="NewSortKeyPosition">0</property>
-                      </properties>
-                    </inputColumn>
-                    <inputColumn
                       refId="Package\Attività Flusso di dati\Ordinamento 1.Inputs[Input ordinamento].Columns[product_name]"
                       cachedDataType="wstr"
                       cachedLength="255"
                       cachedName="product_name"
                       lineageId="Package\Attività Flusso di dati\Origine OLE DB 1.Outputs[Output origine OLE DB].Columns[product_name]">
-                      <properties>
-                        <property
-                          dataType="System.Int32"
-                          description="Specifica le opzioni di confronto per i dati di tipo carattere."
-                          name="NewComparisonFlags">0</property>
-                        <property
-                          dataType="System.Int32"
-                          description="Specifica il tipo di ordinamento della colonna."
-                          name="NewSortKeyPosition">0</property>
-                      </properties>
-                    </inputColumn>
-                    <inputColumn
-                      refId="Package\Attività Flusso di dati\Ordinamento 1.Inputs[Input ordinamento].Columns[SKU]"
-                      cachedDataType="r8"
-                      cachedName="SKU"
-                      lineageId="Package\Attività Flusso di dati\255:invalid">
-                      <properties>
-                        <property
-                          dataType="System.Int32"
-                          description="Specifica le opzioni di confronto per i dati di tipo carattere."
-                          name="NewComparisonFlags">0</property>
-                        <property
-                          dataType="System.Int32"
-                          description="Specifica il tipo di ordinamento della colonna."
-                          name="NewSortKeyPosition">0</property>
-                      </properties>
-                    </inputColumn>
-                    <inputColumn
-                      refId="Package\Attività Flusso di dati\Ordinamento 1.Inputs[Input ordinamento].Columns[SRP]"
-                      cachedDataType="cy"
-                      cachedName="SRP"
-                      lineageId="Package\Attività Flusso di dati\256:invalid">
-                      <properties>
-                        <property
-                          dataType="System.Int32"
-                          description="Specifica le opzioni di confronto per i dati di tipo carattere."
-                          name="NewComparisonFlags">0</property>
-                        <property
-                          dataType="System.Int32"
-                          description="Specifica il tipo di ordinamento della colonna."
-                          name="NewSortKeyPosition">0</property>
-                      </properties>
-                    </inputColumn>
-                    <inputColumn
-                      refId="Package\Attività Flusso di dati\Ordinamento 1.Inputs[Input ordinamento].Columns[gross_weight]"
-                      cachedDataType="r4"
-                      cachedName="gross_weight"
-                      lineageId="Package\Attività Flusso di dati\257:invalid">
-                      <properties>
-                        <property
-                          dataType="System.Int32"
-                          description="Specifica le opzioni di confronto per i dati di tipo carattere."
-                          name="NewComparisonFlags">0</property>
-                        <property
-                          dataType="System.Int32"
-                          description="Specifica il tipo di ordinamento della colonna."
-                          name="NewSortKeyPosition">0</property>
-                      </properties>
-                    </inputColumn>
-                    <inputColumn
-                      refId="Package\Attività Flusso di dati\Ordinamento 1.Inputs[Input ordinamento].Columns[net_weight]"
-                      cachedDataType="r4"
-                      cachedName="net_weight"
-                      lineageId="Package\Attività Flusso di dati\258:invalid">
-                      <properties>
-                        <property
-                          dataType="System.Int32"
-                          description="Specifica le opzioni di confronto per i dati di tipo carattere."
-                          name="NewComparisonFlags">0</property>
-                        <property
-                          dataType="System.Int32"
-                          description="Specifica il tipo di ordinamento della colonna."
-                          name="NewSortKeyPosition">0</property>
-                      </properties>
-                    </inputColumn>
-                    <inputColumn
-                      refId="Package\Attività Flusso di dati\Ordinamento 1.Inputs[Input ordinamento].Columns[recyclable_package]"
-                      cachedDataType="bool"
-                      cachedName="recyclable_package"
-                      lineageId="Package\Attività Flusso di dati\259:invalid">
-                      <properties>
-                        <property
-                          dataType="System.Int32"
-                          description="Specifica le opzioni di confronto per i dati di tipo carattere."
-                          name="NewComparisonFlags">0</property>
-                        <property
-                          dataType="System.Int32"
-                          description="Specifica il tipo di ordinamento della colonna."
-                          name="NewSortKeyPosition">0</property>
-                      </properties>
-                    </inputColumn>
-                    <inputColumn
-                      refId="Package\Attività Flusso di dati\Ordinamento 1.Inputs[Input ordinamento].Columns[low_fat]"
-                      cachedDataType="bool"
-                      cachedName="low_fat"
-                      lineageId="Package\Attività Flusso di dati\260:invalid">
-                      <properties>
-                        <property
-                          dataType="System.Int32"
-                          description="Specifica le opzioni di confronto per i dati di tipo carattere."
-                          name="NewComparisonFlags">0</property>
-                        <property
-                          dataType="System.Int32"
-                          description="Specifica il tipo di ordinamento della colonna."
-                          name="NewSortKeyPosition">0</property>
-                      </properties>
-                    </inputColumn>
-                    <inputColumn
-                      refId="Package\Attività Flusso di dati\Ordinamento 1.Inputs[Input ordinamento].Columns[units_per_case]"
-                      cachedDataType="i2"
-                      cachedName="units_per_case"
-                      lineageId="Package\Attività Flusso di dati\261:invalid">
-                      <properties>
-                        <property
-                          dataType="System.Int32"
-                          description="Specifica le opzioni di confronto per i dati di tipo carattere."
-                          name="NewComparisonFlags">0</property>
-                        <property
-                          dataType="System.Int32"
-                          description="Specifica il tipo di ordinamento della colonna."
-                          name="NewSortKeyPosition">0</property>
-                      </properties>
-                    </inputColumn>
-                    <inputColumn
-                      refId="Package\Attività Flusso di dati\Ordinamento 1.Inputs[Input ordinamento].Columns[cases_per_pallet]"
-                      cachedDataType="i2"
-                      cachedName="cases_per_pallet"
-                      lineageId="Package\Attività Flusso di dati\262:invalid">
-                      <properties>
-                        <property
-                          dataType="System.Int32"
-                          description="Specifica le opzioni di confronto per i dati di tipo carattere."
-                          name="NewComparisonFlags">0</property>
-                        <property
-                          dataType="System.Int32"
-                          description="Specifica il tipo di ordinamento della colonna."
-                          name="NewSortKeyPosition">0</property>
-                      </properties>
-                    </inputColumn>
-                    <inputColumn
-                      refId="Package\Attività Flusso di dati\Ordinamento 1.Inputs[Input ordinamento].Columns[shelf_width]"
-                      cachedDataType="r4"
-                      cachedName="shelf_width"
-                      lineageId="Package\Attività Flusso di dati\263:invalid">
-                      <properties>
-                        <property
-                          dataType="System.Int32"
-                          description="Specifica le opzioni di confronto per i dati di tipo carattere."
-                          name="NewComparisonFlags">0</property>
-                        <property
-                          dataType="System.Int32"
-                          description="Specifica il tipo di ordinamento della colonna."
-                          name="NewSortKeyPosition">0</property>
-                      </properties>
-                    </inputColumn>
-                    <inputColumn
-                      refId="Package\Attività Flusso di dati\Ordinamento 1.Inputs[Input ordinamento].Columns[shelf_height]"
-                      cachedDataType="r4"
-                      cachedName="shelf_height"
-                      lineageId="Package\Attività Flusso di dati\264:invalid">
-                      <properties>
-                        <property
-                          dataType="System.Int32"
-                          description="Specifica le opzioni di confronto per i dati di tipo carattere."
-                          name="NewComparisonFlags">0</property>
-                        <property
-                          dataType="System.Int32"
-                          description="Specifica il tipo di ordinamento della colonna."
-                          name="NewSortKeyPosition">0</property>
-                      </properties>
-                    </inputColumn>
-                    <inputColumn
-                      refId="Package\Attività Flusso di dati\Ordinamento 1.Inputs[Input ordinamento].Columns[shelf_depth]"
-                      cachedDataType="r4"
-                      cachedName="shelf_depth"
-                      lineageId="Package\Attività Flusso di dati\265:invalid">
                       <properties>
                         <property
                           dataType="System.Int32"
@@ -1093,19 +884,6 @@
                   name="Output ordinamento">
                   <outputColumns>
                     <outputColumn
-                      refId="Package\Attività Flusso di dati\Ordinamento 1.Outputs[Output ordinamento].Columns[product_class_id]"
-                      dataType="i4"
-                      lineageId="Package\Attività Flusso di dati\Ordinamento 1.Outputs[Output ordinamento].Columns[product_class_id]"
-                      name="product_class_id">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="Specifica l'identificatore di derivazione della colonna di input associata a questa colonna di output."
-                          name="SortColumnId">#{Package\Attività Flusso di dati\251:invalid}</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
                       refId="Package\Attività Flusso di dati\Ordinamento 1.Outputs[Output ordinamento].Columns[product_id]"
                       dataType="i4"
                       lineageId="Package\Attività Flusso di dati\Ordinamento 1.Outputs[Output ordinamento].Columns[product_id]"
@@ -1120,20 +898,6 @@
                       </properties>
                     </outputColumn>
                     <outputColumn
-                      refId="Package\Attività Flusso di dati\Ordinamento 1.Outputs[Output ordinamento].Columns[brand_name]"
-                      dataType="wstr"
-                      length="255"
-                      lineageId="Package\Attività Flusso di dati\Ordinamento 1.Outputs[Output ordinamento].Columns[brand_name]"
-                      name="brand_name">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="Specifica l'identificatore di derivazione della colonna di input associata a questa colonna di output."
-                          name="SortColumnId">#{Package\Attività Flusso di dati\253:invalid}</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
                       refId="Package\Attività Flusso di dati\Ordinamento 1.Outputs[Output ordinamento].Columns[product_name]"
                       dataType="wstr"
                       length="255"
@@ -1145,149 +909,6 @@
                           dataType="System.Int32"
                           description="Specifica l'identificatore di derivazione della colonna di input associata a questa colonna di output."
                           name="SortColumnId">#{Package\Attività Flusso di dati\Origine OLE DB 1.Outputs[Output origine OLE DB].Columns[product_name]}</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\Attività Flusso di dati\Ordinamento 1.Outputs[Output ordinamento].Columns[SKU]"
-                      dataType="r8"
-                      lineageId="Package\Attività Flusso di dati\Ordinamento 1.Outputs[Output ordinamento].Columns[SKU]"
-                      name="SKU">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="Specifica l'identificatore di derivazione della colonna di input associata a questa colonna di output."
-                          name="SortColumnId">#{Package\Attività Flusso di dati\255:invalid}</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\Attività Flusso di dati\Ordinamento 1.Outputs[Output ordinamento].Columns[SRP]"
-                      dataType="cy"
-                      lineageId="Package\Attività Flusso di dati\Ordinamento 1.Outputs[Output ordinamento].Columns[SRP]"
-                      name="SRP">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="Specifica l'identificatore di derivazione della colonna di input associata a questa colonna di output."
-                          name="SortColumnId">#{Package\Attività Flusso di dati\256:invalid}</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\Attività Flusso di dati\Ordinamento 1.Outputs[Output ordinamento].Columns[gross_weight]"
-                      dataType="r4"
-                      lineageId="Package\Attività Flusso di dati\Ordinamento 1.Outputs[Output ordinamento].Columns[gross_weight]"
-                      name="gross_weight">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="Specifica l'identificatore di derivazione della colonna di input associata a questa colonna di output."
-                          name="SortColumnId">#{Package\Attività Flusso di dati\257:invalid}</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\Attività Flusso di dati\Ordinamento 1.Outputs[Output ordinamento].Columns[net_weight]"
-                      dataType="r4"
-                      lineageId="Package\Attività Flusso di dati\Ordinamento 1.Outputs[Output ordinamento].Columns[net_weight]"
-                      name="net_weight">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="Specifica l'identificatore di derivazione della colonna di input associata a questa colonna di output."
-                          name="SortColumnId">#{Package\Attività Flusso di dati\258:invalid}</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\Attività Flusso di dati\Ordinamento 1.Outputs[Output ordinamento].Columns[recyclable_package]"
-                      dataType="bool"
-                      lineageId="Package\Attività Flusso di dati\Ordinamento 1.Outputs[Output ordinamento].Columns[recyclable_package]"
-                      name="recyclable_package">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="Specifica l'identificatore di derivazione della colonna di input associata a questa colonna di output."
-                          name="SortColumnId">#{Package\Attività Flusso di dati\259:invalid}</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\Attività Flusso di dati\Ordinamento 1.Outputs[Output ordinamento].Columns[low_fat]"
-                      dataType="bool"
-                      lineageId="Package\Attività Flusso di dati\Ordinamento 1.Outputs[Output ordinamento].Columns[low_fat]"
-                      name="low_fat">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="Specifica l'identificatore di derivazione della colonna di input associata a questa colonna di output."
-                          name="SortColumnId">#{Package\Attività Flusso di dati\260:invalid}</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\Attività Flusso di dati\Ordinamento 1.Outputs[Output ordinamento].Columns[units_per_case]"
-                      dataType="i2"
-                      lineageId="Package\Attività Flusso di dati\Ordinamento 1.Outputs[Output ordinamento].Columns[units_per_case]"
-                      name="units_per_case">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="Specifica l'identificatore di derivazione della colonna di input associata a questa colonna di output."
-                          name="SortColumnId">#{Package\Attività Flusso di dati\261:invalid}</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\Attività Flusso di dati\Ordinamento 1.Outputs[Output ordinamento].Columns[cases_per_pallet]"
-                      dataType="i2"
-                      lineageId="Package\Attività Flusso di dati\Ordinamento 1.Outputs[Output ordinamento].Columns[cases_per_pallet]"
-                      name="cases_per_pallet">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="Specifica l'identificatore di derivazione della colonna di input associata a questa colonna di output."
-                          name="SortColumnId">#{Package\Attività Flusso di dati\262:invalid}</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\Attività Flusso di dati\Ordinamento 1.Outputs[Output ordinamento].Columns[shelf_width]"
-                      dataType="r4"
-                      lineageId="Package\Attività Flusso di dati\Ordinamento 1.Outputs[Output ordinamento].Columns[shelf_width]"
-                      name="shelf_width">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="Specifica l'identificatore di derivazione della colonna di input associata a questa colonna di output."
-                          name="SortColumnId">#{Package\Attività Flusso di dati\263:invalid}</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\Attività Flusso di dati\Ordinamento 1.Outputs[Output ordinamento].Columns[shelf_height]"
-                      dataType="r4"
-                      lineageId="Package\Attività Flusso di dati\Ordinamento 1.Outputs[Output ordinamento].Columns[shelf_height]"
-                      name="shelf_height">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="Specifica l'identificatore di derivazione della colonna di input associata a questa colonna di output."
-                          name="SortColumnId">#{Package\Attività Flusso di dati\264:invalid}</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\Attività Flusso di dati\Ordinamento 1.Outputs[Output ordinamento].Columns[shelf_depth]"
-                      dataType="r4"
-                      lineageId="Package\Attività Flusso di dati\Ordinamento 1.Outputs[Output ordinamento].Columns[shelf_depth]"
-                      name="shelf_depth">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="Specifica l'identificatore di derivazione della colonna di input associata a questa colonna di output."
-                          name="SortColumnId">#{Package\Attività Flusso di dati\265:invalid}</property>
                       </properties>
                     </outputColumn>
                   </outputColumns>
@@ -1808,19 +1429,19 @@
               startId="Package\Attività Flusso di dati\Merge join.Outputs[Output merge join]" />
             <path
               refId="Package\Attività Flusso di dati.Paths[Output ordinamento]"
+              endId="Package\Attività Flusso di dati\Destinazione file flat.Inputs[Input destinazione file flat]"
+              name="Output ordinamento"
+              startId="Package\Attività Flusso di dati\Ordinamento 2.Outputs[Output ordinamento]" />
+            <path
+              refId="Package\Attività Flusso di dati.Paths[Output ordinamento1]"
               endId="Package\Attività Flusso di dati\Merge join.Inputs[Input merge join destro]"
               name="Output ordinamento"
               startId="Package\Attività Flusso di dati\Ordinamento 1.Outputs[Output ordinamento]" />
             <path
-              refId="Package\Attività Flusso di dati.Paths[Output ordinamento1]"
+              refId="Package\Attività Flusso di dati.Paths[Output ordinamento2]"
               endId="Package\Attività Flusso di dati\Merge join.Inputs[Input merge join sinistro]"
               name="Output ordinamento"
               startId="Package\Attività Flusso di dati\Ordinamento.Outputs[Output ordinamento]" />
-            <path
-              refId="Package\Attività Flusso di dati.Paths[Output ordinamento2]"
-              endId="Package\Attività Flusso di dati\Destinazione file flat.Inputs[Input destinazione file flat]"
-              name="Output ordinamento"
-              startId="Package\Attività Flusso di dati\Ordinamento 2.Outputs[Output ordinamento]" />
             <path
               refId="Package\Attività Flusso di dati.Paths[Output origine OLE DB]"
               endId="Package\Attività Flusso di dati\Colonna derivata.Inputs[Input colonna derivata]"
@@ -1859,7 +1480,7 @@
     design-time-name="Package\Attività Flusso di dati">
     <LayoutInfo>
       <GraphLayout
-        Capacity="32" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
+        Capacity="32" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
           Size="151.2,41.6"
           Id="Package\Attività Flusso di dati\Origine OLE DB"
@@ -1869,10 +1490,6 @@
           Id="Package\Attività Flusso di dati\Ordinamento"
           TopLeft="344.107148717252,429.382358963102" />
         <NodeLayout
-          Size="128,41.6"
-          Id="Package\Attività Flusso di dati\Merge join"
-          TopLeft="490.535722639488,555.573536712612" />
-        <NodeLayout
           Size="160,41.6"
           Id="Package\Attività Flusso di dati\Origine OLE DB 1"
           TopLeft="604.285724576639,361.323534479191" />
@@ -1880,10 +1497,6 @@
           Size="166.4,41.6"
           Id="Package\Attività Flusso di dati\Colonna derivata 1"
           TopLeft="325.714284874955,353.573529419808" />
-        <NodeLayout
-          Size="148.8,41.6"
-          Id="Package\Attività Flusso di dati\Ordinamento 1"
-          TopLeft="610.000010388238,431.500005560763" />
         <NodeLayout
           Size="157.6,41.6"
           Id="Package\Attività Flusso di dati\Colonna derivata"
@@ -1901,7 +1514,29 @@
           Id="Package\Attività Flusso di dati\Ordinamento 2"
           TopLeft="473.214293773077,653.441181806132" />
         <EdgeLayout
-          Id="Package\Attività Flusso di dati.Paths[Output ordinamento2]"
+          Id="Package\Attività Flusso di dati.Paths[Output origine OLE DB]"
+          TopLeft="409.2714285471,132.6">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,46.8705882138447"
+              Start="0,0"
+              End="0,39.3705882138447">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,39.3705882138447" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Attività Flusso di dati.Paths[Output ordinamento]"
           TopLeft="551.13572229889,695.041181806132">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -1914,96 +1549,6 @@
                   Capacity="5">
                   <mssgle:LineSegment
                     End="0,36.1794157516171" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Attività Flusso di dati.Paths[Output ordinamento1]"
-          TopLeft="413.707148717252,470.982358963102">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="120.828573922235,84.5911777495101"
-              Start="0,0"
-              End="120.828573922235,77.0911777495101">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,46.128105333043" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,46.128105333043"
-                    Point2="0,50.128105333043"
-                    Point3="4,50.128105333043" />
-                  <mssgle:LineSegment
-                    End="116.828573922235,50.128105333043" />
-                  <mssgle:CubicBezierSegment
-                    Point1="116.828573922235,50.128105333043"
-                    Point2="120.828573922235,50.128105333043"
-                    Point3="120.828573922235,54.128105333043" />
-                  <mssgle:LineSegment
-                    End="120.828573922235,77.0911777495101" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Attività Flusso di dati.Paths[Output ordinamento]"
-          TopLeft="684.400010388238,473.100005560763">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="-109.86428774875,82.4735311518492"
-              Start="0,0"
-              End="-109.86428774875,74.9735311518492">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,44.8732036455403" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,44.8732036455403"
-                    Point2="0,48.8732036455403"
-                    Point3="-4,48.8732036455403" />
-                  <mssgle:LineSegment
-                    End="-105.86428774875,48.8732036455403" />
-                  <mssgle:CubicBezierSegment
-                    Point1="-105.86428774875,48.8732036455403"
-                    Point2="-109.86428774875,48.8732036455403"
-                    Point3="-109.86428774875,52.8732036455403" />
-                  <mssgle:LineSegment
-                    End="-109.86428774875,74.9735311518492" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Attività Flusso di dati.Paths[Output merge join]"
-          TopLeft="551.075008206283,597.173536712612">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,56.2676450935203"
-              Start="0,0"
-              End="0,48.7676450935203">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,48.7676450935203" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -2078,44 +1623,118 @@
             <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
+        <NodeLayout
+          Size="148.8,41.6"
+          Id="Package\Attività Flusso di dati\Ordinamento 1"
+          TopLeft="606.250010324376,436.529415250237" />
         <EdgeLayout
           Id="Package\Attività Flusso di dati.Paths[Output origine OLE DB1]"
-          TopLeft="684.342867482439,402.923534479191">
+          TopLeft="682.467867450508,402.923534479191">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,28.576471081572"
+              EndConnector="0,33.605880771046"
               Start="0,0"
-              End="0,21.076471081572">
+              End="0,26.105880771046">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,21.076471081572" />
+                    End="0,26.105880771046" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="-8,2.538235540786,16,16"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
+        <NodeLayout
+          Size="128,41.6"
+          Id="Package\Attività Flusso di dati\Merge join"
+          TopLeft="491.071436934325,556.82353220019" />
         <EdgeLayout
-          Id="Package\Attività Flusso di dati.Paths[Output origine OLE DB]"
-          TopLeft="409.2714285471,132.6">
+          Id="Package\Attività Flusso di dati.Paths[Output ordinamento1]"
+          TopLeft="680.650010324376,478.129415250237">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,46.8705882138447"
+              EndConnector="-105.578573390051,78.6941169499526"
               Start="0,0"
-              End="0,39.3705882138447">
+              End="-105.578573390051,71.1941169499526">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,39.3705882138447" />
+                    End="0,42.6335507851571" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,42.6335507851571"
+                    Point2="0,46.6335507851571"
+                    Point3="-4,46.6335507851571" />
+                  <mssgle:LineSegment
+                    End="-101.578573390051,46.6335507851571" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-101.578573390051,46.6335507851571"
+                    Point2="-105.578573390051,46.6335507851571"
+                    Point3="-105.578573390051,50.6335507851571" />
+                  <mssgle:LineSegment
+                    End="-105.578573390051,71.1941169499526" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Attività Flusso di dati.Paths[Output ordinamento2]"
+          TopLeft="413.707148717252,470.982358963102">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="121.364288217073,85.8411732370877"
+              Start="0,0"
+              End="121.364288217073,78.3411732370877">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,46.8688433997557" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,46.8688433997557"
+                    Point2="0,50.8688433997557"
+                    Point3="4,50.8688433997557" />
+                  <mssgle:LineSegment
+                    End="117.364288217073,50.8688433997557" />
+                  <mssgle:CubicBezierSegment
+                    Point1="117.364288217073,50.8688433997557"
+                    Point2="121.364288217073,50.8688433997557"
+                    Point3="121.364288217073,54.8688433997557" />
+                  <mssgle:LineSegment
+                    End="121.364288217073,78.3411732370877" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Attività Flusso di dati.Paths[Output merge join]"
+          TopLeft="551.342865353701,598.42353220019">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,55.0176496059423"
+              Start="0,0"
+              End="0,47.5176496059423">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,47.5176496059423" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
