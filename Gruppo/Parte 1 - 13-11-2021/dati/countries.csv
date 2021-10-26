@@ -5,9 +5,9 @@ FRA,France,Europe
 AUS,Australia,Oceania
 CAN,Canada,America
 BUL,Bulgaria,Europe
-GBR,Great Britain,Europe
+GBR,United Kingdom,Europe
 SRB,Serbia,Europe
-USA,United States of America,America
+USA,United States,America
 ESP,Spain,Europe
 CZE,Czech Republic,Europe
 ITA,Italy,Europe
@@ -33,7 +33,7 @@ AUT,Austria,Europe
 KOR,South Korea,Asia
 ROU,Romania,Europe
 MDA,Moldova,Europe
-URU,Urugay,America
+URU,Uruguay,America
 NED,Netherlands,Europe
 SLO,Slovenia,Europe
 CYP,Cyprus,Europe
@@ -86,7 +86,7 @@ CUB,Cuba,America
 TRI,Trinidad and Tobago,America
 OMA,Oman,Africa
 MLT,Malta,Europe
-MKD,North Macedonia,Europe
+MKD,Macedonia,Europe
 KGZ,Kyrgyzstan,Asia
 MAS,Malaysia,Asia
 BDI,Burundi,Africa

@@ -1,7 +1,30 @@
 import csv
-import datetime
+import datetime, json
 from dateutil.relativedelta import relativedelta
 from Utils import CSVtoLISTDICT, loadNames, DICTtoCSV
+
+#COUNTRIES
+countries = CSVtoLISTDICT("dati/countries.csv", True, ",")
+
+country_list = CSVtoLISTDICT("dati/countryInfo.tsv", True, "\t")
+country_dict = {x['Country']: {
+                                #"code": x['ISO3'],
+                                #"continent": x['Continent'],
+                                "Language": x['Languages'].lower().split(",")[0]
+                            }  for x in country_list}
+
+for country in countries:
+    if country['country_name'] in country_dict.keys():
+        country['lan'] = country_dict[country['country_name']]['Language']
+    else:
+        country['lan'] = ""
+
+
+countriesHeader = ['country_name','continent','lan']
+DICTtoCSV("output/countries.csv", countries, countriesHeader)
+
+
+
 
 tennis = CSVtoLISTDICT("dati/tennis.csv", True, ",")
 

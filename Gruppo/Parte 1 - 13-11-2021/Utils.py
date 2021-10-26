@@ -22,6 +22,7 @@ def CSVtoLISTDICT(filepath="", header=False, separator=','):
 
     return data
 
+
 def loadNames(filepath, replace=[",", " "], skipheader=True):
     returnList = set()
     with open(filepath, "r") as file:
