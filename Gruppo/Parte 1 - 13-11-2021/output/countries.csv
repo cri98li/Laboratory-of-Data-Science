@@ -1,119 +1,125 @@
-country_name,continent,lan
-Morocco,Africa,ar-ma
-Samoa,Oceania,sm
-Costa Rica,America,es-cr
-Peru,America,es-pe
-South Korea,Asia,ko-kr
-Netherlands,Europe,nl-nl
-Spain,Europe,es-es
-Colombia,America,es-co
-Bahamas,America,en-bs
-Mauritius,Africa,en-mu
-Trinidad and Tobago,America,en-tt
-Poland,Europe,pl
-Venezuela,America,es-ve
-Thailand,Asia,th
-Russia,Europe,ru
-Cyprus,Europe,el-cy
-Belgium,Europe,nl-be
-Malaysia,Asia,ms-my
-Croatia,Europe,hr-hr
-Kosovo,Europe,sq
-Egypt,Africa,ar-eg
-Iran,Asia,fa-ir
-Romania,Europe,ro
-Slovakia,Europe,sk
-Singapore,Asia,cmn
-Estonia,Europe,et
-Canada,America,en-ca
-Georgia,Europe,ka
-India,Asia,en-in
-Germany,Europe,de
-Namibia,Africa,en-na
-Norway,Europe,no
-Kenya,Africa,en-ke
-France,Europe,fr-fr
-Guam,Oceania,en-gu
-Argentina,America,es-ar
-Brazil,America,pt-br
-Grenada,Europe,en-gd
-Armenia,Asia,hy
-Nigeria,Africa,en-ng
-Chile,America,es-cl
-Israel,Asia,he
-Moldova,Europe,ro
-Bolivia,America,es-bo
-Monaco,Europe,fr-mc
-Barbados,America,en-bb
-Vietnam,Europe,vi
-Belarus,Europe,be
-Bulgaria,Europe,bg
-China,Asia,zh-cn
-Mexico,America,es-mx
-Zimbabwe,Africa,en-zw
-Hong Kong,Asia,zh-hk
-Indonesia,Asia,id
-Dominican Republic,America,es-do
-Tajikistan,Asia,tg
-Kyrgyzstan,Asia,ky
-Australia,Oceania,en-au
-Switzerland,Europe,de-ch
-Denmark,Europe,da-dk
-Burundi,Africa,fr-bi
-Puerto Rico,America,en-pr
-Papua New Guinea,Oceania,en-pg
-Turkey,Europe,tr-tr
-United States,America,en-us
-Madagascar,Africa,fr-mg
-Uzbekistan,Asia,uz
-Ukraine,Europe,uk
-Finland,Europe,fi-fi
-South Africa,Africa,zu
-Macedonia,Europe,mk
-Lithuania,Europe,lt
-Slovenia,Europe,sl
-New Zeland,Oceania,
-Bosnia and Herzegovina,Europe,bs
-Serbia,Europe,sr
-Unknown,Unknown,
-Panama,America,es-pa
-United Kingdom,Europe,en-gb
-Paraguay,America,es-py
-Czech Republic,Europe,cs
-Latvia,Europe,lv
-Oman,Africa,ar-om
-Guadeloupe,America,fr-gp
-El Salvador,America,es-sv
-Ireland,Europe,en-ie
-Luxembourg,Europe,lb
-Japan,Asia,ja
-Greece,Europe,el-gr
-Austria,Europe,de-at
-Italy,Europe,it-it
-Pakistan,Asia,ur-pk
-Portugal,Europe,pt-pt
-Kazakhstan,Asia,kk
-Cuba,America,es-cu
-Malta,Europe,mt
-Liechtenstein,Europe,de-li
-Sweden,Europe,sv-se
-Ecuador,America,es-ec
-Montenegro,Europe,sr
-Taiwan,Asia,zh-tw
-Libya,Africa,ar-ly
-Philippines,Asia,tl
-Haiti,America,ht
-Algeria,Africa,ar-dz
-Andorra,Europe,ca
-Hungary,Europe,hu-hu
-Kuwait,Asia,ar-kw
-Sri Lanka,Asia,si
-Tunisia,Africa,ar-tn
-Mongolia,Asia,mn
-Cambodia,Asia,km
-Cameroon,Africa,en-cm
-Uruguay,America,es-uy
-Guatemala,America,es-gt
-Honduras,America,es-hn
-Gabon,Africa,fr-ga
-Reunion,Africa,fr-re
+country_code,country_name,continent,lan
+MNE,Montenegro,Europe,sr
+SIN,Singapore,Asia,cmn
+OMA,Oman,Africa,ar-om
+SAM,Samoa,Oceania,sm
+POR,Portugal,Europe,pt-pt
+KOR,South Korea,Asia,ko-kr
+NGA,Nigeria,Africa,en-ng
+LTU,Lithuania,Europe,lt
+FIN,Finland,Europe,fi-fi
+RSA,South Africa,Africa,zu
+SWE,Sweden,Europe,sv-se
+LIB,Libya,Africa,ar-ly
+SRI,Sri Lanka,Asia,si
+JPN,Japan,Asia,ja
+MON,Monaco,Europe,fr-mc
+SLO,Slovenia,Europe,sl
+RUS,Russia,Europe,ru
+BOL,Bolivia,America,es-bo
+MKD,Macedonia,Europe,mk
+ALG,Algeria,Africa,ar-dz
+GUA,Guatemala,America,es-gt
+USA,United States,America,en-us
+THA,Thailand,Asia,th
+POC,Unknown,Unknown,
+GEO,Georgia,Europe,ka
+ECU,Ecuador,America,es-ec
+REU,Reunion,Africa,fr-re
+CRC,Costa Rica,America,es-cr
+MGL,Mongolia,Asia,mn
+KUW,Kuwait,Asia,ar-kw
+SGP,Singapore,Asia,cmn
+GUM,Guam,Oceania,en-gu
+BUL,Bulgaria,Europe,bg
+NGR,Nigeria,Africa,en-ng
+NZL,New Zeland,Oceania,
+BRA,Brazil,America,pt-br
+GAB,Gabon,Africa,fr-ga
+SRB,Serbia,Europe,sr
+CHN,China,Asia,zh-cn
+TRI,Trinidad and Tobago,America,en-tt
+PAN,Panama,America,es-pa
+GRC,Greece,Europe,el-gr
+MAS,Malaysia,Asia,ms-my
+BLR,Belarus,Europe,be
+ROU,Romania,Europe,ro
+LUX,Luxembourg,Europe,lb
+MRI,Mauritius,Africa,en-mu
+ARM,Armenia,Asia,hy
+INA,Indonesia,Asia,id
+DOM,Dominican Republic,America,es-do
+GRE,Greece,Europe,el-gr
+KAZ,Kazakhstan,Asia,kk
+URU,Uruguay,America,es-uy
+CUB,Cuba,America,es-cu
+NED,Netherlands,Europe,nl-nl
+EST,Estonia,Europe,et
+SVK,Slovakia,Europe,sk
+VEN,Venezuela,America,es-ve
+AND,Andorra,Europe,ca
+DEN,Denmark,Europe,da-dk
+BEL,Belgium,Europe,nl-be
+KEN,Kenya,Africa,en-ke
+HKG,Hong Kong,Asia,zh-hk
+UZB,Uzbekistan,Asia,uz
+NOR,Norway,Europe,no
+MAR,Morocco,Africa,ar-ma
+CAN,Canada,America,en-ca
+EGY,Egypt,Africa,ar-eg
+CMR,Cameroon,Africa,en-cm
+IRL,Ireland,Europe,en-ie
+GBR,United Kingdom,Europe,en-gb
+AUS,Australia,Oceania,en-au
+TUN,Tunisia,Africa,ar-tn
+IND,India,Asia,en-in
+BAH,Bahamas,America,en-bs
+HUN,Hungary,Europe,hu-hu
+CAM,Cambodia,Asia,km
+CHI,Chile,America,es-cl
+GER,Germany,Europe,de
+MLT,Malta,Europe,mt
+COL,Colombia,America,es-co
+PUR,Puerto Rico,America,en-pr
+AUT,Austria,Europe,de-at
+ZIM,Zimbabwe,Africa,en-zw
+DEU,Germany,Europe,de
+CYP,Cyprus,Europe,el-cy
+LIE,Liechtenstein,Europe,de-li
+ARG,Argentina,America,es-ar
+HON,Honduras,America,es-hn
+PAK,Pakistan,Asia,ur-pk
+GRN,Grenada,Europe,en-gd
+TUR,Turkey,Europe,tr-tr
+PHL,Philippines,Asia,tl
+ISR,Israel,Asia,he
+MEX,Mexico,America,es-mx
+HAI,Haiti,America,ht
+CZE,Czech Republic,Europe,cs
+MAD,Madagascar,Africa,fr-mg
+ESA,El Salvador,America,es-sv
+GUD,Guadeloupe,America,fr-gp
+KGZ,Kyrgyzstan,Asia,ky
+ESP,Spain,Europe,es-es
+BIH,Bosnia and Herzegovina,Europe,bs
+BAR,Barbados,America,en-bb
+BDI,Burundi,Africa,fr-bi
+PHI,Philippines,Asia,tl
+CRO,Croatia,Europe,hr-hr
+UNK,Kosovo,Europe,sq
+UKR,Ukraine,Europe,uk
+PER,Peru,America,es-pe
+PNG,Papua New Guinea,Oceania,en-pg
+PAR,Paraguay,America,es-py
+TJK,Tajikistan,Asia,tg
+FRA,France,Europe,fr-fr
+SUI,Switzerland,Europe,de-ch
+NAM,Namibia,Africa,en-na
+IRI,Iran,Asia,fa-ir
+VIE,Vietnam,Europe,vi
+MDA,Moldova,Europe,ro
+ITA,Italy,Europe,it-it
+LAT,Latvia,Europe,lv
+POL,Poland,Europe,pl
+TPE,Taiwan,Asia,zh-tw
+NLD,Netherlands,Europe,nl-nl

@@ -20,7 +20,7 @@ for country in countries:
         country['lan'] = ""
 
 
-countriesHeader = ['country_name','continent','lan']
+countriesHeader = ['country_code', 'country_name','continent','lan']
 DICTtoCSV("output/countries.csv", countries, countriesHeader)
 
 

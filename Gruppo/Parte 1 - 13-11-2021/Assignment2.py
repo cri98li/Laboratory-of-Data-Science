@@ -17,27 +17,29 @@ def insert_db(cursor, data, query, chunk_size=100):
             ''
 
 def insert(cursor, data, query):
-    for record in tqdm(data):
+    for i, record in enumerate(tqdm(data)):
         try:
             cursor.execute(query, record)
             cursor.commit()
-        except pyodbc.IntegrityError:
-            ''
+        except pyodbc.IntegrityError as e:
+            print(e)
+            with open('log.txt', "w", newline='') as file:
+                file.write('a' + '\n')
+                file.write(str(i))
+                file.close()
+                return
+
 
 cnxn = connectDB('131.114.72.230', 'Group_11_DB', 'Group_11', '9WGTTUCP')
 cnxn.autocommit = False
 cursor = cnxn.cursor()
 
-dates = CSVtoLISTDICT('output/date.csv', True, ",")
-players = CSVtoLISTDICT('output/players.csv', True, ",")
+players = CSVtoLISTDICT('output/players_noNull.csv', True, ",")
 tournaments = CSVtoLISTDICT('output/tournament_noNull.csv', True, ",")
 matches = CSVtoLISTDICT('output/match.csv', True, ",")
-countries = CSVtoLISTDICT('dati/countries.csv', True, ",")
+countries = CSVtoLISTDICT('output/countries.csv', True, ",")
 
-query_date = '''INSERT INTO date (date_id, day, month, year, quarter)
-                                VALUES (?, ?, ?, ?, ?)'''
-
-query_tournament = 'INSERT INTO Tournament (tourney_id, date_id, tourney_name, surface, draw_size, tourney_level, tourney_spectators, tourney_revenue)' \
+query_tournament = 'INSERT INTO Tournament (tourney_pk, tourney_id, date_id, tourney_name, surface, draw_size, tourney_level, tourney_spectators, tourney_revenue)' \
                    '            VALUES (?, ?, ?, ?, ?, ?, ?, ?)'
 
 query_countries = 'INSERT INTO Geography (country_ioc, country_name, continent, language)' \
@@ -52,20 +54,39 @@ query_match = 'INSERT INTO Match (match_id,winner_id,loser_id,score,best_of,roun
                    '            VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)'
 
 # Insert tournaments
-# chiave primaria tourney_id + tourney_level + tourney_name + tourney_date
-input_list = [ ( tourney['tourney_id'],
-                 tourney['date_id'], tourney['tourney_name'], tourney['surface'],
+# chiave primaria tourney_id + tourney_level + tourney_date
+input_list = [ ( tourney['tourney_id'] + tourney['tourney_level'] + tourney['date_id'],
+                 tourney['tourney_id'], tourney['date_id'],
+                 tourney['tourney_name'], tourney['surface'],
                  tourney['draw_size'], tourney['tourney_level'],
                  tourney['tourney_spectators'], tourney['tourney_revenue'] ) for tourney in tournaments ]
 #insert(cursor, input_list, query_tournament)
 
-input_list = [ ( country['country_code'], country['country_name'], country['continent'], country['continent'][:1] ) for country in countries ]
+country_codes = {country['country_code'] for country in countries}
+country_to_add = set()
+for player in players:
+    if player['country_id'] not in country_codes:
+        country_to_add.add(player['country_id'])
+
+print('Paesi da aggiungere trovati in Players: ', country_to_add)
+
+country_list = CSVtoLISTDICT("dati/countryInfo.tsv", True, "\t")
+
+new_countries = [ [ x['ISO3'], x['Country'], x['Continent'], x['Languages'].lower().split(",")[0] ]
+                    for x in country_list if x['ISO3'] in country_to_add]
+
+unkwown_countries = country_to_add - {c[0] for c in new_countries}
+
+print('Paesi non recuperabili usando countryInfo.tsv', unkwown_countries)
+
+input_list = [ list(country.values()) for country in countries ] + new_countries + [[country, 'Unknown', 'Unknown', 'Unknown'] for country in unkwown_countries ]
 #insert(cursor, input_list, query_countries)
 
-input_list = [ ( player['player_id'], player['country_id'], player['name'], player['sex'], player['hand'], player['year_of_birth'] ) for player in players ]
+
+input_list = [ list(player.values()) for player in players ]
 #insert(cursor, input_list, query_players)
 
-input_list = [ list(match.values()) for match in matches ]
+input_list = [ [ str(match['match_num']) + match['tourney_id'] ] + list(match.values())[:1] for match in matches ]
 
 for i, tuple in enumerate(input_list):
     for j, value in enumerate(tuple):
@@ -75,7 +96,6 @@ for i, tuple in enumerate(input_list):
         except:
             ''
 
-print(input_list[0])
 insert(cursor, input_list, query_match)
 
 cnxn.close()

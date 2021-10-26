@@ -1,0 +1,14 @@
+Lista dei paesi mancanti in countries.csv trovati in players:
+    {'BER', 'ITF', 'SYR', 'SMR', 'TKM', 'UAE', 'QAT', 'MRN', 'GHA', 'TOG', 'ANT', 'COD', 'JOR', 'AZE', 'TTO', 'LBA', 'BRN', 'BEN', 'VIN', 'JAM', 'AHO', 'LBN'}
+
+Correzioni in countries:
+    - Urugay in Uruguay
+    - United states of america in United States
+    - North Macedonia in Macedonia
+    - Great Bretain in United Kingdom
+    - POC sconosciuto
+    - New Zeland non si conosce la lingua
+
+Country code non risolvibili usando countryInfo.tsv
+    {'MRN', 'BER', 'UAE', 'ITF', 'AHO', 'VIN', 'TOG', 'LBA'}
+
