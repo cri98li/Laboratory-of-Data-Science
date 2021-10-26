@@ -42,7 +42,10 @@ dateHeader = ['tourney_date', 'day', 'month', 'year', 'quarter'] #date_id = tour
 
 
 #TOURNAMENT
-tournamentHeader = ["tourney_id", "date_id", "tourney_name", "surface", "draw_size", "tourney_level", "tourney_spectators", "tourney_revenue"]
+for row in tennis:
+    row["tourney_pk"] = row["tourney_id"]+row["tourney_level"]+row["date_id"]
+
+tournamentHeader = ["tourney_pk","tourney_id", "date_id", "tourney_name", "surface", "draw_size", "tourney_level", "tourney_spectators", "tourney_revenue"]
 DICTtoCSV("output/tournament.csv", tennis, tournamentHeader)
 
 
@@ -97,5 +100,6 @@ column_to_exclude = ['winner_age', 'winner_ioc', 'winner_ht', 'winner_hand', 'wi
                   + ['loser_age', 'loser_ioc', 'loser_ht', 'loser_hand', 'loser_name', 'loser_entry']
 
 
-matchHeader = [x for x in tennis[0].keys() if x not in playerHeader + tournamentHeader + dateHeader + column_to_exclude]
+matchHeader = [x for x in tennis[0].keys() if x not in playerHeader + tournamentHeader + dateHeader + column_to_exclude] + \
+                ["tourney_pk"]
 DICTtoCSV("output/match.csv", tennis, matchHeader)
