@@ -12,3 +12,5 @@ Correzioni in countries:
 Country code non risolvibili usando countryInfo.tsv
     {'MRN', 'BER', 'UAE', 'ITF', 'AHO', 'VIN', 'TOG', 'LBA'}
 
+Tournament
+    torneo '2019-560' US Open == Us Open

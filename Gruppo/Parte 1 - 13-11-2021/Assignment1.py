@@ -42,8 +42,11 @@ dateHeader = ['tourney_date', 'day', 'month', 'year', 'quarter'] #date_id = tour
 
 
 #TOURNAMENT
-for row in tennis:
-    row["tourney_pk"] = row["tourney_id"]+row["tourney_level"]+row["date_id"]
+for i, row in enumerate(tennis):
+    if row['tourney_name'] == 'Us Open':
+        tennis[i]['tourney_name'] = 'US Open'
+
+    row["tourney_pk"] = row["tourney_id"]+row["tourney_level"]+row["date_id"]+row['tourney_name']
 
 tournamentHeader = ["tourney_pk","tourney_id", "date_id", "tourney_name", "surface", "draw_size", "tourney_level", "tourney_spectators", "tourney_revenue"]
 DICTtoCSV("output/tournament.csv", tennis, tournamentHeader)
