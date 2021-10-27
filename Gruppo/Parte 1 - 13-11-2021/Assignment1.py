@@ -64,7 +64,7 @@ loser_id = set(map(lambda row: row['loser_id'], tennis))
 ids_added = set()
 toWrite = []
 for row in tennis:
-    age_d = None
+    age_d = -1
 
     if row['winner_id'] not in ids_added:
         ids_added.add(row["winner_id"])
@@ -72,6 +72,7 @@ for row in tennis:
             age_d = int(float(row["winner_age"]) * 365)
             matchdate = datetime.datetime.strptime(row['tourney_date'], "%Y%m%d")
             birth = matchdate - relativedelta(days=age_d)
+
         toWrite.append({
             "player_id": row["winner_id"],
             "country_id": row["winner_ioc"],
@@ -79,8 +80,10 @@ for row in tennis:
             "sex": "male" if row["winner_name"] not in female else "female",
             "hand": row["winner_hand"],
             "ht": row["winner_ht"],
-            "year_of_birth": birth.year
+            "year_of_birth": birth.year if age_d != -1 else -1
         })
+
+    age_d = -1
 
     if row['loser_id'] not in ids_added:
         ids_added.add(row["loser_id"])
@@ -96,7 +99,7 @@ for row in tennis:
             "sex": "male" if row["loser_name"] not in female else "female",
             "hand": row["loser_hand"],
             "ht": row["loser_ht"],
-            "year_of_birth": birth.year
+            "year_of_birth": birth.year if age_d != -1 else -1
         })
 
 DICTtoCSV("output/players.csv", toWrite, playerHeader)

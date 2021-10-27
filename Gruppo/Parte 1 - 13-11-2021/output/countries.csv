@@ -1,125 +1,125 @@
 country_code,country_name,continent,lan
-CAN,Canada,America,en-ca
-CMR,Cameroon,Africa,en-cm
-ECU,Ecuador,America,es-ec
-BIH,Bosnia and Herzegovina,Europe,bs
-PUR,Puerto Rico,America,en-pr
-CHI,Chile,America,es-cl
-MKD,Macedonia,Europe,mk
-SUI,Switzerland,Europe,de-ch
-IRI,Iran,Asia,fa-ir
-GUA,Guatemala,America,es-gt
-EGY,Egypt,Africa,ar-eg
-EST,Estonia,Europe,et
-MEX,Mexico,America,es-mx
-VEN,Venezuela,America,es-ve
-FIN,Finland,Europe,fi-fi
-MRI,Mauritius,Africa,en-mu
-URU,Uruguay,America,es-uy
-ZIM,Zimbabwe,Africa,en-zw
-ALG,Algeria,Africa,ar-dz
-KAZ,Kazakhstan,Asia,kk
-MAD,Madagascar,Africa,fr-mg
-CHN,China,Asia,zh-cn
-POR,Portugal,Europe,pt-pt
-BAR,Barbados,America,en-bb
-GBR,United Kingdom,Europe,en-gb
-BDI,Burundi,Africa,fr-bi
-SAM,Samoa,Oceania,sm
-UZB,Uzbekistan,Asia,uz
-MAR,Morocco,Africa,ar-ma
-MGL,Mongolia,Asia,mn
-JPN,Japan,Asia,ja
-GEO,Georgia,Europe,ka
-ARM,Armenia,Asia,hy
-NOR,Norway,Europe,no
-MAS,Malaysia,Asia,ms-my
-GUD,Guadeloupe,America,fr-gp
-IND,India,Asia,en-in
-INA,Indonesia,Asia,id
-MDA,Moldova,Europe,ro
-SLO,Slovenia,Europe,sl
-SIN,Singapore,Asia,cmn
-IRL,Ireland,Europe,en-ie
 USA,United States,America,en-us
-GRE,Greece,Europe,el-gr
-DEN,Denmark,Europe,da-dk
-NLD,Netherlands,Europe,nl-nl
-KEN,Kenya,Africa,en-ke
-PAN,Panama,America,es-pa
-OMA,Oman,Africa,ar-om
-DEU,Germany,Europe,de
-NGA,Nigeria,Africa,en-ng
-KOR,South Korea,Asia,ko-kr
-RUS,Russia,Europe,ru
+MKD,Macedonia,Europe,mk
+CYP,Cyprus,Europe,el-cy
+BEL,Belgium,Europe,nl-be
 TUN,Tunisia,Africa,ar-tn
-TJK,Tajikistan,Asia,tg
-UKR,Ukraine,Europe,uk
-KGZ,Kyrgyzstan,Asia,ky
-LTU,Lithuania,Europe,lt
-TPE,Taiwan,Asia,zh-tw
-HON,Honduras,America,es-hn
-NED,Netherlands,Europe,nl-nl
-GRC,Greece,Europe,el-gr
-HKG,Hong Kong,Asia,zh-hk
-BOL,Bolivia,America,es-bo
-THA,Thailand,Asia,th
+ESP,Spain,Europe,es-es
+GER,Germany,Europe,de
+AUS,Australia,Oceania,en-au
 SWE,Sweden,Europe,sv-se
 LIB,Libya,Africa,ar-ly
-GUM,Guam,Oceania,en-gu
-NAM,Namibia,Africa,en-na
-SRB,Serbia,Europe,sr
-BLR,Belarus,Europe,be
-HAI,Haiti,America,ht
-CUB,Cuba,America,es-cu
-REU,Reunion,Africa,fr-re
-BRA,Brazil,America,pt-br
-CAM,Cambodia,Asia,km
-LIE,Liechtenstein,Europe,de-li
-RSA,South Africa,Africa,zu
-ROU,Romania,Europe,ro
+OMA,Oman,Africa,ar-om
 COL,Colombia,America,es-co
-SGP,Singapore,Asia,cmn
 FRA,France,Europe,fr-fr
-CRO,Croatia,Europe,hr-hr
-AND,Andorra,Europe,ca
-NGR,Nigeria,Africa,en-ng
-PAK,Pakistan,Asia,ur-pk
-CRC,Costa Rica,America,es-cr
-ESA,El Salvador,America,es-sv
-PNG,Papua New Guinea,Oceania,en-pg
-MON,Monaco,Europe,fr-mc
-PER,Peru,America,es-pe
-CZE,Czech Republic,Europe,cs
-ISR,Israel,Asia,he
-TUR,Turkey,Europe,tr-tr
-MNE,Montenegro,Europe,sr
-AUS,Australia,Oceania,en-au
+MRI,Mauritius,Africa,en-mu
 BUL,Bulgaria,Europe,bg
-PHI,Philippines,Asia,tl
-LUX,Luxembourg,Europe,lb
-ARG,Argentina,America,es-ar
-ESP,Spain,Europe,es-es
-UNK,Kosovo,Europe,sq
-KUW,Kuwait,Asia,ar-kw
-NZL,New Zeland,Oceania,
-GAB,Gabon,Africa,fr-ga
-BEL,Belgium,Europe,nl-be
-AUT,Austria,Europe,de-at
-VIE,Vietnam,Europe,vi
-PHL,Philippines,Asia,tl
-SRI,Sri Lanka,Asia,si
-GRN,Grenada,Europe,en-gd
-HUN,Hungary,Europe,hu-hu
-POC,Unknown,Unknown,
+UKR,Ukraine,Europe,uk
+INA,Indonesia,Asia,id
 SVK,Slovakia,Europe,sk
-MLT,Malta,Europe,mt
-TRI,Trinidad and Tobago,America,en-tt
-GER,Germany,Europe,de
-POL,Poland,Europe,pl
-LAT,Latvia,Europe,lv
-PAR,Paraguay,America,es-py
-ITA,Italy,Europe,it-it
+TPE,Taiwan,Asia,zh-tw
+IRL,Ireland,Europe,en-ie
+TJK,Tajikistan,Asia,tg
+CAN,Canada,America,en-ca
+KAZ,Kazakhstan,Asia,kk
+SGP,Singapore,Asia,cmn
+MNE,Montenegro,Europe,sr
+ARG,Argentina,America,es-ar
+CHI,Chile,America,es-cl
+MAR,Morocco,Africa,ar-ma
+ECU,Ecuador,America,es-ec
+HON,Honduras,America,es-hn
+DEU,Germany,Europe,de
+NOR,Norway,Europe,no
+POC,Unknown,Unknown,
+RSA,South Africa,Africa,zu
+GUM,Guam,Oceania,en-gu
+GRE,Greece,Europe,el-gr
+NGA,Nigeria,Africa,en-ng
+URU,Uruguay,America,es-uy
+BOL,Bolivia,America,es-bo
+BAR,Barbados,America,en-bb
+BLR,Belarus,Europe,be
+CHN,China,Asia,zh-cn
 DOM,Dominican Republic,America,es-do
+MAS,Malaysia,Asia,ms-my
+MDA,Moldova,Europe,ro
+GRC,Greece,Europe,el-gr
+PHI,Philippines,Asia,tl
+PAR,Paraguay,America,es-py
+EST,Estonia,Europe,et
+GRN,Grenada,Europe,en-gd
+AUT,Austria,Europe,de-at
+ISR,Israel,Asia,he
+BDI,Burundi,Africa,fr-bi
+UNK,Kosovo,Europe,sq
+POR,Portugal,Europe,pt-pt
+CUB,Cuba,America,es-cu
+MLT,Malta,Europe,mt
+LTU,Lithuania,Europe,lt
+ITA,Italy,Europe,it-it
+CRC,Costa Rica,America,es-cr
+MGL,Mongolia,Asia,mn
+MAD,Madagascar,Africa,fr-mg
+MON,Monaco,Europe,fr-mc
+JPN,Japan,Asia,ja
+NZL,New Zeland,Oceania,
+GBR,United Kingdom,Europe,en-gb
+ARM,Armenia,Asia,hy
+PUR,Puerto Rico,America,en-pr
+LIE,Liechtenstein,Europe,de-li
+PHL,Philippines,Asia,tl
+GAB,Gabon,Africa,fr-ga
 BAH,Bahamas,America,en-bs
-CYP,Cyprus,Europe,el-cy
+SAM,Samoa,Oceania,sm
+BRA,Brazil,America,pt-br
+SRB,Serbia,Europe,sr
+EGY,Egypt,Africa,ar-eg
+NED,Netherlands,Europe,nl-nl
+UZB,Uzbekistan,Asia,uz
+MEX,Mexico,America,es-mx
+KUW,Kuwait,Asia,ar-kw
+PER,Peru,America,es-pe
+AND,Andorra,Europe,ca
+NLD,Netherlands,Europe,nl-nl
+POL,Poland,Europe,pl
+GUD,Guadeloupe,America,fr-gp
+GUA,Guatemala,America,es-gt
+PAN,Panama,America,es-pa
+NGR,Nigeria,Africa,en-ng
+SRI,Sri Lanka,Asia,si
+IRI,Iran,Asia,fa-ir
+ZIM,Zimbabwe,Africa,en-zw
+HKG,Hong Kong,Asia,zh-hk
+SIN,Singapore,Asia,cmn
+GEO,Georgia,Europe,ka
+PNG,Papua New Guinea,Oceania,en-pg
+HUN,Hungary,Europe,hu-hu
+CRO,Croatia,Europe,hr-hr
+KGZ,Kyrgyzstan,Asia,ky
+VIE,Vietnam,Europe,vi
+IND,India,Asia,en-in
+TUR,Turkey,Europe,tr-tr
+LUX,Luxembourg,Europe,lb
+REU,Reunion,Africa,fr-re
+DEN,Denmark,Europe,da-dk
+FIN,Finland,Europe,fi-fi
+KEN,Kenya,Africa,en-ke
+CAM,Cambodia,Asia,km
+ALG,Algeria,Africa,ar-dz
+LAT,Latvia,Europe,lv
+TRI,Trinidad and Tobago,America,en-tt
+CZE,Czech Republic,Europe,cs
+SUI,Switzerland,Europe,de-ch
+THA,Thailand,Asia,th
+PAK,Pakistan,Asia,ur-pk
+VEN,Venezuela,America,es-ve
+CMR,Cameroon,Africa,en-cm
+KOR,South Korea,Asia,ko-kr
+ROU,Romania,Europe,ro
+HAI,Haiti,America,ht
+ESA,El Salvador,America,es-sv
+NAM,Namibia,Africa,en-na
+BIH,Bosnia and Herzegovina,Europe,bs
+RUS,Russia,Europe,ru
+SLO,Slovenia,Europe,sl

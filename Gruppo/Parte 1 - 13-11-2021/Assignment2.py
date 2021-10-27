@@ -36,8 +36,8 @@ cnxn.autocommit = False
 cursor = cnxn.cursor()
 
 players = CSVtoLISTDICT('output/players_noNull.csv', True, ",")
-tournaments = CSVtoLISTDICT('output/tournament.csv', True, ",")
-matches = CSVtoLISTDICT('output/match.csv', True, ",")
+tournaments = CSVtoLISTDICT('output/tournament_noNull.csv', True, ",")
+matches = CSVtoLISTDICT('output/match_noNull.csv', True, ",")
 countries = CSVtoLISTDICT('output/countries.csv', True, ",")
 
 query_tournament = 'INSERT INTO Tournament (tourney_pk, tourney_id, date_id, tourney_name, surface, draw_size, tourney_level, tourney_spectators, tourney_revenue)' \
@@ -98,7 +98,7 @@ for match in matches:
 
 print('Giocatori sconosciuti (non presenti in players.csv)', unkwown_players)
 
-input_list = [ [ str(match['match_num']) + match['tourney_pk'] ] + list(match.values())[1:] for match in matches ]
+input_list = [ [ str(match['match_num']) + match['tourney_pk'] + str(match['winner_id']) ] + list(match.values())[1:] for match in matches ]
 
 for i, tuple in enumerate(input_list):
     for j, value in enumerate(tuple):
