@@ -3,7 +3,7 @@ import pyodbc
 import datetime
 from dateutil.relativedelta import relativedelta
 
-def CSVtoLISTDICT(filepath="", header=False, separator=','):
+def CSVtoLISTDICT(filepath="", header=False, separator=',', lower=False):
     data = []
     columns = []
     with open(filepath, "r") as file:
@@ -14,7 +14,8 @@ def CSVtoLISTDICT(filepath="", header=False, separator=','):
             columns = header
 
         for line in file:
-            #line = line.lower()
+            if lower:
+                line = line.lower()
             row = {}
             for i, value in enumerate(line.replace("\n", "").split(separator)):
                 row[columns[i]] = value

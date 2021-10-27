@@ -42,8 +42,11 @@ dateHeader = ['tourney_date', 'day', 'month', 'year', 'quarter'] #date_id = tour
 
 
 #TOURNAMENT
-for row in tennis:
-    row["tourney_pk"] = row["tourney_id"]+row["tourney_level"]+row["date_id"]
+for i, row in enumerate(tennis):
+    if row['tourney_name'] == 'Us Open':
+        tennis[i]['tourney_name'] = 'US Open'
+
+    row["tourney_pk"] = row["tourney_id"]+row["tourney_level"]+row["date_id"]+row['tourney_name']
 
 tournamentHeader = ["tourney_pk","tourney_id", "date_id", "tourney_name", "surface", "draw_size", "tourney_level", "tourney_spectators", "tourney_revenue"]
 DICTtoCSV("output/tournament.csv", tennis, tournamentHeader)
@@ -61,12 +64,14 @@ loser_id = set(map(lambda row: row['loser_id'], tennis))
 ids_added = set()
 toWrite = []
 for row in tennis:
-    if row['winner_id'] not in ids_added and len(row["winner_age"])>0:
+    age_d = None
+
+    if row['winner_id'] not in ids_added:
         ids_added.add(row["winner_id"])
-        age_d = int(float(row["winner_age"]) * 365)
-        matchdate = datetime.datetime.strptime(row['tourney_date'],
-                                               "%Y%m%d")  ### Posso usare anche le variabili create prima...
-        birth = matchdate - relativedelta(days=age_d)
+        if len(row["winner_age"])>0:
+            age_d = int(float(row["winner_age"]) * 365)
+            matchdate = datetime.datetime.strptime(row['tourney_date'], "%Y%m%d")
+            birth = matchdate - relativedelta(days=age_d)
         toWrite.append({
             "player_id": row["winner_id"],
             "country_id": row["winner_ioc"],
@@ -77,12 +82,13 @@ for row in tennis:
             "year_of_birth": birth.year
         })
 
-    if row['loser_id'] not in ids_added and len(row["loser_age"])>0:
+    if row['loser_id'] not in ids_added:
         ids_added.add(row["loser_id"])
-        age_d = int(float(row["loser_age"]) * 365)
-        matchdate = datetime.datetime.strptime(row['tourney_date'],
-                                               "%Y%m%d")
-        birth = matchdate - relativedelta(days=age_d)
+        if len(row["loser_age"])>0:
+            age_d = int(float(row["loser_age"]) * 365)
+            matchdate = datetime.datetime.strptime(row['tourney_date'], "%Y%m%d")
+            birth = matchdate - relativedelta(days=age_d)
+
         toWrite.append({
             "player_id": row["loser_id"],
             "country_id": row["loser_ioc"],

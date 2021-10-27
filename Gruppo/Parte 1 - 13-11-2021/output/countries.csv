@@ -1,125 +1,125 @@
 country_code,country_name,continent,lan
-POL,Poland,Europe,pl
-CHN,China,Asia,zh-cn
-MEX,Mexico,America,es-mx
-POR,Portugal,Europe,pt-pt
-SVK,Slovakia,Europe,sk
-MKD,Macedonia,Europe,mk
-COL,Colombia,America,es-co
-NAM,Namibia,Africa,en-na
-MAD,Madagascar,Africa,fr-mg
-KAZ,Kazakhstan,Asia,kk
-MNE,Montenegro,Europe,sr
-CRO,Croatia,Europe,hr-hr
-ZIM,Zimbabwe,Africa,en-zw
-TUR,Turkey,Europe,tr-tr
-NGA,Nigeria,Africa,en-ng
-PER,Peru,America,es-pe
-BLR,Belarus,Europe,be
-ESA,El Salvador,America,es-sv
-BAH,Bahamas,America,en-bs
-SGP,Singapore,Asia,cmn
-ISR,Israel,Asia,he
-PNG,Papua New Guinea,Oceania,en-pg
-TJK,Tajikistan,Asia,tg
-MAS,Malaysia,Asia,ms-my
-PAR,Paraguay,America,es-py
-NED,Netherlands,Europe,nl-nl
-GUM,Guam,Oceania,en-gu
-BOL,Bolivia,America,es-bo
-POC,Unknown,Unknown,
-ARM,Armenia,Asia,hy
-EST,Estonia,Europe,et
-HAI,Haiti,America,ht
-BAR,Barbados,America,en-bb
-AUT,Austria,Europe,de-at
-REU,Reunion,Africa,fr-re
-CHI,Chile,America,es-cl
-HUN,Hungary,Europe,hu-hu
-TUN,Tunisia,Africa,ar-tn
-OMA,Oman,Africa,ar-om
-HON,Honduras,America,es-hn
-INA,Indonesia,Asia,id
-URU,Uruguay,America,es-uy
-LTU,Lithuania,Europe,lt
-ESP,Spain,Europe,es-es
-GAB,Gabon,Africa,fr-ga
-BIH,Bosnia and Herzegovina,Europe,bs
-RSA,South Africa,Africa,zu
-MRI,Mauritius,Africa,en-mu
-GUA,Guatemala,America,es-gt
-GRN,Grenada,Europe,en-gd
-TPE,Taiwan,Asia,zh-tw
-LIE,Liechtenstein,Europe,de-li
-DOM,Dominican Republic,America,es-do
-NZL,New Zeland,Oceania,
-GEO,Georgia,Europe,ka
-GRC,Greece,Europe,el-gr
-BEL,Belgium,Europe,nl-be
-CAM,Cambodia,Asia,km
-ROU,Romania,Europe,ro
-LIB,Libya,Africa,ar-ly
-NGR,Nigeria,Africa,en-ng
-KUW,Kuwait,Asia,ar-kw
-RUS,Russia,Europe,ru
-SUI,Switzerland,Europe,de-ch
-UKR,Ukraine,Europe,uk
-MDA,Moldova,Europe,ro
-PAN,Panama,America,es-pa
-GRE,Greece,Europe,el-gr
-VIE,Vietnam,Europe,vi
-EGY,Egypt,Africa,ar-eg
-FRA,France,Europe,fr-fr
 CAN,Canada,America,en-ca
-ARG,Argentina,America,es-ar
-CUB,Cuba,America,es-cu
-UNK,Kosovo,Europe,sq
-GUD,Guadeloupe,America,fr-gp
-KEN,Kenya,Africa,en-ke
-LUX,Luxembourg,Europe,lb
-BRA,Brazil,America,pt-br
-UZB,Uzbekistan,Asia,uz
-IRI,Iran,Asia,fa-ir
-HKG,Hong Kong,Asia,zh-hk
-CRC,Costa Rica,America,es-cr
 CMR,Cameroon,Africa,en-cm
-MLT,Malta,Europe,mt
-MON,Monaco,Europe,fr-mc
-PHI,Philippines,Asia,tl
-PAK,Pakistan,Asia,ur-pk
 ECU,Ecuador,America,es-ec
-TRI,Trinidad and Tobago,America,en-tt
-ALG,Algeria,Africa,ar-dz
-MAR,Morocco,Africa,ar-ma
-VEN,Venezuela,America,es-ve
-PHL,Philippines,Asia,tl
-NOR,Norway,Europe,no
-GBR,United Kingdom,Europe,en-gb
-SRB,Serbia,Europe,sr
-SIN,Singapore,Asia,cmn
-JPN,Japan,Asia,ja
-AND,Andorra,Europe,ca
-DEU,Germany,Europe,de
-KGZ,Kyrgyzstan,Asia,ky
-BUL,Bulgaria,Europe,bg
-BDI,Burundi,Africa,fr-bi
-DEN,Denmark,Europe,da-dk
-SRI,Sri Lanka,Asia,si
-SAM,Samoa,Oceania,sm
-KOR,South Korea,Asia,ko-kr
-SWE,Sweden,Europe,sv-se
-CZE,Czech Republic,Europe,cs
+BIH,Bosnia and Herzegovina,Europe,bs
 PUR,Puerto Rico,America,en-pr
-SLO,Slovenia,Europe,sl
-LAT,Latvia,Europe,lv
-IND,India,Asia,en-in
-GER,Germany,Europe,de
-IRL,Ireland,Europe,en-ie
-ITA,Italy,Europe,it-it
-MGL,Mongolia,Asia,mn
-NLD,Netherlands,Europe,nl-nl
-CYP,Cyprus,Europe,el-cy
-USA,United States,America,en-us
+CHI,Chile,America,es-cl
+MKD,Macedonia,Europe,mk
+SUI,Switzerland,Europe,de-ch
+IRI,Iran,Asia,fa-ir
+GUA,Guatemala,America,es-gt
+EGY,Egypt,Africa,ar-eg
+EST,Estonia,Europe,et
+MEX,Mexico,America,es-mx
+VEN,Venezuela,America,es-ve
 FIN,Finland,Europe,fi-fi
-AUS,Australia,Oceania,en-au
+MRI,Mauritius,Africa,en-mu
+URU,Uruguay,America,es-uy
+ZIM,Zimbabwe,Africa,en-zw
+ALG,Algeria,Africa,ar-dz
+KAZ,Kazakhstan,Asia,kk
+MAD,Madagascar,Africa,fr-mg
+CHN,China,Asia,zh-cn
+POR,Portugal,Europe,pt-pt
+BAR,Barbados,America,en-bb
+GBR,United Kingdom,Europe,en-gb
+BDI,Burundi,Africa,fr-bi
+SAM,Samoa,Oceania,sm
+UZB,Uzbekistan,Asia,uz
+MAR,Morocco,Africa,ar-ma
+MGL,Mongolia,Asia,mn
+JPN,Japan,Asia,ja
+GEO,Georgia,Europe,ka
+ARM,Armenia,Asia,hy
+NOR,Norway,Europe,no
+MAS,Malaysia,Asia,ms-my
+GUD,Guadeloupe,America,fr-gp
+IND,India,Asia,en-in
+INA,Indonesia,Asia,id
+MDA,Moldova,Europe,ro
+SLO,Slovenia,Europe,sl
+SIN,Singapore,Asia,cmn
+IRL,Ireland,Europe,en-ie
+USA,United States,America,en-us
+GRE,Greece,Europe,el-gr
+DEN,Denmark,Europe,da-dk
+NLD,Netherlands,Europe,nl-nl
+KEN,Kenya,Africa,en-ke
+PAN,Panama,America,es-pa
+OMA,Oman,Africa,ar-om
+DEU,Germany,Europe,de
+NGA,Nigeria,Africa,en-ng
+KOR,South Korea,Asia,ko-kr
+RUS,Russia,Europe,ru
+TUN,Tunisia,Africa,ar-tn
+TJK,Tajikistan,Asia,tg
+UKR,Ukraine,Europe,uk
+KGZ,Kyrgyzstan,Asia,ky
+LTU,Lithuania,Europe,lt
+TPE,Taiwan,Asia,zh-tw
+HON,Honduras,America,es-hn
+NED,Netherlands,Europe,nl-nl
+GRC,Greece,Europe,el-gr
+HKG,Hong Kong,Asia,zh-hk
+BOL,Bolivia,America,es-bo
 THA,Thailand,Asia,th
+SWE,Sweden,Europe,sv-se
+LIB,Libya,Africa,ar-ly
+GUM,Guam,Oceania,en-gu
+NAM,Namibia,Africa,en-na
+SRB,Serbia,Europe,sr
+BLR,Belarus,Europe,be
+HAI,Haiti,America,ht
+CUB,Cuba,America,es-cu
+REU,Reunion,Africa,fr-re
+BRA,Brazil,America,pt-br
+CAM,Cambodia,Asia,km
+LIE,Liechtenstein,Europe,de-li
+RSA,South Africa,Africa,zu
+ROU,Romania,Europe,ro
+COL,Colombia,America,es-co
+SGP,Singapore,Asia,cmn
+FRA,France,Europe,fr-fr
+CRO,Croatia,Europe,hr-hr
+AND,Andorra,Europe,ca
+NGR,Nigeria,Africa,en-ng
+PAK,Pakistan,Asia,ur-pk
+CRC,Costa Rica,America,es-cr
+ESA,El Salvador,America,es-sv
+PNG,Papua New Guinea,Oceania,en-pg
+MON,Monaco,Europe,fr-mc
+PER,Peru,America,es-pe
+CZE,Czech Republic,Europe,cs
+ISR,Israel,Asia,he
+TUR,Turkey,Europe,tr-tr
+MNE,Montenegro,Europe,sr
+AUS,Australia,Oceania,en-au
+BUL,Bulgaria,Europe,bg
+PHI,Philippines,Asia,tl
+LUX,Luxembourg,Europe,lb
+ARG,Argentina,America,es-ar
+ESP,Spain,Europe,es-es
+UNK,Kosovo,Europe,sq
+KUW,Kuwait,Asia,ar-kw
+NZL,New Zeland,Oceania,
+GAB,Gabon,Africa,fr-ga
+BEL,Belgium,Europe,nl-be
+AUT,Austria,Europe,de-at
+VIE,Vietnam,Europe,vi
+PHL,Philippines,Asia,tl
+SRI,Sri Lanka,Asia,si
+GRN,Grenada,Europe,en-gd
+HUN,Hungary,Europe,hu-hu
+POC,Unknown,Unknown,
+SVK,Slovakia,Europe,sk
+MLT,Malta,Europe,mt
+TRI,Trinidad and Tobago,America,en-tt
+GER,Germany,Europe,de
+POL,Poland,Europe,pl
+LAT,Latvia,Europe,lv
+PAR,Paraguay,America,es-py
+ITA,Italy,Europe,it-it
+DOM,Dominican Republic,America,es-do
+BAH,Bahamas,America,en-bs
+CYP,Cyprus,Europe,el-cy
