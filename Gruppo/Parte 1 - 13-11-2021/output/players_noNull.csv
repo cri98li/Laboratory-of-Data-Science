@@ -791,7 +791,7 @@ player_id,country_id,name,sex,hand,ht,year_of_birth
 200384,FRA,Hugo Gaston,male,L,188,2000
 222109,USA,Leila Epstein,female,U,180,-1
 215946,CHN,Ye Xin Ma,female,U,180,1999
-200621,PAR,Bruno Britez,male,<function <lambda> at 0x000002582B713948>,188,1998
+200621,PAR,Bruno Britez,male,U,188,1998
 220278,SRB,Nikolina Dzunov,female,U,180,2000
 220383,USA,Jasmine Boyd,female,L,180,1999
 215942,BIH,Ema Mulalic,female,U,180,1998
@@ -1286,7 +1286,7 @@ player_id,country_id,name,sex,hand,ht,year_of_birth
 124154,IND,Sasi Kumar Mukund,male,R,178,1997
 215785,COL,Maria Camila Osorio Serrano,female,R,162,2001
 220442,ARG,Florencia Sofia Galdo,female,U,162,1997
-206834,ITA,Giuseppe Tresca,male,<function <lambda> at 0x000002582B713948>,178,-1
+206834,ITA,Giuseppe Tresca,male,U,178,-1
 238333,FRA,Laure Razet,female,U,162,-1
 213648,EGY,Ahlam Shawkat,female,U,162,1998
 218289,BUL,Verginie Tchakarova,female,R,162,1994
@@ -1660,7 +1660,7 @@ player_id,country_id,name,sex,hand,ht,year_of_birth
 121113,ESP,Diego Jose Manrique Velazquez,male,U,183,1989
 109334,CHI,Bastian Malla,male,U,183,1996
 110574,IND,Neishit Vakil,male,R,183,1988
-207759,BAR,Matthew Foster Estwick,male,<function <lambda> at 0x000002582B713948>,183,1997
+207759,BAR,Matthew Foster Estwick,male,U,183,1997
 223063,RUS,Katerina Petrova,female,U,178,-1
 204393,USA,Skylar Alexandra Morton,female,U,178,1994
 223260,AUS,Alana Repanich,female,U,178,-1
@@ -1753,7 +1753,7 @@ player_id,country_id,name,sex,hand,ht,year_of_birth
 106196,GER,Pascal Meis,male,U,185,1993
 206576,USA,Fletcher Scott,male,U,185,1998
 215944,USA,Mary Catherine Haffey,female,R,170,1997
-209238,GUA,Sebastian Dominguez,male,<function <lambda> at 0x000002582B713948>,185,2002
+209238,GUA,Sebastian Dominguez,male,U,185,2002
 222668,GER,Anja Wildgruber,female,U,170,2002
 106136,THA,Warit Sornbutnark,male,U,185,1993
 216082,USA,Alexis Jones,female,R,170,1997
@@ -1851,7 +1851,7 @@ player_id,country_id,name,sex,hand,ht,year_of_birth
 215306,COL,Emiliana Arango,female,R,180,2000
 215254,NED,Liv Geurts,female,R,180,1993
 202604,GRE,Despina Papamichail,female,R,180,1993
-206836,ITA,Gianmarco De Santis,male,<function <lambda> at 0x000002582B713948>,185,-1
+206836,ITA,Gianmarco De Santis,male,U,185,-1
 222167,GRE,Rafailia Nikoletta Fulop,female,U,180,-1
 202088,SLO,Sven Lah,male,R,185,1998
 104235,NED,Matwe Middelkoop,male,R,185,1983
@@ -2872,7 +2872,7 @@ player_id,country_id,name,sex,hand,ht,year_of_birth
 221126,SGP,Tammy Tan,female,U,172,2001
 206032,GER,Lisa Marie Maetschke,female,R,172,1995
 223100,GER,Marie Vogt,female,U,172,-1
-200273,LIB,Hady Habib,male,<function <lambda> at 0x000002582B713948>,180,1998
+200273,LIB,Hady Habib,male,U,180,1998
 213551,USA,Mia Horvit,female,U,172,1997
 222653,GUA,Valeria Porras Buezo,female,U,172,-1
 220307,GER,Sofia Gorovits,female,R,172,1999
@@ -2889,7 +2889,7 @@ player_id,country_id,name,sex,hand,ht,year_of_birth
 223330,FRA,Maelie Monfils,female,U,172,-1
 206811,ARG,Juan Martin,male,U,180,1998
 105503,GER,George Von Massow,male,R,180,1990
-200270,LUX,Alex Knaff,male,<function <lambda> at 0x000002582B713948>,180,1997
+200270,LUX,Alex Knaff,male,U,180,1997
 208605,ESP,Mario Gonzalez Fernandez,male,U,180,2002
 200441,KAZ,Grigoriy Lomakin,male,U,180,1998
 220402,GER,Michelle Roth,female,U,172,1998
@@ -3005,7 +3005,7 @@ player_id,country_id,name,sex,hand,ht,year_of_birth
 220873,USA,Chanel Scudiero,female,U,162,1995
 221517,ITA,Chiara Gerbino,female,U,162,2002
 221924,GER,Michelle Korpys,female,U,162,2004
-207971,BAR,Xavier Lawrence,male,<function <lambda> at 0x000002582B713948>,208,1998
+207971,BAR,Xavier Lawrence,male,U,208,1998
 211584,RUS,Diana Shevchenko,female,U,162,1995
 104327,BEL,Steve Darcis,male,R,178,1984
 215059,JPN,Reina Takahashi,female,U,162,1996
@@ -3064,7 +3064,7 @@ player_id,country_id,name,sex,hand,ht,year_of_birth
 223150,SVK,Ela Platenikova,female,U,162,-1
 220677,THA,Arisara Jongma,female,U,162,2003
 126160,USA,Julian Allen Childers,male,R,178,1994
-208843,SUI,Jerome Kym,male,<function <lambda> at 0x000002582B713948>,178,2003
+208843,SUI,Jerome Kym,male,U,178,2003
 206419,SUI,Karin Kennel,female,R,162,1995
 106010,MEX,Eduardo Yahir Orozco Rangel,male,U,178,1992
 221174,SUI,Kiara Cvetkovic,female,U,162,2003
@@ -3242,7 +3242,7 @@ player_id,country_id,name,sex,hand,ht,year_of_birth
 221178,RUS,Darya Astakhova,female,R,173,2002
 214418,IND,Vaidehi Chaudhari,female,U,173,2000
 220561,USA,Monica Robinson,female,U,173,1995
-200274,PUR,Alex Diaz,male,<function <lambda> at 0x000002582B713948>,196,1997
+200274,PUR,Alex Diaz,male,U,196,1997
 216564,UKR,Viktoriya Gogol,female,U,173,1997
 215071,RUS,Viktoriia Kalinina,female,U,173,1999
 220728,USA,Meg Kowalski,female,U,173,1999
@@ -3292,7 +3292,7 @@ player_id,country_id,name,sex,hand,ht,year_of_birth
 220663,ITA,Alice Zapolla,female,U,180,1995
 221916,FRA,Laura Marie,female,U,180,2002
 215840,USA,Haley Giavara,female,R,180,2000
-200272,MAD,Jean Jacques Rakotohasy,male,<function <lambda> at 0x000002582B713948>,180,1994
+200272,MAD,Jean Jacques Rakotohasy,male,U,180,1994
 216078,ESP,Celia Cervino Ruiz,female,U,180,1997
 223045,HKG,Kyrstin Kieu Oanh Ha,female,U,180,-1
 128008,ITA,Edoardo Lamberti,male,R,180,1996
@@ -3320,7 +3320,7 @@ player_id,country_id,name,sex,hand,ht,year_of_birth
 219936,HUN,Vivien Abraham,female,U,182,1999
 104330,USA,Rajeev Ram,male,R,193,1984
 123827,FRA,Samuel Bensoussan,male,U,193,1991
-206843,GBR,Ross Watson,male,<function <lambda> at 0x000002582B713948>,193,1998
+206843,GBR,Ross Watson,male,U,193,1998
 214878,FRA,Sophie Muntean,female,U,182,2000
 219885,JPN,Kiko Nishizato,female,U,182,1997
 222413,THA,Natasha Sengphrachanh,female,R,182,-1
@@ -3577,7 +3577,7 @@ player_id,country_id,name,sex,hand,ht,year_of_birth
 201465,BEL,Kirsten Flipkens,female,R,165,1986
 207649,RUS,Savriyan Danilov,male,R,180,2000
 200648,JPN,Masaya Kobayashi,male,U,180,1997
-206840,ITA,Filippo Moggian,male,<function <lambda> at 0x000002582B713948>,180,-1
+206840,ITA,Filippo Moggian,male,U,180,-1
 211515,COL,Daniela Lozano,female,U,165,1991
 221319,ESP,Anais Peralta Criado,female,U,165,2002
 214372,SUI,Daniela Vukovic,female,U,165,1998
@@ -4013,7 +4013,7 @@ player_id,country_id,name,sex,hand,ht,year_of_birth
 231628,EGY,Rawan Abdelaziz,female,U,174,-1
 239408,ESP,Andrea Martin Pavon,female,U,174,-1
 214321,ITA,Arianna Capogrosso,female,R,174,1999
-144773,DOM,Jose Olivares,male,<function <lambda> at 0x000002582B713948>,178,1997
+144773,DOM,Jose Olivares,male,U,178,1997
 212232,TRI,Carlista Mohammed,female,U,174,1990
 239432,GER,Emily Castillo,female,U,174,-1
 126828,FRA,Julien Eon,male,U,178,1995
@@ -4116,7 +4116,7 @@ player_id,country_id,name,sex,hand,ht,year_of_birth
 144907,GER,Adrian Oetzbach,male,U,190,1997
 206716,NOR,Lukas Hellum Lilleengen,male,U,190,2000
 221781,SGP,Deanne Choo,female,U,178,2003
-144771,ESA,Sebastian Quiros,male,<function <lambda> at 0x000002582B713948>,190,1998
+144771,ESA,Sebastian Quiros,male,U,190,1998
 214706,GER,Dana Kremer,female,R,178,1997
 204426,EST,Anett Kontaveit,female,R,174,1995
 138688,SRB,Milan Drinic,male,R,190,1997
@@ -4230,7 +4230,7 @@ player_id,country_id,name,sex,hand,ht,year_of_birth
 132456,RSA,Vasilios Caripi,male,U,180,1991
 215492,JPN,Lisa Marie Rioux,female,U,182,1997
 216033,SVK,Alica Rusova,female,U,182,1998
-144776,LUX,Christophe Tholl,male,<function <lambda> at 0x000002582B713948>,180,1994
+144776,LUX,Christophe Tholl,male,U,180,1994
 220363,RUS,Vlada Svarkovskaya,female,U,182,1994
 105593,BEL,Yannick Vandenbulcke,male,R,180,1990
 219439,FRA,Elsa Pellegrinelli,female,U,182,1994
@@ -4464,7 +4464,7 @@ player_id,country_id,name,sex,hand,ht,year_of_birth
 214107,ARG,Sofia Haydee Nicolini,female,U,185,1998
 221877,KAZ,Zhanel Rustemova,female,U,185,2004
 123869,SRB,Petar Conkic,male,U,185,1996
-200619,PUR,Sebastian Arcila,male,<function <lambda> at 0x000002582B713948>,185,-1
+200619,PUR,Sebastian Arcila,male,U,185,-1
 215464,RUS,Aleksandra Kuznetsova,female,U,185,1999
 211080,IND,Sai Samhitha Chamarthi,female,R,185,1995
 222647,ARG,Daiana Postay,female,U,185,-1
@@ -4780,7 +4780,7 @@ player_id,country_id,name,sex,hand,ht,year_of_birth
 216301,ESP,Loretto Villalba Rubio,female,U,167,2000
 223316,TUR,Pelin Colak,female,U,167,-1
 214049,BUL,Nevena Georgieva,female,U,167,1998
-206855,ERI,Beruk Tsegai,male,<function <lambda> at 0x000002582B713948>,183,-1
+206855,ERI,Beruk Tsegai,male,U,183,-1
 220520,USA,Mccartney Kessler,female,U,167,1999
 215576,TUR,Buket Dogan,female,U,167,2001
 215872,RUS,Kamilla Rakhimova,female,R,2,2001
@@ -4938,7 +4938,7 @@ player_id,country_id,name,sex,hand,ht,year_of_birth
 201967,ITA,Federico Bertuccioli,male,U,193,1998
 221703,EGY,Maria Charl,female,U,175,2003
 201545,LAT,Anastasija Sevastova,female,R,175,1990
-200618,BAR,Adam Hornby,male,<function <lambda> at 0x000002582B713948>,193,-1
+200618,BAR,Adam Hornby,male,U,193,-1
 222007,USA,Sofia Camila Rojas,female,U,175,-1
 211814,AUT,Julia Grabher,female,R,175,1996
 206295,DOM,Omar Ferreras,male,U,193,1988
@@ -5262,7 +5262,7 @@ player_id,country_id,name,sex,hand,ht,year_of_birth
 211020,FRA,Solene Guyomard,female,U,170,1995
 223437,FRA,Cosima Trinity Calinescu,female,U,170,-1
 220707,FRA,Agnes Brun,female,U,170,1995
-207277,UKR,Illia Biloborodko,male,<function <lambda> at 0x000002582B713948>,188,2001
+207277,UKR,Illia Biloborodko,male,U,188,2001
 223048,MAR,Meryem Jaaidan,female,U,170,-1
 222212,GER,Sibel Demirbaga,female,U,170,-1
 206901,BRA,Joao Vitor Prado Festa,male,U,188,-1
@@ -5362,7 +5362,7 @@ player_id,country_id,name,sex,hand,ht,year_of_birth
 215725,FRA,Sihem Bellahouel,female,U,170,2000
 216261,UZB,Gulsina Khalimullina,female,U,170,2000
 223198,GBR,Jasmine Conway,female,U,170,-1
-144775,VIE,Linh Giang Trinh,male,<function <lambda> at 0x000002582B713948>,188,1997
+144775,VIE,Linh Giang Trinh,male,U,188,1997
 222282,ESP,Maria Picazo Martin,female,U,170,-1
 219798,ESP,Laia Conde Monfort,female,U,170,2001
 230874,EGY,Mai Elkamash,female,U,170,-1
@@ -5453,7 +5453,7 @@ player_id,country_id,name,sex,hand,ht,year_of_birth
 216318,USA,Jana Mccord,female,U,175,1994
 220734,FRA,Maissane Aik Haymoz,female,U,175,1997
 221409,SWE,Elin Vilen,female,U,175,1999
-126209,DOM,Peter Bertran,male,<function <lambda> at 0x000002582B713948>,185,1996
+126209,DOM,Peter Bertran,male,U,185,1996
 111167,LUX,Ugo Nastasi,male,R,185,1993
 208889,EGY,Yasmin Hamza,female,U,175,1989
 105549,ARG,Mateo Galdon,male,U,185,1990
@@ -6084,7 +6084,7 @@ player_id,country_id,name,sex,hand,ht,year_of_birth
 236957,SRB,Lola Radivojevic,female,U,170,2005
 122585,SWE,Andre Goransson,male,U,183,1994
 214242,IND,Teertha Iska,female,R,170,1996
-202462,SRI,Yasitha De Silva,male,<function <lambda> at 0x000002582B713948>,183,1995
+202462,SRI,Yasitha De Silva,male,U,183,1995
 222933,USA,Mary Jean Brumfield,female,R,170,-1
 215657,FRA,Kelia Le Bihan,female,U,170,1999
 106299,ISR,Bar Tzuf Botzer,male,R,183,1994
@@ -6218,7 +6218,7 @@ player_id,country_id,name,sex,hand,ht,year_of_birth
 201603,USA,Shelby Rogers,female,R,175,1992
 219619,GRE,Evgenia Kokkinaki,female,U,175,2000
 220461,CZE,Karolina Kubanova,female,U,175,2001
-144774,DOM,William Kirkman,male,<function <lambda> at 0x000002582B713948>,185,1997
+144774,DOM,William Kirkman,male,U,185,1997
 220912,SRB,Natasa Luzajic,female,R,175,1998
 106243,CRO,Mate Delic,male,R,185,1993
 211879,AUS,Samantha Harris,female,U,175,1995
@@ -6498,7 +6498,7 @@ player_id,country_id,name,sex,hand,ht,year_of_birth
 245093,UKR,Alina Cherniaieva,female,U,174,-1
 209259,GBR,Arthur Fery,male,R,180,2002
 221879,KAZ,Stefanya Shalakhova,female,U,174,2004
-207972,KOR,Minjong Park,male,<function <lambda> at 0x000002582B713948>,180,2001
+207972,KOR,Minjong Park,male,U,180,2001
 221675,POR,Carolina Azadinho,female,U,174,2003
 209212,POL,Marcel Politowicz,male,U,180,-1
 220690,CZE,Petra Sedlackova,female,U,174,2001
@@ -6820,7 +6820,7 @@ player_id,country_id,name,sex,hand,ht,year_of_birth
 221538,SWE,Hanna Axelsson,female,U,170,2000
 220835,ECU,Isabela Barona Estrada,female,U,170,2003
 200116,ARG,Camilo Ugo Carabelli,male,R,185,1999
-240161,ESP,Isabel Pascual Montalvo,female,<function <lambda> at 0x000002582B713948>,170,2002
+240161,ESP,Isabel Pascual Montalvo,female,U,170,2002
 222955,USA,Sarah Hamner,female,U,170,-1
 209866,USA,Grace Leake,female,L,170,1989
 222708,DEN,Karoline Laursen,female,U,170,-1
@@ -7163,7 +7163,7 @@ player_id,country_id,name,sex,hand,ht,year_of_birth
 222232,USA,Laura Bryan,female,R,157,-1
 120424,GER,Yannick Maden,male,R,185,1989
 206898,BRA,Bruno Pessoa,male,U,185,2000
-207973,LTU,Ainius Sabaliauskas,male,<function <lambda> at 0x000002582B713948>,185,2003
+207973,LTU,Ainius Sabaliauskas,male,U,185,2003
 124067,SUI,Vullnet Tashi,male,R,185,1993
 237458,ARG,Maria Sofia Madrid Rocca,female,U,157,-1
 125835,POR,Diogo Lourenco,male,R,185,1995
@@ -8907,7 +8907,7 @@ player_id,country_id,name,sex,hand,ht,year_of_birth
 201595,JPN,Misaki Doi,female,L,159,1991
 221015,SUI,Liv Drolshammer,female,U,159,2000
 106181,COL,Felipe Mantilla,male,R,178,1993
-206892,USA,Michael Ogden,male,<function <lambda> at 0x000002582B713948>,178,-1
+206892,USA,Michael Ogden,male,U,178,-1
 215844,USA,Jenna Friedel,female,U,159,-1
 211351,JPN,Ayaka Okuno,female,R,159,1995
 207836,PAK,Muzammil Murtaza,male,R,178,1999
@@ -9065,7 +9065,7 @@ player_id,country_id,name,sex,hand,ht,year_of_birth
 201426,FRA,Pauline Parmentier,female,R,175,1986
 202678,BLR,Polina Pekhova,female,R,175,1992
 214589,TPE,I Hsuan Cho,female,U,175,2000
-200620,PUR,Ignacio Garcia,male,<function <lambda> at 0x000002582B713948>,185,-1
+200620,PUR,Ignacio Garcia,male,U,185,-1
 215498,KOR,Hae Jin Jeong,female,U,175,1991
 211929,BUL,Aleksandra Karamanoleva,female,R,175,1996
 202489,GER,Carina Witthoeft,female,R,175,1995
@@ -9084,7 +9084,7 @@ player_id,country_id,name,sex,hand,ht,year_of_birth
 207368,TUR,Mert Alkaya,male,U,185,2000
 110758,NZL,Ben Mclachlan,male,R,185,1992
 216024,USA,Paiton Wagner,female,U,175,1998
-202316,VIE,Dac Tien Nguyen,male,<function <lambda> at 0x000002582B713948>,185,1999
+202316,VIE,Dac Tien Nguyen,male,U,185,1999
 234472,ITA,Valentina Bertonazzi,female,U,175,-1
 221522,FRA,Evita Ramirez,female,U,175,2003
 207173,KAZ,Timur Maulenov,male,R,185,2000
@@ -9253,7 +9253,7 @@ player_id,country_id,name,sex,hand,ht,year_of_birth
 211543,FRA,Jennifer Zerbone,female,L,181,1995
 222273,GER,Gina Marie Dittmann,female,U,181,-1
 223435,SUI,Milla Sequeira,female,U,181,-1
-200537,URU,Nicolas Xiviller,male,<function <lambda> at 0x000002582B713948>,183,1998
+200537,URU,Nicolas Xiviller,male,U,183,1998
 220904,AUS,Amber Marshall,female,U,181,2001
 216025,AUS,Ella Husrefovic,female,U,181,2000
 214596,ITA,Susanna Giovanardi,female,U,181,1999
@@ -9357,7 +9357,7 @@ player_id,country_id,name,sex,hand,ht,year_of_birth
 203572,RUS,Polina Monova,female,R,177,1993
 214677,KOR,Sujin Yoon,female,U,177,1995
 215846,CAN,Raffaela Alhach,female,R,177,2001
-200622,PAR,Hernando Jose Escurra Isnardi,male,<function <lambda> at 0x000002582B713948>,183,-1
+200622,PAR,Hernando Jose Escurra Isnardi,male,U,183,-1
 221623,ESP,Lidia Gonzalez,female,U,177,2003
 223187,AUS,Saanvi Tak,female,U,177,-1
 220546,USA,Tricia Mar,female,U,177,1992
@@ -9562,7 +9562,7 @@ player_id,country_id,name,sex,hand,ht,year_of_birth
 207517,ITA,Alessio De Bernardis,male,U,183,2000
 233739,UKR,Maryna Kharchenko,female,U,175,-1
 223082,ITA,Sofia Neri,female,U,175,-1
-116986,CHN,Rong Ma,male,<function <lambda> at 0x000002582B713948>,183,1984
+116986,CHN,Rong Ma,male,U,183,1984
 239413,POL,Aleksandra Wierzbowska,female,U,175,-1
 222562,SVK,Tereza Zelinova,female,R,175,-1
 222311,GER,Sophie Julie Zehender,female,U,175,-1

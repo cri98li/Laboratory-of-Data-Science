@@ -19,7 +19,9 @@ def insert_db(cursor, data, query, chunk_size=100):
 def insert(cursor, data, query):
     for i, record in enumerate(tqdm(data)):
         try:
-            print(record)
+            if i < 55264:
+                continue
+
             cursor.execute(query, record)
             cursor.commit()
         except pyodbc.IntegrityError as e:
@@ -46,8 +48,8 @@ query_tournament = 'INSERT INTO Tournament (tourney_pk, tourney_id, date_id, tou
 query_countries = 'INSERT INTO Geography (country_ioc, country_name, continent, language)' \
                    '            VALUES (?, ?, ?, ?)'
 
-query_players = 'INSERT INTO Player (player_id, country_id, name, sex, hand, year_of_birth)' \
-                   '            VALUES (?, ?, ?, ?, ?, ?)'
+query_players = 'INSERT INTO Player (player_id, country_id, name, sex, hand, ht, year_of_birth)' \
+                   '            VALUES (?, ?, ?, ?, ?, ?, ?)'
 
 query_match = 'INSERT INTO Match (match_id,winner_id,loser_id,score,best_of,round,minutes,w_ace,w_df,w_svpt,w_1stIn,' \
               '             w_1stWon,w_2ndWon,w_SvGms,w_bpSaved,w_bpFaced,l_ace,l_df,l_svpt,l_1stIn,l_1stWon,l_2ndWon,l_SvGms,' \
@@ -88,17 +90,8 @@ input_list = [ list(country.values()) for country in countries ] + new_countries
 input_list = [ list(player.values()) for player in players ]
 #insert(cursor, input_list, query_players)
 
-player_ids = {player['player_id'] for player in players}
-unkwown_players = set()
 
-for match in matches:
-    if match['loser_id'] not in player_ids or match['winner_id'] not in player_ids:
-        unkwown_players.add(match['loser_id'])
-        unkwown_players.add(match['winner_id'])
-
-print('Giocatori sconosciuti (non presenti in players.csv)', unkwown_players)
-
-input_list = [ [ str(match['match_num']) + match['tourney_pk'] + str(match['winner_id']) ] + list(match.values())[1:] for match in matches ]
+input_list = [ [ str(match['match_num']) + match['tourney_pk'] + str(match['winner_id']) + str(match['loser_id']) ] + list(match.values())[1:] for match in matches ]
 
 for i, tuple in enumerate(input_list):
     for j, value in enumerate(tuple):
