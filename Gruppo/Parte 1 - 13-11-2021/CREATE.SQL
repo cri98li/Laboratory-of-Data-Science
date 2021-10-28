@@ -6,8 +6,8 @@ create table Geography
             primary key
         constraint FK_Geography_Geography1
             references Geography,
-    country_name varchar(7) not null,
-    continent    varchar(7) not null,
+    country_name varchar(32) not null,
+    continent    varchar(7)  not null,
     language     varchar(20)
 )
 go
@@ -18,16 +18,17 @@ go
 -- auto-generated definition
 create table Player
 (
-    player_id     int        not null
+    player_id     int         not null
         constraint PK_Player2
             primary key,
-    country_id    varchar(3) not null
+    country_id    varchar(3)  not null
         constraint FK_Player_Geography
             references Geography,
-    name          varchar(40),
-    sex           varchar(6),
-    hand          varchar,
-    year_of_birth smallint
+    name          varchar(50) not null,
+    sex           varchar(6)  not null,
+    hand          varchar     not null,
+    year_of_birth smallint    not null,
+    ht            int         not null
 )
 go
 
@@ -35,62 +36,66 @@ go
 -- auto-generated definition
 create table Tournament
 (
-    tourney_id         varchar(50) not null
+    tourney_pk         varchar(150) not null
         constraint PK_Tournament
             primary key,
-    date_id            varchar(10) not null,
-    tourney_name       varchar(56),
-    surface            varchar(7),
-    draw_size          tinyint     not null,
-    tourney_level      varchar(3)  not null,
-    tourney_spectators smallint    not null,
-    tourney_revenue    float       not null
+    date_id            varchar(10)  not null,
+    tourney_name       varchar(56)  not null,
+    surface            varchar(7)   not null,
+    draw_size          tinyint      not null,
+    tourney_level      varchar(3)   not null,
+    tourney_spectators smallint     not null,
+    tourney_revenue    float        not null,
+    tourney_id         varchar(50)  not null
 )
 go
-
 
 
 -- auto-generated definition
 create table Match
 (
-    match_id           int         not null
-        constraint PK_Match
-            primary key,
-    tourney_id         varchar(50) not null
+    match_id           varchar(150) not null
+        constraint Match_pk
+            primary key nonclustered,
+    tourney_id         varchar(150) not null
         constraint FK_Match_Tournament
             references Tournament,
-    winner_id          int         not null
+    winner_id          int          not null
         constraint FK_Match_winer
             references Player,
-    loser_id           int         not null
+    loser_id           int          not null
         constraint FK_Match_loser
             references Player,
-    score              varchar(31) not null,
-    best_of            int,
-    round              varchar(4),
-    minutes            float,
-    w_ace              int,
-    w_df               int,
-    w_svpt             int,
-    w_1stIn            int,
-    w_1stWon           int,
-    w_2ndWon           int,
-    w_SvGms            int,
-    w_bpSaved          int,
-    w_bpFaced          int,
-    l_ace              int,
-    l_df               int,
-    l_svpt             int,
-    l_1stIn            int,
-    l_1stWon           int,
-    l_2ndWon           int,
-    l_SvGms            int,
-    l_bpSaved          int,
-    l_bpFaced          int,
-    winner_rank        int,
-    winner_rank_points int,
-    loser_rank         int,
-    loser_rank_points  int
+    score              varchar(31)  not null,
+    best_of            int          not null,
+    round              varchar(4)   not null,
+    minutes            float        not null,
+    w_ace              int          not null,
+    w_df               int          not null,
+    w_svpt             int          not null,
+    w_1stIn            int          not null,
+    w_1stWon           int          not null,
+    w_2ndWon           int          not null,
+    w_SvGms            int          not null,
+    w_bpSaved          int          not null,
+    w_bpFaced          int          not null,
+    l_ace              int          not null,
+    l_df               int          not null,
+    l_svpt             int          not null,
+    l_1stIn            int          not null,
+    l_1stWon           int          not null,
+    l_2ndWon           int          not null,
+    l_SvGms            int          not null,
+    l_bpSaved          int          not null,
+    l_bpFaced          int          not null,
+    winner_rank        int          not null,
+    winner_rank_points int          not null,
+    loser_rank         int          not null,
+    loser_rank_points  int          not null
 )
+go
+
+create unique index Match_match_id_uindex
+    on Match (match_id)
 go
 
