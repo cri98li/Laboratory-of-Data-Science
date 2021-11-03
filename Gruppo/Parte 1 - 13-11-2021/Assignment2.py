@@ -8,29 +8,25 @@ def chunks(lst, n):
     for i in range(0, len(lst), n):
         yield lst[i:i + n]
 
-def insert_db(cursor, data, query, chunk_size=100):
+#Insert di più record alla volta usando execute many
+def insert_db1(cursor, data, query, chunk_size=100):
     for chunk in chunks(data, chunk_size):
         try:
             cursor.executemany(query, chunk)
             cursor.commit()
-        except pyodbc.IntegrityError:
-            ''
+        except pyodbc.IntegrityError as e:
+            print(e)
+            return
 
-def insert(cursor, data, query):
+#Insert di un record per volta
+def insert_db2(cursor, data, query):
     for i, record in enumerate(tqdm(data)):
         try:
-            if i < 55264:
-                continue
-
             cursor.execute(query, record)
             cursor.commit()
         except pyodbc.IntegrityError as e:
             print(e)
-            with open('log.txt', "w", newline='') as file:
-                file.write('a' + '\n')
-                file.write(str(i))
-                file.close()
-                return
+            return
 
 
 cnxn = connectDB('131.114.72.230', 'Group_11_DB', 'Group_11', '9WGTTUCP')
@@ -57,15 +53,10 @@ query_match = 'INSERT INTO Match (match_id,winner_id,loser_id,score,best_of,roun
                    '            VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)'
 
 # Insert tournaments
-# chiave primaria tourney_id + tourney_level + tourney_date
-input_list = [ ( #tourney['tourney_id'] + tourney['tourney_level'] + tourney['date_id'] + tourney['tourney_name'],
-                tourney['tourney_pk'],
-                 tourney['tourney_id'], tourney['date_id'],
-                 tourney['tourney_name'], tourney['surface'],
-                 tourney['draw_size'], tourney['tourney_level'],
-                 tourney['tourney_spectators'], tourney['tourney_revenue'] ) for tourney in tournaments ]
-#insert(cursor, input_list, query_tournament)
+input_list = [  list(tourney.values())  for tourney in tournaments ]
+insert_db1(cursor, input_list, query_tournament)
 
+#Insert countries
 country_codes = {country['country_code'] for country in countries}
 country_to_add = set()
 for player in players:
@@ -74,8 +65,8 @@ for player in players:
 
 print('Paesi da aggiungere trovati in Players: ', country_to_add)
 
+#Recupero dei paesi mancanti usando countryInfo.tsv
 country_list = CSVtoLISTDICT("dati/countryInfo.tsv", True, "\t")
-
 new_countries = [ [ x['ISO3'], x['Country'], x['Continent'], x['Languages'].lower().split(",")[0] ]
                     for x in country_list if x['ISO3'] in country_to_add]
 
@@ -84,15 +75,15 @@ unkwown_countries = country_to_add - {c[0] for c in new_countries}
 print('Paesi non recuperabili usando countryInfo.tsv', unkwown_countries)
 
 input_list = [ list(country.values()) for country in countries ] + new_countries + [[country, 'Unknown', 'Unknown', 'Unknown'] for country in unkwown_countries ]
-#insert(cursor, input_list, query_countries)
+insert_db1(cursor, input_list, query_countries)
 
-
+#Insert Players
 input_list = [ list(player.values()) for player in players ]
-#insert(cursor, input_list, query_players)
-
+insert_db1(cursor, input_list, query_players)
 
 input_list = [ [ str(match['match_num']) + match['tourney_pk'] + str(match['winner_id']) + str(match['loser_id']) ] + list(match.values())[1:] for match in matches ]
 
+#Forse non necessario (cast a interi)
 for i, tuple in enumerate(input_list):
     for j, value in enumerate(tuple):
         try:
@@ -101,7 +92,6 @@ for i, tuple in enumerate(input_list):
         except:
             ''
 
-insert(cursor, input_list, query_match)
-
+insert_db1(cursor, input_list, query_match)
 cnxn.close()
 
