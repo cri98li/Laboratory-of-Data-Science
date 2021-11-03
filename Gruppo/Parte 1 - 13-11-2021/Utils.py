@@ -3,6 +3,8 @@ import pyodbc
 import datetime
 from dateutil.relativedelta import relativedelta
 
+#Legge un file csv (o qualsiasi file con valori separati da un carattere o stringa) come lista di dizionari
+#Il valore di header può essere sia una lista che contiene i nomi, ordinati, delle colonne o un booleano
 def CSVtoLISTDICT(filepath="", header=False, separator=',', lower=False):
     data = []
     columns = []
@@ -23,7 +25,7 @@ def CSVtoLISTDICT(filepath="", header=False, separator=',', lower=False):
 
     return data
 
-
+#Usata per caricare i nomi dei giocatori per estrarre il genere
 def loadNames(filepath, replace=[",", " "], skipheader=True):
     returnList = set()
     with open(filepath, "r") as file:
@@ -31,6 +33,7 @@ def loadNames(filepath, replace=[",", " "], skipheader=True):
             returnList.add(row[:-1].replace(replace[0], replace[1]))
     return returnList
 
+#Usata per salvare la lista di dizionari su un file. Elimina anche i dizionari duplicati
 def DICTtoCSV(filepath="", data=[{}], header=True,):
     with open(filepath, "w", newline='') as file:
         keys = data[0].keys()

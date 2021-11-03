@@ -13,11 +13,12 @@ country_dict = {x['Country']: {
                                 "Language": x['Languages'].lower().split(",")[0]
                             }  for x in country_list}
 
+#Ricerco i nomi dal file scaricato da http://download.geonames.org/export/dump/countryInfo.txt
 for country in countries:
     if country['country_name'] in country_dict.keys():
         country['lan'] = country_dict[country['country_name']]['Language']
     else:
-        country['lan'] = ""
+        country['lan'] = "" #Per le corrispondenze che non trovo assegno la stringa vuota
 
 
 countriesHeader = ['country_code', 'country_name','continent','lan']
@@ -26,10 +27,11 @@ DICTtoCSV("output/countries.csv", countries, countriesHeader)
 
 
 
+#Lettura del csv unico da rielaborare
 tennis = CSVtoLISTDICT("dati/tennis.csv", True, ",")
 
 #DATE
-#Aggiungo ad ogni riga le info sulla data
+#Genero il nuovo valore di date nel formato AnnoQuarterMeseGiorno. Non genero un nuovo file perchè è una dimensione degenere
 for row in tennis:
     data = datetime.datetime.strptime(row['tourney_date'], "%Y%m%d")
     row['date_id'] = data.strftime("%Y") + str(int((data.month + 2) / 3)) + data.strftime("%m%d")
@@ -55,23 +57,21 @@ DICTtoCSV("output/tournament.csv", tennis, tournamentHeader)
 #PLAYER
 playerHeader = ["player_id", "country_id", "name", "sex", "hand", "ht", "year_of_birth"]
 #male = loadNames("dati/male_players.csv")
-female = loadNames("dati/female_players.csv") #carico il più piccolo
+female = loadNames("dati/female_players.csv") #carico il file più piccolo
 
-#aggiungo il sesso
-winner_id = set(map(lambda row: row['winner_id'], tennis))
-loser_id = set(map(lambda row: row['loser_id'], tennis))
+#aggiungo il sesso e calcolo l'anno di nascita
 
 ids_added = set()
 toWrite = []
 for row in tennis:
-    age_d = -1
+    age_days = -1
 
     if row['winner_id'] not in ids_added:
         ids_added.add(row["winner_id"])
         if len(row["winner_age"])>0:
-            age_d = int(float(row["winner_age"]) * 365)
+            age_days = int(float(row["winner_age"]) * 365)
             matchdate = datetime.datetime.strptime(row['tourney_date'], "%Y%m%d")
-            birth = matchdate - relativedelta(days=age_d)
+            birth = matchdate - relativedelta(days=age_days)
 
         toWrite.append({
             "player_id": row["winner_id"],
@@ -80,17 +80,17 @@ for row in tennis:
             "sex": "male" if row["winner_name"] not in female else "female",
             "hand": row["winner_hand"],
             "ht": row["winner_ht"],
-            "year_of_birth": birth.year if age_d != -1 else -1
+            "year_of_birth": birth.year if age_days != -1 else -1
         })
 
-    age_d = -1
+    age_days = -1
 
     if row['loser_id'] not in ids_added:
         ids_added.add(row["loser_id"])
         if len(row["loser_age"])>0:
-            age_d = int(float(row["loser_age"]) * 365)
+            age_days = int(float(row["loser_age"]) * 365)
             matchdate = datetime.datetime.strptime(row['tourney_date'], "%Y%m%d")
-            birth = matchdate - relativedelta(days=age_d)
+            birth = matchdate - relativedelta(days=age_days)
 
         toWrite.append({
             "player_id": row["loser_id"],
@@ -99,7 +99,7 @@ for row in tennis:
             "sex": "male" if row["loser_name"] not in female else "female",
             "hand": row["loser_hand"],
             "ht": row["loser_ht"],
-            "year_of_birth": birth.year if age_d != -1 else -1
+            "year_of_birth": birth.year if age_days != -1 else -1
         })
 
 DICTtoCSV("output/players.csv", toWrite, playerHeader)
