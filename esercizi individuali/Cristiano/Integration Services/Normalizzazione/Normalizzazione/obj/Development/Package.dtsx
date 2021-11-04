@@ -1,0 +1,128 @@
+<?xml version="1.0"?>
+<DTS:Executable xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:refId="Package"
+  DTS:CreationDate="10/28/2021 10:31:29 AM"
+  DTS:CreationName="Microsoft.Package"
+  DTS:CreatorComputerName="DESKTOP-6L0N8UR"
+  DTS:CreatorName="DESKTOP-6L0N8UR\cri98"
+  DTS:DTSID="{E1EF625D-364D-474A-8EB6-87DB5F8618BC}"
+  DTS:ExecutableType="Microsoft.Package"
+  DTS:LastModifiedProductVersion="15.0.2000.170"
+  DTS:LocaleID="1040"
+  DTS:ObjectName="Package"
+  DTS:PackageType="5"
+  DTS:VersionBuild="11"
+  DTS:VersionGUID="{C3F6D851-28C2-4F41-9F7D-D0A3C4E311DD}">
+  <DTS:Property
+    DTS:Name="PackageFormatVersion">8</DTS:Property>
+  <DTS:ConnectionManagers>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[lds.di.unipi.it.FoodMart.lds]"
+      DTS:CreationName="OLEDB"
+      DTS:DTSID="{AF303A73-C4F5-454D-AEC3-D3D799135B83}"
+      DTS:ObjectName="lds.di.unipi.it.FoodMart.lds">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectRetryCount="1"
+          DTS:ConnectRetryInterval="5"
+          DTS:ConnectionString="Data Source=lds.di.unipi.it;User ID=lds;Initial Catalog=FoodMart;Provider=SQLNCLI11.1;Persist Security Info=True;Auto Translate=False;">
+          <DTS:Password
+            DTS:Name="Password"
+            Sensitive="1"
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAASwWrmCWQ4k6Jf9XW9NwqYwAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAClwMjgLqoa5uPsWG6lt6KBaz1CV/RHSUGQc9uuC9W9hAAAAAAOgAAAAAIAACAAAADLyP7yUrM79wAy7owN4+Qttszv8yhnhKSBl5A+7H98KhAAAABQkKyjdxQsl3g3ItM2odltQAAAAN1LWo95VeNStSXveARO/uppe9BE3QBZbwpW1TnCeBlq3oDmv0cyzGk4f+YQWfTkM5kIlaLOA+SGdU9r5TpZKu8</DTS:Password>
+        </DTS:ConnectionManager>
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[lds.di.unipi.it.lbi.lds]"
+      DTS:CreationName="OLEDB"
+      DTS:DTSID="{A1241296-0912-4C27-A567-528AC1B6B62E}"
+      DTS:ObjectName="lds.di.unipi.it.lbi.lds">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectRetryCount="1"
+          DTS:ConnectRetryInterval="5"
+          DTS:ConnectionString="Data Source=lds.di.unipi.it;User ID=lds;Initial Catalog=lbi;Provider=SQLNCLI11.1;Persist Security Info=True;Auto Translate=False;">
+          <DTS:Password
+            DTS:Name="Password"
+            Sensitive="1"
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAASwWrmCWQ4k6Jf9XW9NwqYwAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAD2yEctg2Qt51zf8UdIWhCGR2hii9Q8ILGCWRQJRLTVzgAAAAAOgAAAAAIAACAAAAD2WDGaIig33uDYnys3EOb+B4zCiFW6aZn53TEOYtsVQRAAAAAkfKhooVfBOWKAQ22/Cs6FQAAAAA0b8GpQ905gJnuDyE4oCB8nJylpFofbjJsthTzEovfvYT6FhOVn2PrZr5CE6LfxooshGLei+GTw8O6LIfDxCW8</DTS:Password>
+        </DTS:ConnectionManager>
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[lds.di.unipi.it.lbi.lds 1]"
+      DTS:CreationName="OLEDB"
+      DTS:DTSID="{B358090C-1FC7-445B-91F6-9CCC892586DF}"
+      DTS:ObjectName="lds.di.unipi.it.lbi.lds 1">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectRetryCount="1"
+          DTS:ConnectRetryInterval="5"
+          DTS:ConnectionString="Data Source=lds.di.unipi.it;User ID=lds;Initial Catalog=lbi;Provider=SQLNCLI11.1;Persist Security Info=True;Auto Translate=False;">
+          <DTS:Password
+            DTS:Name="Password"
+            Sensitive="1"
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAASwWrmCWQ4k6Jf9XW9NwqYwAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAACGi6J5r8nPZDerb/0BW9Z5y3U99rOlFWZj5TZuEQTp+gAAAAAOgAAAAAIAACAAAADFQGZXhcJe/Zk2pjVe1VIn1+xR52DRMh9OMA2pTh7v6xAAAABmOuCSw4Fn0qVnmyIVdinkQAAAAJ1+IigYeLqixs+s7+9nXeqodC2h+0EOiLuRze6ipHzlOlKUMkoLJtKmaRDwskA1/lhylOYQ9WeW7Myp1NBgTEk</DTS:Password>
+        </DTS:ConnectionManager>
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[lds.di.unipi.it.lbi.lds 2]"
+      DTS:CreationName="OLEDB"
+      DTS:DTSID="{452A7BA1-D700-4D32-945A-46101B811296}"
+      DTS:ObjectName="lds.di.unipi.it.lbi.lds 2">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectRetryCount="1"
+          DTS:ConnectRetryInterval="5"
+          DTS:ConnectionString="Data Source=lds.di.unipi.it;User ID=lds;Initial Catalog=lbi;Provider=SQLNCLI11.1;Persist Security Info=True;Auto Translate=False;">
+          <DTS:Password
+            DTS:Name="Password"
+            Sensitive="1"
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAASwWrmCWQ4k6Jf9XW9NwqYwAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAADPU8q2/G8GQRFDncSa7TaC/dqsTrIZNMhE2/H0bTM9UAAAAAAOgAAAAAIAACAAAAAEPbChBHZ2R1cBz4Ih0bjbzRNK52W5DN/W2UXvz9jUzBAAAABo2V7luewAAH5tN1DWdX6aQAAAAHM3+dwdcvdwb4XUnIwttkbYoP93ZfnkQBSGiBxcd1c20VkABNLT0J+JZh0YNo5ptwoorw0tGhp44uoJNke8xP4</DTS:Password>
+        </DTS:ConnectionManager>
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+  </DTS:ConnectionManagers>
+  <DTS:Variables />
+  <DTS:Executables>
+    <DTS:Executable
+      DTS:refId="Package\Attività Esegui SQL"
+      DTS:CreationName="Microsoft.ExecuteSQLTask"
+      DTS:Description="Attività Esegui SQL"
+      DTS:DTSID="{42F253F2-A83C-4235-AFD5-4751EF12DFC5}"
+      DTS:ExecutableType="Microsoft.ExecuteSQLTask"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="Attività Esegui SQL"
+      DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2019; © 2019 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
+      DTS:ThreadHint="0">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <SQLTask:SqlTaskData
+          SQLTask:Connection="{452A7BA1-D700-4D32-945A-46101B811296}"
+          SQLTask:SqlStatementSource="If object_id('Mapping_Customer_559941') is null&#xA;CREATE TABLE Mapping_Customer_559941&#xA;( [customer_id] [int] IDENTITY(1,1) NOT NULL,&#xA;[customer_name] [nvarchar](151) NOT NULL&#xA;)" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
+      </DTS:ObjectData>
+    </DTS:Executable>
+  </DTS:Executables>
+  <DTS:DesignTimeProperties><![CDATA[<?xml version="1.0"?>
+<!--Questa sezione CDATA contiene le informazioni sul layout del pacchetto e include informazioni quali coordinate (x,y), larghezza e altezza.-->
+<!--Se si modifica manualmente la sezione e si commette un errore, è possibile eliminarla. -->
+<!--Sarà comunque possibile caricare manualmente il pacchetto, ma le informazioni precedenti sul layout verranno perse e gli elementi verranno nuovamente disposti nell'area di progettazione all'interno dell'apposita finestra.-->
+<Objects
+  Version="8">
+  <!--Ogni nodo seguente conterrà proprietà che non influiscono sul comportamento di runtime.-->
+  <Package
+    design-time-name="Package">
+    <LayoutInfo>
+      <GraphLayout
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph">
+        <NodeLayout
+          Size="167.2,41.6"
+          Id="Package\Attività Esegui SQL"
+          TopLeft="297.85714792962,155.235296294763" />
+      </GraphLayout>
+    </LayoutInfo>
+  </Package>
+</Objects>]]></DTS:DesignTimeProperties>
+</DTS:Executable>
