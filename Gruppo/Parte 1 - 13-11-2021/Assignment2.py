@@ -2,8 +2,6 @@ import pyodbc
 from Utils import CSVtoLISTDICT, connectDB
 from tqdm import tqdm
 
-#print(pyodbc.drivers())
-
 def chunks(lst, start, n):
     for i in range(start, len(lst), n):
         yield lst[i:i + n]
@@ -11,7 +9,7 @@ def chunks(lst, start, n):
 #Insert di più record alla volta usando execute many
 def insert_db1(cursor, data, query, table, chunk_size=100):
     row_count = cursor.execute('SELECT COUNT(*) FROM ' + table).fetchall()[0][0]
-    print('Record presenti: ', row_count)
+    print(F'Record presenti in {table}: {row_count}')
 
     for chunk in tqdm(chunks(data, row_count, chunk_size)):
         try:
@@ -61,11 +59,11 @@ query_match = 'INSERT INTO Match (match_id,winner_id,loser_id,score,best_of,roun
                    '            VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)'
 
 #Insert date
-input_list = [  list(date.values())  for date in dates ]
+input_list = [ list(date.values())  for date in dates ]
 insert_db1(cursor, input_list, query_dates, 'date')
 
 # Insert tournaments
-input_list = [  list(tourney.values())  for tourney in tournaments ]
+input_list = [ list(tourney.values())  for tourney in tournaments ]
 insert_db1(cursor, input_list, query_tournament, 'tournament')
 
 #Insert countries
@@ -95,15 +93,6 @@ insert_db1(cursor, input_list, query_players, 'player')
 
 input_list = [ [ str(match['match_num']) + match['tourney_pk'] + str(match['winner_id']) + str(match['loser_id']) ] + list(match.values())[1:] for match in matches ]
 
-#Forse non necessario (cast a interi)
-for i, tuple in enumerate(input_list):
-    for j, value in enumerate(tuple):
-        try:
-            new_val = int(float(value))
-            input_list[i][j] = new_val
-        except:
-            ''
-
-insert_db1(cursor, input_list, query_match, 'match')
+insert_db1(cursor, input_list, query_match, 'match', chunk_size=250)
 cnxn.close()
 

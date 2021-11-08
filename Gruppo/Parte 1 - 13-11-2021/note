@@ -14,3 +14,11 @@ Country code non risolvibili usando countryInfo.tsv
 
 Tournament
     torneo '2019-560' US Open == Us Open
+
+
+
+delete from Match;
+delete from Player;
+delete from Tournament;
+delete from Geography;
+delete from Date;
