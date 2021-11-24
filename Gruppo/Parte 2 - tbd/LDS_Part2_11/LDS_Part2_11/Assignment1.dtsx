@@ -11,8 +11,8 @@
   DTS:LocaleID="1040"
   DTS:ObjectName="Package1"
   DTS:PackageType="5"
-  DTS:VersionBuild="3"
-  DTS:VersionGUID="{4EA7DA93-C7EF-4C6C-A5FA-7FBC8E5538F6}">
+  DTS:VersionBuild="8"
+  DTS:VersionGUID="{0FA4E326-2D69-4C1A-AAE9-7C9A5CF490F5}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -137,7 +137,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAASwWrmCWQ4k6Jf9XW9NwqYwAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAD1qj3Fsp66idEywNK+wvKrORWvLzFaF159SF6SI0YBmAAAAAAOgAAAAAIAACAAAAAGcGuhlsVS/N+Q9VOe4c48suNGFQkp8dRBbA4i0GM5ziAAAABChCZw3RFnqkPjNRCAGTe9gmX4mQKlioMsgz/TcwF54EAAAADeJNN5SchvyXQNjvsYdjIazkLyTAeFL8r4uLR8Cyebg50l+m+wF1VlXNR6u3qnXq7sNX5RZIiRaB+W2XnObKT7</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAASwWrmCWQ4k6Jf9XW9NwqYwAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAADKFS/lGZl7vHLVsSvi1MvmwTVXGX1Gmo5wzV0W8AnO4AAAAAAOgAAAAAIAACAAAADR27TTq5ry3IWyVY89DHLvg0KjP9o7zslqLCQrEyzaoiAAAACsaDuOq2I+Cv41ZXrftxGAxwuscbAtiQ16ap1n57c3nEAAAAB0Mu/SJ07ZwZiU4P2qEMgPOKr/lga8+EZ8XK03/UFC42ULMSO3xUhlkEV5Tct71iX9jlcnU1QzcEyE6iTK0fjS</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -158,11 +158,11 @@
           version="1">
           <components>
             <component
-              refId="Package\Attività Flusso di dati\Aggregazione"
+              refId="Package\Attività Flusso di dati\COUNT(*) AS partite perse GROUP BY winner_id AS nemesis_id, loser_id AS player_id"
               componentClassID="Microsoft.Aggregate"
               contactInfo="Aggregazione;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; Tutti i diritti sono riservati; http://www.microsoft.com/sql/support;3"
               description="Aggrega i dati con funzioni quali Media, Somma, Conta numeri, Max e Min. Ad esempio, raggruppare i dati per calcolare la somma delle vendite per prodotto o la media giornaliera delle visite."
-              name="Aggregazione"
+              name="COUNT(*) AS partite perse GROUP BY winner_id AS nemesis_id, loser_id AS player_id"
               version="3">
               <properties>
                 <property
@@ -190,26 +190,26 @@
               </properties>
               <inputs>
                 <input
-                  refId="Package\Attività Flusso di dati\Aggregazione.Inputs[Input aggregazione 1]"
+                  refId="Package\Attività Flusso di dati\COUNT(*) AS partite perse GROUP BY winner_id AS nemesis_id, loser_id AS player_id.Inputs[Input aggregazione 1]"
                   name="Input aggregazione 1">
                   <inputColumns>
                     <inputColumn
-                      refId="Package\Attività Flusso di dati\Aggregazione.Inputs[Input aggregazione 1].Columns[winner_id]"
+                      refId="Package\Attività Flusso di dati\COUNT(*) AS partite perse GROUP BY winner_id AS nemesis_id, loser_id AS player_id.Inputs[Input aggregazione 1].Columns[winner_id]"
                       cachedDataType="i4"
                       cachedName="winner_id"
-                      lineageId="Package\Attività Flusso di dati\Origine OLE DB.Outputs[Output origine OLE DB].Columns[winner_id]" />
+                      lineageId="Package\Attività Flusso di dati\Match.Outputs[Output origine OLE DB].Columns[winner_id]" />
                     <inputColumn
-                      refId="Package\Attività Flusso di dati\Aggregazione.Inputs[Input aggregazione 1].Columns[loser_id]"
+                      refId="Package\Attività Flusso di dati\COUNT(*) AS partite perse GROUP BY winner_id AS nemesis_id, loser_id AS player_id.Inputs[Input aggregazione 1].Columns[loser_id]"
                       cachedDataType="i4"
                       cachedName="loser_id"
-                      lineageId="Package\Attività Flusso di dati\Origine OLE DB.Outputs[Output origine OLE DB].Columns[loser_id]" />
+                      lineageId="Package\Attività Flusso di dati\Match.Outputs[Output origine OLE DB].Columns[loser_id]" />
                   </inputColumns>
                   <externalMetadataColumns />
                 </input>
               </inputs>
               <outputs>
                 <output
-                  refId="Package\Attività Flusso di dati\Aggregazione.Outputs[Output aggregazione 1]"
+                  refId="Package\Attività Flusso di dati\COUNT(*) AS partite perse GROUP BY winner_id AS nemesis_id, loser_id AS player_id.Outputs[Output aggregazione 1]"
                   name="Output aggregazione 1">
                   <properties>
                     <property
@@ -224,9 +224,9 @@
                   </properties>
                   <outputColumns>
                     <outputColumn
-                      refId="Package\Attività Flusso di dati\Aggregazione.Outputs[Output aggregazione 1].Columns[partite_perse]"
+                      refId="Package\Attività Flusso di dati\COUNT(*) AS partite perse GROUP BY winner_id AS nemesis_id, loser_id AS player_id.Outputs[Output aggregazione 1].Columns[partite_perse]"
                       dataType="ui8"
-                      lineageId="Package\Attività Flusso di dati\Aggregazione.Outputs[Output aggregazione 1].Columns[partite_perse]"
+                      lineageId="Package\Attività Flusso di dati\COUNT(*) AS partite perse GROUP BY winner_id AS nemesis_id, loser_id AS player_id.Outputs[Output aggregazione 1].Columns[partite_perse]"
                       name="partite_perse">
                       <properties>
                         <property
@@ -250,42 +250,16 @@
                       </properties>
                     </outputColumn>
                     <outputColumn
-                      refId="Package\Attività Flusso di dati\Aggregazione.Outputs[Output aggregazione 1].Columns[player_id]"
+                      refId="Package\Attività Flusso di dati\COUNT(*) AS partite perse GROUP BY winner_id AS nemesis_id, loser_id AS player_id.Outputs[Output aggregazione 1].Columns[nemesis_id]"
                       dataType="i4"
-                      lineageId="Package\Attività Flusso di dati\Aggregazione.Outputs[Output aggregazione 1].Columns[player_id]"
-                      name="player_id">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="Specifica l'ID della colonna di input utilizzata nell'aggregazione."
-                          name="AggregationColumnId">#{Package\Attività Flusso di dati\Origine OLE DB.Outputs[Output origine OLE DB].Columns[winner_id]}</property>
-                        <property
-                          dataType="System.Int32"
-                          description="Specifica il tipo di aggregazione."
-                          name="AggregationType"
-                          typeConverter="AggregationType">0</property>
-                        <property
-                          dataType="System.Int32"
-                          description="Indica se la colonna richieste interventi di gestione speciali perché contiene dati di dimensioni eccessive o richiede una precisione maggiore rispetto al tipo di dati float."
-                          name="IsBig">1</property>
-                        <property
-                          dataType="System.Int32"
-                          description="Specifica le opzioni per il confronto di stringhe."
-                          name="AggregationComparisonFlags">0</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\Attività Flusso di dati\Aggregazione.Outputs[Output aggregazione 1].Columns[nemesis_id]"
-                      dataType="i4"
-                      lineageId="Package\Attività Flusso di dati\Aggregazione.Outputs[Output aggregazione 1].Columns[nemesis_id]"
+                      lineageId="Package\Attività Flusso di dati\COUNT(*) AS partite perse GROUP BY winner_id AS nemesis_id, loser_id AS player_id.Outputs[Output aggregazione 1].Columns[nemesis_id]"
                       name="nemesis_id">
                       <properties>
                         <property
                           containsID="true"
                           dataType="System.Int32"
                           description="Specifica l'ID della colonna di input utilizzata nell'aggregazione."
-                          name="AggregationColumnId">#{Package\Attività Flusso di dati\Origine OLE DB.Outputs[Output origine OLE DB].Columns[loser_id]}</property>
+                          name="AggregationColumnId">#{Package\Attività Flusso di dati\Match.Outputs[Output origine OLE DB].Columns[winner_id]}</property>
                         <property
                           dataType="System.Int32"
                           description="Specifica il tipo di aggregazione."
@@ -301,116 +275,17 @@
                           name="AggregationComparisonFlags">0</property>
                       </properties>
                     </outputColumn>
-                  </outputColumns>
-                  <externalMetadataColumns />
-                </output>
-              </outputs>
-            </component>
-            <component
-              refId="Package\Attività Flusso di dati\Aggregazione 1"
-              componentClassID="Microsoft.Aggregate"
-              contactInfo="Aggregazione;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; Tutti i diritti sono riservati; http://www.microsoft.com/sql/support;3"
-              description="Aggrega i dati con funzioni quali Media, Somma, Conta numeri, Max e Min. Ad esempio, raggruppare i dati per calcolare la somma delle vendite per prodotto o la media giornaliera delle visite."
-              name="Aggregazione 1"
-              version="3">
-              <properties>
-                <property
-                  dataType="System.Int32"
-                  description="Specifica il numero approssimativo di chiavi Group By generate dall'aggregazione. Basso indica 500.000 valori di chiave, Medio indica 5 milioni di valori di chiave e Alto indica più di 25 milioni di valori di chiave. Non specificato indica che non viene utilizzato alcun valore KeyScale."
-                  name="KeyScale"
-                  typeConverter="KeyScaleType">0</property>
-                <property
-                  dataType="System.Null"
-                  description="Specifica il numero esatto di chiavi Group By generate dall'aggregazione. Se si specifica un valore KeyScale, il valore di Keys ha la precedenza."
-                  name="Keys" />
-                <property
-                  dataType="System.Int32"
-                  description="Specifica il numero approssimativo di valori Distinct in una colonna a cui viene applicata la funzione di aggregazione Count Distinct. Basso indica 500.000 valori di chiave, Medio indica 5 milioni di valori di chiave e Alto indica 25 milioni di valori di chiave. Non specificato indica che non viene utilizzato alcun valore CountDistinctScale."
-                  name="CountDistinctScale"
-                  typeConverter="KeyScaleType">0</property>
-                <property
-                  dataType="System.Null"
-                  description="Specifica il numero approssimativo di valori Distinct in una colonna a cui viene applicata la funzione di aggregazione Count Distinct. Se si specifica un valore CountDistinctScale, il valore in CountDistinctKeys ha la precedenza."
-                  name="CountDistinctKeys" />
-                <property
-                  dataType="System.Int32"
-                  description="Specifica la percentuale di estensione della memoria consentita durante l'aggregazione. I valori validi sono compresi tra 1 e 100."
-                  name="AutoExtendFactor">25</property>
-              </properties>
-              <inputs>
-                <input
-                  refId="Package\Attività Flusso di dati\Aggregazione 1.Inputs[Input aggregazione 1]"
-                  name="Input aggregazione 1">
-                  <inputColumns>
-                    <inputColumn
-                      refId="Package\Attività Flusso di dati\Aggregazione 1.Inputs[Input aggregazione 1].Columns[player_id]"
-                      cachedDataType="i4"
-                      cachedName="player_id"
-                      cachedSortKeyPosition="2"
-                      lineageId="Package\Attività Flusso di dati\Ordinamento.Outputs[Output ordinamento].Columns[player_id]" />
-                    <inputColumn
-                      refId="Package\Attività Flusso di dati\Aggregazione 1.Inputs[Input aggregazione 1].Columns[partite_perse]"
-                      cachedDataType="ui8"
-                      cachedName="partite_perse"
-                      cachedSortKeyPosition="1"
-                      lineageId="Package\Attività Flusso di dati\Ordinamento.Outputs[Output ordinamento].Columns[partite_perse]" />
-                  </inputColumns>
-                  <externalMetadataColumns />
-                </input>
-              </inputs>
-              <outputs>
-                <output
-                  refId="Package\Attività Flusso di dati\Aggregazione 1.Outputs[Output aggregazione 1]"
-                  name="Output aggregazione 1">
-                  <properties>
-                    <property
-                      dataType="System.Int32"
-                      description="Specifica il numero approssimativo di chiavi Group By generate dall'aggregazione. Basso indica 500.000 valori di chiave, Medio indica 5 milioni di valori di chiave e Alto indica più di 25 milioni di valori di chiave. Non specificato indica che non viene utilizzato alcun valore KeyScale."
-                      name="KeyScale"
-                      typeConverter="KeyScaleType">0</property>
-                    <property
-                      dataType="System.Null"
-                      description="Specifica il numero esatto di chiavi Group By generate dall'aggregazione. Se si specifica un valore KeyScale, il valore di Keys ha la precedenza."
-                      name="Keys" />
-                  </properties>
-                  <outputColumns>
                     <outputColumn
-                      refId="Package\Attività Flusso di dati\Aggregazione 1.Outputs[Output aggregazione 1].Columns[partite_perse]"
-                      dataType="ui8"
-                      lineageId="Package\Attività Flusso di dati\Aggregazione 1.Outputs[Output aggregazione 1].Columns[partite_perse]"
-                      name="partite_perse">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="Specifica l'ID della colonna di input utilizzata nell'aggregazione."
-                          name="AggregationColumnId">#{Package\Attività Flusso di dati\Ordinamento.Outputs[Output ordinamento].Columns[partite_perse]}</property>
-                        <property
-                          dataType="System.Int32"
-                          description="Specifica il tipo di aggregazione."
-                          name="AggregationType"
-                          typeConverter="AggregationType">7</property>
-                        <property
-                          dataType="System.Int32"
-                          description="Indica se la colonna richieste interventi di gestione speciali perché contiene dati di dimensioni eccessive o richiede una precisione maggiore rispetto al tipo di dati float."
-                          name="IsBig">1</property>
-                        <property
-                          dataType="System.Int32"
-                          description="Specifica le opzioni per il confronto di stringhe."
-                          name="AggregationComparisonFlags">0</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\Attività Flusso di dati\Aggregazione 1.Outputs[Output aggregazione 1].Columns[player_id]"
+                      refId="Package\Attività Flusso di dati\COUNT(*) AS partite perse GROUP BY winner_id AS nemesis_id, loser_id AS player_id.Outputs[Output aggregazione 1].Columns[player_id]"
                       dataType="i4"
-                      lineageId="Package\Attività Flusso di dati\Aggregazione 1.Outputs[Output aggregazione 1].Columns[player_id]"
+                      lineageId="Package\Attività Flusso di dati\COUNT(*) AS partite perse GROUP BY winner_id AS nemesis_id, loser_id AS player_id.Outputs[Output aggregazione 1].Columns[player_id]"
                       name="player_id">
                       <properties>
                         <property
                           containsID="true"
                           dataType="System.Int32"
                           description="Specifica l'ID della colonna di input utilizzata nell'aggregazione."
-                          name="AggregationColumnId">#{Package\Attività Flusso di dati\Ordinamento.Outputs[Output ordinamento].Columns[player_id]}</property>
+                          name="AggregationColumnId">#{Package\Attività Flusso di dati\Match.Outputs[Output origine OLE DB].Columns[loser_id]}</property>
                         <property
                           dataType="System.Int32"
                           description="Specifica il tipo di aggregazione."
@@ -494,7 +369,7 @@
                       cachedLength="50"
                       cachedName="player_name"
                       externalMetadataColumnId="Package\Attività Flusso di dati\Destinazione file flat.Inputs[Input destinazione file flat].ExternalColumns[player_name]"
-                      lineageId="Package\Attività Flusso di dati\Ricerca.Outputs[Output corrispondenza ricerca].Columns[player_name]" />
+                      lineageId="Package\Attività Flusso di dati\Lookup player name.Outputs[Output corrispondenza ricerca].Columns[player_name]" />
                     <inputColumn
                       refId="Package\Attività Flusso di dati\Destinazione file flat.Inputs[Input destinazione file flat].Columns[nemesis_name]"
                       cachedCodepage="1252"
@@ -502,7 +377,7 @@
                       cachedLength="50"
                       cachedName="nemesis_name"
                       externalMetadataColumnId="Package\Attività Flusso di dati\Destinazione file flat.Inputs[Input destinazione file flat].ExternalColumns[nemesis_name]"
-                      lineageId="Package\Attività Flusso di dati\Ricerca 1.Outputs[Output corrispondenza ricerca].Columns[nemesis_name]" />
+                      lineageId="Package\Attività Flusso di dati\Lookup nemesis name.Outputs[Output corrispondenza ricerca].Columns[nemesis_name]" />
                   </inputColumns>
                   <externalMetadataColumns
                     isUsed="True">
@@ -535,804 +410,11 @@
               </inputs>
             </component>
             <component
-              refId="Package\Attività Flusso di dati\Merge join"
-              componentClassID="Microsoft.MergeJoin"
-              contactInfo="Merge join;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; Tutti i diritti sono riservati; http://www.microsoft.com/sql/support;1"
-              description="Combina due flussi di dati ordinati in uno solo tramite join di tipo FULL, LEFT o INNER. Questa trasformazione è consigliata quando i flussi di dati possono essere ordinati alle relative origini."
-              name="Merge join"
-              version="1">
-              <properties>
-                <property
-                  dataType="System.Int32"
-                  description="Specifica il tipo di join da eseguire."
-                  name="JoinType"
-                  typeConverter="JoinType">2</property>
-                <property
-                  dataType="System.Int32"
-                  description="Specifica il numero di colonne nella chiave di ordinamento."
-                  name="NumKeyColumns">2</property>
-                <property
-                  dataType="System.Boolean"
-                  description="Indica se i valori Null vengono considerati come valori uguali."
-                  name="TreatNullsAsEqual">true</property>
-                <property
-                  dataType="System.Int32"
-                  description="Indica il numero massimo di buffer richiesti per input prima dell'attivazione del blocco."
-                  name="MaxBuffersPerInput">5</property>
-              </properties>
-              <inputs>
-                <input
-                  refId="Package\Attività Flusso di dati\Merge join.Inputs[Input merge join sinistro]"
-                  hasSideEffects="true"
-                  name="Input merge join sinistro">
-                  <inputColumns>
-                    <inputColumn
-                      refId="Package\Attività Flusso di dati\Merge join.Inputs[Input merge join sinistro].Columns[partite_perse]"
-                      cachedDataType="ui8"
-                      cachedName="partite_perse"
-                      cachedSortKeyPosition="1"
-                      lineageId="Package\Attività Flusso di dati\Ordinamento 1.Outputs[Output ordinamento].Columns[partite_perse]" />
-                    <inputColumn
-                      refId="Package\Attività Flusso di dati\Merge join.Inputs[Input merge join sinistro].Columns[player_id]"
-                      cachedDataType="i4"
-                      cachedName="player_id"
-                      cachedSortKeyPosition="2"
-                      lineageId="Package\Attività Flusso di dati\Ordinamento 1.Outputs[Output ordinamento].Columns[player_id]" />
-                  </inputColumns>
-                  <externalMetadataColumns />
-                </input>
-                <input
-                  refId="Package\Attività Flusso di dati\Merge join.Inputs[Input merge join destro]"
-                  hasSideEffects="true"
-                  name="Input merge join destro">
-                  <inputColumns>
-                    <inputColumn
-                      refId="Package\Attività Flusso di dati\Merge join.Inputs[Input merge join destro].Columns[partite_perse]"
-                      cachedDataType="ui8"
-                      cachedName="partite_perse"
-                      cachedSortKeyPosition="1"
-                      lineageId="Package\Attività Flusso di dati\Ordinamento.Outputs[Output ordinamento].Columns[partite_perse]" />
-                    <inputColumn
-                      refId="Package\Attività Flusso di dati\Merge join.Inputs[Input merge join destro].Columns[player_id]"
-                      cachedDataType="i4"
-                      cachedName="player_id"
-                      cachedSortKeyPosition="2"
-                      lineageId="Package\Attività Flusso di dati\Ordinamento.Outputs[Output ordinamento].Columns[player_id]" />
-                    <inputColumn
-                      refId="Package\Attività Flusso di dati\Merge join.Inputs[Input merge join destro].Columns[nemesis_id]"
-                      cachedDataType="i4"
-                      cachedName="nemesis_id"
-                      lineageId="Package\Attività Flusso di dati\Ordinamento.Outputs[Output ordinamento].Columns[nemesis_id]" />
-                  </inputColumns>
-                  <externalMetadataColumns />
-                </input>
-              </inputs>
-              <outputs>
-                <output
-                  refId="Package\Attività Flusso di dati\Merge join.Outputs[Output merge join]"
-                  isSorted="true"
-                  name="Output merge join">
-                  <outputColumns>
-                    <outputColumn
-                      refId="Package\Attività Flusso di dati\Merge join.Outputs[Output merge join].Columns[partite_perse]"
-                      dataType="ui8"
-                      lineageId="Package\Attività Flusso di dati\Merge join.Outputs[Output merge join].Columns[partite_perse]"
-                      name="partite_perse"
-                      sortKeyPosition="1">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="Colonna di input associata a questa colonna di output"
-                          name="InputColumnID">#{Package\Attività Flusso di dati\Merge join.Inputs[Input merge join sinistro].Columns[partite_perse]}</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\Attività Flusso di dati\Merge join.Outputs[Output merge join].Columns[player_id]"
-                      dataType="i4"
-                      lineageId="Package\Attività Flusso di dati\Merge join.Outputs[Output merge join].Columns[player_id]"
-                      name="player_id"
-                      sortKeyPosition="2">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="Colonna di input associata a questa colonna di output"
-                          name="InputColumnID">#{Package\Attività Flusso di dati\Merge join.Inputs[Input merge join sinistro].Columns[player_id]}</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\Attività Flusso di dati\Merge join.Outputs[Output merge join].Columns[nemesis_id]"
-                      dataType="i4"
-                      lineageId="Package\Attività Flusso di dati\Merge join.Outputs[Output merge join].Columns[nemesis_id]"
-                      name="nemesis_id">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="Colonna di input associata a questa colonna di output"
-                          name="InputColumnID">#{Package\Attività Flusso di dati\Merge join.Inputs[Input merge join destro].Columns[nemesis_id]}</property>
-                      </properties>
-                    </outputColumn>
-                  </outputColumns>
-                  <externalMetadataColumns />
-                </output>
-              </outputs>
-            </component>
-            <component
-              refId="Package\Attività Flusso di dati\Multicast"
-              componentClassID="Microsoft.Multicast"
-              contactInfo="Multicast;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; Tutti i diritti sono riservati; http://www.microsoft.com/sql/support;0"
-              description="Distribuisce ogni riga di input a ogni riga di uno o più output. Ad esempio, creare un nuovo ramo del flusso di dati per creare una copia dei dati in modo che sia possibile mascherare alcuni valori prima di condividerli con partner esterni."
-              name="Multicast">
-              <inputs>
-                <input
-                  refId="Package\Attività Flusso di dati\Multicast.Inputs[Multicast Input 1]"
-                  name="Multicast Input 1">
-                  <externalMetadataColumns />
-                </input>
-              </inputs>
-              <outputs>
-                <output
-                  refId="Package\Attività Flusso di dati\Multicast.Outputs[Multicast Output 1]"
-                  deleteOutputOnPathDetached="true"
-                  name="Multicast Output 1"
-                  synchronousInputId="Package\Attività Flusso di dati\Multicast.Inputs[Multicast Input 1]">
-                  <externalMetadataColumns />
-                </output>
-                <output
-                  refId="Package\Attività Flusso di dati\Multicast.Outputs[Output multicast 1]"
-                  deleteOutputOnPathDetached="true"
-                  name="Output multicast 1"
-                  synchronousInputId="Package\Attività Flusso di dati\Multicast.Inputs[Multicast Input 1]">
-                  <externalMetadataColumns />
-                </output>
-                <output
-                  refId="Package\Attività Flusso di dati\Multicast.Outputs[Output multicast 2]"
-                  dangling="true"
-                  deleteOutputOnPathDetached="true"
-                  name="Output multicast 2"
-                  synchronousInputId="Package\Attività Flusso di dati\Multicast.Inputs[Multicast Input 1]">
-                  <externalMetadataColumns />
-                </output>
-              </outputs>
-            </component>
-            <component
-              refId="Package\Attività Flusso di dati\Ordinamento"
-              componentClassID="Microsoft.Sort"
-              contactInfo="Ordinamento;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; Tutti i diritti sono riservati; http://www.microsoft.com/sql/support;1"
-              description="Ordina i dati di input in ordine crescente o decrescente quando non possono essere ordinati come la relativa origine. Ad esempio, ordinare i dati delle vendite per 'customer id' prima che vengano scritti in un file flat e recapitati a un altro reparto. Nota: questa trasformazione non è consigliata per i flussi di dati di grandi dimensioni."
-              name="Ordinamento"
-              version="1">
-              <properties>
-                <property
-                  dataType="System.Boolean"
-                  description="Indica se la trasformazione Ordinamento rimuove le righe con valori di ordinamento duplicati."
-                  name="EliminateDuplicates">false</property>
-                <property
-                  dataType="System.Int32"
-                  description="Specifica il numero massimo di thread da utilizzare per l'ordinamento."
-                  expressionType="Notify"
-                  name="MaximumThreads">-1</property>
-              </properties>
-              <inputs>
-                <input
-                  refId="Package\Attività Flusso di dati\Ordinamento.Inputs[Input ordinamento]"
-                  name="Input ordinamento">
-                  <inputColumns>
-                    <inputColumn
-                      refId="Package\Attività Flusso di dati\Ordinamento.Inputs[Input ordinamento].Columns[partite_perse]"
-                      cachedDataType="ui8"
-                      cachedName="partite_perse"
-                      lineageId="Package\Attività Flusso di dati\Aggregazione.Outputs[Output aggregazione 1].Columns[partite_perse]">
-                      <properties>
-                        <property
-                          dataType="System.Int32"
-                          description="Specifica le opzioni di confronto per i dati di tipo carattere."
-                          name="NewComparisonFlags">0</property>
-                        <property
-                          dataType="System.Int32"
-                          description="Specifica il tipo di ordinamento della colonna."
-                          name="NewSortKeyPosition">1</property>
-                      </properties>
-                    </inputColumn>
-                    <inputColumn
-                      refId="Package\Attività Flusso di dati\Ordinamento.Inputs[Input ordinamento].Columns[player_id]"
-                      cachedDataType="i4"
-                      cachedName="player_id"
-                      lineageId="Package\Attività Flusso di dati\Aggregazione.Outputs[Output aggregazione 1].Columns[player_id]">
-                      <properties>
-                        <property
-                          dataType="System.Int32"
-                          description="Specifica le opzioni di confronto per i dati di tipo carattere."
-                          name="NewComparisonFlags">0</property>
-                        <property
-                          dataType="System.Int32"
-                          description="Specifica il tipo di ordinamento della colonna."
-                          name="NewSortKeyPosition">2</property>
-                      </properties>
-                    </inputColumn>
-                    <inputColumn
-                      refId="Package\Attività Flusso di dati\Ordinamento.Inputs[Input ordinamento].Columns[nemesis_id]"
-                      cachedDataType="i4"
-                      cachedName="nemesis_id"
-                      lineageId="Package\Attività Flusso di dati\Aggregazione.Outputs[Output aggregazione 1].Columns[nemesis_id]">
-                      <properties>
-                        <property
-                          dataType="System.Int32"
-                          description="Specifica le opzioni di confronto per i dati di tipo carattere."
-                          name="NewComparisonFlags">0</property>
-                        <property
-                          dataType="System.Int32"
-                          description="Specifica il tipo di ordinamento della colonna."
-                          name="NewSortKeyPosition">0</property>
-                      </properties>
-                    </inputColumn>
-                  </inputColumns>
-                  <externalMetadataColumns />
-                </input>
-              </inputs>
-              <outputs>
-                <output
-                  refId="Package\Attività Flusso di dati\Ordinamento.Outputs[Output ordinamento]"
-                  isSorted="true"
-                  name="Output ordinamento">
-                  <outputColumns>
-                    <outputColumn
-                      refId="Package\Attività Flusso di dati\Ordinamento.Outputs[Output ordinamento].Columns[partite_perse]"
-                      dataType="ui8"
-                      lineageId="Package\Attività Flusso di dati\Ordinamento.Outputs[Output ordinamento].Columns[partite_perse]"
-                      name="partite_perse"
-                      sortKeyPosition="1">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="Specifica l'identificatore di derivazione della colonna di input associata a questa colonna di output."
-                          name="SortColumnId">#{Package\Attività Flusso di dati\Aggregazione.Outputs[Output aggregazione 1].Columns[partite_perse]}</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\Attività Flusso di dati\Ordinamento.Outputs[Output ordinamento].Columns[player_id]"
-                      dataType="i4"
-                      lineageId="Package\Attività Flusso di dati\Ordinamento.Outputs[Output ordinamento].Columns[player_id]"
-                      name="player_id"
-                      sortKeyPosition="2">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="Specifica l'identificatore di derivazione della colonna di input associata a questa colonna di output."
-                          name="SortColumnId">#{Package\Attività Flusso di dati\Aggregazione.Outputs[Output aggregazione 1].Columns[player_id]}</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\Attività Flusso di dati\Ordinamento.Outputs[Output ordinamento].Columns[nemesis_id]"
-                      dataType="i4"
-                      lineageId="Package\Attività Flusso di dati\Ordinamento.Outputs[Output ordinamento].Columns[nemesis_id]"
-                      name="nemesis_id">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="Specifica l'identificatore di derivazione della colonna di input associata a questa colonna di output."
-                          name="SortColumnId">#{Package\Attività Flusso di dati\Aggregazione.Outputs[Output aggregazione 1].Columns[nemesis_id]}</property>
-                      </properties>
-                    </outputColumn>
-                  </outputColumns>
-                  <externalMetadataColumns />
-                </output>
-              </outputs>
-            </component>
-            <component
-              refId="Package\Attività Flusso di dati\Ordinamento 1"
-              componentClassID="Microsoft.Sort"
-              contactInfo="Ordinamento;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; Tutti i diritti sono riservati; http://www.microsoft.com/sql/support;1"
-              description="Ordina i dati di input in ordine crescente o decrescente quando non possono essere ordinati come la relativa origine. Ad esempio, ordinare i dati delle vendite per 'customer id' prima che vengano scritti in un file flat e recapitati a un altro reparto. Nota: questa trasformazione non è consigliata per i flussi di dati di grandi dimensioni."
-              name="Ordinamento 1"
-              version="1">
-              <properties>
-                <property
-                  dataType="System.Boolean"
-                  description="Indica se la trasformazione Ordinamento rimuove le righe con valori di ordinamento duplicati."
-                  name="EliminateDuplicates">false</property>
-                <property
-                  dataType="System.Int32"
-                  description="Specifica il numero massimo di thread da utilizzare per l'ordinamento."
-                  expressionType="Notify"
-                  name="MaximumThreads">-1</property>
-              </properties>
-              <inputs>
-                <input
-                  refId="Package\Attività Flusso di dati\Ordinamento 1.Inputs[Input ordinamento]"
-                  name="Input ordinamento">
-                  <inputColumns>
-                    <inputColumn
-                      refId="Package\Attività Flusso di dati\Ordinamento 1.Inputs[Input ordinamento].Columns[partite_perse]"
-                      cachedDataType="ui8"
-                      cachedName="partite_perse"
-                      lineageId="Package\Attività Flusso di dati\Aggregazione 1.Outputs[Output aggregazione 1].Columns[partite_perse]">
-                      <properties>
-                        <property
-                          dataType="System.Int32"
-                          description="Specifica le opzioni di confronto per i dati di tipo carattere."
-                          name="NewComparisonFlags">0</property>
-                        <property
-                          dataType="System.Int32"
-                          description="Specifica il tipo di ordinamento della colonna."
-                          name="NewSortKeyPosition">1</property>
-                      </properties>
-                    </inputColumn>
-                    <inputColumn
-                      refId="Package\Attività Flusso di dati\Ordinamento 1.Inputs[Input ordinamento].Columns[player_id]"
-                      cachedDataType="i4"
-                      cachedName="player_id"
-                      lineageId="Package\Attività Flusso di dati\Aggregazione 1.Outputs[Output aggregazione 1].Columns[player_id]">
-                      <properties>
-                        <property
-                          dataType="System.Int32"
-                          description="Specifica le opzioni di confronto per i dati di tipo carattere."
-                          name="NewComparisonFlags">0</property>
-                        <property
-                          dataType="System.Int32"
-                          description="Specifica il tipo di ordinamento della colonna."
-                          name="NewSortKeyPosition">2</property>
-                      </properties>
-                    </inputColumn>
-                  </inputColumns>
-                  <externalMetadataColumns />
-                </input>
-              </inputs>
-              <outputs>
-                <output
-                  refId="Package\Attività Flusso di dati\Ordinamento 1.Outputs[Output ordinamento]"
-                  isSorted="true"
-                  name="Output ordinamento">
-                  <outputColumns>
-                    <outputColumn
-                      refId="Package\Attività Flusso di dati\Ordinamento 1.Outputs[Output ordinamento].Columns[partite_perse]"
-                      dataType="ui8"
-                      lineageId="Package\Attività Flusso di dati\Ordinamento 1.Outputs[Output ordinamento].Columns[partite_perse]"
-                      name="partite_perse"
-                      sortKeyPosition="1">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="Specifica l'identificatore di derivazione della colonna di input associata a questa colonna di output."
-                          name="SortColumnId">#{Package\Attività Flusso di dati\Aggregazione 1.Outputs[Output aggregazione 1].Columns[partite_perse]}</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\Attività Flusso di dati\Ordinamento 1.Outputs[Output ordinamento].Columns[player_id]"
-                      dataType="i4"
-                      lineageId="Package\Attività Flusso di dati\Ordinamento 1.Outputs[Output ordinamento].Columns[player_id]"
-                      name="player_id"
-                      sortKeyPosition="2">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="Specifica l'identificatore di derivazione della colonna di input associata a questa colonna di output."
-                          name="SortColumnId">#{Package\Attività Flusso di dati\Aggregazione 1.Outputs[Output aggregazione 1].Columns[player_id]}</property>
-                      </properties>
-                    </outputColumn>
-                  </outputColumns>
-                  <externalMetadataColumns />
-                </output>
-              </outputs>
-            </component>
-            <component
-              refId="Package\Attività Flusso di dati\Origine OLE DB"
-              componentClassID="Microsoft.OLEDBSource"
-              contactInfo="Origine OLE DB;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; Tutti i diritti sono riservati; http://www.microsoft.com/sql/support;7"
-              description="Origine OLE DB"
-              name="Origine OLE DB"
-              usesDispositions="true"
-              version="7">
-              <properties>
-                <property
-                  dataType="System.Int32"
-                  description="Numero di secondi prima del timeout di un comando. Il valore 0 indica nessun timeout."
-                  name="CommandTimeout">0</property>
-                <property
-                  dataType="System.String"
-                  description="Specifica il nome dell'oggetto di database utilizzato per aprire un set di righe."
-                  name="OpenRowset">[Group_11].[Match]</property>
-                <property
-                  dataType="System.String"
-                  description="Specifica la variabile contenente il nome dell'oggetto di database utilizzato per aprire un set di righe."
-                  name="OpenRowsetVariable"></property>
-                <property
-                  dataType="System.String"
-                  description="Comando SQL da eseguire."
-                  name="SqlCommand"
-                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor"></property>
-                <property
-                  dataType="System.String"
-                  description="Variabile che contiene il comando SQL da eseguire."
-                  name="SqlCommandVariable"></property>
-                <property
-                  dataType="System.Int32"
-                  description="Specifica la tabella codici della colonna da utilizzare quando l'origine dati non rende disponibili informazioni sulla tabella codici."
-                  name="DefaultCodePage">1252</property>
-                <property
-                  dataType="System.Boolean"
-                  description="Forza l'utilizzo del valore della proprietà DefaultCodePage per la descrizione di dati di tipo carattere."
-                  name="AlwaysUseDefaultCodePage">false</property>
-                <property
-                  dataType="System.Int32"
-                  description="Specifica la modalità utilizzata per accedere al database."
-                  name="AccessMode"
-                  typeConverter="AccessMode">0</property>
-                <property
-                  dataType="System.String"
-                  description="Mapping tra i parametri nel comando SQL e le variabili."
-                  name="ParameterMapping"></property>
-              </properties>
-              <connections>
-                <connection
-                  refId="Package\Attività Flusso di dati\Origine OLE DB.Connections[OleDbConnection]"
-                  connectionManagerID="Package.ConnectionManagers[lds.di.unipi.it.Group_11_DB.Group_11]"
-                  connectionManagerRefId="Package.ConnectionManagers[lds.di.unipi.it.Group_11_DB.Group_11]"
-                  description="Connessione di run-time OLE DB utilizzata per accedere al database."
-                  name="OleDbConnection" />
-              </connections>
-              <outputs>
-                <output
-                  refId="Package\Attività Flusso di dati\Origine OLE DB.Outputs[Output origine OLE DB]"
-                  name="Output origine OLE DB">
-                  <outputColumns>
-                    <outputColumn
-                      refId="Package\Attività Flusso di dati\Origine OLE DB.Outputs[Output origine OLE DB].Columns[winner_id]"
-                      dataType="i4"
-                      errorOrTruncationOperation="Conversione"
-                      errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Attività Flusso di dati\Origine OLE DB.Outputs[Output origine OLE DB].ExternalColumns[winner_id]"
-                      lineageId="Package\Attività Flusso di dati\Origine OLE DB.Outputs[Output origine OLE DB].Columns[winner_id]"
-                      name="winner_id"
-                      truncationRowDisposition="FailComponent" />
-                    <outputColumn
-                      refId="Package\Attività Flusso di dati\Origine OLE DB.Outputs[Output origine OLE DB].Columns[loser_id]"
-                      dataType="i4"
-                      errorOrTruncationOperation="Conversione"
-                      errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Attività Flusso di dati\Origine OLE DB.Outputs[Output origine OLE DB].ExternalColumns[loser_id]"
-                      lineageId="Package\Attività Flusso di dati\Origine OLE DB.Outputs[Output origine OLE DB].Columns[loser_id]"
-                      name="loser_id"
-                      truncationRowDisposition="FailComponent" />
-                  </outputColumns>
-                  <externalMetadataColumns
-                    isUsed="True">
-                    <externalMetadataColumn
-                      refId="Package\Attività Flusso di dati\Origine OLE DB.Outputs[Output origine OLE DB].ExternalColumns[match_id]"
-                      codePage="1252"
-                      dataType="str"
-                      length="150"
-                      name="match_id" />
-                    <externalMetadataColumn
-                      refId="Package\Attività Flusso di dati\Origine OLE DB.Outputs[Output origine OLE DB].ExternalColumns[tourney_id]"
-                      codePage="1252"
-                      dataType="str"
-                      length="150"
-                      name="tourney_id" />
-                    <externalMetadataColumn
-                      refId="Package\Attività Flusso di dati\Origine OLE DB.Outputs[Output origine OLE DB].ExternalColumns[winner_id]"
-                      dataType="i4"
-                      name="winner_id" />
-                    <externalMetadataColumn
-                      refId="Package\Attività Flusso di dati\Origine OLE DB.Outputs[Output origine OLE DB].ExternalColumns[loser_id]"
-                      dataType="i4"
-                      name="loser_id" />
-                    <externalMetadataColumn
-                      refId="Package\Attività Flusso di dati\Origine OLE DB.Outputs[Output origine OLE DB].ExternalColumns[score]"
-                      codePage="1252"
-                      dataType="str"
-                      length="31"
-                      name="score" />
-                    <externalMetadataColumn
-                      refId="Package\Attività Flusso di dati\Origine OLE DB.Outputs[Output origine OLE DB].ExternalColumns[best_of]"
-                      dataType="i4"
-                      name="best_of" />
-                    <externalMetadataColumn
-                      refId="Package\Attività Flusso di dati\Origine OLE DB.Outputs[Output origine OLE DB].ExternalColumns[round]"
-                      codePage="1252"
-                      dataType="str"
-                      length="4"
-                      name="round" />
-                    <externalMetadataColumn
-                      refId="Package\Attività Flusso di dati\Origine OLE DB.Outputs[Output origine OLE DB].ExternalColumns[minutes]"
-                      dataType="r8"
-                      name="minutes" />
-                    <externalMetadataColumn
-                      refId="Package\Attività Flusso di dati\Origine OLE DB.Outputs[Output origine OLE DB].ExternalColumns[w_ace]"
-                      dataType="i4"
-                      name="w_ace" />
-                    <externalMetadataColumn
-                      refId="Package\Attività Flusso di dati\Origine OLE DB.Outputs[Output origine OLE DB].ExternalColumns[w_df]"
-                      dataType="i4"
-                      name="w_df" />
-                    <externalMetadataColumn
-                      refId="Package\Attività Flusso di dati\Origine OLE DB.Outputs[Output origine OLE DB].ExternalColumns[w_svpt]"
-                      dataType="i4"
-                      name="w_svpt" />
-                    <externalMetadataColumn
-                      refId="Package\Attività Flusso di dati\Origine OLE DB.Outputs[Output origine OLE DB].ExternalColumns[w_1stIn]"
-                      dataType="i4"
-                      name="w_1stIn" />
-                    <externalMetadataColumn
-                      refId="Package\Attività Flusso di dati\Origine OLE DB.Outputs[Output origine OLE DB].ExternalColumns[w_1stWon]"
-                      dataType="i4"
-                      name="w_1stWon" />
-                    <externalMetadataColumn
-                      refId="Package\Attività Flusso di dati\Origine OLE DB.Outputs[Output origine OLE DB].ExternalColumns[w_2ndWon]"
-                      dataType="i4"
-                      name="w_2ndWon" />
-                    <externalMetadataColumn
-                      refId="Package\Attività Flusso di dati\Origine OLE DB.Outputs[Output origine OLE DB].ExternalColumns[w_SvGms]"
-                      dataType="i4"
-                      name="w_SvGms" />
-                    <externalMetadataColumn
-                      refId="Package\Attività Flusso di dati\Origine OLE DB.Outputs[Output origine OLE DB].ExternalColumns[w_bpSaved]"
-                      dataType="i4"
-                      name="w_bpSaved" />
-                    <externalMetadataColumn
-                      refId="Package\Attività Flusso di dati\Origine OLE DB.Outputs[Output origine OLE DB].ExternalColumns[w_bpFaced]"
-                      dataType="i4"
-                      name="w_bpFaced" />
-                    <externalMetadataColumn
-                      refId="Package\Attività Flusso di dati\Origine OLE DB.Outputs[Output origine OLE DB].ExternalColumns[l_ace]"
-                      dataType="i4"
-                      name="l_ace" />
-                    <externalMetadataColumn
-                      refId="Package\Attività Flusso di dati\Origine OLE DB.Outputs[Output origine OLE DB].ExternalColumns[l_df]"
-                      dataType="i4"
-                      name="l_df" />
-                    <externalMetadataColumn
-                      refId="Package\Attività Flusso di dati\Origine OLE DB.Outputs[Output origine OLE DB].ExternalColumns[l_svpt]"
-                      dataType="i4"
-                      name="l_svpt" />
-                    <externalMetadataColumn
-                      refId="Package\Attività Flusso di dati\Origine OLE DB.Outputs[Output origine OLE DB].ExternalColumns[l_1stIn]"
-                      dataType="i4"
-                      name="l_1stIn" />
-                    <externalMetadataColumn
-                      refId="Package\Attività Flusso di dati\Origine OLE DB.Outputs[Output origine OLE DB].ExternalColumns[l_1stWon]"
-                      dataType="i4"
-                      name="l_1stWon" />
-                    <externalMetadataColumn
-                      refId="Package\Attività Flusso di dati\Origine OLE DB.Outputs[Output origine OLE DB].ExternalColumns[l_2ndWon]"
-                      dataType="i4"
-                      name="l_2ndWon" />
-                    <externalMetadataColumn
-                      refId="Package\Attività Flusso di dati\Origine OLE DB.Outputs[Output origine OLE DB].ExternalColumns[l_SvGms]"
-                      dataType="i4"
-                      name="l_SvGms" />
-                    <externalMetadataColumn
-                      refId="Package\Attività Flusso di dati\Origine OLE DB.Outputs[Output origine OLE DB].ExternalColumns[l_bpSaved]"
-                      dataType="i4"
-                      name="l_bpSaved" />
-                    <externalMetadataColumn
-                      refId="Package\Attività Flusso di dati\Origine OLE DB.Outputs[Output origine OLE DB].ExternalColumns[l_bpFaced]"
-                      dataType="i4"
-                      name="l_bpFaced" />
-                    <externalMetadataColumn
-                      refId="Package\Attività Flusso di dati\Origine OLE DB.Outputs[Output origine OLE DB].ExternalColumns[winner_rank]"
-                      dataType="i4"
-                      name="winner_rank" />
-                    <externalMetadataColumn
-                      refId="Package\Attività Flusso di dati\Origine OLE DB.Outputs[Output origine OLE DB].ExternalColumns[winner_rank_points]"
-                      dataType="i4"
-                      name="winner_rank_points" />
-                    <externalMetadataColumn
-                      refId="Package\Attività Flusso di dati\Origine OLE DB.Outputs[Output origine OLE DB].ExternalColumns[loser_rank]"
-                      dataType="i4"
-                      name="loser_rank" />
-                    <externalMetadataColumn
-                      refId="Package\Attività Flusso di dati\Origine OLE DB.Outputs[Output origine OLE DB].ExternalColumns[loser_rank_points]"
-                      dataType="i4"
-                      name="loser_rank_points" />
-                  </externalMetadataColumns>
-                </output>
-                <output
-                  refId="Package\Attività Flusso di dati\Origine OLE DB.Outputs[Output errori origine OLE DB]"
-                  isErrorOut="true"
-                  name="Output errori origine OLE DB">
-                  <outputColumns>
-                    <outputColumn
-                      refId="Package\Attività Flusso di dati\Origine OLE DB.Outputs[Output errori origine OLE DB].Columns[winner_id]"
-                      dataType="i4"
-                      lineageId="Package\Attività Flusso di dati\Origine OLE DB.Outputs[Output errori origine OLE DB].Columns[winner_id]"
-                      name="winner_id" />
-                    <outputColumn
-                      refId="Package\Attività Flusso di dati\Origine OLE DB.Outputs[Output errori origine OLE DB].Columns[loser_id]"
-                      dataType="i4"
-                      lineageId="Package\Attività Flusso di dati\Origine OLE DB.Outputs[Output errori origine OLE DB].Columns[loser_id]"
-                      name="loser_id" />
-                    <outputColumn
-                      refId="Package\Attività Flusso di dati\Origine OLE DB.Outputs[Output errori origine OLE DB].Columns[ErrorCode]"
-                      dataType="i4"
-                      lineageId="Package\Attività Flusso di dati\Origine OLE DB.Outputs[Output errori origine OLE DB].Columns[ErrorCode]"
-                      name="ErrorCode"
-                      specialFlags="1" />
-                    <outputColumn
-                      refId="Package\Attività Flusso di dati\Origine OLE DB.Outputs[Output errori origine OLE DB].Columns[ErrorColumn]"
-                      dataType="i4"
-                      lineageId="Package\Attività Flusso di dati\Origine OLE DB.Outputs[Output errori origine OLE DB].Columns[ErrorColumn]"
-                      name="ErrorColumn"
-                      specialFlags="2" />
-                  </outputColumns>
-                  <externalMetadataColumns />
-                </output>
-              </outputs>
-            </component>
-            <component
-              refId="Package\Attività Flusso di dati\Ricerca"
+              refId="Package\Attività Flusso di dati\Lookup nemesis name"
               componentClassID="Microsoft.Lookup"
               contactInfo="Ricerca;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; Tutti i diritti sono riservati; http://www.microsoft.com/sql/support;6"
               description="Crea un join delle colonne aggiuntive al flusso di dati cercando valori in una tabella. Ad esempio, creare un join della colonna 'employee id' alla tabella dei dipendenti per ottenere data di assunzione e nome del dipendente. Questa trasformazione è consigliata quando la memoria disponibile è sufficiente per la tabella di ricerca."
-              name="Ricerca"
-              usesDispositions="true"
-              version="6">
-              <properties>
-                <property
-                  dataType="System.String"
-                  description="Specifica l'istruzione SQL che genera la tabella di ricerca."
-                  expressionType="Notify"
-                  name="SqlCommand"
-                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">select * from [Group_11].[Player]</property>
-                <property
-                  dataType="System.String"
-                  description="Specifica un'istruzione SQL che utilizza parametri per generare la tabella di ricerca."
-                  expressionType="Notify"
-                  name="SqlCommandParam"
-                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">select * from (select * from [Group_11].[Player]) [refTable]
-where [refTable].[player_id] = ?</property>
-                <property
-                  dataType="System.Int32"
-                  description="Specifica il tipo di connessione utilizzata per accedere al set di dati di riferimento."
-                  name="ConnectionType"
-                  typeConverter="LookupConnectionType">0</property>
-                <property
-                  dataType="System.Int32"
-                  description="Specifica il tipo di cache della tabella di ricerca."
-                  name="CacheType"
-                  typeConverter="CacheType">0</property>
-                <property
-                  dataType="System.Int32"
-                  description="Specifica il modo in cui la trasformazione Ricerca gestisce le righe senza voci corrispondenti nel set di dati di riferimento."
-                  name="NoMatchBehavior"
-                  typeConverter="LookupNoMatchBehavior">0</property>
-                <property
-                  dataType="System.Int32"
-                  description="Specifica la percentuale della cache allocata per le righe senza voci corrispondenti nel set di dati di riferimento."
-                  name="NoMatchCachePercentage">0</property>
-                <property
-                  dataType="System.Int32"
-                  description="Utilizzo massimo della memoria per la cache dei riferimenti in una piattaforma a 32 bit."
-                  name="MaxMemoryUsage">25</property>
-                <property
-                  dataType="System.Int64"
-                  description="Utilizzo massimo della memoria per la cache dei riferimenti in una piattaforma a 64 bit."
-                  name="MaxMemoryUsage64">25</property>
-                <property
-                  dataType="System.String"
-                  description="Indica se fare riferimento ai metadati in un formato XML."
-                  name="ReferenceMetadataXml">&lt;referenceMetadata&gt;&lt;referenceColumns&gt;&lt;referenceColumn name="player_id" dataType="DT_I4" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="country_id" dataType="DT_STR" length="3" precision="0" scale="0" codePage="1252"/&gt;&lt;referenceColumn name="name" dataType="DT_STR" length="50" precision="0" scale="0" codePage="1252"/&gt;&lt;referenceColumn name="sex" dataType="DT_STR" length="6" precision="0" scale="0" codePage="1252"/&gt;&lt;referenceColumn name="hand" dataType="DT_STR" length="1" precision="0" scale="0" codePage="1252"/&gt;&lt;referenceColumn name="year_of_birth" dataType="DT_I2" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="ht" dataType="DT_I4" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;/referenceColumns&gt;&lt;/referenceMetadata&gt;</property>
-                <property
-                  containsID="true"
-                  dataType="System.String"
-                  description="Specifica l'elenco di identificatori di derivazione corrispondenti ai parametri utilizzati dall'istruzione SQL nella proprietà SQLCommand. Le voci nell'elenco sono separate da punti e virgola."
-                  name="ParameterMap">#{Package\Attività Flusso di dati\Merge join.Outputs[Output merge join].Columns[player_id]};</property>
-                <property
-                  dataType="System.Int32"
-                  description="Specifica la tabella codici della colonna da utilizzare quando l'origine dati non rende disponibili informazioni sulla tabella codici."
-                  name="DefaultCodePage">1252</property>
-                <property
-                  dataType="System.Boolean"
-                  description="Determina se le chiavi duplicate nei dati di riferimento devono essere considerate come errori in caso di utilizzo della modalità di Full cache."
-                  name="TreatDuplicateKeysAsError">false</property>
-              </properties>
-              <connections>
-                <connection
-                  refId="Package\Attività Flusso di dati\Ricerca.Connections[OleDbConnection]"
-                  connectionManagerID="Package.ConnectionManagers[lds.di.unipi.it.Group_11_DB.Group_11]"
-                  connectionManagerRefId="Package.ConnectionManagers[lds.di.unipi.it.Group_11_DB.Group_11]"
-                  description="Gestione connessione utilizzata per accedere ai dati di ricerca."
-                  name="OleDbConnection" />
-              </connections>
-              <inputs>
-                <input
-                  refId="Package\Attività Flusso di dati\Ricerca.Inputs[Input ricerca]"
-                  name="Input ricerca">
-                  <inputColumns>
-                    <inputColumn
-                      refId="Package\Attività Flusso di dati\Ricerca.Inputs[Input ricerca].Columns[player_id]"
-                      cachedDataType="i4"
-                      cachedName="player_id"
-                      cachedSortKeyPosition="2"
-                      lineageId="Package\Attività Flusso di dati\Merge join.Outputs[Output merge join].Columns[player_id]">
-                      <properties>
-                        <property
-                          dataType="System.String"
-                          description="Specifica la colonna nella tabella di riferimento a cui viene unita in join una colonna."
-                          name="JoinToReferenceColumn">player_id</property>
-                        <property
-                          dataType="System.Null"
-                          description="Specifica la colonna nella tabella di riferimento da cui viene copiata una colonna."
-                          name="CopyFromReferenceColumn" />
-                      </properties>
-                    </inputColumn>
-                  </inputColumns>
-                  <externalMetadataColumns />
-                </input>
-              </inputs>
-              <outputs>
-                <output
-                  refId="Package\Attività Flusso di dati\Ricerca.Outputs[Output corrispondenza ricerca]"
-                  errorOrTruncationOperation="Ricerca"
-                  errorRowDisposition="FailComponent"
-                  exclusionGroup="1"
-                  name="Output corrispondenza ricerca"
-                  synchronousInputId="Package\Attività Flusso di dati\Ricerca.Inputs[Input ricerca]">
-                  <outputColumns>
-                    <outputColumn
-                      refId="Package\Attività Flusso di dati\Ricerca.Outputs[Output corrispondenza ricerca].Columns[player_name]"
-                      codePage="1252"
-                      dataType="str"
-                      errorOrTruncationOperation="Copia colonna"
-                      length="50"
-                      lineageId="Package\Attività Flusso di dati\Ricerca.Outputs[Output corrispondenza ricerca].Columns[player_name]"
-                      name="player_name"
-                      truncationRowDisposition="FailComponent">
-                      <properties>
-                        <property
-                          dataType="System.String"
-                          description="Specifica la colonna nella tabella di riferimento da cui viene copiata una colonna."
-                          name="CopyFromReferenceColumn">name</property>
-                      </properties>
-                    </outputColumn>
-                  </outputColumns>
-                  <externalMetadataColumns />
-                </output>
-                <output
-                  refId="Package\Attività Flusso di dati\Ricerca.Outputs[Output nessuna corrispondenza ricerca]"
-                  description="Output ricerca che gestisce le righe senza voci corrispondenti nel set di dati di riferimento. Usare questo output quando la proprietà NoMatchBehavior è impostata su &quot;Invia le righe senza voci corrispondenti all'output nessuna corrispondenza&quot;."
-                  exclusionGroup="1"
-                  name="Output nessuna corrispondenza ricerca"
-                  synchronousInputId="Package\Attività Flusso di dati\Ricerca.Inputs[Input ricerca]">
-                  <externalMetadataColumns />
-                </output>
-                <output
-                  refId="Package\Attività Flusso di dati\Ricerca.Outputs[Output errori ricerca]"
-                  exclusionGroup="1"
-                  isErrorOut="true"
-                  name="Output errori ricerca"
-                  synchronousInputId="Package\Attività Flusso di dati\Ricerca.Inputs[Input ricerca]">
-                  <outputColumns>
-                    <outputColumn
-                      refId="Package\Attività Flusso di dati\Ricerca.Outputs[Output errori ricerca].Columns[ErrorCode]"
-                      dataType="i4"
-                      lineageId="Package\Attività Flusso di dati\Ricerca.Outputs[Output errori ricerca].Columns[ErrorCode]"
-                      name="ErrorCode"
-                      specialFlags="1" />
-                    <outputColumn
-                      refId="Package\Attività Flusso di dati\Ricerca.Outputs[Output errori ricerca].Columns[ErrorColumn]"
-                      dataType="i4"
-                      lineageId="Package\Attività Flusso di dati\Ricerca.Outputs[Output errori ricerca].Columns[ErrorColumn]"
-                      name="ErrorColumn"
-                      specialFlags="2" />
-                  </outputColumns>
-                  <externalMetadataColumns />
-                </output>
-              </outputs>
-            </component>
-            <component
-              refId="Package\Attività Flusso di dati\Ricerca 1"
-              componentClassID="Microsoft.Lookup"
-              contactInfo="Ricerca;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; Tutti i diritti sono riservati; http://www.microsoft.com/sql/support;6"
-              description="Crea un join delle colonne aggiuntive al flusso di dati cercando valori in una tabella. Ad esempio, creare un join della colonna 'employee id' alla tabella dei dipendenti per ottenere data di assunzione e nome del dipendente. Questa trasformazione è consigliata quando la memoria disponibile è sufficiente per la tabella di ricerca."
-              name="Ricerca 1"
+              name="Lookup nemesis name"
               usesDispositions="true"
               version="6">
               <properties>
@@ -1396,7 +478,7 @@ where [refTable].[player_id] = ?</property>
               </properties>
               <connections>
                 <connection
-                  refId="Package\Attività Flusso di dati\Ricerca 1.Connections[OleDbConnection]"
+                  refId="Package\Attività Flusso di dati\Lookup nemesis name.Connections[OleDbConnection]"
                   connectionManagerID="Package.ConnectionManagers[lds.di.unipi.it.Group_11_DB.Group_11]"
                   connectionManagerRefId="Package.ConnectionManagers[lds.di.unipi.it.Group_11_DB.Group_11]"
                   description="Gestione connessione utilizzata per accedere ai dati di ricerca."
@@ -1404,11 +486,11 @@ where [refTable].[player_id] = ?</property>
               </connections>
               <inputs>
                 <input
-                  refId="Package\Attività Flusso di dati\Ricerca 1.Inputs[Input ricerca]"
+                  refId="Package\Attività Flusso di dati\Lookup nemesis name.Inputs[Input ricerca]"
                   name="Input ricerca">
                   <inputColumns>
                     <inputColumn
-                      refId="Package\Attività Flusso di dati\Ricerca 1.Inputs[Input ricerca].Columns[nemesis_id]"
+                      refId="Package\Attività Flusso di dati\Lookup nemesis name.Inputs[Input ricerca].Columns[nemesis_id]"
                       cachedDataType="i4"
                       cachedName="nemesis_id"
                       lineageId="Package\Attività Flusso di dati\Merge join.Outputs[Output merge join].Columns[nemesis_id]">
@@ -1429,20 +511,20 @@ where [refTable].[player_id] = ?</property>
               </inputs>
               <outputs>
                 <output
-                  refId="Package\Attività Flusso di dati\Ricerca 1.Outputs[Output corrispondenza ricerca]"
+                  refId="Package\Attività Flusso di dati\Lookup nemesis name.Outputs[Output corrispondenza ricerca]"
                   errorOrTruncationOperation="Ricerca"
                   errorRowDisposition="FailComponent"
                   exclusionGroup="1"
                   name="Output corrispondenza ricerca"
-                  synchronousInputId="Package\Attività Flusso di dati\Ricerca 1.Inputs[Input ricerca]">
+                  synchronousInputId="Package\Attività Flusso di dati\Lookup nemesis name.Inputs[Input ricerca]">
                   <outputColumns>
                     <outputColumn
-                      refId="Package\Attività Flusso di dati\Ricerca 1.Outputs[Output corrispondenza ricerca].Columns[nemesis_name]"
+                      refId="Package\Attività Flusso di dati\Lookup nemesis name.Outputs[Output corrispondenza ricerca].Columns[nemesis_name]"
                       codePage="1252"
                       dataType="str"
                       errorOrTruncationOperation="Copia colonna"
                       length="50"
-                      lineageId="Package\Attività Flusso di dati\Ricerca 1.Outputs[Output corrispondenza ricerca].Columns[nemesis_name]"
+                      lineageId="Package\Attività Flusso di dati\Lookup nemesis name.Outputs[Output corrispondenza ricerca].Columns[nemesis_name]"
                       name="nemesis_name"
                       truncationRowDisposition="FailComponent">
                       <properties>
@@ -1456,32 +538,945 @@ where [refTable].[player_id] = ?</property>
                   <externalMetadataColumns />
                 </output>
                 <output
-                  refId="Package\Attività Flusso di dati\Ricerca 1.Outputs[Output nessuna corrispondenza ricerca]"
+                  refId="Package\Attività Flusso di dati\Lookup nemesis name.Outputs[Output nessuna corrispondenza ricerca]"
                   description="Output ricerca che gestisce le righe senza voci corrispondenti nel set di dati di riferimento. Usare questo output quando la proprietà NoMatchBehavior è impostata su &quot;Invia le righe senza voci corrispondenti all'output nessuna corrispondenza&quot;."
                   exclusionGroup="1"
                   name="Output nessuna corrispondenza ricerca"
-                  synchronousInputId="Package\Attività Flusso di dati\Ricerca 1.Inputs[Input ricerca]">
+                  synchronousInputId="Package\Attività Flusso di dati\Lookup nemesis name.Inputs[Input ricerca]">
                   <externalMetadataColumns />
                 </output>
                 <output
-                  refId="Package\Attività Flusso di dati\Ricerca 1.Outputs[Output errori ricerca]"
+                  refId="Package\Attività Flusso di dati\Lookup nemesis name.Outputs[Output errori ricerca]"
                   exclusionGroup="1"
                   isErrorOut="true"
                   name="Output errori ricerca"
-                  synchronousInputId="Package\Attività Flusso di dati\Ricerca 1.Inputs[Input ricerca]">
+                  synchronousInputId="Package\Attività Flusso di dati\Lookup nemesis name.Inputs[Input ricerca]">
                   <outputColumns>
                     <outputColumn
-                      refId="Package\Attività Flusso di dati\Ricerca 1.Outputs[Output errori ricerca].Columns[ErrorCode]"
+                      refId="Package\Attività Flusso di dati\Lookup nemesis name.Outputs[Output errori ricerca].Columns[ErrorCode]"
                       dataType="i4"
-                      lineageId="Package\Attività Flusso di dati\Ricerca 1.Outputs[Output errori ricerca].Columns[ErrorCode]"
+                      lineageId="Package\Attività Flusso di dati\Lookup nemesis name.Outputs[Output errori ricerca].Columns[ErrorCode]"
                       name="ErrorCode"
                       specialFlags="1" />
                     <outputColumn
-                      refId="Package\Attività Flusso di dati\Ricerca 1.Outputs[Output errori ricerca].Columns[ErrorColumn]"
+                      refId="Package\Attività Flusso di dati\Lookup nemesis name.Outputs[Output errori ricerca].Columns[ErrorColumn]"
                       dataType="i4"
-                      lineageId="Package\Attività Flusso di dati\Ricerca 1.Outputs[Output errori ricerca].Columns[ErrorColumn]"
+                      lineageId="Package\Attività Flusso di dati\Lookup nemesis name.Outputs[Output errori ricerca].Columns[ErrorColumn]"
                       name="ErrorColumn"
                       specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\Attività Flusso di dati\Lookup player name"
+              componentClassID="Microsoft.Lookup"
+              contactInfo="Ricerca;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; Tutti i diritti sono riservati; http://www.microsoft.com/sql/support;6"
+              description="Crea un join delle colonne aggiuntive al flusso di dati cercando valori in una tabella. Ad esempio, creare un join della colonna 'employee id' alla tabella dei dipendenti per ottenere data di assunzione e nome del dipendente. Questa trasformazione è consigliata quando la memoria disponibile è sufficiente per la tabella di ricerca."
+              name="Lookup player name"
+              usesDispositions="true"
+              version="6">
+              <properties>
+                <property
+                  dataType="System.String"
+                  description="Specifica l'istruzione SQL che genera la tabella di ricerca."
+                  expressionType="Notify"
+                  name="SqlCommand"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">select * from [Group_11].[Player]</property>
+                <property
+                  dataType="System.String"
+                  description="Specifica un'istruzione SQL che utilizza parametri per generare la tabella di ricerca."
+                  expressionType="Notify"
+                  name="SqlCommandParam"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">select * from (select * from [Group_11].[Player]) [refTable]
+where [refTable].[player_id] = ?</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifica il tipo di connessione utilizzata per accedere al set di dati di riferimento."
+                  name="ConnectionType"
+                  typeConverter="LookupConnectionType">0</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifica il tipo di cache della tabella di ricerca."
+                  name="CacheType"
+                  typeConverter="CacheType">0</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifica il modo in cui la trasformazione Ricerca gestisce le righe senza voci corrispondenti nel set di dati di riferimento."
+                  name="NoMatchBehavior"
+                  typeConverter="LookupNoMatchBehavior">0</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifica la percentuale della cache allocata per le righe senza voci corrispondenti nel set di dati di riferimento."
+                  name="NoMatchCachePercentage">0</property>
+                <property
+                  dataType="System.Int32"
+                  description="Utilizzo massimo della memoria per la cache dei riferimenti in una piattaforma a 32 bit."
+                  name="MaxMemoryUsage">25</property>
+                <property
+                  dataType="System.Int64"
+                  description="Utilizzo massimo della memoria per la cache dei riferimenti in una piattaforma a 64 bit."
+                  name="MaxMemoryUsage64">25</property>
+                <property
+                  dataType="System.String"
+                  description="Indica se fare riferimento ai metadati in un formato XML."
+                  name="ReferenceMetadataXml">&lt;referenceMetadata&gt;&lt;referenceColumns&gt;&lt;referenceColumn name="player_id" dataType="DT_I4" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="country_id" dataType="DT_STR" length="3" precision="0" scale="0" codePage="1252"/&gt;&lt;referenceColumn name="name" dataType="DT_STR" length="50" precision="0" scale="0" codePage="1252"/&gt;&lt;referenceColumn name="sex" dataType="DT_STR" length="6" precision="0" scale="0" codePage="1252"/&gt;&lt;referenceColumn name="hand" dataType="DT_STR" length="1" precision="0" scale="0" codePage="1252"/&gt;&lt;referenceColumn name="year_of_birth" dataType="DT_I2" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="ht" dataType="DT_I4" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;/referenceColumns&gt;&lt;/referenceMetadata&gt;</property>
+                <property
+                  containsID="true"
+                  dataType="System.String"
+                  description="Specifica l'elenco di identificatori di derivazione corrispondenti ai parametri utilizzati dall'istruzione SQL nella proprietà SQLCommand. Le voci nell'elenco sono separate da punti e virgola."
+                  name="ParameterMap">#{Package\Attività Flusso di dati\Merge join.Outputs[Output merge join].Columns[player_id]};</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifica la tabella codici della colonna da utilizzare quando l'origine dati non rende disponibili informazioni sulla tabella codici."
+                  name="DefaultCodePage">1252</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Determina se le chiavi duplicate nei dati di riferimento devono essere considerate come errori in caso di utilizzo della modalità di Full cache."
+                  name="TreatDuplicateKeysAsError">false</property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\Attività Flusso di dati\Lookup player name.Connections[OleDbConnection]"
+                  connectionManagerID="Package.ConnectionManagers[lds.di.unipi.it.Group_11_DB.Group_11]"
+                  connectionManagerRefId="Package.ConnectionManagers[lds.di.unipi.it.Group_11_DB.Group_11]"
+                  description="Gestione connessione utilizzata per accedere ai dati di ricerca."
+                  name="OleDbConnection" />
+              </connections>
+              <inputs>
+                <input
+                  refId="Package\Attività Flusso di dati\Lookup player name.Inputs[Input ricerca]"
+                  name="Input ricerca">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\Attività Flusso di dati\Lookup player name.Inputs[Input ricerca].Columns[player_id]"
+                      cachedDataType="i4"
+                      cachedName="player_id"
+                      cachedSortKeyPosition="2"
+                      lineageId="Package\Attività Flusso di dati\Merge join.Outputs[Output merge join].Columns[player_id]">
+                      <properties>
+                        <property
+                          dataType="System.String"
+                          description="Specifica la colonna nella tabella di riferimento a cui viene unita in join una colonna."
+                          name="JoinToReferenceColumn">player_id</property>
+                        <property
+                          dataType="System.Null"
+                          description="Specifica la colonna nella tabella di riferimento da cui viene copiata una colonna."
+                          name="CopyFromReferenceColumn" />
+                      </properties>
+                    </inputColumn>
+                  </inputColumns>
+                  <externalMetadataColumns />
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\Attività Flusso di dati\Lookup player name.Outputs[Output corrispondenza ricerca]"
+                  errorOrTruncationOperation="Ricerca"
+                  errorRowDisposition="FailComponent"
+                  exclusionGroup="1"
+                  name="Output corrispondenza ricerca"
+                  synchronousInputId="Package\Attività Flusso di dati\Lookup player name.Inputs[Input ricerca]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Attività Flusso di dati\Lookup player name.Outputs[Output corrispondenza ricerca].Columns[player_name]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Copia colonna"
+                      length="50"
+                      lineageId="Package\Attività Flusso di dati\Lookup player name.Outputs[Output corrispondenza ricerca].Columns[player_name]"
+                      name="player_name"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.String"
+                          description="Specifica la colonna nella tabella di riferimento da cui viene copiata una colonna."
+                          name="CopyFromReferenceColumn">name</property>
+                      </properties>
+                    </outputColumn>
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+                <output
+                  refId="Package\Attività Flusso di dati\Lookup player name.Outputs[Output nessuna corrispondenza ricerca]"
+                  description="Output ricerca che gestisce le righe senza voci corrispondenti nel set di dati di riferimento. Usare questo output quando la proprietà NoMatchBehavior è impostata su &quot;Invia le righe senza voci corrispondenti all'output nessuna corrispondenza&quot;."
+                  exclusionGroup="1"
+                  name="Output nessuna corrispondenza ricerca"
+                  synchronousInputId="Package\Attività Flusso di dati\Lookup player name.Inputs[Input ricerca]">
+                  <externalMetadataColumns />
+                </output>
+                <output
+                  refId="Package\Attività Flusso di dati\Lookup player name.Outputs[Output errori ricerca]"
+                  exclusionGroup="1"
+                  isErrorOut="true"
+                  name="Output errori ricerca"
+                  synchronousInputId="Package\Attività Flusso di dati\Lookup player name.Inputs[Input ricerca]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Attività Flusso di dati\Lookup player name.Outputs[Output errori ricerca].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Attività Flusso di dati\Lookup player name.Outputs[Output errori ricerca].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\Attività Flusso di dati\Lookup player name.Outputs[Output errori ricerca].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Attività Flusso di dati\Lookup player name.Outputs[Output errori ricerca].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\Attività Flusso di dati\Match"
+              componentClassID="Microsoft.OLEDBSource"
+              contactInfo="Origine OLE DB;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; Tutti i diritti sono riservati; http://www.microsoft.com/sql/support;7"
+              description="Origine OLE DB"
+              name="Match"
+              usesDispositions="true"
+              version="7">
+              <properties>
+                <property
+                  dataType="System.Int32"
+                  description="Numero di secondi prima del timeout di un comando. Il valore 0 indica nessun timeout."
+                  name="CommandTimeout">0</property>
+                <property
+                  dataType="System.String"
+                  description="Specifica il nome dell'oggetto di database utilizzato per aprire un set di righe."
+                  name="OpenRowset">[Group_11].[Match]</property>
+                <property
+                  dataType="System.String"
+                  description="Specifica la variabile contenente il nome dell'oggetto di database utilizzato per aprire un set di righe."
+                  name="OpenRowsetVariable"></property>
+                <property
+                  dataType="System.String"
+                  description="Comando SQL da eseguire."
+                  name="SqlCommand"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor"></property>
+                <property
+                  dataType="System.String"
+                  description="Variabile che contiene il comando SQL da eseguire."
+                  name="SqlCommandVariable"></property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifica la tabella codici della colonna da utilizzare quando l'origine dati non rende disponibili informazioni sulla tabella codici."
+                  name="DefaultCodePage">1252</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Forza l'utilizzo del valore della proprietà DefaultCodePage per la descrizione di dati di tipo carattere."
+                  name="AlwaysUseDefaultCodePage">false</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifica la modalità utilizzata per accedere al database."
+                  name="AccessMode"
+                  typeConverter="AccessMode">0</property>
+                <property
+                  dataType="System.String"
+                  description="Mapping tra i parametri nel comando SQL e le variabili."
+                  name="ParameterMapping"></property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\Attività Flusso di dati\Match.Connections[OleDbConnection]"
+                  connectionManagerID="Package.ConnectionManagers[lds.di.unipi.it.Group_11_DB.Group_11]"
+                  connectionManagerRefId="Package.ConnectionManagers[lds.di.unipi.it.Group_11_DB.Group_11]"
+                  description="Connessione di run-time OLE DB utilizzata per accedere al database."
+                  name="OleDbConnection" />
+              </connections>
+              <outputs>
+                <output
+                  refId="Package\Attività Flusso di dati\Match.Outputs[Output origine OLE DB]"
+                  name="Output origine OLE DB">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Attività Flusso di dati\Match.Outputs[Output origine OLE DB].Columns[winner_id]"
+                      dataType="i4"
+                      errorOrTruncationOperation="Conversione"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Attività Flusso di dati\Match.Outputs[Output origine OLE DB].ExternalColumns[winner_id]"
+                      lineageId="Package\Attività Flusso di dati\Match.Outputs[Output origine OLE DB].Columns[winner_id]"
+                      name="winner_id"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Attività Flusso di dati\Match.Outputs[Output origine OLE DB].Columns[loser_id]"
+                      dataType="i4"
+                      errorOrTruncationOperation="Conversione"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Attività Flusso di dati\Match.Outputs[Output origine OLE DB].ExternalColumns[loser_id]"
+                      lineageId="Package\Attività Flusso di dati\Match.Outputs[Output origine OLE DB].Columns[loser_id]"
+                      name="loser_id"
+                      truncationRowDisposition="FailComponent" />
+                  </outputColumns>
+                  <externalMetadataColumns
+                    isUsed="True">
+                    <externalMetadataColumn
+                      refId="Package\Attività Flusso di dati\Match.Outputs[Output origine OLE DB].ExternalColumns[match_id]"
+                      codePage="1252"
+                      dataType="str"
+                      length="150"
+                      name="match_id" />
+                    <externalMetadataColumn
+                      refId="Package\Attività Flusso di dati\Match.Outputs[Output origine OLE DB].ExternalColumns[tourney_id]"
+                      codePage="1252"
+                      dataType="str"
+                      length="150"
+                      name="tourney_id" />
+                    <externalMetadataColumn
+                      refId="Package\Attività Flusso di dati\Match.Outputs[Output origine OLE DB].ExternalColumns[winner_id]"
+                      dataType="i4"
+                      name="winner_id" />
+                    <externalMetadataColumn
+                      refId="Package\Attività Flusso di dati\Match.Outputs[Output origine OLE DB].ExternalColumns[loser_id]"
+                      dataType="i4"
+                      name="loser_id" />
+                    <externalMetadataColumn
+                      refId="Package\Attività Flusso di dati\Match.Outputs[Output origine OLE DB].ExternalColumns[score]"
+                      codePage="1252"
+                      dataType="str"
+                      length="31"
+                      name="score" />
+                    <externalMetadataColumn
+                      refId="Package\Attività Flusso di dati\Match.Outputs[Output origine OLE DB].ExternalColumns[best_of]"
+                      dataType="i4"
+                      name="best_of" />
+                    <externalMetadataColumn
+                      refId="Package\Attività Flusso di dati\Match.Outputs[Output origine OLE DB].ExternalColumns[round]"
+                      codePage="1252"
+                      dataType="str"
+                      length="4"
+                      name="round" />
+                    <externalMetadataColumn
+                      refId="Package\Attività Flusso di dati\Match.Outputs[Output origine OLE DB].ExternalColumns[minutes]"
+                      dataType="r8"
+                      name="minutes" />
+                    <externalMetadataColumn
+                      refId="Package\Attività Flusso di dati\Match.Outputs[Output origine OLE DB].ExternalColumns[w_ace]"
+                      dataType="i4"
+                      name="w_ace" />
+                    <externalMetadataColumn
+                      refId="Package\Attività Flusso di dati\Match.Outputs[Output origine OLE DB].ExternalColumns[w_df]"
+                      dataType="i4"
+                      name="w_df" />
+                    <externalMetadataColumn
+                      refId="Package\Attività Flusso di dati\Match.Outputs[Output origine OLE DB].ExternalColumns[w_svpt]"
+                      dataType="i4"
+                      name="w_svpt" />
+                    <externalMetadataColumn
+                      refId="Package\Attività Flusso di dati\Match.Outputs[Output origine OLE DB].ExternalColumns[w_1stIn]"
+                      dataType="i4"
+                      name="w_1stIn" />
+                    <externalMetadataColumn
+                      refId="Package\Attività Flusso di dati\Match.Outputs[Output origine OLE DB].ExternalColumns[w_1stWon]"
+                      dataType="i4"
+                      name="w_1stWon" />
+                    <externalMetadataColumn
+                      refId="Package\Attività Flusso di dati\Match.Outputs[Output origine OLE DB].ExternalColumns[w_2ndWon]"
+                      dataType="i4"
+                      name="w_2ndWon" />
+                    <externalMetadataColumn
+                      refId="Package\Attività Flusso di dati\Match.Outputs[Output origine OLE DB].ExternalColumns[w_SvGms]"
+                      dataType="i4"
+                      name="w_SvGms" />
+                    <externalMetadataColumn
+                      refId="Package\Attività Flusso di dati\Match.Outputs[Output origine OLE DB].ExternalColumns[w_bpSaved]"
+                      dataType="i4"
+                      name="w_bpSaved" />
+                    <externalMetadataColumn
+                      refId="Package\Attività Flusso di dati\Match.Outputs[Output origine OLE DB].ExternalColumns[w_bpFaced]"
+                      dataType="i4"
+                      name="w_bpFaced" />
+                    <externalMetadataColumn
+                      refId="Package\Attività Flusso di dati\Match.Outputs[Output origine OLE DB].ExternalColumns[l_ace]"
+                      dataType="i4"
+                      name="l_ace" />
+                    <externalMetadataColumn
+                      refId="Package\Attività Flusso di dati\Match.Outputs[Output origine OLE DB].ExternalColumns[l_df]"
+                      dataType="i4"
+                      name="l_df" />
+                    <externalMetadataColumn
+                      refId="Package\Attività Flusso di dati\Match.Outputs[Output origine OLE DB].ExternalColumns[l_svpt]"
+                      dataType="i4"
+                      name="l_svpt" />
+                    <externalMetadataColumn
+                      refId="Package\Attività Flusso di dati\Match.Outputs[Output origine OLE DB].ExternalColumns[l_1stIn]"
+                      dataType="i4"
+                      name="l_1stIn" />
+                    <externalMetadataColumn
+                      refId="Package\Attività Flusso di dati\Match.Outputs[Output origine OLE DB].ExternalColumns[l_1stWon]"
+                      dataType="i4"
+                      name="l_1stWon" />
+                    <externalMetadataColumn
+                      refId="Package\Attività Flusso di dati\Match.Outputs[Output origine OLE DB].ExternalColumns[l_2ndWon]"
+                      dataType="i4"
+                      name="l_2ndWon" />
+                    <externalMetadataColumn
+                      refId="Package\Attività Flusso di dati\Match.Outputs[Output origine OLE DB].ExternalColumns[l_SvGms]"
+                      dataType="i4"
+                      name="l_SvGms" />
+                    <externalMetadataColumn
+                      refId="Package\Attività Flusso di dati\Match.Outputs[Output origine OLE DB].ExternalColumns[l_bpSaved]"
+                      dataType="i4"
+                      name="l_bpSaved" />
+                    <externalMetadataColumn
+                      refId="Package\Attività Flusso di dati\Match.Outputs[Output origine OLE DB].ExternalColumns[l_bpFaced]"
+                      dataType="i4"
+                      name="l_bpFaced" />
+                    <externalMetadataColumn
+                      refId="Package\Attività Flusso di dati\Match.Outputs[Output origine OLE DB].ExternalColumns[winner_rank]"
+                      dataType="i4"
+                      name="winner_rank" />
+                    <externalMetadataColumn
+                      refId="Package\Attività Flusso di dati\Match.Outputs[Output origine OLE DB].ExternalColumns[winner_rank_points]"
+                      dataType="i4"
+                      name="winner_rank_points" />
+                    <externalMetadataColumn
+                      refId="Package\Attività Flusso di dati\Match.Outputs[Output origine OLE DB].ExternalColumns[loser_rank]"
+                      dataType="i4"
+                      name="loser_rank" />
+                    <externalMetadataColumn
+                      refId="Package\Attività Flusso di dati\Match.Outputs[Output origine OLE DB].ExternalColumns[loser_rank_points]"
+                      dataType="i4"
+                      name="loser_rank_points" />
+                  </externalMetadataColumns>
+                </output>
+                <output
+                  refId="Package\Attività Flusso di dati\Match.Outputs[Output errori origine OLE DB]"
+                  isErrorOut="true"
+                  name="Output errori origine OLE DB">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Attività Flusso di dati\Match.Outputs[Output errori origine OLE DB].Columns[winner_id]"
+                      dataType="i4"
+                      lineageId="Package\Attività Flusso di dati\Match.Outputs[Output errori origine OLE DB].Columns[winner_id]"
+                      name="winner_id" />
+                    <outputColumn
+                      refId="Package\Attività Flusso di dati\Match.Outputs[Output errori origine OLE DB].Columns[loser_id]"
+                      dataType="i4"
+                      lineageId="Package\Attività Flusso di dati\Match.Outputs[Output errori origine OLE DB].Columns[loser_id]"
+                      name="loser_id" />
+                    <outputColumn
+                      refId="Package\Attività Flusso di dati\Match.Outputs[Output errori origine OLE DB].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Attività Flusso di dati\Match.Outputs[Output errori origine OLE DB].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\Attività Flusso di dati\Match.Outputs[Output errori origine OLE DB].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Attività Flusso di dati\Match.Outputs[Output errori origine OLE DB].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\Attività Flusso di dati\MAX(partite_perse) GROUP BY player_id"
+              componentClassID="Microsoft.Aggregate"
+              contactInfo="Aggregazione;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; Tutti i diritti sono riservati; http://www.microsoft.com/sql/support;3"
+              description="Aggrega i dati con funzioni quali Media, Somma, Conta numeri, Max e Min. Ad esempio, raggruppare i dati per calcolare la somma delle vendite per prodotto o la media giornaliera delle visite."
+              name="MAX(partite_perse) GROUP BY player_id"
+              version="3">
+              <properties>
+                <property
+                  dataType="System.Int32"
+                  description="Specifica il numero approssimativo di chiavi Group By generate dall'aggregazione. Basso indica 500.000 valori di chiave, Medio indica 5 milioni di valori di chiave e Alto indica più di 25 milioni di valori di chiave. Non specificato indica che non viene utilizzato alcun valore KeyScale."
+                  name="KeyScale"
+                  typeConverter="KeyScaleType">0</property>
+                <property
+                  dataType="System.Null"
+                  description="Specifica il numero esatto di chiavi Group By generate dall'aggregazione. Se si specifica un valore KeyScale, il valore di Keys ha la precedenza."
+                  name="Keys" />
+                <property
+                  dataType="System.Int32"
+                  description="Specifica il numero approssimativo di valori Distinct in una colonna a cui viene applicata la funzione di aggregazione Count Distinct. Basso indica 500.000 valori di chiave, Medio indica 5 milioni di valori di chiave e Alto indica 25 milioni di valori di chiave. Non specificato indica che non viene utilizzato alcun valore CountDistinctScale."
+                  name="CountDistinctScale"
+                  typeConverter="KeyScaleType">0</property>
+                <property
+                  dataType="System.Null"
+                  description="Specifica il numero approssimativo di valori Distinct in una colonna a cui viene applicata la funzione di aggregazione Count Distinct. Se si specifica un valore CountDistinctScale, il valore in CountDistinctKeys ha la precedenza."
+                  name="CountDistinctKeys" />
+                <property
+                  dataType="System.Int32"
+                  description="Specifica la percentuale di estensione della memoria consentita durante l'aggregazione. I valori validi sono compresi tra 1 e 100."
+                  name="AutoExtendFactor">25</property>
+              </properties>
+              <inputs>
+                <input
+                  refId="Package\Attività Flusso di dati\MAX(partite_perse) GROUP BY player_id.Inputs[Input aggregazione 1]"
+                  name="Input aggregazione 1">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\Attività Flusso di dati\MAX(partite_perse) GROUP BY player_id.Inputs[Input aggregazione 1].Columns[partite_perse]"
+                      cachedDataType="ui8"
+                      cachedName="partite_perse"
+                      cachedSortKeyPosition="1"
+                      lineageId="Package\Attività Flusso di dati\Ordinamento per partite_perse, player_id.Outputs[Output ordinamento].Columns[partite_perse]" />
+                    <inputColumn
+                      refId="Package\Attività Flusso di dati\MAX(partite_perse) GROUP BY player_id.Inputs[Input aggregazione 1].Columns[player_id]"
+                      cachedDataType="i4"
+                      cachedName="player_id"
+                      cachedSortKeyPosition="2"
+                      lineageId="Package\Attività Flusso di dati\Ordinamento per partite_perse, player_id.Outputs[Output ordinamento].Columns[player_id]" />
+                  </inputColumns>
+                  <externalMetadataColumns />
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\Attività Flusso di dati\MAX(partite_perse) GROUP BY player_id.Outputs[Output aggregazione 1]"
+                  name="Output aggregazione 1">
+                  <properties>
+                    <property
+                      dataType="System.Int32"
+                      description="Specifica il numero approssimativo di chiavi Group By generate dall'aggregazione. Basso indica 500.000 valori di chiave, Medio indica 5 milioni di valori di chiave e Alto indica più di 25 milioni di valori di chiave. Non specificato indica che non viene utilizzato alcun valore KeyScale."
+                      name="KeyScale"
+                      typeConverter="KeyScaleType">0</property>
+                    <property
+                      dataType="System.Null"
+                      description="Specifica il numero esatto di chiavi Group By generate dall'aggregazione. Se si specifica un valore KeyScale, il valore di Keys ha la precedenza."
+                      name="Keys" />
+                  </properties>
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Attività Flusso di dati\MAX(partite_perse) GROUP BY player_id.Outputs[Output aggregazione 1].Columns[partite_perse]"
+                      dataType="ui8"
+                      lineageId="Package\Attività Flusso di dati\MAX(partite_perse) GROUP BY player_id.Outputs[Output aggregazione 1].Columns[partite_perse]"
+                      name="partite_perse">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifica l'ID della colonna di input utilizzata nell'aggregazione."
+                          name="AggregationColumnId">#{Package\Attività Flusso di dati\Ordinamento per partite_perse, player_id.Outputs[Output ordinamento].Columns[partite_perse]}</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifica il tipo di aggregazione."
+                          name="AggregationType"
+                          typeConverter="AggregationType">7</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Indica se la colonna richieste interventi di gestione speciali perché contiene dati di dimensioni eccessive o richiede una precisione maggiore rispetto al tipo di dati float."
+                          name="IsBig">1</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifica le opzioni per il confronto di stringhe."
+                          name="AggregationComparisonFlags">0</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Attività Flusso di dati\MAX(partite_perse) GROUP BY player_id.Outputs[Output aggregazione 1].Columns[player_id]"
+                      dataType="i4"
+                      lineageId="Package\Attività Flusso di dati\MAX(partite_perse) GROUP BY player_id.Outputs[Output aggregazione 1].Columns[player_id]"
+                      name="player_id">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifica l'ID della colonna di input utilizzata nell'aggregazione."
+                          name="AggregationColumnId">#{Package\Attività Flusso di dati\Ordinamento per partite_perse, player_id.Outputs[Output ordinamento].Columns[player_id]}</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifica il tipo di aggregazione."
+                          name="AggregationType"
+                          typeConverter="AggregationType">0</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Indica se la colonna richieste interventi di gestione speciali perché contiene dati di dimensioni eccessive o richiede una precisione maggiore rispetto al tipo di dati float."
+                          name="IsBig">1</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifica le opzioni per il confronto di stringhe."
+                          name="AggregationComparisonFlags">0</property>
+                      </properties>
+                    </outputColumn>
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\Attività Flusso di dati\Merge join"
+              componentClassID="Microsoft.MergeJoin"
+              contactInfo="Merge join;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; Tutti i diritti sono riservati; http://www.microsoft.com/sql/support;1"
+              description="Combina due flussi di dati ordinati in uno solo tramite join di tipo FULL, LEFT o INNER. Questa trasformazione è consigliata quando i flussi di dati possono essere ordinati alle relative origini."
+              name="Merge join"
+              version="1">
+              <properties>
+                <property
+                  dataType="System.Int32"
+                  description="Specifica il tipo di join da eseguire."
+                  name="JoinType"
+                  typeConverter="JoinType">2</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifica il numero di colonne nella chiave di ordinamento."
+                  name="NumKeyColumns">2</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Indica se i valori Null vengono considerati come valori uguali."
+                  name="TreatNullsAsEqual">true</property>
+                <property
+                  dataType="System.Int32"
+                  description="Indica il numero massimo di buffer richiesti per input prima dell'attivazione del blocco."
+                  name="MaxBuffersPerInput">5</property>
+              </properties>
+              <inputs>
+                <input
+                  refId="Package\Attività Flusso di dati\Merge join.Inputs[Input merge join sinistro]"
+                  hasSideEffects="true"
+                  name="Input merge join sinistro">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\Attività Flusso di dati\Merge join.Inputs[Input merge join sinistro].Columns[partite_perse]"
+                      cachedDataType="ui8"
+                      cachedName="partite_perse"
+                      cachedSortKeyPosition="1"
+                      lineageId="Package\Attività Flusso di dati\_Ordinamento per partite_perse, player_id.Outputs[Output ordinamento].Columns[partite_perse]" />
+                    <inputColumn
+                      refId="Package\Attività Flusso di dati\Merge join.Inputs[Input merge join sinistro].Columns[player_id]"
+                      cachedDataType="i4"
+                      cachedName="player_id"
+                      cachedSortKeyPosition="2"
+                      lineageId="Package\Attività Flusso di dati\_Ordinamento per partite_perse, player_id.Outputs[Output ordinamento].Columns[player_id]" />
+                  </inputColumns>
+                  <externalMetadataColumns />
+                </input>
+                <input
+                  refId="Package\Attività Flusso di dati\Merge join.Inputs[Input merge join destro]"
+                  hasSideEffects="true"
+                  name="Input merge join destro">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\Attività Flusso di dati\Merge join.Inputs[Input merge join destro].Columns[partite_perse]"
+                      cachedDataType="ui8"
+                      cachedName="partite_perse"
+                      cachedSortKeyPosition="1"
+                      lineageId="Package\Attività Flusso di dati\Ordinamento per partite_perse, player_id.Outputs[Output ordinamento].Columns[partite_perse]" />
+                    <inputColumn
+                      refId="Package\Attività Flusso di dati\Merge join.Inputs[Input merge join destro].Columns[player_id]"
+                      cachedDataType="i4"
+                      cachedName="player_id"
+                      cachedSortKeyPosition="2"
+                      lineageId="Package\Attività Flusso di dati\Ordinamento per partite_perse, player_id.Outputs[Output ordinamento].Columns[player_id]" />
+                  </inputColumns>
+                  <externalMetadataColumns />
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\Attività Flusso di dati\Merge join.Outputs[Output merge join]"
+                  isSorted="true"
+                  name="Output merge join">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Attività Flusso di dati\Merge join.Outputs[Output merge join].Columns[partite_perse]"
+                      dataType="ui8"
+                      lineageId="Package\Attività Flusso di dati\Merge join.Outputs[Output merge join].Columns[partite_perse]"
+                      name="partite_perse"
+                      sortKeyPosition="1">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Colonna di input associata a questa colonna di output"
+                          name="InputColumnID">#{Package\Attività Flusso di dati\Merge join.Inputs[Input merge join sinistro].Columns[partite_perse]}</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Attività Flusso di dati\Merge join.Outputs[Output merge join].Columns[player_id]"
+                      dataType="i4"
+                      lineageId="Package\Attività Flusso di dati\Merge join.Outputs[Output merge join].Columns[player_id]"
+                      name="player_id"
+                      sortKeyPosition="2">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Colonna di input associata a questa colonna di output"
+                          name="InputColumnID">#{Package\Attività Flusso di dati\Merge join.Inputs[Input merge join sinistro].Columns[player_id]}</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Attività Flusso di dati\Merge join.Outputs[Output merge join].Columns[nemesis_id]"
+                      dataType="i4"
+                      lineageId="Package\Attività Flusso di dati\Merge join.Outputs[Output merge join].Columns[nemesis_id]"
+                      name="nemesis_id">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Colonna di input associata a questa colonna di output"
+                          name="InputColumnID">#{Package\Attività Flusso di dati\Merge join.Inputs[Input merge join destro].Columns[player_id]}</property>
+                      </properties>
+                    </outputColumn>
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\Attività Flusso di dati\Multicast"
+              componentClassID="Microsoft.Multicast"
+              contactInfo="Multicast;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; Tutti i diritti sono riservati; http://www.microsoft.com/sql/support;0"
+              description="Distribuisce ogni riga di input a ogni riga di uno o più output. Ad esempio, creare un nuovo ramo del flusso di dati per creare una copia dei dati in modo che sia possibile mascherare alcuni valori prima di condividerli con partner esterni."
+              name="Multicast">
+              <inputs>
+                <input
+                  refId="Package\Attività Flusso di dati\Multicast.Inputs[Multicast Input 1]"
+                  name="Multicast Input 1">
+                  <externalMetadataColumns />
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\Attività Flusso di dati\Multicast.Outputs[Multicast Output 1]"
+                  deleteOutputOnPathDetached="true"
+                  name="Multicast Output 1"
+                  synchronousInputId="Package\Attività Flusso di dati\Multicast.Inputs[Multicast Input 1]">
+                  <externalMetadataColumns />
+                </output>
+                <output
+                  refId="Package\Attività Flusso di dati\Multicast.Outputs[Output multicast 1]"
+                  deleteOutputOnPathDetached="true"
+                  name="Output multicast 1"
+                  synchronousInputId="Package\Attività Flusso di dati\Multicast.Inputs[Multicast Input 1]">
+                  <externalMetadataColumns />
+                </output>
+                <output
+                  refId="Package\Attività Flusso di dati\Multicast.Outputs[Output multicast 2]"
+                  dangling="true"
+                  deleteOutputOnPathDetached="true"
+                  name="Output multicast 2"
+                  synchronousInputId="Package\Attività Flusso di dati\Multicast.Inputs[Multicast Input 1]">
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\Attività Flusso di dati\Ordinamento per partite_perse, player_id"
+              componentClassID="Microsoft.Sort"
+              contactInfo="Ordinamento;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; Tutti i diritti sono riservati; http://www.microsoft.com/sql/support;1"
+              description="Ordina i dati di input in ordine crescente o decrescente quando non possono essere ordinati come la relativa origine. Ad esempio, ordinare i dati delle vendite per 'customer id' prima che vengano scritti in un file flat e recapitati a un altro reparto. Nota: questa trasformazione non è consigliata per i flussi di dati di grandi dimensioni."
+              name="Ordinamento per partite_perse, player_id"
+              version="1">
+              <properties>
+                <property
+                  dataType="System.Boolean"
+                  description="Indica se la trasformazione Ordinamento rimuove le righe con valori di ordinamento duplicati."
+                  name="EliminateDuplicates">false</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifica il numero massimo di thread da utilizzare per l'ordinamento."
+                  expressionType="Notify"
+                  name="MaximumThreads">-1</property>
+              </properties>
+              <inputs>
+                <input
+                  refId="Package\Attività Flusso di dati\Ordinamento per partite_perse, player_id.Inputs[Input ordinamento]"
+                  name="Input ordinamento">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\Attività Flusso di dati\Ordinamento per partite_perse, player_id.Inputs[Input ordinamento].Columns[partite_perse]"
+                      cachedDataType="ui8"
+                      cachedName="partite_perse"
+                      lineageId="Package\Attività Flusso di dati\COUNT(*) AS partite perse GROUP BY winner_id AS nemesis_id, loser_id AS player_id.Outputs[Output aggregazione 1].Columns[partite_perse]">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifica le opzioni di confronto per i dati di tipo carattere."
+                          name="NewComparisonFlags">0</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifica il tipo di ordinamento della colonna."
+                          name="NewSortKeyPosition">1</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Attività Flusso di dati\Ordinamento per partite_perse, player_id.Inputs[Input ordinamento].Columns[nemesis_id]"
+                      cachedDataType="i4"
+                      cachedName="nemesis_id"
+                      lineageId="Package\Attività Flusso di dati\COUNT(*) AS partite perse GROUP BY winner_id AS nemesis_id, loser_id AS player_id.Outputs[Output aggregazione 1].Columns[nemesis_id]">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifica le opzioni di confronto per i dati di tipo carattere."
+                          name="NewComparisonFlags">0</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifica il tipo di ordinamento della colonna."
+                          name="NewSortKeyPosition">0</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Attività Flusso di dati\Ordinamento per partite_perse, player_id.Inputs[Input ordinamento].Columns[player_id]"
+                      cachedDataType="i4"
+                      cachedName="player_id"
+                      lineageId="Package\Attività Flusso di dati\COUNT(*) AS partite perse GROUP BY winner_id AS nemesis_id, loser_id AS player_id.Outputs[Output aggregazione 1].Columns[player_id]">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifica le opzioni di confronto per i dati di tipo carattere."
+                          name="NewComparisonFlags">0</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifica il tipo di ordinamento della colonna."
+                          name="NewSortKeyPosition">2</property>
+                      </properties>
+                    </inputColumn>
+                  </inputColumns>
+                  <externalMetadataColumns />
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\Attività Flusso di dati\Ordinamento per partite_perse, player_id.Outputs[Output ordinamento]"
+                  isSorted="true"
+                  name="Output ordinamento">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Attività Flusso di dati\Ordinamento per partite_perse, player_id.Outputs[Output ordinamento].Columns[partite_perse]"
+                      dataType="ui8"
+                      lineageId="Package\Attività Flusso di dati\Ordinamento per partite_perse, player_id.Outputs[Output ordinamento].Columns[partite_perse]"
+                      name="partite_perse"
+                      sortKeyPosition="1">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifica l'identificatore di derivazione della colonna di input associata a questa colonna di output."
+                          name="SortColumnId">#{Package\Attività Flusso di dati\COUNT(*) AS partite perse GROUP BY winner_id AS nemesis_id, loser_id AS player_id.Outputs[Output aggregazione 1].Columns[partite_perse]}</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Attività Flusso di dati\Ordinamento per partite_perse, player_id.Outputs[Output ordinamento].Columns[nemesis_id]"
+                      dataType="i4"
+                      lineageId="Package\Attività Flusso di dati\Ordinamento per partite_perse, player_id.Outputs[Output ordinamento].Columns[nemesis_id]"
+                      name="nemesis_id">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifica l'identificatore di derivazione della colonna di input associata a questa colonna di output."
+                          name="SortColumnId">#{Package\Attività Flusso di dati\COUNT(*) AS partite perse GROUP BY winner_id AS nemesis_id, loser_id AS player_id.Outputs[Output aggregazione 1].Columns[nemesis_id]}</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Attività Flusso di dati\Ordinamento per partite_perse, player_id.Outputs[Output ordinamento].Columns[player_id]"
+                      dataType="i4"
+                      lineageId="Package\Attività Flusso di dati\Ordinamento per partite_perse, player_id.Outputs[Output ordinamento].Columns[player_id]"
+                      name="player_id"
+                      sortKeyPosition="2">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifica l'identificatore di derivazione della colonna di input associata a questa colonna di output."
+                          name="SortColumnId">#{Package\Attività Flusso di dati\COUNT(*) AS partite perse GROUP BY winner_id AS nemesis_id, loser_id AS player_id.Outputs[Output aggregazione 1].Columns[player_id]}</property>
+                      </properties>
+                    </outputColumn>
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\Attività Flusso di dati\_Ordinamento per partite_perse, player_id"
+              componentClassID="Microsoft.Sort"
+              contactInfo="Ordinamento;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; Tutti i diritti sono riservati; http://www.microsoft.com/sql/support;1"
+              description="Ordina i dati di input in ordine crescente o decrescente quando non possono essere ordinati come la relativa origine. Ad esempio, ordinare i dati delle vendite per 'customer id' prima che vengano scritti in un file flat e recapitati a un altro reparto. Nota: questa trasformazione non è consigliata per i flussi di dati di grandi dimensioni."
+              name="_Ordinamento per partite_perse, player_id"
+              version="1">
+              <properties>
+                <property
+                  dataType="System.Boolean"
+                  description="Indica se la trasformazione Ordinamento rimuove le righe con valori di ordinamento duplicati."
+                  name="EliminateDuplicates">false</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifica il numero massimo di thread da utilizzare per l'ordinamento."
+                  expressionType="Notify"
+                  name="MaximumThreads">-1</property>
+              </properties>
+              <inputs>
+                <input
+                  refId="Package\Attività Flusso di dati\_Ordinamento per partite_perse, player_id.Inputs[Input ordinamento]"
+                  name="Input ordinamento">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\Attività Flusso di dati\_Ordinamento per partite_perse, player_id.Inputs[Input ordinamento].Columns[partite_perse]"
+                      cachedDataType="ui8"
+                      cachedName="partite_perse"
+                      lineageId="Package\Attività Flusso di dati\MAX(partite_perse) GROUP BY player_id.Outputs[Output aggregazione 1].Columns[partite_perse]">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifica le opzioni di confronto per i dati di tipo carattere."
+                          name="NewComparisonFlags">0</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifica il tipo di ordinamento della colonna."
+                          name="NewSortKeyPosition">1</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Attività Flusso di dati\_Ordinamento per partite_perse, player_id.Inputs[Input ordinamento].Columns[player_id]"
+                      cachedDataType="i4"
+                      cachedName="player_id"
+                      lineageId="Package\Attività Flusso di dati\MAX(partite_perse) GROUP BY player_id.Outputs[Output aggregazione 1].Columns[player_id]">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifica le opzioni di confronto per i dati di tipo carattere."
+                          name="NewComparisonFlags">0</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifica il tipo di ordinamento della colonna."
+                          name="NewSortKeyPosition">2</property>
+                      </properties>
+                    </inputColumn>
+                  </inputColumns>
+                  <externalMetadataColumns />
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\Attività Flusso di dati\_Ordinamento per partite_perse, player_id.Outputs[Output ordinamento]"
+                  isSorted="true"
+                  name="Output ordinamento">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Attività Flusso di dati\_Ordinamento per partite_perse, player_id.Outputs[Output ordinamento].Columns[partite_perse]"
+                      dataType="ui8"
+                      lineageId="Package\Attività Flusso di dati\_Ordinamento per partite_perse, player_id.Outputs[Output ordinamento].Columns[partite_perse]"
+                      name="partite_perse"
+                      sortKeyPosition="1">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifica l'identificatore di derivazione della colonna di input associata a questa colonna di output."
+                          name="SortColumnId">#{Package\Attività Flusso di dati\MAX(partite_perse) GROUP BY player_id.Outputs[Output aggregazione 1].Columns[partite_perse]}</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Attività Flusso di dati\_Ordinamento per partite_perse, player_id.Outputs[Output ordinamento].Columns[player_id]"
+                      dataType="i4"
+                      lineageId="Package\Attività Flusso di dati\_Ordinamento per partite_perse, player_id.Outputs[Output ordinamento].Columns[player_id]"
+                      name="player_id"
+                      sortKeyPosition="2">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifica l'identificatore di derivazione della colonna di input associata a questa colonna di output."
+                          name="SortColumnId">#{Package\Attività Flusso di dati\MAX(partite_perse) GROUP BY player_id.Outputs[Output aggregazione 1].Columns[player_id]}</property>
+                      </properties>
+                    </outputColumn>
                   </outputColumns>
                   <externalMetadataColumns />
                 </output>
@@ -1491,32 +1486,32 @@ where [refTable].[player_id] = ?</property>
           <paths>
             <path
               refId="Package\Attività Flusso di dati.Paths[Multicast Output 1]"
-              endId="Package\Attività Flusso di dati\Aggregazione 1.Inputs[Input aggregazione 1]"
+              endId="Package\Attività Flusso di dati\MAX(partite_perse) GROUP BY player_id.Inputs[Input aggregazione 1]"
               name="Multicast Output 1"
               startId="Package\Attività Flusso di dati\Multicast.Outputs[Multicast Output 1]" />
             <path
               refId="Package\Attività Flusso di dati.Paths[Output aggregazione 1]"
-              endId="Package\Attività Flusso di dati\Ordinamento.Inputs[Input ordinamento]"
+              endId="Package\Attività Flusso di dati\Ordinamento per partite_perse, player_id.Inputs[Input ordinamento]"
               name="Output aggregazione 1"
-              startId="Package\Attività Flusso di dati\Aggregazione.Outputs[Output aggregazione 1]" />
+              startId="Package\Attività Flusso di dati\COUNT(*) AS partite perse GROUP BY winner_id AS nemesis_id, loser_id AS player_id.Outputs[Output aggregazione 1]" />
             <path
               refId="Package\Attività Flusso di dati.Paths[Output aggregazione 11]"
-              endId="Package\Attività Flusso di dati\Ordinamento 1.Inputs[Input ordinamento]"
+              endId="Package\Attività Flusso di dati\_Ordinamento per partite_perse, player_id.Inputs[Input ordinamento]"
               name="Output aggregazione 1"
-              startId="Package\Attività Flusso di dati\Aggregazione 1.Outputs[Output aggregazione 1]" />
+              startId="Package\Attività Flusso di dati\MAX(partite_perse) GROUP BY player_id.Outputs[Output aggregazione 1]" />
             <path
               refId="Package\Attività Flusso di dati.Paths[Output corrispondenza ricerca]"
-              endId="Package\Attività Flusso di dati\Ricerca 1.Inputs[Input ricerca]"
+              endId="Package\Attività Flusso di dati\Lookup nemesis name.Inputs[Input ricerca]"
               name="Output corrispondenza ricerca"
-              startId="Package\Attività Flusso di dati\Ricerca.Outputs[Output corrispondenza ricerca]" />
+              startId="Package\Attività Flusso di dati\Lookup player name.Outputs[Output corrispondenza ricerca]" />
             <path
               refId="Package\Attività Flusso di dati.Paths[Output corrispondenza ricerca1]"
               endId="Package\Attività Flusso di dati\Destinazione file flat.Inputs[Input destinazione file flat]"
               name="Output corrispondenza ricerca"
-              startId="Package\Attività Flusso di dati\Ricerca 1.Outputs[Output corrispondenza ricerca]" />
+              startId="Package\Attività Flusso di dati\Lookup nemesis name.Outputs[Output corrispondenza ricerca]" />
             <path
               refId="Package\Attività Flusso di dati.Paths[Output merge join]"
-              endId="Package\Attività Flusso di dati\Ricerca.Inputs[Input ricerca]"
+              endId="Package\Attività Flusso di dati\Lookup player name.Inputs[Input ricerca]"
               name="Output merge join"
               startId="Package\Attività Flusso di dati\Merge join.Outputs[Output merge join]" />
             <path
@@ -1528,17 +1523,17 @@ where [refTable].[player_id] = ?</property>
               refId="Package\Attività Flusso di dati.Paths[Output ordinamento]"
               endId="Package\Attività Flusso di dati\Multicast.Inputs[Multicast Input 1]"
               name="Output ordinamento"
-              startId="Package\Attività Flusso di dati\Ordinamento.Outputs[Output ordinamento]" />
+              startId="Package\Attività Flusso di dati\Ordinamento per partite_perse, player_id.Outputs[Output ordinamento]" />
             <path
               refId="Package\Attività Flusso di dati.Paths[Output ordinamento1]"
               endId="Package\Attività Flusso di dati\Merge join.Inputs[Input merge join sinistro]"
               name="Output ordinamento"
-              startId="Package\Attività Flusso di dati\Ordinamento 1.Outputs[Output ordinamento]" />
+              startId="Package\Attività Flusso di dati\_Ordinamento per partite_perse, player_id.Outputs[Output ordinamento]" />
             <path
               refId="Package\Attività Flusso di dati.Paths[Output origine OLE DB]"
-              endId="Package\Attività Flusso di dati\Aggregazione.Inputs[Input aggregazione 1]"
+              endId="Package\Attività Flusso di dati\COUNT(*) AS partite perse GROUP BY winner_id AS nemesis_id, loser_id AS player_id.Inputs[Input aggregazione 1]"
               name="Output origine OLE DB"
-              startId="Package\Attività Flusso di dati\Origine OLE DB.Outputs[Output origine OLE DB]" />
+              startId="Package\Attività Flusso di dati\Match.Outputs[Output origine OLE DB]" />
           </paths>
         </pipeline>
       </DTS:ObjectData>
@@ -1569,169 +1564,59 @@ where [refTable].[player_id] = ?</property>
       <GraphLayout
         Capacity="32" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
-          Size="151.2,41.6"
-          Id="Package\Attività Flusso di dati\Origine OLE DB"
-          TopLeft="434,137" />
-        <NodeLayout
-          Size="142.4,41.6"
-          Id="Package\Attività Flusso di dati\Aggregazione"
-          TopLeft="438,220" />
-        <EdgeLayout
-          Id="Package\Attività Flusso di dati.Paths[Output origine OLE DB]"
-          TopLeft="509.4,178.6">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,41.4"
-              Start="0,0"
-              End="0,33.9">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,33.9" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <NodeLayout
-          Size="151.2,41.6"
-          Id="Package\Attività Flusso di dati\Aggregazione 1"
-          TopLeft="249,391.2" />
-        <NodeLayout
-          Size="139.2,41.6"
-          Id="Package\Attività Flusso di dati\Ordinamento"
-          TopLeft="431,305.4" />
-        <EdgeLayout
-          Id="Package\Attività Flusso di dati.Paths[Output aggregazione 1]"
-          TopLeft="509.2,261.6">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="-8.60000000000008,43.8"
-              Start="0,0"
-              End="-8.60000000000008,36.3">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,17.9" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,17.9"
-                    Point2="0,21.9"
-                    Point3="-4,21.9" />
-                  <mssgle:LineSegment
-                    End="-4.60000000000008,21.9" />
-                  <mssgle:CubicBezierSegment
-                    Point1="-4.60000000000008,21.9"
-                    Point2="-8.60000000000008,21.9"
-                    Point3="-8.60000000000008,25.9" />
-                  <mssgle:LineSegment
-                    End="-8.60000000000008,36.3" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <NodeLayout
           Size="120,41.6"
           Id="Package\Attività Flusso di dati\Multicast"
-          TopLeft="439,388" />
-        <EdgeLayout
-          Id="Package\Attività Flusso di dati.Paths[Output ordinamento]"
-          TopLeft="499.8,347">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,40.9999999999999"
-              Start="0,0"
-              End="0,33.4999999999999">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,33.4999999999999" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Attività Flusso di dati.Paths[Multicast Output 1]"
-          TopLeft="439,410.4">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="-38.8000000000003,0"
-              Start="0,0"
-              End="-31.3000000000003,0">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="-31.3000000000003,0" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
+          TopLeft="772.9682596557,95.2875775941652" />
+        <NodeLayout
+          Size="249.6,56"
+          Id="Package\Attività Flusso di dati\COUNT(*) AS partite perse GROUP BY winner_id AS nemesis_id, loser_id AS player_id"
+          TopLeft="279.984124293132,83.1176451391003" />
+        <NodeLayout
+          Size="173.6,41.6"
+          Id="Package\Attività Flusso di dati\Destinazione file flat"
+          TopLeft="189.523806024571,267.253586618078" />
+        <NodeLayout
+          Size="183.2,41.6"
+          Id="Package\Attività Flusso di dati\Lookup nemesis name"
+          TopLeft="191.436504112214,171.566005012871" />
+        <NodeLayout
+          Size="106.4,41.6"
+          Id="Package\Attività Flusso di dati\Match"
+          TopLeft="148.285709420029,91.8823523084186" />
         <NodeLayout
           Size="128,41.6"
           Id="Package\Attività Flusso di dati\Merge join"
-          TopLeft="413,579.8" />
-        <EdgeLayout
-          Id="Package\Attività Flusso di dati.Paths[Output multicast 1]"
-          TopLeft="498,429.6">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,150.2"
-              Start="0,0"
-              End="0,142.7">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,142.7" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
+          TopLeft="764.269847251931,170.682347203456" />
         <NodeLayout
-          Size="148.8,41.6"
-          Id="Package\Attività Flusso di dati\Ordinamento 1"
-          TopLeft="253,493" />
+          Size="180.8,41.6"
+          Id="Package\Attività Flusso di dati\MAX(partite_perse) GROUP BY player_id"
+          TopLeft="933.914801570514,92.4973814317235" />
+        <NodeLayout
+          Size="191.2,41.6"
+          Id="Package\Attività Flusso di dati\_Ordinamento per partite_perse, player_id"
+          TopLeft="926.722955196377,168.955877808345" />
+        <NodeLayout
+          Size="190.4,41.6"
+          Id="Package\Attività Flusso di dati\Ordinamento per partite_perse, player_id"
+          TopLeft="557.507938662354,91.7071865455227" />
+        <NodeLayout
+          Size="173.6,41.6"
+          Id="Package\Attività Flusso di dati\Lookup player name"
+          TopLeft="516.035716040402,174.60293436896" />
         <EdgeLayout
-          Id="Package\Attività Flusso di dati.Paths[Output aggregazione 11]"
-          TopLeft="326,432.8">
+          Id="Package\Attività Flusso di dati.Paths[Output origine OLE DB]"
+          TopLeft="254.685709420029,111.899998723759">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,60.2000000000001"
+              EndConnector="25.2984148731033,0"
               Start="0,0"
-              End="0,52.7000000000001">
+              End="17.7984148731033,0">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,52.7000000000001" />
+                    End="17.7984148731033,0" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -1742,30 +1627,18 @@ where [refTable].[player_id] = ?</property>
         </EdgeLayout>
         <EdgeLayout
           Id="Package\Attività Flusso di dati.Paths[Output ordinamento1]"
-          TopLeft="327.4,534.6">
+          TopLeft="926.722955196377,190.6191125059">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="129.6,45.1999999999998"
+              EndConnector="-34.4531079444459,0"
               Start="0,0"
-              End="129.6,37.6999999999998">
+              End="-26.9531079444459,0">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,22.7851851851851" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,22.7851851851851"
-                    Point2="0,26.7851851851851"
-                    Point3="4,26.7851851851851" />
-                  <mssgle:LineSegment
-                    End="125.6,26.7851851851851" />
-                  <mssgle:CubicBezierSegment
-                    Point1="125.6,26.7851851851851"
-                    Point2="129.6,26.7851851851851"
-                    Point3="129.6,30.7851851851851" />
-                  <mssgle:LineSegment
-                    End="129.6,37.6999999999998" />
+                    End="-26.9531079444459,0" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -1774,93 +1647,214 @@ where [refTable].[player_id] = ?</property>
             <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="112,41.6"
-          Id="Package\Attività Flusso di dati\Ricerca"
-          TopLeft="413,660" />
-        <NodeLayout
-          Size="121.6,41.6"
-          Id="Package\Attività Flusso di dati\Ricerca 1"
-          TopLeft="416,746.2" />
-        <NodeLayout
-          Size="173.6,41.6"
-          Id="Package\Attività Flusso di dati\Destinazione file flat"
-          TopLeft="395,848.6" />
+        <EdgeLayout
+          Id="Package\Attività Flusso di dati.Paths[Output ordinamento]"
+          TopLeft="747.907938662354,114.297382069844">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="25.0603209933457,0"
+              Start="0,0"
+              End="17.5603209933457,0">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="17.5603209933457,0" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Attività Flusso di dati.Paths[Output multicast 1]"
+          TopLeft="830.619053453815,136.887577594165">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,33.7947696092905"
+              Start="0,0"
+              End="0,26.2947696092905">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,26.2947696092905" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
         <EdgeLayout
           Id="Package\Attività Flusso di dati.Paths[Output merge join]"
-          TopLeft="473,621.4">
+          TopLeft="764.269847251931,193.442640786208">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,38.6"
+              EndConnector="-74.6341312115291,0"
               Start="0,0"
-              End="0,31.1">
+              End="-67.1341312115291,0">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,31.1" />
+                    End="-67.1341312115291,0" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
             <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Attività Flusso di dati.Paths[Output corrispondenza ricerca]"
-          TopLeft="472.9,701.6">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,44.6"
-              Start="0,0"
-              End="0,37.1">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,37.1" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="-66.78587890625,12.7453125,133.5717578125,11.609375"
-              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
           Id="Package\Attività Flusso di dati.Paths[Output corrispondenza ricerca1]"
-          TopLeft="479.3,787.8">
+          TopLeft="279.680155068392,213.166005012871">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,60.8"
+              EndConnector="0,54.087581605207"
               Start="0,0"
-              End="0,53.3">
+              End="0,46.587581605207">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,53.3" />
+                    End="0,46.587581605207" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
             <mssgm:EdgeLabel
-              BoundingBox="-66.78587890625,20.8453125,133.5717578125,11.609375"
+              BoundingBox="-66.78587890625,17.4891033026035,133.5717578125,11.609375"
               RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Attività Flusso di dati.Paths[Output corrispondenza ricerca]"
+          TopLeft="516.035716040402,193.884469690916">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-141.399211928188,0"
+              Start="0,0"
+              End="-133.899211928188,0">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="-133.899211928188,0" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="-133.735484870344,5,133.5717578125,11.609375"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Attività Flusso di dati.Paths[Output aggregazione 11]"
+          TopLeft="1023.31887838345,134.097381431724">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,34.8584963766215"
+              Start="0,0"
+              End="0,27.3584963766215">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,27.3584963766215" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Attività Flusso di dati.Paths[Output aggregazione 1]"
+          TopLeft="529.584124293132,111.812415842311">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="27.9238143692218,0"
+              Start="0,0"
+              End="20.4238143692218,0">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="20.4238143692218,0" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Attività Flusso di dati.Paths[Multicast Output 1]"
+          TopLeft="892.9682596557,114.692479512944">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="40.9465419148139,0"
+              Start="0,0"
+              End="33.4465419148139,0">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="33.4465419148139,0" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
     </LayoutInfo>
   </TaskHost>
   <PipelineComponentMetadata
-    design-time-name="Package\Attività Flusso di dati\Origine OLE DB">
+    design-time-name="Package\Attività Flusso di dati\Lookup nemesis name">
+    <Properties>
+      <Property>
+        <Name>OverwriteParamsSQLProp</Name>
+        <Value
+          type="q2:string">false</Value>
+      </Property>
+      <Property>
+        <Name>UsedTableName</Name>
+        <Value
+          type="q3:string">[Group_11].[Player]</Value>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q4:string">0</Value>
+      </Property>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Attività Flusso di dati\Match">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
@@ -1873,12 +1867,12 @@ where [refTable].[player_id] = ?</property>
     </Properties>
   </PipelineComponentMetadata>
   <PipelineComponentMetadata
-    design-time-name="Package\Attività Flusso di dati\Ricerca">
+    design-time-name="Package\Attività Flusso di dati\Lookup player name">
     <Properties>
       <Property>
         <Name>OverwriteParamsSQLProp</Name>
         <Value
-          type="q2:boolean">false</Value>
+          type="q2:string">false</Value>
       </Property>
       <Property>
         <Name>UsedTableName</Name>
@@ -1888,30 +1882,7 @@ where [refTable].[player_id] = ?</property>
       <Property>
         <Name>TableInfoObjectType</Name>
         <Value
-          type="q4:int">0</Value>
-      </Property>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\Attività Flusso di dati\Ricerca 1">
-    <Properties>
-      <Property>
-        <Name>OverwriteParamsSQLProp</Name>
-        <Value
-          type="q2:boolean">false</Value>
-      </Property>
-      <Property>
-        <Name>UsedTableName</Name>
-        <Value
-          type="q3:string">[Group_11].[Player]</Value>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q4:int">0</Value>
+          type="q4:string">0</Value>
       </Property>
       <Property>
         <Name>DataSourceViewID</Name>

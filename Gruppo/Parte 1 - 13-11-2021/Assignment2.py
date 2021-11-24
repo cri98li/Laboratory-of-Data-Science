@@ -1,35 +1,5 @@
 import pyodbc
-from Utils import CSVtoLISTDICT, connectDB
-from tqdm import tqdm
-
-def chunks(lst, start, n):
-    for i in range(start, len(lst), n):
-        yield lst[i:i + n]
-
-#Insert di più record alla volta usando execute many
-def insert_db1(cursor, data, query, table, chunk_size=100):
-    row_count = cursor.execute('SELECT COUNT(*) FROM ' + table).fetchall()[0][0]
-    print(F'Record presenti in {table}: {row_count}')
-
-    for chunk in tqdm(chunks(data, row_count, chunk_size)):
-        try:
-            cursor.executemany(query, chunk)
-            cursor.commit()
-        except pyodbc.IntegrityError as e:
-            print(e)
-            return
-
-#Insert di un record per volta
-def insert_db2(cursor, data, query, table):
-
-    for i, record in enumerate(tqdm(data)):
-        try:
-            cursor.execute(query, record)
-            cursor.commit()
-        except pyodbc.IntegrityError as e:
-            print(e)
-            return
-
+from Utils import CSVtoLISTDICT, connectDB, insert_db1
 
 cnxn = connectDB('131.114.72.230', 'Group_11_DB', 'Group_11', '9WGTTUCP')
 cnxn.autocommit = False
@@ -93,6 +63,6 @@ insert_db1(cursor, input_list, query_players, 'player')
 
 input_list = [ [ str(match['match_num']) + match['tourney_pk'] + str(match['winner_id']) + str(match['loser_id']) ] + list(match.values())[1:] for match in matches ]
 
-insert_db1(cursor, input_list, query_match, 'match', chunk_size=250)
+insert_db1(cursor, input_list, query_match, 'match', chunk_size=1000)
 cnxn.close()
 

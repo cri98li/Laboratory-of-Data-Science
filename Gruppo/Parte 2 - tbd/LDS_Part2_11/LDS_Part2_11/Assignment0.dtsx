@@ -11,8 +11,8 @@
   DTS:LocaleID="1040"
   DTS:ObjectName="Package"
   DTS:PackageType="5"
-  DTS:VersionBuild="3"
-  DTS:VersionGUID="{085B1112-C082-4605-8F81-3FAA782405FC}">
+  DTS:VersionBuild="6"
+  DTS:VersionGUID="{DA949E25-6B59-476F-B3E1-AD76B9FB9A1D}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -83,7 +83,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAASwWrmCWQ4k6Jf9XW9NwqYwAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAD0lpShkK/X3+OcQav4L7jjsMokgobcsDYxLMIM0Hb9LgAAAAAOgAAAAAIAACAAAAD9ug7gxUZ85qdLc8cgqVQTHffbXRUo/f+g1kdsQJLf+yAAAABkHkqIbtMjUjZpfxO7ThO7kMrXJ4PBkk0ugxmEghP5iEAAAABiG3UfrxWAOl69Lkd5PYg3ScQsUgWVWDJnfotK1mVqwL7peSwPxh1FDcJtOTdyW4YyDrY9ID31fwn8eYH2IFmT</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAASwWrmCWQ4k6Jf9XW9NwqYwAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAA9y2hnwnBtOswX0UlRXmws81KlZSTS7nncZjnLxGYIGQAAAAAOgAAAAAIAACAAAAAbCM+hklFeEDz0cddlHsPWWllysEHWrpY74ByFq04OwCAAAABxUmIMeP3+zS6NB1Y0pplzI6QwdnJS/XiixfBRlIdeIkAAAACjoJDZzJUXgHt0oCVdNmFYnzYVFdDwhb0oSBRW9YEU7Hwc3HgVkZjz0UxdSCkOoJyjpl6qfORy/8MfkwhE29SV</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -103,199 +103,6 @@
         <pipeline
           version="1">
           <components>
-            <component
-              refId="Package\Attività Flusso di dati\Aggregazione"
-              componentClassID="Microsoft.Aggregate"
-              contactInfo="Aggregazione;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; Tutti i diritti sono riservati; http://www.microsoft.com/sql/support;3"
-              description="Aggrega i dati con funzioni quali Media, Somma, Conta numeri, Max e Min. Ad esempio, raggruppare i dati per calcolare la somma delle vendite per prodotto o la media giornaliera delle visite."
-              name="Aggregazione"
-              version="3">
-              <properties>
-                <property
-                  dataType="System.Int32"
-                  description="Specifica il numero approssimativo di chiavi Group By generate dall'aggregazione. Basso indica 500.000 valori di chiave, Medio indica 5 milioni di valori di chiave e Alto indica più di 25 milioni di valori di chiave. Non specificato indica che non viene utilizzato alcun valore KeyScale."
-                  name="KeyScale"
-                  typeConverter="KeyScaleType">0</property>
-                <property
-                  dataType="System.Null"
-                  description="Specifica il numero esatto di chiavi Group By generate dall'aggregazione. Se si specifica un valore KeyScale, il valore di Keys ha la precedenza."
-                  name="Keys" />
-                <property
-                  dataType="System.Int32"
-                  description="Specifica il numero approssimativo di valori Distinct in una colonna a cui viene applicata la funzione di aggregazione Count Distinct. Basso indica 500.000 valori di chiave, Medio indica 5 milioni di valori di chiave e Alto indica 25 milioni di valori di chiave. Non specificato indica che non viene utilizzato alcun valore CountDistinctScale."
-                  name="CountDistinctScale"
-                  typeConverter="KeyScaleType">0</property>
-                <property
-                  dataType="System.Null"
-                  description="Specifica il numero approssimativo di valori Distinct in una colonna a cui viene applicata la funzione di aggregazione Count Distinct. Se si specifica un valore CountDistinctScale, il valore in CountDistinctKeys ha la precedenza."
-                  name="CountDistinctKeys" />
-                <property
-                  dataType="System.Int32"
-                  description="Specifica la percentuale di estensione della memoria consentita durante l'aggregazione. I valori validi sono compresi tra 1 e 100."
-                  name="AutoExtendFactor">25</property>
-              </properties>
-              <inputs>
-                <input
-                  refId="Package\Attività Flusso di dati\Aggregazione.Inputs[Input aggregazione 1]"
-                  name="Input aggregazione 1">
-                  <inputColumns>
-                    <inputColumn
-                      refId="Package\Attività Flusso di dati\Aggregazione.Inputs[Input aggregazione 1].Columns[tourney_spectators]"
-                      cachedDataType="i2"
-                      cachedName="tourney_spectators"
-                      lineageId="Package\Attività Flusso di dati\Origine OLE DB.Outputs[Output origine OLE DB].Columns[tourney_spectators]" />
-                    <inputColumn
-                      refId="Package\Attività Flusso di dati\Aggregazione.Inputs[Input aggregazione 1].Columns[tourney_pk]"
-                      cachedCodepage="1252"
-                      cachedDataType="str"
-                      cachedLength="150"
-                      cachedName="tourney_pk"
-                      lineageId="Package\Attività Flusso di dati\Origine OLE DB.Outputs[Output origine OLE DB].Columns[tourney_pk]" />
-                    <inputColumn
-                      refId="Package\Attività Flusso di dati\Aggregazione.Inputs[Input aggregazione 1].Columns[year]"
-                      cachedDataType="i2"
-                      cachedName="year"
-                      lineageId="Package\Attività Flusso di dati\Ricerca.Outputs[Output corrispondenza ricerca].Columns[year]" />
-                    <inputColumn
-                      refId="Package\Attività Flusso di dati\Aggregazione.Inputs[Input aggregazione 1].Columns[tourney_name]"
-                      cachedCodepage="1252"
-                      cachedDataType="str"
-                      cachedLength="56"
-                      cachedName="tourney_name"
-                      lineageId="Package\Attività Flusso di dati\Origine OLE DB.Outputs[Output origine OLE DB].Columns[tourney_name]" />
-                  </inputColumns>
-                  <externalMetadataColumns />
-                </input>
-              </inputs>
-              <outputs>
-                <output
-                  refId="Package\Attività Flusso di dati\Aggregazione.Outputs[Output aggregazione 1]"
-                  name="Output aggregazione 1">
-                  <properties>
-                    <property
-                      dataType="System.Int32"
-                      description="Specifica il numero approssimativo di chiavi Group By generate dall'aggregazione. Basso indica 500.000 valori di chiave, Medio indica 5 milioni di valori di chiave e Alto indica più di 25 milioni di valori di chiave. Non specificato indica che non viene utilizzato alcun valore KeyScale."
-                      name="KeyScale"
-                      typeConverter="KeyScaleType">0</property>
-                    <property
-                      dataType="System.Null"
-                      description="Specifica il numero esatto di chiavi Group By generate dall'aggregazione. Se si specifica un valore KeyScale, il valore di Keys ha la precedenza."
-                      name="Keys" />
-                  </properties>
-                  <outputColumns>
-                    <outputColumn
-                      refId="Package\Attività Flusso di dati\Aggregazione.Outputs[Output aggregazione 1].Columns[tourney_spectators]"
-                      dataType="i8"
-                      lineageId="Package\Attività Flusso di dati\Aggregazione.Outputs[Output aggregazione 1].Columns[tourney_spectators]"
-                      name="tourney_spectators">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="Specifica l'ID della colonna di input utilizzata nell'aggregazione."
-                          name="AggregationColumnId">#{Package\Attività Flusso di dati\Origine OLE DB.Outputs[Output origine OLE DB].Columns[tourney_spectators]}</property>
-                        <property
-                          dataType="System.Int32"
-                          description="Specifica il tipo di aggregazione."
-                          name="AggregationType"
-                          typeConverter="AggregationType">4</property>
-                        <property
-                          dataType="System.Int32"
-                          description="Indica se la colonna richieste interventi di gestione speciali perché contiene dati di dimensioni eccessive o richiede una precisione maggiore rispetto al tipo di dati float."
-                          name="IsBig">1</property>
-                        <property
-                          dataType="System.Int32"
-                          description="Specifica le opzioni per il confronto di stringhe."
-                          name="AggregationComparisonFlags">0</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\Attività Flusso di dati\Aggregazione.Outputs[Output aggregazione 1].Columns[tourney_pk]"
-                      codePage="1252"
-                      dataType="str"
-                      length="150"
-                      lineageId="Package\Attività Flusso di dati\Aggregazione.Outputs[Output aggregazione 1].Columns[tourney_pk]"
-                      name="tourney_pk">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="Specifica l'ID della colonna di input utilizzata nell'aggregazione."
-                          name="AggregationColumnId">#{Package\Attività Flusso di dati\Origine OLE DB.Outputs[Output origine OLE DB].Columns[tourney_pk]}</property>
-                        <property
-                          dataType="System.Int32"
-                          description="Specifica il tipo di aggregazione."
-                          name="AggregationType"
-                          typeConverter="AggregationType">0</property>
-                        <property
-                          dataType="System.Int32"
-                          description="Indica se la colonna richieste interventi di gestione speciali perché contiene dati di dimensioni eccessive o richiede una precisione maggiore rispetto al tipo di dati float."
-                          name="IsBig">1</property>
-                        <property
-                          dataType="System.Int32"
-                          description="Specifica le opzioni per il confronto di stringhe."
-                          name="AggregationComparisonFlags">0</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\Attività Flusso di dati\Aggregazione.Outputs[Output aggregazione 1].Columns[year]"
-                      dataType="i2"
-                      lineageId="Package\Attività Flusso di dati\Aggregazione.Outputs[Output aggregazione 1].Columns[year]"
-                      name="year">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="Specifica l'ID della colonna di input utilizzata nell'aggregazione."
-                          name="AggregationColumnId">#{Package\Attività Flusso di dati\Ricerca.Outputs[Output corrispondenza ricerca].Columns[year]}</property>
-                        <property
-                          dataType="System.Int32"
-                          description="Specifica il tipo di aggregazione."
-                          name="AggregationType"
-                          typeConverter="AggregationType">0</property>
-                        <property
-                          dataType="System.Int32"
-                          description="Indica se la colonna richieste interventi di gestione speciali perché contiene dati di dimensioni eccessive o richiede una precisione maggiore rispetto al tipo di dati float."
-                          name="IsBig">1</property>
-                        <property
-                          dataType="System.Int32"
-                          description="Specifica le opzioni per il confronto di stringhe."
-                          name="AggregationComparisonFlags">0</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\Attività Flusso di dati\Aggregazione.Outputs[Output aggregazione 1].Columns[tourney_name]"
-                      codePage="1252"
-                      dataType="str"
-                      length="56"
-                      lineageId="Package\Attività Flusso di dati\Aggregazione.Outputs[Output aggregazione 1].Columns[tourney_name]"
-                      name="tourney_name">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="Specifica l'ID della colonna di input utilizzata nell'aggregazione."
-                          name="AggregationColumnId">#{Package\Attività Flusso di dati\Origine OLE DB.Outputs[Output origine OLE DB].Columns[tourney_name]}</property>
-                        <property
-                          dataType="System.Int32"
-                          description="Specifica il tipo di aggregazione."
-                          name="AggregationType"
-                          typeConverter="AggregationType">0</property>
-                        <property
-                          dataType="System.Int32"
-                          description="Indica se la colonna richieste interventi di gestione speciali perché contiene dati di dimensioni eccessive o richiede una precisione maggiore rispetto al tipo di dati float."
-                          name="IsBig">1</property>
-                        <property
-                          dataType="System.Int32"
-                          description="Specifica le opzioni per il confronto di stringhe."
-                          name="AggregationComparisonFlags">0</property>
-                      </properties>
-                    </outputColumn>
-                  </outputColumns>
-                  <externalMetadataColumns />
-                </output>
-              </outputs>
-            </component>
             <component
               refId="Package\Attività Flusso di dati\Destinazione file flat"
               componentClassID="Microsoft.FlatFileDestination"
@@ -340,7 +147,7 @@
                       cachedName="tourney_name"
                       cachedSortKeyPosition="3"
                       externalMetadataColumnId="Package\Attività Flusso di dati\Destinazione file flat.Inputs[Input destinazione file flat].ExternalColumns[tourney_name]"
-                      lineageId="Package\Attività Flusso di dati\Ordinamento.Outputs[Output ordinamento].Columns[tourney_name]" />
+                      lineageId="Package\Attività Flusso di dati\Ordinamento year, #spettatori.Outputs[Output ordinamento].Columns[tourney_name]" />
                   </inputColumns>
                   <externalMetadataColumns
                     isUsed="True">
@@ -369,380 +176,11 @@
               </inputs>
             </component>
             <component
-              refId="Package\Attività Flusso di dati\Ordinamento"
-              componentClassID="Microsoft.Sort"
-              contactInfo="Ordinamento;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; Tutti i diritti sono riservati; http://www.microsoft.com/sql/support;1"
-              description="Ordina i dati di input in ordine crescente o decrescente quando non possono essere ordinati come la relativa origine. Ad esempio, ordinare i dati delle vendite per 'customer id' prima che vengano scritti in un file flat e recapitati a un altro reparto. Nota: questa trasformazione non è consigliata per i flussi di dati di grandi dimensioni."
-              name="Ordinamento"
-              version="1">
-              <properties>
-                <property
-                  dataType="System.Boolean"
-                  description="Indica se la trasformazione Ordinamento rimuove le righe con valori di ordinamento duplicati."
-                  name="EliminateDuplicates">false</property>
-                <property
-                  dataType="System.Int32"
-                  description="Specifica il numero massimo di thread da utilizzare per l'ordinamento."
-                  expressionType="Notify"
-                  name="MaximumThreads">-1</property>
-              </properties>
-              <inputs>
-                <input
-                  refId="Package\Attività Flusso di dati\Ordinamento.Inputs[Input ordinamento]"
-                  name="Input ordinamento">
-                  <inputColumns>
-                    <inputColumn
-                      refId="Package\Attività Flusso di dati\Ordinamento.Inputs[Input ordinamento].Columns[tourney_spectators]"
-                      cachedDataType="i8"
-                      cachedName="tourney_spectators"
-                      lineageId="Package\Attività Flusso di dati\Aggregazione.Outputs[Output aggregazione 1].Columns[tourney_spectators]">
-                      <properties>
-                        <property
-                          dataType="System.Int32"
-                          description="Specifica le opzioni di confronto per i dati di tipo carattere."
-                          name="NewComparisonFlags">0</property>
-                        <property
-                          dataType="System.Int32"
-                          description="Specifica il tipo di ordinamento della colonna."
-                          name="NewSortKeyPosition">-1</property>
-                      </properties>
-                    </inputColumn>
-                    <inputColumn
-                      refId="Package\Attività Flusso di dati\Ordinamento.Inputs[Input ordinamento].Columns[tourney_pk]"
-                      cachedCodepage="1252"
-                      cachedDataType="str"
-                      cachedLength="150"
-                      cachedName="tourney_pk"
-                      lineageId="Package\Attività Flusso di dati\Aggregazione.Outputs[Output aggregazione 1].Columns[tourney_pk]">
-                      <properties>
-                        <property
-                          dataType="System.Int32"
-                          description="Specifica le opzioni di confronto per i dati di tipo carattere."
-                          name="NewComparisonFlags">0</property>
-                        <property
-                          dataType="System.Int32"
-                          description="Specifica il tipo di ordinamento della colonna."
-                          name="NewSortKeyPosition">0</property>
-                      </properties>
-                    </inputColumn>
-                    <inputColumn
-                      refId="Package\Attività Flusso di dati\Ordinamento.Inputs[Input ordinamento].Columns[year]"
-                      cachedDataType="i2"
-                      cachedName="year"
-                      lineageId="Package\Attività Flusso di dati\Aggregazione.Outputs[Output aggregazione 1].Columns[year]">
-                      <properties>
-                        <property
-                          dataType="System.Int32"
-                          description="Specifica le opzioni di confronto per i dati di tipo carattere."
-                          name="NewComparisonFlags">0</property>
-                        <property
-                          dataType="System.Int32"
-                          description="Specifica il tipo di ordinamento della colonna."
-                          name="NewSortKeyPosition">2</property>
-                      </properties>
-                    </inputColumn>
-                    <inputColumn
-                      refId="Package\Attività Flusso di dati\Ordinamento.Inputs[Input ordinamento].Columns[tourney_name]"
-                      cachedCodepage="1252"
-                      cachedDataType="str"
-                      cachedLength="56"
-                      cachedName="tourney_name"
-                      lineageId="Package\Attività Flusso di dati\Aggregazione.Outputs[Output aggregazione 1].Columns[tourney_name]">
-                      <properties>
-                        <property
-                          dataType="System.Int32"
-                          description="Specifica le opzioni di confronto per i dati di tipo carattere."
-                          name="NewComparisonFlags">0</property>
-                        <property
-                          dataType="System.Int32"
-                          description="Specifica il tipo di ordinamento della colonna."
-                          name="NewSortKeyPosition">3</property>
-                      </properties>
-                    </inputColumn>
-                  </inputColumns>
-                  <externalMetadataColumns />
-                </input>
-              </inputs>
-              <outputs>
-                <output
-                  refId="Package\Attività Flusso di dati\Ordinamento.Outputs[Output ordinamento]"
-                  isSorted="true"
-                  name="Output ordinamento">
-                  <outputColumns>
-                    <outputColumn
-                      refId="Package\Attività Flusso di dati\Ordinamento.Outputs[Output ordinamento].Columns[tourney_spectators]"
-                      dataType="i8"
-                      lineageId="Package\Attività Flusso di dati\Ordinamento.Outputs[Output ordinamento].Columns[tourney_spectators]"
-                      name="tourney_spectators"
-                      sortKeyPosition="-1">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="Specifica l'identificatore di derivazione della colonna di input associata a questa colonna di output."
-                          name="SortColumnId">#{Package\Attività Flusso di dati\Aggregazione.Outputs[Output aggregazione 1].Columns[tourney_spectators]}</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\Attività Flusso di dati\Ordinamento.Outputs[Output ordinamento].Columns[tourney_pk]"
-                      codePage="1252"
-                      dataType="str"
-                      length="150"
-                      lineageId="Package\Attività Flusso di dati\Ordinamento.Outputs[Output ordinamento].Columns[tourney_pk]"
-                      name="tourney_pk">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="Specifica l'identificatore di derivazione della colonna di input associata a questa colonna di output."
-                          name="SortColumnId">#{Package\Attività Flusso di dati\Aggregazione.Outputs[Output aggregazione 1].Columns[tourney_pk]}</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\Attività Flusso di dati\Ordinamento.Outputs[Output ordinamento].Columns[year]"
-                      dataType="i2"
-                      lineageId="Package\Attività Flusso di dati\Ordinamento.Outputs[Output ordinamento].Columns[year]"
-                      name="year"
-                      sortKeyPosition="2">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="Specifica l'identificatore di derivazione della colonna di input associata a questa colonna di output."
-                          name="SortColumnId">#{Package\Attività Flusso di dati\Aggregazione.Outputs[Output aggregazione 1].Columns[year]}</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\Attività Flusso di dati\Ordinamento.Outputs[Output ordinamento].Columns[tourney_name]"
-                      codePage="1252"
-                      dataType="str"
-                      length="56"
-                      lineageId="Package\Attività Flusso di dati\Ordinamento.Outputs[Output ordinamento].Columns[tourney_name]"
-                      name="tourney_name"
-                      sortKeyPosition="3">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="Specifica l'identificatore di derivazione della colonna di input associata a questa colonna di output."
-                          name="SortColumnId">#{Package\Attività Flusso di dati\Aggregazione.Outputs[Output aggregazione 1].Columns[tourney_name]}</property>
-                      </properties>
-                    </outputColumn>
-                  </outputColumns>
-                  <externalMetadataColumns />
-                </output>
-              </outputs>
-            </component>
-            <component
-              refId="Package\Attività Flusso di dati\Origine OLE DB"
-              componentClassID="Microsoft.OLEDBSource"
-              contactInfo="Origine OLE DB;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; Tutti i diritti sono riservati; http://www.microsoft.com/sql/support;7"
-              description="Origine OLE DB"
-              name="Origine OLE DB"
-              usesDispositions="true"
-              version="7">
-              <properties>
-                <property
-                  dataType="System.Int32"
-                  description="Numero di secondi prima del timeout di un comando. Il valore 0 indica nessun timeout."
-                  name="CommandTimeout">0</property>
-                <property
-                  dataType="System.String"
-                  description="Specifica il nome dell'oggetto di database utilizzato per aprire un set di righe."
-                  name="OpenRowset">[Group_11].[Tournament]</property>
-                <property
-                  dataType="System.String"
-                  description="Specifica la variabile contenente il nome dell'oggetto di database utilizzato per aprire un set di righe."
-                  name="OpenRowsetVariable"></property>
-                <property
-                  dataType="System.String"
-                  description="Comando SQL da eseguire."
-                  name="SqlCommand"
-                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor"></property>
-                <property
-                  dataType="System.String"
-                  description="Variabile che contiene il comando SQL da eseguire."
-                  name="SqlCommandVariable"></property>
-                <property
-                  dataType="System.Int32"
-                  description="Specifica la tabella codici della colonna da utilizzare quando l'origine dati non rende disponibili informazioni sulla tabella codici."
-                  name="DefaultCodePage">1252</property>
-                <property
-                  dataType="System.Boolean"
-                  description="Forza l'utilizzo del valore della proprietà DefaultCodePage per la descrizione di dati di tipo carattere."
-                  name="AlwaysUseDefaultCodePage">false</property>
-                <property
-                  dataType="System.Int32"
-                  description="Specifica la modalità utilizzata per accedere al database."
-                  name="AccessMode"
-                  typeConverter="AccessMode">0</property>
-                <property
-                  dataType="System.String"
-                  description="Mapping tra i parametri nel comando SQL e le variabili."
-                  name="ParameterMapping"></property>
-              </properties>
-              <connections>
-                <connection
-                  refId="Package\Attività Flusso di dati\Origine OLE DB.Connections[OleDbConnection]"
-                  connectionManagerID="Package.ConnectionManagers[lds.di.unipi.it.Group_11_DB.Group_11]"
-                  connectionManagerRefId="Package.ConnectionManagers[lds.di.unipi.it.Group_11_DB.Group_11]"
-                  description="Connessione di run-time OLE DB utilizzata per accedere al database."
-                  name="OleDbConnection" />
-              </connections>
-              <outputs>
-                <output
-                  refId="Package\Attività Flusso di dati\Origine OLE DB.Outputs[Output origine OLE DB]"
-                  name="Output origine OLE DB">
-                  <outputColumns>
-                    <outputColumn
-                      refId="Package\Attività Flusso di dati\Origine OLE DB.Outputs[Output origine OLE DB].Columns[tourney_pk]"
-                      codePage="1252"
-                      dataType="str"
-                      errorOrTruncationOperation="Conversione"
-                      errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Attività Flusso di dati\Origine OLE DB.Outputs[Output origine OLE DB].ExternalColumns[tourney_pk]"
-                      length="150"
-                      lineageId="Package\Attività Flusso di dati\Origine OLE DB.Outputs[Output origine OLE DB].Columns[tourney_pk]"
-                      name="tourney_pk"
-                      truncationRowDisposition="FailComponent" />
-                    <outputColumn
-                      refId="Package\Attività Flusso di dati\Origine OLE DB.Outputs[Output origine OLE DB].Columns[date_id]"
-                      codePage="1252"
-                      dataType="str"
-                      errorOrTruncationOperation="Conversione"
-                      errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Attività Flusso di dati\Origine OLE DB.Outputs[Output origine OLE DB].ExternalColumns[date_id]"
-                      length="10"
-                      lineageId="Package\Attività Flusso di dati\Origine OLE DB.Outputs[Output origine OLE DB].Columns[date_id]"
-                      name="date_id"
-                      truncationRowDisposition="FailComponent" />
-                    <outputColumn
-                      refId="Package\Attività Flusso di dati\Origine OLE DB.Outputs[Output origine OLE DB].Columns[tourney_spectators]"
-                      dataType="i2"
-                      errorOrTruncationOperation="Conversione"
-                      errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Attività Flusso di dati\Origine OLE DB.Outputs[Output origine OLE DB].ExternalColumns[tourney_spectators]"
-                      lineageId="Package\Attività Flusso di dati\Origine OLE DB.Outputs[Output origine OLE DB].Columns[tourney_spectators]"
-                      name="tourney_spectators"
-                      truncationRowDisposition="FailComponent" />
-                    <outputColumn
-                      refId="Package\Attività Flusso di dati\Origine OLE DB.Outputs[Output origine OLE DB].Columns[tourney_name]"
-                      codePage="1252"
-                      dataType="str"
-                      errorOrTruncationOperation="Conversione"
-                      errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Attività Flusso di dati\Origine OLE DB.Outputs[Output origine OLE DB].ExternalColumns[tourney_name]"
-                      length="56"
-                      lineageId="Package\Attività Flusso di dati\Origine OLE DB.Outputs[Output origine OLE DB].Columns[tourney_name]"
-                      name="tourney_name"
-                      truncationRowDisposition="FailComponent" />
-                  </outputColumns>
-                  <externalMetadataColumns
-                    isUsed="True">
-                    <externalMetadataColumn
-                      refId="Package\Attività Flusso di dati\Origine OLE DB.Outputs[Output origine OLE DB].ExternalColumns[tourney_pk]"
-                      codePage="1252"
-                      dataType="str"
-                      length="150"
-                      name="tourney_pk" />
-                    <externalMetadataColumn
-                      refId="Package\Attività Flusso di dati\Origine OLE DB.Outputs[Output origine OLE DB].ExternalColumns[date_id]"
-                      codePage="1252"
-                      dataType="str"
-                      length="10"
-                      name="date_id" />
-                    <externalMetadataColumn
-                      refId="Package\Attività Flusso di dati\Origine OLE DB.Outputs[Output origine OLE DB].ExternalColumns[tourney_name]"
-                      codePage="1252"
-                      dataType="str"
-                      length="56"
-                      name="tourney_name" />
-                    <externalMetadataColumn
-                      refId="Package\Attività Flusso di dati\Origine OLE DB.Outputs[Output origine OLE DB].ExternalColumns[surface]"
-                      codePage="1252"
-                      dataType="str"
-                      length="7"
-                      name="surface" />
-                    <externalMetadataColumn
-                      refId="Package\Attività Flusso di dati\Origine OLE DB.Outputs[Output origine OLE DB].ExternalColumns[draw_size]"
-                      dataType="ui1"
-                      name="draw_size" />
-                    <externalMetadataColumn
-                      refId="Package\Attività Flusso di dati\Origine OLE DB.Outputs[Output origine OLE DB].ExternalColumns[tourney_level]"
-                      codePage="1252"
-                      dataType="str"
-                      length="3"
-                      name="tourney_level" />
-                    <externalMetadataColumn
-                      refId="Package\Attività Flusso di dati\Origine OLE DB.Outputs[Output origine OLE DB].ExternalColumns[tourney_spectators]"
-                      dataType="i2"
-                      name="tourney_spectators" />
-                    <externalMetadataColumn
-                      refId="Package\Attività Flusso di dati\Origine OLE DB.Outputs[Output origine OLE DB].ExternalColumns[tourney_revenue]"
-                      dataType="r8"
-                      name="tourney_revenue" />
-                    <externalMetadataColumn
-                      refId="Package\Attività Flusso di dati\Origine OLE DB.Outputs[Output origine OLE DB].ExternalColumns[tourney_id]"
-                      codePage="1252"
-                      dataType="str"
-                      length="50"
-                      name="tourney_id" />
-                  </externalMetadataColumns>
-                </output>
-                <output
-                  refId="Package\Attività Flusso di dati\Origine OLE DB.Outputs[Output errori origine OLE DB]"
-                  isErrorOut="true"
-                  name="Output errori origine OLE DB">
-                  <outputColumns>
-                    <outputColumn
-                      refId="Package\Attività Flusso di dati\Origine OLE DB.Outputs[Output errori origine OLE DB].Columns[tourney_pk]"
-                      codePage="1252"
-                      dataType="str"
-                      length="150"
-                      lineageId="Package\Attività Flusso di dati\Origine OLE DB.Outputs[Output errori origine OLE DB].Columns[tourney_pk]"
-                      name="tourney_pk" />
-                    <outputColumn
-                      refId="Package\Attività Flusso di dati\Origine OLE DB.Outputs[Output errori origine OLE DB].Columns[date_id]"
-                      codePage="1252"
-                      dataType="str"
-                      length="10"
-                      lineageId="Package\Attività Flusso di dati\Origine OLE DB.Outputs[Output errori origine OLE DB].Columns[date_id]"
-                      name="date_id" />
-                    <outputColumn
-                      refId="Package\Attività Flusso di dati\Origine OLE DB.Outputs[Output errori origine OLE DB].Columns[tourney_spectators]"
-                      dataType="i2"
-                      lineageId="Package\Attività Flusso di dati\Origine OLE DB.Outputs[Output errori origine OLE DB].Columns[tourney_spectators]"
-                      name="tourney_spectators" />
-                    <outputColumn
-                      refId="Package\Attività Flusso di dati\Origine OLE DB.Outputs[Output errori origine OLE DB].Columns[ErrorCode]"
-                      dataType="i4"
-                      lineageId="Package\Attività Flusso di dati\Origine OLE DB.Outputs[Output errori origine OLE DB].Columns[ErrorCode]"
-                      name="ErrorCode"
-                      specialFlags="1" />
-                    <outputColumn
-                      refId="Package\Attività Flusso di dati\Origine OLE DB.Outputs[Output errori origine OLE DB].Columns[ErrorColumn]"
-                      dataType="i4"
-                      lineageId="Package\Attività Flusso di dati\Origine OLE DB.Outputs[Output errori origine OLE DB].Columns[ErrorColumn]"
-                      name="ErrorColumn"
-                      specialFlags="2" />
-                    <outputColumn
-                      refId="Package\Attività Flusso di dati\Origine OLE DB.Outputs[Output errori origine OLE DB].Columns[tourney_name]"
-                      codePage="1252"
-                      dataType="str"
-                      length="56"
-                      lineageId="Package\Attività Flusso di dati\Origine OLE DB.Outputs[Output errori origine OLE DB].Columns[tourney_name]"
-                      name="tourney_name" />
-                  </outputColumns>
-                  <externalMetadataColumns />
-                </output>
-              </outputs>
-            </component>
-            <component
-              refId="Package\Attività Flusso di dati\Ricerca"
+              refId="Package\Attività Flusso di dati\Lookup Date_year"
               componentClassID="Microsoft.Lookup"
               contactInfo="Ricerca;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; Tutti i diritti sono riservati; http://www.microsoft.com/sql/support;6"
               description="Crea un join delle colonne aggiuntive al flusso di dati cercando valori in una tabella. Ad esempio, creare un join della colonna 'employee id' alla tabella dei dipendenti per ottenere data di assunzione e nome del dipendente. Questa trasformazione è consigliata quando la memoria disponibile è sufficiente per la tabella di ricerca."
-              name="Ricerca"
+              name="Lookup Date_year"
               usesDispositions="true"
               version="6">
               <properties>
@@ -794,7 +232,7 @@ where [refTable].[date_id] = ?</property>
                   containsID="true"
                   dataType="System.String"
                   description="Specifica l'elenco di identificatori di derivazione corrispondenti ai parametri utilizzati dall'istruzione SQL nella proprietà SQLCommand. Le voci nell'elenco sono separate da punti e virgola."
-                  name="ParameterMap">#{Package\Attività Flusso di dati\Origine OLE DB.Outputs[Output origine OLE DB].Columns[date_id]};</property>
+                  name="ParameterMap">#{Package\Attività Flusso di dati\Tournament.Outputs[Output origine OLE DB].Columns[date_id]};</property>
                 <property
                   dataType="System.Int32"
                   description="Specifica la tabella codici della colonna da utilizzare quando l'origine dati non rende disponibili informazioni sulla tabella codici."
@@ -806,7 +244,7 @@ where [refTable].[date_id] = ?</property>
               </properties>
               <connections>
                 <connection
-                  refId="Package\Attività Flusso di dati\Ricerca.Connections[OleDbConnection]"
+                  refId="Package\Attività Flusso di dati\Lookup Date_year.Connections[OleDbConnection]"
                   connectionManagerID="Package.ConnectionManagers[lds.di.unipi.it.Group_11_DB.Group_11]"
                   connectionManagerRefId="Package.ConnectionManagers[lds.di.unipi.it.Group_11_DB.Group_11]"
                   description="Gestione connessione utilizzata per accedere ai dati di ricerca."
@@ -814,16 +252,16 @@ where [refTable].[date_id] = ?</property>
               </connections>
               <inputs>
                 <input
-                  refId="Package\Attività Flusso di dati\Ricerca.Inputs[Input ricerca]"
+                  refId="Package\Attività Flusso di dati\Lookup Date_year.Inputs[Input ricerca]"
                   name="Input ricerca">
                   <inputColumns>
                     <inputColumn
-                      refId="Package\Attività Flusso di dati\Ricerca.Inputs[Input ricerca].Columns[date_id]"
+                      refId="Package\Attività Flusso di dati\Lookup Date_year.Inputs[Input ricerca].Columns[date_id]"
                       cachedCodepage="1252"
                       cachedDataType="str"
                       cachedLength="10"
                       cachedName="date_id"
-                      lineageId="Package\Attività Flusso di dati\Origine OLE DB.Outputs[Output origine OLE DB].Columns[date_id]">
+                      lineageId="Package\Attività Flusso di dati\Tournament.Outputs[Output origine OLE DB].Columns[date_id]">
                       <properties>
                         <property
                           dataType="System.String"
@@ -841,18 +279,18 @@ where [refTable].[date_id] = ?</property>
               </inputs>
               <outputs>
                 <output
-                  refId="Package\Attività Flusso di dati\Ricerca.Outputs[Output corrispondenza ricerca]"
+                  refId="Package\Attività Flusso di dati\Lookup Date_year.Outputs[Output corrispondenza ricerca]"
                   errorOrTruncationOperation="Ricerca"
                   errorRowDisposition="FailComponent"
                   exclusionGroup="1"
                   name="Output corrispondenza ricerca"
-                  synchronousInputId="Package\Attività Flusso di dati\Ricerca.Inputs[Input ricerca]">
+                  synchronousInputId="Package\Attività Flusso di dati\Lookup Date_year.Inputs[Input ricerca]">
                   <outputColumns>
                     <outputColumn
-                      refId="Package\Attività Flusso di dati\Ricerca.Outputs[Output corrispondenza ricerca].Columns[year]"
+                      refId="Package\Attività Flusso di dati\Lookup Date_year.Outputs[Output corrispondenza ricerca].Columns[year]"
                       dataType="i2"
                       errorOrTruncationOperation="Copia colonna"
-                      lineageId="Package\Attività Flusso di dati\Ricerca.Outputs[Output corrispondenza ricerca].Columns[year]"
+                      lineageId="Package\Attività Flusso di dati\Lookup Date_year.Outputs[Output corrispondenza ricerca].Columns[year]"
                       name="year"
                       truncationRowDisposition="FailComponent">
                       <properties>
@@ -866,32 +304,401 @@ where [refTable].[date_id] = ?</property>
                   <externalMetadataColumns />
                 </output>
                 <output
-                  refId="Package\Attività Flusso di dati\Ricerca.Outputs[Output nessuna corrispondenza ricerca]"
+                  refId="Package\Attività Flusso di dati\Lookup Date_year.Outputs[Output nessuna corrispondenza ricerca]"
                   description="Output ricerca che gestisce le righe senza voci corrispondenti nel set di dati di riferimento. Usare questo output quando la proprietà NoMatchBehavior è impostata su &quot;Invia le righe senza voci corrispondenti all'output nessuna corrispondenza&quot;."
                   exclusionGroup="1"
                   name="Output nessuna corrispondenza ricerca"
-                  synchronousInputId="Package\Attività Flusso di dati\Ricerca.Inputs[Input ricerca]">
+                  synchronousInputId="Package\Attività Flusso di dati\Lookup Date_year.Inputs[Input ricerca]">
                   <externalMetadataColumns />
                 </output>
                 <output
-                  refId="Package\Attività Flusso di dati\Ricerca.Outputs[Output errori ricerca]"
+                  refId="Package\Attività Flusso di dati\Lookup Date_year.Outputs[Output errori ricerca]"
                   exclusionGroup="1"
                   isErrorOut="true"
                   name="Output errori ricerca"
-                  synchronousInputId="Package\Attività Flusso di dati\Ricerca.Inputs[Input ricerca]">
+                  synchronousInputId="Package\Attività Flusso di dati\Lookup Date_year.Inputs[Input ricerca]">
                   <outputColumns>
                     <outputColumn
-                      refId="Package\Attività Flusso di dati\Ricerca.Outputs[Output errori ricerca].Columns[ErrorCode]"
+                      refId="Package\Attività Flusso di dati\Lookup Date_year.Outputs[Output errori ricerca].Columns[ErrorCode]"
                       dataType="i4"
-                      lineageId="Package\Attività Flusso di dati\Ricerca.Outputs[Output errori ricerca].Columns[ErrorCode]"
+                      lineageId="Package\Attività Flusso di dati\Lookup Date_year.Outputs[Output errori ricerca].Columns[ErrorCode]"
                       name="ErrorCode"
                       specialFlags="1" />
                     <outputColumn
-                      refId="Package\Attività Flusso di dati\Ricerca.Outputs[Output errori ricerca].Columns[ErrorColumn]"
+                      refId="Package\Attività Flusso di dati\Lookup Date_year.Outputs[Output errori ricerca].Columns[ErrorColumn]"
                       dataType="i4"
-                      lineageId="Package\Attività Flusso di dati\Ricerca.Outputs[Output errori ricerca].Columns[ErrorColumn]"
+                      lineageId="Package\Attività Flusso di dati\Lookup Date_year.Outputs[Output errori ricerca].Columns[ErrorColumn]"
                       name="ErrorColumn"
                       specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\Attività Flusso di dati\Ordinamento year, #spettatori"
+              componentClassID="Microsoft.Sort"
+              contactInfo="Ordinamento;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; Tutti i diritti sono riservati; http://www.microsoft.com/sql/support;1"
+              description="Ordina i dati di input in ordine crescente o decrescente quando non possono essere ordinati come la relativa origine. Ad esempio, ordinare i dati delle vendite per 'customer id' prima che vengano scritti in un file flat e recapitati a un altro reparto. Nota: questa trasformazione non è consigliata per i flussi di dati di grandi dimensioni."
+              name="Ordinamento year, #spettatori"
+              version="1">
+              <properties>
+                <property
+                  dataType="System.Boolean"
+                  description="Indica se la trasformazione Ordinamento rimuove le righe con valori di ordinamento duplicati."
+                  name="EliminateDuplicates">false</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifica il numero massimo di thread da utilizzare per l'ordinamento."
+                  expressionType="Notify"
+                  name="MaximumThreads">-1</property>
+              </properties>
+              <inputs>
+                <input
+                  refId="Package\Attività Flusso di dati\Ordinamento year, #spettatori.Inputs[Input ordinamento]"
+                  name="Input ordinamento">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\Attività Flusso di dati\Ordinamento year, #spettatori.Inputs[Input ordinamento].Columns[tourney_spectators]"
+                      cachedDataType="i2"
+                      cachedName="tourney_spectators"
+                      lineageId="Package\Attività Flusso di dati\Tournament.Outputs[Output origine OLE DB].Columns[tourney_spectators]">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifica le opzioni di confronto per i dati di tipo carattere."
+                          name="NewComparisonFlags">0</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifica il tipo di ordinamento della colonna."
+                          name="NewSortKeyPosition">-2</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Attività Flusso di dati\Ordinamento year, #spettatori.Inputs[Input ordinamento].Columns[tourney_pk]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="150"
+                      cachedName="tourney_pk"
+                      lineageId="Package\Attività Flusso di dati\Tournament.Outputs[Output origine OLE DB].Columns[tourney_pk]">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifica le opzioni di confronto per i dati di tipo carattere."
+                          name="NewComparisonFlags">0</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifica il tipo di ordinamento della colonna."
+                          name="NewSortKeyPosition">0</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Attività Flusso di dati\Ordinamento year, #spettatori.Inputs[Input ordinamento].Columns[year]"
+                      cachedDataType="i2"
+                      cachedName="year"
+                      lineageId="Package\Attività Flusso di dati\Lookup Date_year.Outputs[Output corrispondenza ricerca].Columns[year]">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifica le opzioni di confronto per i dati di tipo carattere."
+                          name="NewComparisonFlags">0</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifica il tipo di ordinamento della colonna."
+                          name="NewSortKeyPosition">1</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Attività Flusso di dati\Ordinamento year, #spettatori.Inputs[Input ordinamento].Columns[tourney_name]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="56"
+                      cachedName="tourney_name"
+                      lineageId="Package\Attività Flusso di dati\Tournament.Outputs[Output origine OLE DB].Columns[tourney_name]">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifica le opzioni di confronto per i dati di tipo carattere."
+                          name="NewComparisonFlags">0</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifica il tipo di ordinamento della colonna."
+                          name="NewSortKeyPosition">3</property>
+                      </properties>
+                    </inputColumn>
+                  </inputColumns>
+                  <externalMetadataColumns />
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\Attività Flusso di dati\Ordinamento year, #spettatori.Outputs[Output ordinamento]"
+                  isSorted="true"
+                  name="Output ordinamento">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Attività Flusso di dati\Ordinamento year, #spettatori.Outputs[Output ordinamento].Columns[tourney_spectators]"
+                      dataType="i2"
+                      lineageId="Package\Attività Flusso di dati\Ordinamento year, #spettatori.Outputs[Output ordinamento].Columns[tourney_spectators]"
+                      name="tourney_spectators"
+                      sortKeyPosition="-2">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifica l'identificatore di derivazione della colonna di input associata a questa colonna di output."
+                          name="SortColumnId">#{Package\Attività Flusso di dati\Tournament.Outputs[Output origine OLE DB].Columns[tourney_spectators]}</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Attività Flusso di dati\Ordinamento year, #spettatori.Outputs[Output ordinamento].Columns[tourney_pk]"
+                      codePage="1252"
+                      dataType="str"
+                      length="150"
+                      lineageId="Package\Attività Flusso di dati\Ordinamento year, #spettatori.Outputs[Output ordinamento].Columns[tourney_pk]"
+                      name="tourney_pk">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifica l'identificatore di derivazione della colonna di input associata a questa colonna di output."
+                          name="SortColumnId">#{Package\Attività Flusso di dati\Tournament.Outputs[Output origine OLE DB].Columns[tourney_pk]}</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Attività Flusso di dati\Ordinamento year, #spettatori.Outputs[Output ordinamento].Columns[year]"
+                      dataType="i2"
+                      lineageId="Package\Attività Flusso di dati\Ordinamento year, #spettatori.Outputs[Output ordinamento].Columns[year]"
+                      name="year"
+                      sortKeyPosition="1">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifica l'identificatore di derivazione della colonna di input associata a questa colonna di output."
+                          name="SortColumnId">#{Package\Attività Flusso di dati\Lookup Date_year.Outputs[Output corrispondenza ricerca].Columns[year]}</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Attività Flusso di dati\Ordinamento year, #spettatori.Outputs[Output ordinamento].Columns[tourney_name]"
+                      codePage="1252"
+                      dataType="str"
+                      length="56"
+                      lineageId="Package\Attività Flusso di dati\Ordinamento year, #spettatori.Outputs[Output ordinamento].Columns[tourney_name]"
+                      name="tourney_name"
+                      sortKeyPosition="3">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifica l'identificatore di derivazione della colonna di input associata a questa colonna di output."
+                          name="SortColumnId">#{Package\Attività Flusso di dati\Tournament.Outputs[Output origine OLE DB].Columns[tourney_name]}</property>
+                      </properties>
+                    </outputColumn>
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\Attività Flusso di dati\Tournament"
+              componentClassID="Microsoft.OLEDBSource"
+              contactInfo="Origine OLE DB;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; Tutti i diritti sono riservati; http://www.microsoft.com/sql/support;7"
+              description="Origine OLE DB"
+              name="Tournament"
+              usesDispositions="true"
+              version="7">
+              <properties>
+                <property
+                  dataType="System.Int32"
+                  description="Numero di secondi prima del timeout di un comando. Il valore 0 indica nessun timeout."
+                  name="CommandTimeout">0</property>
+                <property
+                  dataType="System.String"
+                  description="Specifica il nome dell'oggetto di database utilizzato per aprire un set di righe."
+                  name="OpenRowset">[Group_11].[Tournament]</property>
+                <property
+                  dataType="System.String"
+                  description="Specifica la variabile contenente il nome dell'oggetto di database utilizzato per aprire un set di righe."
+                  name="OpenRowsetVariable"></property>
+                <property
+                  dataType="System.String"
+                  description="Comando SQL da eseguire."
+                  name="SqlCommand"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor"></property>
+                <property
+                  dataType="System.String"
+                  description="Variabile che contiene il comando SQL da eseguire."
+                  name="SqlCommandVariable"></property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifica la tabella codici della colonna da utilizzare quando l'origine dati non rende disponibili informazioni sulla tabella codici."
+                  name="DefaultCodePage">1252</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Forza l'utilizzo del valore della proprietà DefaultCodePage per la descrizione di dati di tipo carattere."
+                  name="AlwaysUseDefaultCodePage">false</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifica la modalità utilizzata per accedere al database."
+                  name="AccessMode"
+                  typeConverter="AccessMode">0</property>
+                <property
+                  dataType="System.String"
+                  description="Mapping tra i parametri nel comando SQL e le variabili."
+                  name="ParameterMapping"></property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\Attività Flusso di dati\Tournament.Connections[OleDbConnection]"
+                  connectionManagerID="Package.ConnectionManagers[lds.di.unipi.it.Group_11_DB.Group_11]"
+                  connectionManagerRefId="Package.ConnectionManagers[lds.di.unipi.it.Group_11_DB.Group_11]"
+                  description="Connessione di run-time OLE DB utilizzata per accedere al database."
+                  name="OleDbConnection" />
+              </connections>
+              <outputs>
+                <output
+                  refId="Package\Attività Flusso di dati\Tournament.Outputs[Output origine OLE DB]"
+                  name="Output origine OLE DB">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Attività Flusso di dati\Tournament.Outputs[Output origine OLE DB].Columns[tourney_pk]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversione"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Attività Flusso di dati\Tournament.Outputs[Output origine OLE DB].ExternalColumns[tourney_pk]"
+                      length="150"
+                      lineageId="Package\Attività Flusso di dati\Tournament.Outputs[Output origine OLE DB].Columns[tourney_pk]"
+                      name="tourney_pk"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Attività Flusso di dati\Tournament.Outputs[Output origine OLE DB].Columns[date_id]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversione"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Attività Flusso di dati\Tournament.Outputs[Output origine OLE DB].ExternalColumns[date_id]"
+                      length="10"
+                      lineageId="Package\Attività Flusso di dati\Tournament.Outputs[Output origine OLE DB].Columns[date_id]"
+                      name="date_id"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Attività Flusso di dati\Tournament.Outputs[Output origine OLE DB].Columns[tourney_spectators]"
+                      dataType="i2"
+                      errorOrTruncationOperation="Conversione"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Attività Flusso di dati\Tournament.Outputs[Output origine OLE DB].ExternalColumns[tourney_spectators]"
+                      lineageId="Package\Attività Flusso di dati\Tournament.Outputs[Output origine OLE DB].Columns[tourney_spectators]"
+                      name="tourney_spectators"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Attività Flusso di dati\Tournament.Outputs[Output origine OLE DB].Columns[tourney_name]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversione"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Attività Flusso di dati\Tournament.Outputs[Output origine OLE DB].ExternalColumns[tourney_name]"
+                      length="56"
+                      lineageId="Package\Attività Flusso di dati\Tournament.Outputs[Output origine OLE DB].Columns[tourney_name]"
+                      name="tourney_name"
+                      truncationRowDisposition="FailComponent" />
+                  </outputColumns>
+                  <externalMetadataColumns
+                    isUsed="True">
+                    <externalMetadataColumn
+                      refId="Package\Attività Flusso di dati\Tournament.Outputs[Output origine OLE DB].ExternalColumns[tourney_pk]"
+                      codePage="1252"
+                      dataType="str"
+                      length="150"
+                      name="tourney_pk" />
+                    <externalMetadataColumn
+                      refId="Package\Attività Flusso di dati\Tournament.Outputs[Output origine OLE DB].ExternalColumns[date_id]"
+                      codePage="1252"
+                      dataType="str"
+                      length="10"
+                      name="date_id" />
+                    <externalMetadataColumn
+                      refId="Package\Attività Flusso di dati\Tournament.Outputs[Output origine OLE DB].ExternalColumns[tourney_name]"
+                      codePage="1252"
+                      dataType="str"
+                      length="56"
+                      name="tourney_name" />
+                    <externalMetadataColumn
+                      refId="Package\Attività Flusso di dati\Tournament.Outputs[Output origine OLE DB].ExternalColumns[surface]"
+                      codePage="1252"
+                      dataType="str"
+                      length="7"
+                      name="surface" />
+                    <externalMetadataColumn
+                      refId="Package\Attività Flusso di dati\Tournament.Outputs[Output origine OLE DB].ExternalColumns[draw_size]"
+                      dataType="ui1"
+                      name="draw_size" />
+                    <externalMetadataColumn
+                      refId="Package\Attività Flusso di dati\Tournament.Outputs[Output origine OLE DB].ExternalColumns[tourney_level]"
+                      codePage="1252"
+                      dataType="str"
+                      length="3"
+                      name="tourney_level" />
+                    <externalMetadataColumn
+                      refId="Package\Attività Flusso di dati\Tournament.Outputs[Output origine OLE DB].ExternalColumns[tourney_spectators]"
+                      dataType="i2"
+                      name="tourney_spectators" />
+                    <externalMetadataColumn
+                      refId="Package\Attività Flusso di dati\Tournament.Outputs[Output origine OLE DB].ExternalColumns[tourney_revenue]"
+                      dataType="r8"
+                      name="tourney_revenue" />
+                    <externalMetadataColumn
+                      refId="Package\Attività Flusso di dati\Tournament.Outputs[Output origine OLE DB].ExternalColumns[tourney_id]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="tourney_id" />
+                  </externalMetadataColumns>
+                </output>
+                <output
+                  refId="Package\Attività Flusso di dati\Tournament.Outputs[Output errori origine OLE DB]"
+                  isErrorOut="true"
+                  name="Output errori origine OLE DB">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Attività Flusso di dati\Tournament.Outputs[Output errori origine OLE DB].Columns[tourney_pk]"
+                      codePage="1252"
+                      dataType="str"
+                      length="150"
+                      lineageId="Package\Attività Flusso di dati\Tournament.Outputs[Output errori origine OLE DB].Columns[tourney_pk]"
+                      name="tourney_pk" />
+                    <outputColumn
+                      refId="Package\Attività Flusso di dati\Tournament.Outputs[Output errori origine OLE DB].Columns[date_id]"
+                      codePage="1252"
+                      dataType="str"
+                      length="10"
+                      lineageId="Package\Attività Flusso di dati\Tournament.Outputs[Output errori origine OLE DB].Columns[date_id]"
+                      name="date_id" />
+                    <outputColumn
+                      refId="Package\Attività Flusso di dati\Tournament.Outputs[Output errori origine OLE DB].Columns[tourney_spectators]"
+                      dataType="i2"
+                      lineageId="Package\Attività Flusso di dati\Tournament.Outputs[Output errori origine OLE DB].Columns[tourney_spectators]"
+                      name="tourney_spectators" />
+                    <outputColumn
+                      refId="Package\Attività Flusso di dati\Tournament.Outputs[Output errori origine OLE DB].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Attività Flusso di dati\Tournament.Outputs[Output errori origine OLE DB].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\Attività Flusso di dati\Tournament.Outputs[Output errori origine OLE DB].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Attività Flusso di dati\Tournament.Outputs[Output errori origine OLE DB].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                    <outputColumn
+                      refId="Package\Attività Flusso di dati\Tournament.Outputs[Output errori origine OLE DB].Columns[tourney_name]"
+                      codePage="1252"
+                      dataType="str"
+                      length="56"
+                      lineageId="Package\Attività Flusso di dati\Tournament.Outputs[Output errori origine OLE DB].Columns[tourney_name]"
+                      name="tourney_name" />
                   </outputColumns>
                   <externalMetadataColumns />
                 </output>
@@ -900,25 +707,20 @@ where [refTable].[date_id] = ?</property>
           </components>
           <paths>
             <path
-              refId="Package\Attività Flusso di dati.Paths[Output aggregazione 1]"
-              endId="Package\Attività Flusso di dati\Ordinamento.Inputs[Input ordinamento]"
-              name="Output aggregazione 1"
-              startId="Package\Attività Flusso di dati\Aggregazione.Outputs[Output aggregazione 1]" />
-            <path
               refId="Package\Attività Flusso di dati.Paths[Output corrispondenza ricerca]"
-              endId="Package\Attività Flusso di dati\Aggregazione.Inputs[Input aggregazione 1]"
+              endId="Package\Attività Flusso di dati\Ordinamento year, #spettatori.Inputs[Input ordinamento]"
               name="Output corrispondenza ricerca"
-              startId="Package\Attività Flusso di dati\Ricerca.Outputs[Output corrispondenza ricerca]" />
+              startId="Package\Attività Flusso di dati\Lookup Date_year.Outputs[Output corrispondenza ricerca]" />
             <path
               refId="Package\Attività Flusso di dati.Paths[Output ordinamento]"
               endId="Package\Attività Flusso di dati\Destinazione file flat.Inputs[Input destinazione file flat]"
               name="Output ordinamento"
-              startId="Package\Attività Flusso di dati\Ordinamento.Outputs[Output ordinamento]" />
+              startId="Package\Attività Flusso di dati\Ordinamento year, #spettatori.Outputs[Output ordinamento]" />
             <path
               refId="Package\Attività Flusso di dati.Paths[Output origine OLE DB]"
-              endId="Package\Attività Flusso di dati\Ricerca.Inputs[Input ricerca]"
+              endId="Package\Attività Flusso di dati\Lookup Date_year.Inputs[Input ricerca]"
               name="Output origine OLE DB"
-              startId="Package\Attività Flusso di dati\Origine OLE DB.Outputs[Output origine OLE DB]" />
+              startId="Package\Attività Flusso di dati\Tournament.Outputs[Output origine OLE DB]" />
           </paths>
         </pipeline>
       </DTS:ObjectData>
@@ -947,87 +749,37 @@ where [refTable].[date_id] = ?</property>
     design-time-name="Package\Attività Flusso di dati">
     <LayoutInfo>
       <GraphLayout
-        Capacity="16" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
+        Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
-          Size="151.2,41.6"
-          Id="Package\Attività Flusso di dati\Origine OLE DB"
-          TopLeft="544,226" />
+          Size="164,41.6"
+          Id="Package\Attività Flusso di dati\Lookup Date_year"
+          TopLeft="220.571422671784,68.8823492089769" />
         <NodeLayout
-          Size="112,41.6"
-          Id="Package\Attività Flusso di dati\Ricerca"
-          TopLeft="567,335" />
-        <EdgeLayout
-          Id="Package\Attività Flusso di dati.Paths[Output origine OLE DB]"
-          TopLeft="621.3,267.6">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,67.3999999999999"
-              Start="0,0"
-              End="0,59.8999999999999">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,59.8999999999999" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <NodeLayout
-          Size="142.4,41.6"
-          Id="Package\Attività Flusso di dati\Aggregazione"
-          TopLeft="550,487" />
-        <EdgeLayout
-          Id="Package\Attività Flusso di dati.Paths[Output corrispondenza ricerca]"
-          TopLeft="622.1,376.6">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,110.4"
-              Start="0,0"
-              End="0,102.9">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,102.9" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="-66.78587890625,45.6453125,133.5717578125,11.609375"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
+          Size="158.4,41.6"
+          Id="Package\Attività Flusso di dati\Ordinamento year, #spettatori"
+          TopLeft="529.285713932952,68.2941105687497" />
         <NodeLayout
           Size="173.6,41.6"
           Id="Package\Attività Flusso di dati\Destinazione file flat"
-          TopLeft="554,690" />
+          TopLeft="742.571431782781,63.7058735694029" />
         <NodeLayout
-          Size="139.2,41.6"
-          Id="Package\Attività Flusso di dati\Ordinamento"
-          TopLeft="550,573" />
+          Size="136,41.6"
+          Id="Package\Attività Flusso di dati\Tournament"
+          TopLeft="41.8571343057008,66.1764683467706" />
         <EdgeLayout
-          Id="Package\Attività Flusso di dati.Paths[Output aggregazione 1]"
-          TopLeft="620.4,528.6">
+          Id="Package\Attività Flusso di dati.Paths[Output origine OLE DB]"
+          TopLeft="177.857134305701,88.3294087778738">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,44.4000000000001"
+              EndConnector="42.7142883660837,0"
               Start="0,0"
-              End="0,36.9000000000001">
+              End="35.2142883660837,0">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,36.9000000000001" />
+                    End="35.2142883660837,0" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -1038,30 +790,18 @@ where [refTable].[date_id] = ?</property>
         </EdgeLayout>
         <EdgeLayout
           Id="Package\Attività Flusso di dati.Paths[Output ordinamento]"
-          TopLeft="619.6,614.6">
+          TopLeft="687.685713932952,86.7999920690763">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="21.1999999999999,75.4000000000001"
+              EndConnector="54.8857178498288,0"
               Start="0,0"
-              End="21.1999999999999,67.9000000000001">
+              End="47.3857178498288,0">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,33.7" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,33.7"
-                    Point2="0,37.7"
-                    Point3="4,37.7" />
-                  <mssgle:LineSegment
-                    End="17.1999999999999,37.7" />
-                  <mssgle:CubicBezierSegment
-                    Point1="17.1999999999999,37.7"
-                    Point2="21.1999999999999,37.7"
-                    Point3="21.1999999999999,41.7" />
-                  <mssgle:LineSegment
-                    End="21.1999999999999,67.9000000000001" />
+                    End="47.3857178498288,0" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -1070,29 +810,40 @@ where [refTable].[date_id] = ?</property>
             <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Attività Flusso di dati.Paths[Output corrispondenza ricerca]"
+          TopLeft="384.571422671784,89.3882298888633">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="144.714291261168,0"
+              Start="0,0"
+              End="137.214291261168,0">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="137.214291261168,0" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="1.82126672433412,5,133.5717578125,11.609375"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
       </GraphLayout>
     </LayoutInfo>
   </TaskHost>
   <PipelineComponentMetadata
-    design-time-name="Package\Attività Flusso di dati\Origine OLE DB">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q2:string">Table</Value>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\Attività Flusso di dati\Ricerca">
+    design-time-name="Package\Attività Flusso di dati\Lookup Date_year">
     <Properties>
       <Property>
         <Name>OverwriteParamsSQLProp</Name>
         <Value
-          type="q2:boolean">false</Value>
+          type="q2:string">false</Value>
       </Property>
       <Property>
         <Name>UsedTableName</Name>
@@ -1102,10 +853,23 @@ where [refTable].[date_id] = ?</property>
       <Property>
         <Name>TableInfoObjectType</Name>
         <Value
-          type="q4:int">0</Value>
+          type="q4:string">0</Value>
       </Property>
       <Property>
         <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Attività Flusso di dati\Tournament">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
       </Property>
     </Properties>
   </PipelineComponentMetadata>

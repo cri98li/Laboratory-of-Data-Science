@@ -1,6 +1,7 @@
 import csv
 import pyodbc
 import datetime
+from tqdm import tqdm
 from dateutil.relativedelta import relativedelta
 
 #Legge un file csv (o qualsiasi file con valori separati da un carattere o stringa) come lista di dizionari
@@ -55,9 +56,31 @@ def connectDB(server, database, username, password):
 
     return cnxn
 
-def connectPostgre(server, database, username, password):
-    connectionString = 'DRIVER={PostgreSQL Unicode};SERVER=' + server + ';DATABASE=' + database + ';UID=' + username + ';PWD=' + password + ";PORT=5432;"
-    cnxn = pyodbc.connect(connectionString)
-    cnxn.setdecoding(pyodbc.SQL_WCHAR, encoding='utf-8')
-    cnxn.setencoding(encoding='utf-8')
-    return cnxn
+
+def chunks(lst, start, n):
+    for i in range(start, len(lst), n):
+        yield lst[i:i + n]
+
+#Insert di più record alla volta usando execute many
+def insert_db1(cursor, data, query, table, chunk_size=300):
+    row_count = cursor.execute('SELECT COUNT(*) FROM ' + table).fetchall()[0][0]
+    print(F'\r\nRecord già presenti nella tabella "{table}": {row_count}. Da inserire {len(data) - row_count}')
+
+    for chunk in tqdm(chunks(data, row_count, chunk_size)):
+        try:
+            cursor.executemany(query, chunk)
+            cursor.commit()
+        except pyodbc.IntegrityError as e:
+            print(e)
+            return
+
+#Insert di un record per volta
+def insert_db2(cursor, data, query, table):
+
+    for i, record in enumerate(tqdm(data)):
+        try:
+            cursor.execute(query, record)
+            cursor.commit()
+        except pyodbc.IntegrityError as e:
+            print(e)
+            return
