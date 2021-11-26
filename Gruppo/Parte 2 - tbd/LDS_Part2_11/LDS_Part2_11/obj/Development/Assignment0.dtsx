@@ -11,8 +11,8 @@
   DTS:LocaleID="1040"
   DTS:ObjectName="Package"
   DTS:PackageType="5"
-  DTS:VersionBuild="5"
-  DTS:VersionGUID="{59D26916-F4EA-4529-BF5B-5FDB9DD751A2}">
+  DTS:VersionBuild="7"
+  DTS:VersionGUID="{7967B0AC-A161-4420-87D2-4B1149953115}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -35,10 +35,10 @@
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
               DTS:ColumnDelimiter="_x002C_"
-              DTS:DataType="20"
+              DTS:DataType="2"
               DTS:TextQualified="True"
-              DTS:ObjectName="Indian Wells"
-              DTS:DTSID="{5992655D-CEB4-4B06-956F-8DDC4A8105F1}"
+              DTS:ObjectName="tourney_spectators"
+              DTS:DTSID="{DE3EED33-476F-4776-BD26-0EFAF7275E16}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -46,16 +46,16 @@
               DTS:MaximumWidth="150"
               DTS:DataType="129"
               DTS:TextQualified="True"
-              DTS:ObjectName="2016"
-              DTS:DTSID="{31B7BD09-D0BF-4C71-90CB-6EAD09D8118F}"
+              DTS:ObjectName="tourney_pk"
+              DTS:DTSID="{453597D6-BED8-4527-B71B-776D83F589CF}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
               DTS:ColumnDelimiter="_x002C_"
               DTS:DataType="2"
               DTS:TextQualified="True"
-              DTS:ObjectName="18086"
-              DTS:DTSID="{2FEC68E1-B092-471E-9B5C-AB94335AE377}"
+              DTS:ObjectName="year"
+              DTS:DTSID="{66EFD323-9080-43B6-83AB-08D80471AC9D}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -64,7 +64,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="tourney_name"
-              DTS:DTSID="{F3BB456A-7866-41AE-9A07-7BB4955A45F5}"
+              DTS:DTSID="{787EBF2F-0BEF-47F8-8482-A5FE352B948B}"
               DTS:CreationName="" />
           </DTS:FlatFileColumns>
         </DTS:ConnectionManager>
@@ -83,7 +83,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAASwWrmCWQ4k6Jf9XW9NwqYwAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAABiQLl9IX9NaKM+FYNsMVnCcLvnAuza/S9IVZByYh0VwwAAAAAOgAAAAAIAACAAAABvewQ3Iz+CL4lO9RxLFcc8A6mvSMokrRKZWYzBpvTraiAAAAASqe639hT7ICbsrWbIFl6ccCK7zxG55P+Gtz8aEJH/C0AAAABfnX4yLytpl2eGm5imbr5jhvspAeb0Q+uxssTubFfWYe7otu3QLgH3T3vDLbVJP4SAYwZnub3iWyUqiznWvuOL</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAASwWrmCWQ4k6Jf9XW9NwqYwAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAAMe/CH9nG2VPpoaoeUqybgXCmNIQGrEjoy6mfL9mzOwwAAAAAOgAAAAAIAACAAAAAsuxVe1Sub2vLeKdPXyRhT893jRJZjSCmrxvClrCjgIyAAAAAyqxWhOVXkyTfJ+9LpgCKV5Xli/9RV/d5aj8lPhG+rPkAAAAAqEtcHpakQzpi27mr0KeLiif/IahLJXBWy/584kn398pMh3Q9DwnYDtlYwDqWKOycG8hTTCuscksfHxhFeUtQp</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -147,7 +147,29 @@
                       cachedName="tourney_name"
                       cachedSortKeyPosition="3"
                       externalMetadataColumnId="Package\Attività Flusso di dati\Destinazione file flat.Inputs[Input destinazione file flat].ExternalColumns[tourney_name]"
-                      lineageId="Package\Attività Flusso di dati\Ordinamento #spettatori.Outputs[Output ordinamento].Columns[tourney_name]" />
+                      lineageId="Package\Attività Flusso di dati\Ordinamento year, #spettatori.Outputs[Output ordinamento].Columns[tourney_name]" />
+                    <inputColumn
+                      refId="Package\Attività Flusso di dati\Destinazione file flat.Inputs[Input destinazione file flat].Columns[tourney_spectators]"
+                      cachedDataType="i2"
+                      cachedName="tourney_spectators"
+                      cachedSortKeyPosition="-2"
+                      externalMetadataColumnId="Package\Attività Flusso di dati\Destinazione file flat.Inputs[Input destinazione file flat].ExternalColumns[tourney_spectators]"
+                      lineageId="Package\Attività Flusso di dati\Ordinamento year, #spettatori.Outputs[Output ordinamento].Columns[tourney_spectators]" />
+                    <inputColumn
+                      refId="Package\Attività Flusso di dati\Destinazione file flat.Inputs[Input destinazione file flat].Columns[tourney_pk]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="150"
+                      cachedName="tourney_pk"
+                      externalMetadataColumnId="Package\Attività Flusso di dati\Destinazione file flat.Inputs[Input destinazione file flat].ExternalColumns[tourney_pk]"
+                      lineageId="Package\Attività Flusso di dati\Ordinamento year, #spettatori.Outputs[Output ordinamento].Columns[tourney_pk]" />
+                    <inputColumn
+                      refId="Package\Attività Flusso di dati\Destinazione file flat.Inputs[Input destinazione file flat].Columns[year]"
+                      cachedDataType="i2"
+                      cachedName="year"
+                      cachedSortKeyPosition="1"
+                      externalMetadataColumnId="Package\Attività Flusso di dati\Destinazione file flat.Inputs[Input destinazione file flat].ExternalColumns[year]"
+                      lineageId="Package\Attività Flusso di dati\Ordinamento year, #spettatori.Outputs[Output ordinamento].Columns[year]" />
                   </inputColumns>
                   <externalMetadataColumns
                     isUsed="True">
@@ -158,19 +180,19 @@
                       length="56"
                       name="tourney_name" />
                     <externalMetadataColumn
-                      refId="Package\Attività Flusso di dati\Destinazione file flat.Inputs[Input destinazione file flat].ExternalColumns[Indian Wells]"
-                      dataType="i8"
-                      name="Indian Wells" />
+                      refId="Package\Attività Flusso di dati\Destinazione file flat.Inputs[Input destinazione file flat].ExternalColumns[tourney_spectators]"
+                      dataType="i2"
+                      name="tourney_spectators" />
                     <externalMetadataColumn
-                      refId="Package\Attività Flusso di dati\Destinazione file flat.Inputs[Input destinazione file flat].ExternalColumns[2016]"
+                      refId="Package\Attività Flusso di dati\Destinazione file flat.Inputs[Input destinazione file flat].ExternalColumns[tourney_pk]"
                       codePage="1252"
                       dataType="str"
                       length="150"
-                      name="2016" />
+                      name="tourney_pk" />
                     <externalMetadataColumn
-                      refId="Package\Attività Flusso di dati\Destinazione file flat.Inputs[Input destinazione file flat].ExternalColumns[18086]"
+                      refId="Package\Attività Flusso di dati\Destinazione file flat.Inputs[Input destinazione file flat].ExternalColumns[year]"
                       dataType="i2"
-                      name="18086" />
+                      name="year" />
                   </externalMetadataColumns>
                 </input>
               </inputs>
@@ -336,11 +358,11 @@ where [refTable].[date_id] = ?</property>
               </outputs>
             </component>
             <component
-              refId="Package\Attività Flusso di dati\Ordinamento #spettatori"
+              refId="Package\Attività Flusso di dati\Ordinamento year, #spettatori"
               componentClassID="Microsoft.Sort"
               contactInfo="Ordinamento;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; Tutti i diritti sono riservati; http://www.microsoft.com/sql/support;1"
               description="Ordina i dati di input in ordine crescente o decrescente quando non possono essere ordinati come la relativa origine. Ad esempio, ordinare i dati delle vendite per 'customer id' prima che vengano scritti in un file flat e recapitati a un altro reparto. Nota: questa trasformazione non è consigliata per i flussi di dati di grandi dimensioni."
-              name="Ordinamento #spettatori"
+              name="Ordinamento year, #spettatori"
               version="1">
               <properties>
                 <property
@@ -355,11 +377,11 @@ where [refTable].[date_id] = ?</property>
               </properties>
               <inputs>
                 <input
-                  refId="Package\Attività Flusso di dati\Ordinamento #spettatori.Inputs[Input ordinamento]"
+                  refId="Package\Attività Flusso di dati\Ordinamento year, #spettatori.Inputs[Input ordinamento]"
                   name="Input ordinamento">
                   <inputColumns>
                     <inputColumn
-                      refId="Package\Attività Flusso di dati\Ordinamento #spettatori.Inputs[Input ordinamento].Columns[tourney_spectators]"
+                      refId="Package\Attività Flusso di dati\Ordinamento year, #spettatori.Inputs[Input ordinamento].Columns[tourney_spectators]"
                       cachedDataType="i2"
                       cachedName="tourney_spectators"
                       lineageId="Package\Attività Flusso di dati\Tournament.Outputs[Output origine OLE DB].Columns[tourney_spectators]">
@@ -371,11 +393,11 @@ where [refTable].[date_id] = ?</property>
                         <property
                           dataType="System.Int32"
                           description="Specifica il tipo di ordinamento della colonna."
-                          name="NewSortKeyPosition">-1</property>
+                          name="NewSortKeyPosition">-2</property>
                       </properties>
                     </inputColumn>
                     <inputColumn
-                      refId="Package\Attività Flusso di dati\Ordinamento #spettatori.Inputs[Input ordinamento].Columns[tourney_pk]"
+                      refId="Package\Attività Flusso di dati\Ordinamento year, #spettatori.Inputs[Input ordinamento].Columns[tourney_pk]"
                       cachedCodepage="1252"
                       cachedDataType="str"
                       cachedLength="150"
@@ -393,7 +415,7 @@ where [refTable].[date_id] = ?</property>
                       </properties>
                     </inputColumn>
                     <inputColumn
-                      refId="Package\Attività Flusso di dati\Ordinamento #spettatori.Inputs[Input ordinamento].Columns[year]"
+                      refId="Package\Attività Flusso di dati\Ordinamento year, #spettatori.Inputs[Input ordinamento].Columns[year]"
                       cachedDataType="i2"
                       cachedName="year"
                       lineageId="Package\Attività Flusso di dati\Lookup Date_year.Outputs[Output corrispondenza ricerca].Columns[year]">
@@ -405,11 +427,11 @@ where [refTable].[date_id] = ?</property>
                         <property
                           dataType="System.Int32"
                           description="Specifica il tipo di ordinamento della colonna."
-                          name="NewSortKeyPosition">2</property>
+                          name="NewSortKeyPosition">1</property>
                       </properties>
                     </inputColumn>
                     <inputColumn
-                      refId="Package\Attività Flusso di dati\Ordinamento #spettatori.Inputs[Input ordinamento].Columns[tourney_name]"
+                      refId="Package\Attività Flusso di dati\Ordinamento year, #spettatori.Inputs[Input ordinamento].Columns[tourney_name]"
                       cachedCodepage="1252"
                       cachedDataType="str"
                       cachedLength="56"
@@ -432,16 +454,16 @@ where [refTable].[date_id] = ?</property>
               </inputs>
               <outputs>
                 <output
-                  refId="Package\Attività Flusso di dati\Ordinamento #spettatori.Outputs[Output ordinamento]"
+                  refId="Package\Attività Flusso di dati\Ordinamento year, #spettatori.Outputs[Output ordinamento]"
                   isSorted="true"
                   name="Output ordinamento">
                   <outputColumns>
                     <outputColumn
-                      refId="Package\Attività Flusso di dati\Ordinamento #spettatori.Outputs[Output ordinamento].Columns[tourney_spectators]"
+                      refId="Package\Attività Flusso di dati\Ordinamento year, #spettatori.Outputs[Output ordinamento].Columns[tourney_spectators]"
                       dataType="i2"
-                      lineageId="Package\Attività Flusso di dati\Ordinamento #spettatori.Outputs[Output ordinamento].Columns[tourney_spectators]"
+                      lineageId="Package\Attività Flusso di dati\Ordinamento year, #spettatori.Outputs[Output ordinamento].Columns[tourney_spectators]"
                       name="tourney_spectators"
-                      sortKeyPosition="-1">
+                      sortKeyPosition="-2">
                       <properties>
                         <property
                           containsID="true"
@@ -451,11 +473,11 @@ where [refTable].[date_id] = ?</property>
                       </properties>
                     </outputColumn>
                     <outputColumn
-                      refId="Package\Attività Flusso di dati\Ordinamento #spettatori.Outputs[Output ordinamento].Columns[tourney_pk]"
+                      refId="Package\Attività Flusso di dati\Ordinamento year, #spettatori.Outputs[Output ordinamento].Columns[tourney_pk]"
                       codePage="1252"
                       dataType="str"
                       length="150"
-                      lineageId="Package\Attività Flusso di dati\Ordinamento #spettatori.Outputs[Output ordinamento].Columns[tourney_pk]"
+                      lineageId="Package\Attività Flusso di dati\Ordinamento year, #spettatori.Outputs[Output ordinamento].Columns[tourney_pk]"
                       name="tourney_pk">
                       <properties>
                         <property
@@ -466,11 +488,11 @@ where [refTable].[date_id] = ?</property>
                       </properties>
                     </outputColumn>
                     <outputColumn
-                      refId="Package\Attività Flusso di dati\Ordinamento #spettatori.Outputs[Output ordinamento].Columns[year]"
+                      refId="Package\Attività Flusso di dati\Ordinamento year, #spettatori.Outputs[Output ordinamento].Columns[year]"
                       dataType="i2"
-                      lineageId="Package\Attività Flusso di dati\Ordinamento #spettatori.Outputs[Output ordinamento].Columns[year]"
+                      lineageId="Package\Attività Flusso di dati\Ordinamento year, #spettatori.Outputs[Output ordinamento].Columns[year]"
                       name="year"
-                      sortKeyPosition="2">
+                      sortKeyPosition="1">
                       <properties>
                         <property
                           containsID="true"
@@ -480,11 +502,11 @@ where [refTable].[date_id] = ?</property>
                       </properties>
                     </outputColumn>
                     <outputColumn
-                      refId="Package\Attività Flusso di dati\Ordinamento #spettatori.Outputs[Output ordinamento].Columns[tourney_name]"
+                      refId="Package\Attività Flusso di dati\Ordinamento year, #spettatori.Outputs[Output ordinamento].Columns[tourney_name]"
                       codePage="1252"
                       dataType="str"
                       length="56"
-                      lineageId="Package\Attività Flusso di dati\Ordinamento #spettatori.Outputs[Output ordinamento].Columns[tourney_name]"
+                      lineageId="Package\Attività Flusso di dati\Ordinamento year, #spettatori.Outputs[Output ordinamento].Columns[tourney_name]"
                       name="tourney_name"
                       sortKeyPosition="3">
                       <properties>
@@ -708,14 +730,14 @@ where [refTable].[date_id] = ?</property>
           <paths>
             <path
               refId="Package\Attività Flusso di dati.Paths[Output corrispondenza ricerca]"
-              endId="Package\Attività Flusso di dati\Ordinamento #spettatori.Inputs[Input ordinamento]"
+              endId="Package\Attività Flusso di dati\Ordinamento year, #spettatori.Inputs[Input ordinamento]"
               name="Output corrispondenza ricerca"
               startId="Package\Attività Flusso di dati\Lookup Date_year.Outputs[Output corrispondenza ricerca]" />
             <path
               refId="Package\Attività Flusso di dati.Paths[Output ordinamento]"
               endId="Package\Attività Flusso di dati\Destinazione file flat.Inputs[Input destinazione file flat]"
               name="Output ordinamento"
-              startId="Package\Attività Flusso di dati\Ordinamento #spettatori.Outputs[Output ordinamento]" />
+              startId="Package\Attività Flusso di dati\Ordinamento year, #spettatori.Outputs[Output ordinamento]" />
             <path
               refId="Package\Attività Flusso di dati.Paths[Output origine OLE DB]"
               endId="Package\Attività Flusso di dati\Lookup Date_year.Inputs[Input ricerca]"
@@ -755,9 +777,9 @@ where [refTable].[date_id] = ?</property>
           Id="Package\Attività Flusso di dati\Lookup Date_year"
           TopLeft="220.571422671784,68.8823492089769" />
         <NodeLayout
-          Size="141.6,41.6"
-          Id="Package\Attività Flusso di dati\Ordinamento #spettatori"
-          TopLeft="532.142856838752,68.2941105687497" />
+          Size="158.4,41.6"
+          Id="Package\Attività Flusso di dati\Ordinamento year, #spettatori"
+          TopLeft="529.285713932952,68.2941105687497" />
         <NodeLayout
           Size="173.6,41.6"
           Id="Package\Attività Flusso di dati\Destinazione file flat"
@@ -790,18 +812,18 @@ where [refTable].[date_id] = ?</property>
         </EdgeLayout>
         <EdgeLayout
           Id="Package\Attività Flusso di dati.Paths[Output ordinamento]"
-          TopLeft="673.742856838752,86.7999920690763">
+          TopLeft="687.685713932952,86.7999920690763">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="68.8285749440289,0"
+              EndConnector="54.8857178498288,0"
               Start="0,0"
-              End="61.3285749440289,0">
+              End="47.3857178498288,0">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="61.3285749440289,0" />
+                    End="47.3857178498288,0" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -816,21 +838,21 @@ where [refTable].[date_id] = ?</property>
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="147.571434166968,0"
+              EndConnector="144.714291261168,0"
               Start="0,0"
-              End="140.071434166968,0">
+              End="137.214291261168,0">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="140.071434166968,0" />
+                    End="137.214291261168,0" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
             <mssgm:EdgeLabel
-              BoundingBox="3.24983817723398,5,133.5717578125,11.609375"
+              BoundingBox="1.82126672433412,5,133.5717578125,11.609375"
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>

@@ -11,8 +11,8 @@
   DTS:LocaleID="1040"
   DTS:ObjectName="Package1"
   DTS:PackageType="5"
-  DTS:VersionBuild="8"
-  DTS:VersionGUID="{0FA4E326-2D69-4C1A-AAE9-7C9A5CF490F5}">
+  DTS:VersionBuild="10"
+  DTS:VersionGUID="{B7835046-9E9A-4A57-A517-5151EE406391}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -38,7 +38,7 @@
               DTS:DataType="21"
               DTS:TextQualified="True"
               DTS:ObjectName="partite_perse"
-              DTS:DTSID="{C0D05E76-784D-45E3-9271-A8B50935378E}"
+              DTS:DTSID="{310A791C-84B2-4823-8A3B-1D864915CF1C}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -46,7 +46,7 @@
               DTS:DataType="3"
               DTS:TextQualified="True"
               DTS:ObjectName="player_id"
-              DTS:DTSID="{F3E31B74-52E2-4722-A25A-186730C4EDD4}"
+              DTS:DTSID="{08FBC611-0F9C-4A41-9E16-DC72FF24042F}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -54,7 +54,7 @@
               DTS:DataType="3"
               DTS:TextQualified="True"
               DTS:ObjectName="nemesis_id"
-              DTS:DTSID="{41625B7F-88AD-4BCE-9D8E-621DF398B998}"
+              DTS:DTSID="{0BE4817D-7BA9-44CE-8ED5-6D8DD4DF9F1F}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -63,7 +63,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="player_name"
-              DTS:DTSID="{9DD10A1D-520B-4825-B254-7B011398DBD2}"
+              DTS:DTSID="{0427E805-42C6-4504-A437-CDB46451236E}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -72,7 +72,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="nemesis_name"
-              DTS:DTSID="{2BDEBA86-C191-41F7-8277-DAB8ECE01BBA}"
+              DTS:DTSID="{2BBE9D13-C336-4B2C-856A-6ACEB9F9923C}"
               DTS:CreationName="" />
           </DTS:FlatFileColumns>
         </DTS:ConnectionManager>
@@ -137,7 +137,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAASwWrmCWQ4k6Jf9XW9NwqYwAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAADKFS/lGZl7vHLVsSvi1MvmwTVXGX1Gmo5wzV0W8AnO4AAAAAAOgAAAAAIAACAAAADR27TTq5ry3IWyVY89DHLvg0KjP9o7zslqLCQrEyzaoiAAAACsaDuOq2I+Cv41ZXrftxGAxwuscbAtiQ16ap1n57c3nEAAAAB0Mu/SJ07ZwZiU4P2qEMgPOKr/lga8+EZ8XK03/UFC42ULMSO3xUhlkEV5Tct71iX9jlcnU1QzcEyE6iTK0fjS</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAASwWrmCWQ4k6Jf9XW9NwqYwAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAAZWnhc+LTAzM6bCcr1vWOikQ29Pug9thVWLCXaud137wAAAAAOgAAAAAIAACAAAAD3+QNHvFLlgJYNCySGqc7ZIh3L/4GdsQUqCPcA6ePrLSAAAABLiZUN8WY5lbT/NHbyarBTWo+vVC65bK0/QI12La6Qi0AAAABRH7rgiiZ6YnZSLM4Lr1o9ssvFdWFAI+6OK3MbF1ZLZu2q+h0FD/b/95EOJHQriDnaavMkNY6l9EMEPifLihoT</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -466,7 +466,7 @@ where [refTable].[player_id] = ?</property>
                   containsID="true"
                   dataType="System.String"
                   description="Specifica l'elenco di identificatori di derivazione corrispondenti ai parametri utilizzati dall'istruzione SQL nella proprietà SQLCommand. Le voci nell'elenco sono separate da punti e virgola."
-                  name="ParameterMap">#{Package\Attività Flusso di dati\Merge join.Outputs[Output merge join].Columns[nemesis_id]};</property>
+                  name="ParameterMap">#{Package\Attività Flusso di dati\182:invalid};</property>
                 <property
                   dataType="System.Int32"
                   description="Specifica la tabella codici della colonna da utilizzare quando l'origine dati non rende disponibili informazioni sulla tabella codici."
@@ -1163,6 +1163,11 @@ where [refTable].[player_id] = ?</property>
                       cachedName="player_id"
                       cachedSortKeyPosition="2"
                       lineageId="Package\Attività Flusso di dati\Ordinamento per partite_perse, player_id.Outputs[Output ordinamento].Columns[player_id]" />
+                    <inputColumn
+                      refId="Package\Attività Flusso di dati\Merge join.Inputs[Input merge join destro].Columns[nemesis_id]"
+                      cachedDataType="i4"
+                      cachedName="nemesis_id"
+                      lineageId="Package\Attività Flusso di dati\Ordinamento per partite_perse, player_id.Outputs[Output ordinamento].Columns[nemesis_id]" />
                   </inputColumns>
                   <externalMetadataColumns />
                 </input>
@@ -1211,7 +1216,7 @@ where [refTable].[player_id] = ?</property>
                           containsID="true"
                           dataType="System.Int32"
                           description="Colonna di input associata a questa colonna di output"
-                          name="InputColumnID">#{Package\Attività Flusso di dati\Merge join.Inputs[Input merge join destro].Columns[player_id]}</property>
+                          name="InputColumnID">#{Package\Attività Flusso di dati\Merge join.Inputs[Input merge join destro].Columns[nemesis_id]}</property>
                       </properties>
                     </outputColumn>
                   </outputColumns>

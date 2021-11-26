@@ -11,8 +11,8 @@
   DTS:LocaleID="1040"
   DTS:ObjectName="Package"
   DTS:PackageType="5"
-  DTS:VersionBuild="6"
-  DTS:VersionGUID="{DA949E25-6B59-476F-B3E1-AD76B9FB9A1D}">
+  DTS:VersionBuild="7"
+  DTS:VersionGUID="{7967B0AC-A161-4420-87D2-4B1149953115}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -35,10 +35,10 @@
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
               DTS:ColumnDelimiter="_x002C_"
-              DTS:DataType="20"
+              DTS:DataType="2"
               DTS:TextQualified="True"
-              DTS:ObjectName="Indian Wells"
-              DTS:DTSID="{5992655D-CEB4-4B06-956F-8DDC4A8105F1}"
+              DTS:ObjectName="tourney_spectators"
+              DTS:DTSID="{DE3EED33-476F-4776-BD26-0EFAF7275E16}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -46,16 +46,16 @@
               DTS:MaximumWidth="150"
               DTS:DataType="129"
               DTS:TextQualified="True"
-              DTS:ObjectName="2016"
-              DTS:DTSID="{31B7BD09-D0BF-4C71-90CB-6EAD09D8118F}"
+              DTS:ObjectName="tourney_pk"
+              DTS:DTSID="{453597D6-BED8-4527-B71B-776D83F589CF}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
               DTS:ColumnDelimiter="_x002C_"
               DTS:DataType="2"
               DTS:TextQualified="True"
-              DTS:ObjectName="18086"
-              DTS:DTSID="{2FEC68E1-B092-471E-9B5C-AB94335AE377}"
+              DTS:ObjectName="year"
+              DTS:DTSID="{66EFD323-9080-43B6-83AB-08D80471AC9D}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -64,7 +64,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="tourney_name"
-              DTS:DTSID="{F3BB456A-7866-41AE-9A07-7BB4955A45F5}"
+              DTS:DTSID="{787EBF2F-0BEF-47F8-8482-A5FE352B948B}"
               DTS:CreationName="" />
           </DTS:FlatFileColumns>
         </DTS:ConnectionManager>
@@ -83,7 +83,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAASwWrmCWQ4k6Jf9XW9NwqYwAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAA9y2hnwnBtOswX0UlRXmws81KlZSTS7nncZjnLxGYIGQAAAAAOgAAAAAIAACAAAAAbCM+hklFeEDz0cddlHsPWWllysEHWrpY74ByFq04OwCAAAABxUmIMeP3+zS6NB1Y0pplzI6QwdnJS/XiixfBRlIdeIkAAAACjoJDZzJUXgHt0oCVdNmFYnzYVFdDwhb0oSBRW9YEU7Hwc3HgVkZjz0UxdSCkOoJyjpl6qfORy/8MfkwhE29SV</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAASwWrmCWQ4k6Jf9XW9NwqYwAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAADDEE6CQzvsl4YGZLdRwPD4YtQpQKT6vvMtMQVWwnGa7AAAAAAOgAAAAAIAACAAAABMjMxGypGsgyegy90wu13L4x+WQ4uLRdclaRU08zO4xiAAAAA1ARnSbskzPQQxg3ZIx/+JiMBG8gbyz6Jy8euXiqT3m0AAAADtlOIBBvp7LrK+XxGlpDnUv65Bv1jdbzEqVDxWjxlYGB9i+8mwXM7UBHHQH2nr6kcw8Hz9IUeDQVMu/aHlYUdA</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -148,6 +148,28 @@
                       cachedSortKeyPosition="3"
                       externalMetadataColumnId="Package\Attività Flusso di dati\Destinazione file flat.Inputs[Input destinazione file flat].ExternalColumns[tourney_name]"
                       lineageId="Package\Attività Flusso di dati\Ordinamento year, #spettatori.Outputs[Output ordinamento].Columns[tourney_name]" />
+                    <inputColumn
+                      refId="Package\Attività Flusso di dati\Destinazione file flat.Inputs[Input destinazione file flat].Columns[tourney_spectators]"
+                      cachedDataType="i2"
+                      cachedName="tourney_spectators"
+                      cachedSortKeyPosition="-2"
+                      externalMetadataColumnId="Package\Attività Flusso di dati\Destinazione file flat.Inputs[Input destinazione file flat].ExternalColumns[tourney_spectators]"
+                      lineageId="Package\Attività Flusso di dati\Ordinamento year, #spettatori.Outputs[Output ordinamento].Columns[tourney_spectators]" />
+                    <inputColumn
+                      refId="Package\Attività Flusso di dati\Destinazione file flat.Inputs[Input destinazione file flat].Columns[tourney_pk]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="150"
+                      cachedName="tourney_pk"
+                      externalMetadataColumnId="Package\Attività Flusso di dati\Destinazione file flat.Inputs[Input destinazione file flat].ExternalColumns[tourney_pk]"
+                      lineageId="Package\Attività Flusso di dati\Ordinamento year, #spettatori.Outputs[Output ordinamento].Columns[tourney_pk]" />
+                    <inputColumn
+                      refId="Package\Attività Flusso di dati\Destinazione file flat.Inputs[Input destinazione file flat].Columns[year]"
+                      cachedDataType="i2"
+                      cachedName="year"
+                      cachedSortKeyPosition="1"
+                      externalMetadataColumnId="Package\Attività Flusso di dati\Destinazione file flat.Inputs[Input destinazione file flat].ExternalColumns[year]"
+                      lineageId="Package\Attività Flusso di dati\Ordinamento year, #spettatori.Outputs[Output ordinamento].Columns[year]" />
                   </inputColumns>
                   <externalMetadataColumns
                     isUsed="True">
@@ -158,19 +180,19 @@
                       length="56"
                       name="tourney_name" />
                     <externalMetadataColumn
-                      refId="Package\Attività Flusso di dati\Destinazione file flat.Inputs[Input destinazione file flat].ExternalColumns[Indian Wells]"
-                      dataType="i8"
-                      name="Indian Wells" />
+                      refId="Package\Attività Flusso di dati\Destinazione file flat.Inputs[Input destinazione file flat].ExternalColumns[tourney_spectators]"
+                      dataType="i2"
+                      name="tourney_spectators" />
                     <externalMetadataColumn
-                      refId="Package\Attività Flusso di dati\Destinazione file flat.Inputs[Input destinazione file flat].ExternalColumns[2016]"
+                      refId="Package\Attività Flusso di dati\Destinazione file flat.Inputs[Input destinazione file flat].ExternalColumns[tourney_pk]"
                       codePage="1252"
                       dataType="str"
                       length="150"
-                      name="2016" />
+                      name="tourney_pk" />
                     <externalMetadataColumn
-                      refId="Package\Attività Flusso di dati\Destinazione file flat.Inputs[Input destinazione file flat].ExternalColumns[18086]"
+                      refId="Package\Attività Flusso di dati\Destinazione file flat.Inputs[Input destinazione file flat].ExternalColumns[year]"
                       dataType="i2"
-                      name="18086" />
+                      name="year" />
                   </externalMetadataColumns>
                 </input>
               </inputs>

@@ -11,8 +11,8 @@
   DTS:LocaleID="1040"
   DTS:ObjectName="Package1"
   DTS:PackageType="5"
-  DTS:VersionBuild="12"
-  DTS:VersionGUID="{A91B28F7-9CAB-4923-AF59-931728D89933}">
+  DTS:VersionBuild="14"
+  DTS:VersionGUID="{FE62538E-FBA7-41B2-BDA8-8F0B0F6E8387}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -74,7 +74,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAASwWrmCWQ4k6Jf9XW9NwqYwAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAABxb4el6g0maWhIoa001IuVHHczhYVc/4Qe88yDbVZj4wAAAAAOgAAAAAIAACAAAACRAdx2gYBs7qLnKrNmoCo1tiCVj+VnT5cdxMU99hxR9CAAAACADa+1o/hlwGSW2nQlX6Q2fUwfsGJlHDFvwbXV1ObZrEAAAADTwxDjHJnz4+Dlhc7MhDMCWHsVwTHaFu7872S2N2cJg40ObzYstl3ZDVZHcZAcvDjro21R1GSGF9ATmQW0mWC3</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAASwWrmCWQ4k6Jf9XW9NwqYwAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAB0zTdQUfPUT8Q8ztF4ADwfutyAlo9r9s8IJeUjola8lwAAAAAOgAAAAAIAACAAAAArAtc95zx0Ug6ZSc16pG+H4rUMqFA2oUR73Ylp1kPncCAAAACmuTFq4G8PMneET0IfWg0+pPbbj8bAlK0HvAKfS9PrlkAAAAAxkZNbOKnEho22rzv6HBMY55E8RtuZ/3PX2Fap/ho/U2VmRhwzLZKNffJWNKGj26ouQE9+2H34CHlJBBrO7fs5</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -1326,13 +1326,13 @@ where [refTable].[date_id] = ?</property>
                       cachedDataType="i2"
                       cachedName="year"
                       cachedSortKeyPosition="2"
-                      lineageId="Package\Attività Flusso di dati\Ordinamento per year, COUNT.Outputs[Output ordinamento].Columns[year]" />
+                      lineageId="Package\Attività Flusso di dati\Ordinamento per COUNT, year.Outputs[Output ordinamento].Columns[year]" />
                     <inputColumn
                       refId="Package\Attività Flusso di dati\MAX(COUNT) AS maxMatchPlayed GROUP BY year.Inputs[Input aggregazione 1].Columns[COUNT ALL]"
                       cachedDataType="ui8"
                       cachedName="COUNT ALL"
                       cachedSortKeyPosition="1"
-                      lineageId="Package\Attività Flusso di dati\Ordinamento per year, COUNT.Outputs[Output ordinamento].Columns[COUNT ALL]" />
+                      lineageId="Package\Attività Flusso di dati\Ordinamento per COUNT, year.Outputs[Output ordinamento].Columns[COUNT ALL]" />
                   </inputColumns>
                   <externalMetadataColumns />
                 </input>
@@ -1363,7 +1363,7 @@ where [refTable].[date_id] = ?</property>
                           containsID="true"
                           dataType="System.Int32"
                           description="Specifica l'ID della colonna di input utilizzata nell'aggregazione."
-                          name="AggregationColumnId">#{Package\Attività Flusso di dati\Ordinamento per year, COUNT.Outputs[Output ordinamento].Columns[year]}</property>
+                          name="AggregationColumnId">#{Package\Attività Flusso di dati\Ordinamento per COUNT, year.Outputs[Output ordinamento].Columns[year]}</property>
                         <property
                           dataType="System.Int32"
                           description="Specifica il tipo di aggregazione."
@@ -1389,7 +1389,7 @@ where [refTable].[date_id] = ?</property>
                           containsID="true"
                           dataType="System.Int32"
                           description="Specifica l'ID della colonna di input utilizzata nell'aggregazione."
-                          name="AggregationColumnId">#{Package\Attività Flusso di dati\Ordinamento per year, COUNT.Outputs[Output ordinamento].Columns[COUNT ALL]}</property>
+                          name="AggregationColumnId">#{Package\Attività Flusso di dati\Ordinamento per COUNT, year.Outputs[Output ordinamento].Columns[COUNT ALL]}</property>
                         <property
                           dataType="System.Int32"
                           description="Specifica il tipo di aggregazione."
@@ -1467,20 +1467,20 @@ where [refTable].[date_id] = ?</property>
                       cachedDataType="ui8"
                       cachedName="COUNT ALL"
                       cachedSortKeyPosition="1"
-                      lineageId="Package\Attività Flusso di dati\Ordinamento per year, COUNT.Outputs[Output ordinamento].Columns[COUNT ALL]" />
+                      lineageId="Package\Attività Flusso di dati\Ordinamento per COUNT, year.Outputs[Output ordinamento].Columns[COUNT ALL]" />
                     <inputColumn
                       refId="Package\Attività Flusso di dati\Merge join.Inputs[Input merge join destro].Columns[year]"
                       cachedDataType="i2"
                       cachedName="year"
                       cachedSortKeyPosition="2"
-                      lineageId="Package\Attività Flusso di dati\Ordinamento per year, COUNT.Outputs[Output ordinamento].Columns[year]" />
+                      lineageId="Package\Attività Flusso di dati\Ordinamento per COUNT, year.Outputs[Output ordinamento].Columns[year]" />
                     <inputColumn
                       refId="Package\Attività Flusso di dati\Merge join.Inputs[Input merge join destro].Columns[tourney_name]"
                       cachedCodepage="1252"
                       cachedDataType="str"
                       cachedLength="56"
                       cachedName="tourney_name"
-                      lineageId="Package\Attività Flusso di dati\Ordinamento per year, COUNT.Outputs[Output ordinamento].Columns[tourney_name]" />
+                      lineageId="Package\Attività Flusso di dati\Ordinamento per COUNT, year.Outputs[Output ordinamento].Columns[tourney_name]" />
                   </inputColumns>
                   <externalMetadataColumns />
                 </input>
@@ -1573,6 +1573,203 @@ where [refTable].[date_id] = ?</property>
                   deleteOutputOnPathDetached="true"
                   name="Output multicast 2"
                   synchronousInputId="Package\Attività Flusso di dati\Multicast.Inputs[Multicast Input 1]">
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\Attività Flusso di dati\Ordinamento per COUNT, year"
+              componentClassID="Microsoft.Sort"
+              contactInfo="Ordinamento;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; Tutti i diritti sono riservati; http://www.microsoft.com/sql/support;1"
+              description="Ordina i dati di input in ordine crescente o decrescente quando non possono essere ordinati come la relativa origine. Ad esempio, ordinare i dati delle vendite per 'customer id' prima che vengano scritti in un file flat e recapitati a un altro reparto. Nota: questa trasformazione non è consigliata per i flussi di dati di grandi dimensioni."
+              name="Ordinamento per COUNT, year"
+              version="1">
+              <properties>
+                <property
+                  dataType="System.Boolean"
+                  description="Indica se la trasformazione Ordinamento rimuove le righe con valori di ordinamento duplicati."
+                  name="EliminateDuplicates">false</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifica il numero massimo di thread da utilizzare per l'ordinamento."
+                  expressionType="Notify"
+                  name="MaximumThreads">-1</property>
+              </properties>
+              <inputs>
+                <input
+                  refId="Package\Attività Flusso di dati\Ordinamento per COUNT, year.Inputs[Input ordinamento]"
+                  name="Input ordinamento">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\Attività Flusso di dati\Ordinamento per COUNT, year.Inputs[Input ordinamento].Columns[tourney_id]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="150"
+                      cachedName="tourney_id"
+                      lineageId="Package\Attività Flusso di dati\COUNT(*) GROUP BY tourney_id.Outputs[Output aggregazione 1].Columns[tourney_id]">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifica le opzioni di confronto per i dati di tipo carattere."
+                          name="NewComparisonFlags">0</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifica il tipo di ordinamento della colonna."
+                          name="NewSortKeyPosition">0</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Attività Flusso di dati\Ordinamento per COUNT, year.Inputs[Input ordinamento].Columns[COUNT ALL]"
+                      cachedDataType="ui8"
+                      cachedName="COUNT ALL"
+                      lineageId="Package\Attività Flusso di dati\COUNT(*) GROUP BY tourney_id.Outputs[Output aggregazione 1].Columns[COUNT ALL]">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifica le opzioni di confronto per i dati di tipo carattere."
+                          name="NewComparisonFlags">0</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifica il tipo di ordinamento della colonna."
+                          name="NewSortKeyPosition">1</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Attività Flusso di dati\Ordinamento per COUNT, year.Inputs[Input ordinamento].Columns[tourney_name]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="56"
+                      cachedName="tourney_name"
+                      lineageId="Package\Attività Flusso di dati\Lookup tourney_id, tourney_name.Outputs[Output corrispondenza ricerca].Columns[tourney_name]">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifica le opzioni di confronto per i dati di tipo carattere."
+                          name="NewComparisonFlags">0</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifica il tipo di ordinamento della colonna."
+                          name="NewSortKeyPosition">0</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Attività Flusso di dati\Ordinamento per COUNT, year.Inputs[Input ordinamento].Columns[date_id]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="10"
+                      cachedName="date_id"
+                      lineageId="Package\Attività Flusso di dati\Lookup tourney_id, tourney_name.Outputs[Output corrispondenza ricerca].Columns[date_id]">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifica le opzioni di confronto per i dati di tipo carattere."
+                          name="NewComparisonFlags">0</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifica il tipo di ordinamento della colonna."
+                          name="NewSortKeyPosition">0</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Attività Flusso di dati\Ordinamento per COUNT, year.Inputs[Input ordinamento].Columns[year]"
+                      cachedDataType="i2"
+                      cachedName="year"
+                      lineageId="Package\Attività Flusso di dati\Lookup year.Outputs[Output corrispondenza ricerca].Columns[year]">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifica le opzioni di confronto per i dati di tipo carattere."
+                          name="NewComparisonFlags">0</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifica il tipo di ordinamento della colonna."
+                          name="NewSortKeyPosition">2</property>
+                      </properties>
+                    </inputColumn>
+                  </inputColumns>
+                  <externalMetadataColumns />
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\Attività Flusso di dati\Ordinamento per COUNT, year.Outputs[Output ordinamento]"
+                  isSorted="true"
+                  name="Output ordinamento">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Attività Flusso di dati\Ordinamento per COUNT, year.Outputs[Output ordinamento].Columns[tourney_id]"
+                      codePage="1252"
+                      dataType="str"
+                      length="150"
+                      lineageId="Package\Attività Flusso di dati\Ordinamento per COUNT, year.Outputs[Output ordinamento].Columns[tourney_id]"
+                      name="tourney_id">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifica l'identificatore di derivazione della colonna di input associata a questa colonna di output."
+                          name="SortColumnId">#{Package\Attività Flusso di dati\COUNT(*) GROUP BY tourney_id.Outputs[Output aggregazione 1].Columns[tourney_id]}</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Attività Flusso di dati\Ordinamento per COUNT, year.Outputs[Output ordinamento].Columns[COUNT ALL]"
+                      dataType="ui8"
+                      lineageId="Package\Attività Flusso di dati\Ordinamento per COUNT, year.Outputs[Output ordinamento].Columns[COUNT ALL]"
+                      name="COUNT ALL"
+                      sortKeyPosition="1">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifica l'identificatore di derivazione della colonna di input associata a questa colonna di output."
+                          name="SortColumnId">#{Package\Attività Flusso di dati\COUNT(*) GROUP BY tourney_id.Outputs[Output aggregazione 1].Columns[COUNT ALL]}</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Attività Flusso di dati\Ordinamento per COUNT, year.Outputs[Output ordinamento].Columns[tourney_name]"
+                      codePage="1252"
+                      dataType="str"
+                      length="56"
+                      lineageId="Package\Attività Flusso di dati\Ordinamento per COUNT, year.Outputs[Output ordinamento].Columns[tourney_name]"
+                      name="tourney_name">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifica l'identificatore di derivazione della colonna di input associata a questa colonna di output."
+                          name="SortColumnId">#{Package\Attività Flusso di dati\Lookup tourney_id, tourney_name.Outputs[Output corrispondenza ricerca].Columns[tourney_name]}</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Attività Flusso di dati\Ordinamento per COUNT, year.Outputs[Output ordinamento].Columns[date_id]"
+                      codePage="1252"
+                      dataType="str"
+                      length="10"
+                      lineageId="Package\Attività Flusso di dati\Ordinamento per COUNT, year.Outputs[Output ordinamento].Columns[date_id]"
+                      name="date_id">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifica l'identificatore di derivazione della colonna di input associata a questa colonna di output."
+                          name="SortColumnId">#{Package\Attività Flusso di dati\Lookup tourney_id, tourney_name.Outputs[Output corrispondenza ricerca].Columns[date_id]}</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Attività Flusso di dati\Ordinamento per COUNT, year.Outputs[Output ordinamento].Columns[year]"
+                      dataType="i2"
+                      lineageId="Package\Attività Flusso di dati\Ordinamento per COUNT, year.Outputs[Output ordinamento].Columns[year]"
+                      name="year"
+                      sortKeyPosition="2">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifica l'identificatore di derivazione della colonna di input associata a questa colonna di output."
+                          name="SortColumnId">#{Package\Attività Flusso di dati\Lookup year.Outputs[Output corrispondenza ricerca].Columns[year]}</property>
+                      </properties>
+                    </outputColumn>
+                  </outputColumns>
                   <externalMetadataColumns />
                 </output>
               </outputs>
@@ -1675,203 +1872,6 @@ where [refTable].[date_id] = ?</property>
                 </output>
               </outputs>
             </component>
-            <component
-              refId="Package\Attività Flusso di dati\Ordinamento per year, COUNT"
-              componentClassID="Microsoft.Sort"
-              contactInfo="Ordinamento;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; Tutti i diritti sono riservati; http://www.microsoft.com/sql/support;1"
-              description="Ordina i dati di input in ordine crescente o decrescente quando non possono essere ordinati come la relativa origine. Ad esempio, ordinare i dati delle vendite per 'customer id' prima che vengano scritti in un file flat e recapitati a un altro reparto. Nota: questa trasformazione non è consigliata per i flussi di dati di grandi dimensioni."
-              name="Ordinamento per year, COUNT"
-              version="1">
-              <properties>
-                <property
-                  dataType="System.Boolean"
-                  description="Indica se la trasformazione Ordinamento rimuove le righe con valori di ordinamento duplicati."
-                  name="EliminateDuplicates">false</property>
-                <property
-                  dataType="System.Int32"
-                  description="Specifica il numero massimo di thread da utilizzare per l'ordinamento."
-                  expressionType="Notify"
-                  name="MaximumThreads">-1</property>
-              </properties>
-              <inputs>
-                <input
-                  refId="Package\Attività Flusso di dati\Ordinamento per year, COUNT.Inputs[Input ordinamento]"
-                  name="Input ordinamento">
-                  <inputColumns>
-                    <inputColumn
-                      refId="Package\Attività Flusso di dati\Ordinamento per year, COUNT.Inputs[Input ordinamento].Columns[tourney_id]"
-                      cachedCodepage="1252"
-                      cachedDataType="str"
-                      cachedLength="150"
-                      cachedName="tourney_id"
-                      lineageId="Package\Attività Flusso di dati\COUNT(*) GROUP BY tourney_id.Outputs[Output aggregazione 1].Columns[tourney_id]">
-                      <properties>
-                        <property
-                          dataType="System.Int32"
-                          description="Specifica le opzioni di confronto per i dati di tipo carattere."
-                          name="NewComparisonFlags">0</property>
-                        <property
-                          dataType="System.Int32"
-                          description="Specifica il tipo di ordinamento della colonna."
-                          name="NewSortKeyPosition">0</property>
-                      </properties>
-                    </inputColumn>
-                    <inputColumn
-                      refId="Package\Attività Flusso di dati\Ordinamento per year, COUNT.Inputs[Input ordinamento].Columns[COUNT ALL]"
-                      cachedDataType="ui8"
-                      cachedName="COUNT ALL"
-                      lineageId="Package\Attività Flusso di dati\COUNT(*) GROUP BY tourney_id.Outputs[Output aggregazione 1].Columns[COUNT ALL]">
-                      <properties>
-                        <property
-                          dataType="System.Int32"
-                          description="Specifica le opzioni di confronto per i dati di tipo carattere."
-                          name="NewComparisonFlags">0</property>
-                        <property
-                          dataType="System.Int32"
-                          description="Specifica il tipo di ordinamento della colonna."
-                          name="NewSortKeyPosition">1</property>
-                      </properties>
-                    </inputColumn>
-                    <inputColumn
-                      refId="Package\Attività Flusso di dati\Ordinamento per year, COUNT.Inputs[Input ordinamento].Columns[tourney_name]"
-                      cachedCodepage="1252"
-                      cachedDataType="str"
-                      cachedLength="56"
-                      cachedName="tourney_name"
-                      lineageId="Package\Attività Flusso di dati\Lookup tourney_id, tourney_name.Outputs[Output corrispondenza ricerca].Columns[tourney_name]">
-                      <properties>
-                        <property
-                          dataType="System.Int32"
-                          description="Specifica le opzioni di confronto per i dati di tipo carattere."
-                          name="NewComparisonFlags">0</property>
-                        <property
-                          dataType="System.Int32"
-                          description="Specifica il tipo di ordinamento della colonna."
-                          name="NewSortKeyPosition">0</property>
-                      </properties>
-                    </inputColumn>
-                    <inputColumn
-                      refId="Package\Attività Flusso di dati\Ordinamento per year, COUNT.Inputs[Input ordinamento].Columns[date_id]"
-                      cachedCodepage="1252"
-                      cachedDataType="str"
-                      cachedLength="10"
-                      cachedName="date_id"
-                      lineageId="Package\Attività Flusso di dati\Lookup tourney_id, tourney_name.Outputs[Output corrispondenza ricerca].Columns[date_id]">
-                      <properties>
-                        <property
-                          dataType="System.Int32"
-                          description="Specifica le opzioni di confronto per i dati di tipo carattere."
-                          name="NewComparisonFlags">0</property>
-                        <property
-                          dataType="System.Int32"
-                          description="Specifica il tipo di ordinamento della colonna."
-                          name="NewSortKeyPosition">0</property>
-                      </properties>
-                    </inputColumn>
-                    <inputColumn
-                      refId="Package\Attività Flusso di dati\Ordinamento per year, COUNT.Inputs[Input ordinamento].Columns[year]"
-                      cachedDataType="i2"
-                      cachedName="year"
-                      lineageId="Package\Attività Flusso di dati\Lookup year.Outputs[Output corrispondenza ricerca].Columns[year]">
-                      <properties>
-                        <property
-                          dataType="System.Int32"
-                          description="Specifica le opzioni di confronto per i dati di tipo carattere."
-                          name="NewComparisonFlags">0</property>
-                        <property
-                          dataType="System.Int32"
-                          description="Specifica il tipo di ordinamento della colonna."
-                          name="NewSortKeyPosition">2</property>
-                      </properties>
-                    </inputColumn>
-                  </inputColumns>
-                  <externalMetadataColumns />
-                </input>
-              </inputs>
-              <outputs>
-                <output
-                  refId="Package\Attività Flusso di dati\Ordinamento per year, COUNT.Outputs[Output ordinamento]"
-                  isSorted="true"
-                  name="Output ordinamento">
-                  <outputColumns>
-                    <outputColumn
-                      refId="Package\Attività Flusso di dati\Ordinamento per year, COUNT.Outputs[Output ordinamento].Columns[tourney_id]"
-                      codePage="1252"
-                      dataType="str"
-                      length="150"
-                      lineageId="Package\Attività Flusso di dati\Ordinamento per year, COUNT.Outputs[Output ordinamento].Columns[tourney_id]"
-                      name="tourney_id">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="Specifica l'identificatore di derivazione della colonna di input associata a questa colonna di output."
-                          name="SortColumnId">#{Package\Attività Flusso di dati\COUNT(*) GROUP BY tourney_id.Outputs[Output aggregazione 1].Columns[tourney_id]}</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\Attività Flusso di dati\Ordinamento per year, COUNT.Outputs[Output ordinamento].Columns[COUNT ALL]"
-                      dataType="ui8"
-                      lineageId="Package\Attività Flusso di dati\Ordinamento per year, COUNT.Outputs[Output ordinamento].Columns[COUNT ALL]"
-                      name="COUNT ALL"
-                      sortKeyPosition="1">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="Specifica l'identificatore di derivazione della colonna di input associata a questa colonna di output."
-                          name="SortColumnId">#{Package\Attività Flusso di dati\COUNT(*) GROUP BY tourney_id.Outputs[Output aggregazione 1].Columns[COUNT ALL]}</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\Attività Flusso di dati\Ordinamento per year, COUNT.Outputs[Output ordinamento].Columns[tourney_name]"
-                      codePage="1252"
-                      dataType="str"
-                      length="56"
-                      lineageId="Package\Attività Flusso di dati\Ordinamento per year, COUNT.Outputs[Output ordinamento].Columns[tourney_name]"
-                      name="tourney_name">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="Specifica l'identificatore di derivazione della colonna di input associata a questa colonna di output."
-                          name="SortColumnId">#{Package\Attività Flusso di dati\Lookup tourney_id, tourney_name.Outputs[Output corrispondenza ricerca].Columns[tourney_name]}</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\Attività Flusso di dati\Ordinamento per year, COUNT.Outputs[Output ordinamento].Columns[date_id]"
-                      codePage="1252"
-                      dataType="str"
-                      length="10"
-                      lineageId="Package\Attività Flusso di dati\Ordinamento per year, COUNT.Outputs[Output ordinamento].Columns[date_id]"
-                      name="date_id">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="Specifica l'identificatore di derivazione della colonna di input associata a questa colonna di output."
-                          name="SortColumnId">#{Package\Attività Flusso di dati\Lookup tourney_id, tourney_name.Outputs[Output corrispondenza ricerca].Columns[date_id]}</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\Attività Flusso di dati\Ordinamento per year, COUNT.Outputs[Output ordinamento].Columns[year]"
-                      dataType="i2"
-                      lineageId="Package\Attività Flusso di dati\Ordinamento per year, COUNT.Outputs[Output ordinamento].Columns[year]"
-                      name="year"
-                      sortKeyPosition="2">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="Specifica l'identificatore di derivazione della colonna di input associata a questa colonna di output."
-                          name="SortColumnId">#{Package\Attività Flusso di dati\Lookup year.Outputs[Output corrispondenza ricerca].Columns[year]}</property>
-                      </properties>
-                    </outputColumn>
-                  </outputColumns>
-                  <externalMetadataColumns />
-                </output>
-              </outputs>
-            </component>
           </components>
           <paths>
             <path
@@ -1896,7 +1896,7 @@ where [refTable].[date_id] = ?</property>
               startId="Package\Attività Flusso di dati\Lookup tourney_id, tourney_name.Outputs[Output corrispondenza ricerca]" />
             <path
               refId="Package\Attività Flusso di dati.Paths[Output corrispondenza ricerca1]"
-              endId="Package\Attività Flusso di dati\Ordinamento per year, COUNT.Inputs[Input ordinamento]"
+              endId="Package\Attività Flusso di dati\Ordinamento per COUNT, year.Inputs[Input ordinamento]"
               name="Output corrispondenza ricerca"
               startId="Package\Attività Flusso di dati\Lookup year.Outputs[Output corrispondenza ricerca]" />
             <path
@@ -1913,7 +1913,7 @@ where [refTable].[date_id] = ?</property>
               refId="Package\Attività Flusso di dati.Paths[Output ordinamento]"
               endId="Package\Attività Flusso di dati\Multicast.Inputs[Multicast Input 1]"
               name="Output ordinamento"
-              startId="Package\Attività Flusso di dati\Ordinamento per year, COUNT.Outputs[Output ordinamento]" />
+              startId="Package\Attività Flusso di dati\Ordinamento per COUNT, year.Outputs[Output ordinamento]" />
             <path
               refId="Package\Attività Flusso di dati.Paths[Output ordinamento1]"
               endId="Package\Attività Flusso di dati\Merge join.Inputs[Input merge join sinistro]"
@@ -1954,9 +1954,9 @@ where [refTable].[date_id] = ?</property>
       <GraphLayout
         Capacity="32" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
-          Size="161.6,41.6"
-          Id="Package\Attività Flusso di dati\Ordinamento per year, COUNT"
-          TopLeft="805.74287063297,161.844114351892" />
+          Size="186.4,41.6"
+          Id="Package\Attività Flusso di dati\Ordinamento per maxMatchPlayed, year"
+          TopLeft="154.285716913185,167.388232076704" />
         <NodeLayout
           Size="120,41.6"
           Id="Package\Attività Flusso di dati\Multicast"
@@ -1990,9 +1990,9 @@ where [refTable].[date_id] = ?</property>
           Id="Package\Attività Flusso di dati\Lookup tourney_id, tourney_name"
           TopLeft="507.999999318805,85.8823479327363" />
         <NodeLayout
-          Size="186.4,41.6"
-          Id="Package\Attività Flusso di dati\Ordinamento per maxMatchPlayed, year"
-          TopLeft="154.285716913185,167.388232076704" />
+          Size="158.4,41.6"
+          Id="Package\Attività Flusso di dati\Ordinamento per COUNT, year"
+          TopLeft="805.74287063297,161.844114351892" />
         <EdgeLayout
           Id="Package\Attività Flusso di dati.Paths[Output merge join]"
           TopLeft="471.760716519368,284.502939018123">
@@ -2017,7 +2017,7 @@ where [refTable].[date_id] = ?</property>
         </EdgeLayout>
         <EdgeLayout
           Id="Package\Attività Flusso di dati.Paths[Output corrispondenza ricerca1]"
-          TopLeft="886.285723256822,122.188228794943">
+          TopLeft="885.485723256822,122.188228794943">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"

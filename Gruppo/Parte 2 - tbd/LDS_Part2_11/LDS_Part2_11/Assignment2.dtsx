@@ -11,8 +11,8 @@
   DTS:LocaleID="1040"
   DTS:ObjectName="Package1"
   DTS:PackageType="5"
-  DTS:VersionBuild="13"
-  DTS:VersionGUID="{9AA303F8-CB73-4939-91FC-681B6E9FEB85}">
+  DTS:VersionBuild="14"
+  DTS:VersionGUID="{FE62538E-FBA7-41B2-BDA8-8F0B0F6E8387}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -74,7 +74,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAASwWrmCWQ4k6Jf9XW9NwqYwAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAACxwNANQ9nD2u8Y/fdjwa8qQoHHRIGJQ6bViLnr/1Q3MgAAAAAOgAAAAAIAACAAAADainIOSApQQmHhhMa+bC7FFg+0L3YMxBeX0KZqd92aQCAAAABlJC1k+gVF7/cc0RJFDbv2mDVIBzKes6ZAcVIVXYrUTEAAAACrNxozKp9ubbExABoXQ2gibKd98oZtjRMyiTGUArQNlUla79KWsux3MVUEt0fz0OMBlUNDc405gOsZnbbeZ4Kp</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAASwWrmCWQ4k6Jf9XW9NwqYwAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAADpjC5iOTNbwEWyQb6gHc7oBdrcSIYRuFZx92xjo1GNdAAAAAAOgAAAAAIAACAAAACAK+atufdH1Cqf3iZd31WgI4DliWRqOGEByeG5Lc5XfiAAAADrjUsC/y0h10zsuBp74dCa7DirJvTRXUzVHJp+HLUI0UAAAACzn/f/jnyRnOi5OopBYwDUFMpeWSCuVB5W8llhofdqc3cvAgm2useWI4Fx98/ndNKr1moDKFLHWrk6QSpw1e02</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -1954,9 +1954,9 @@ where [refTable].[date_id] = ?</property>
       <GraphLayout
         Capacity="32" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
-          Size="158.4,41.6"
-          Id="Package\Attività Flusso di dati\Ordinamento per COUNT, year"
-          TopLeft="805.74287063297,161.844114351892" />
+          Size="186.4,41.6"
+          Id="Package\Attività Flusso di dati\Ordinamento per maxMatchPlayed, year"
+          TopLeft="154.285716913185,167.388232076704" />
         <NodeLayout
           Size="120,41.6"
           Id="Package\Attività Flusso di dati\Multicast"
@@ -1990,9 +1990,9 @@ where [refTable].[date_id] = ?</property>
           Id="Package\Attività Flusso di dati\Lookup tourney_id, tourney_name"
           TopLeft="507.999999318805,85.8823479327363" />
         <NodeLayout
-          Size="186.4,41.6"
-          Id="Package\Attività Flusso di dati\Ordinamento per maxMatchPlayed, year"
-          TopLeft="154.285716913185,167.388232076704" />
+          Size="158.4,41.6"
+          Id="Package\Attività Flusso di dati\Ordinamento per COUNT, year"
+          TopLeft="805.74287063297,161.844114351892" />
         <EdgeLayout
           Id="Package\Attività Flusso di dati.Paths[Output merge join]"
           TopLeft="471.760716519368,284.502939018123">
