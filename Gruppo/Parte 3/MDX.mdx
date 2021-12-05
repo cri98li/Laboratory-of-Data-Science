@@ -1,6 +1,11 @@
--- Show the player that lost the most matches for each country.
+-- Domande:
+-- 1) revisione query
+-- 2) servono tutti gli attributi per ogni dimensione?
 
-select  [Measures].[Match count] on columns,
+
+-- Assignment 1: Show the player that lost the most matches for each country.
+
+select [Measures].[Match count] on columns,
 order(
         generate(
             ([Loser - Country].[Country Name].[Country Name]),
@@ -9,7 +14,57 @@ order(
          [Measures].[Match count],
         bdesc
     ) on rows
-from [Group 11 DB]
+from [Group 11 DB];
+
+
+
+-- Assignment 2: For each tournament, show the loser with the lowest total loser rank points.
+select [Measures].[Loser Rank Points] on columns,
+generate(
+     [Tournament].[Tourney Pk].[Tourney Pk],
+     bottomcount(
+		filter(
+			([Tournament].[Tourney Pk].currentmember, [Loser].[Player Id].[Player Id]), 
+			NOT ISEMPTY([Measures].[Loser Rank Points])
+		), 
+		1,  
+		[Measures].[Loser Rank Points])
+)
+on rows
+from [Group 11 DB];
+
+
+
+
+-- Assignment 3: For each tournament, show the loser with the highest ratio between his loser rank
+-- points and the average winner rank points of that tournament.
+with member avgWinnerRankPoints as
+AVG(
+	([Loser].[Player Id].[All], [Match].[Match Id].[Match Id]),
+	[Measures].[Winner Rank Points]
+)
+
+member ratio as 
+	[Measures].[Loser Rank Points] / avgWinnerRankPoints
+
+select {ratio, avgWinnerRankPoints} on columns,
+	generate(
+		([Tournament].[Tourney Pk].[Tourney Pk]),
+		topcount(
+			filter(
+				([Tournament].[Tourney Pk].currentmember, [Loser].[Player Id].[Player Id]),
+				NOT ISEMPTY(ratio)
+			),
+			1,
+			ratio
+		)
+	) 
+on rows
+from [Group 11 DB];
+
+
+
+---------------------------------------------------------------------------------------------------------------------
 
 
 
