@@ -1,4 +1,4 @@
-﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="794de8e1-9b1e-41d6-ab2d-d23caaa519e4" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="0552d9c4-d959-430a-b163-364a66602af7" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
   <ID>Player</ID>
   <Name>Player</Name>
   <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
@@ -6,6 +6,32 @@
   <Annotations>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="2" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-2205" scrolltop="-3567" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="7451" y="10520" backcolor="2434342" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="010000009001b0300100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Player" left="20" top="0" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="3000" height="3387" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000b80b00003b0d0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="Group_11_Player" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+        </dds>
+      </Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
@@ -21,15 +47,15 @@
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
-      <Value>0</Value>
+      <Value>-2205</Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
-      <Value>0</Value>
+      <Value>-3567</Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
-      <Value>0</Value>
+      <Value>20</Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
@@ -42,47 +68,67 @@
   </Annotations>
   <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
   <State>Unprocessed</State>
-  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="14370dbf-ffd7-45e0-93ef-db5e9c4d4f76">
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="0ffed075-4eb0-4030-8a70-013c4c3ac06f">
     <DataSourceViewID>Group 11 DB</DataSourceViewID>
   </Source>
-  <ErrorConfiguration dwd:design-time-name="b19413d1-fe4a-4c50-938f-d65a35cc3abe">
+  <ErrorConfiguration dwd:design-time-name="f3d09083-8e7f-416b-b6f8-c4f739dea785">
     <KeyNotFound>ReportAndStop</KeyNotFound>
     <KeyDuplicate>ReportAndStop</KeyDuplicate>
     <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
   </ErrorConfiguration>
   <CurrentStorageMode>Molap</CurrentStorageMode>
   <Attributes>
-    <Attribute dwd:design-time-name="ed65c7cb-cec7-4689-aafd-5e539f72bc6e">
+    <Attribute dwd:design-time-name="0d993ea2-ac3a-4d50-a3ef-1922f365f3d6">
       <ID>Player Id</ID>
       <Name>Player Id</Name>
       <Usage>Key</Usage>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="ef9aa80e-8a38-4786-8106-017903f79453">
+        <KeyColumn dwd:design-time-name="49e832c9-86c0-4ed8-8c4d-7966aacb17ad">
           <DataType>Integer</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="af2793f6-e561-4ff1-98d8-a9bddbf2ad71">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="58e12d1b-7aa5-4f42-90f8-1626886d96ad">
             <TableID>Group_11_Player</TableID>
             <ColumnID>player_id</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
       <AttributeRelationships>
-        <AttributeRelationship dwd:design-time-name="d6574658-3806-4c6d-9c2b-54b23a4cbdee">
+        <AttributeRelationship dwd:design-time-name="19c687ea-3b6a-4746-bd93-a475e915e0ec">
           <AttributeID>Country Id</AttributeID>
           <Name>Country Id</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="b2f1fd19-e69b-45e0-9b82-9207d49183b1">
+          <AttributeID>Year Of Birth</AttributeID>
+          <Name>Year Of Birth</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="af7ed06f-1abe-4a91-ab81-12fcf44609c3">
+          <AttributeID>Sex</AttributeID>
+          <Name>Sex</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="89845c9c-ccde-41ba-a539-90f9a61b1740">
+          <AttributeID>Name</AttributeID>
+          <Name>Name_</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="3ee1750e-4529-404d-8421-2d7581facb44">
+          <AttributeID>Hand</AttributeID>
+          <Name>Hand</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="ccf21bf6-505d-4b1a-b64e-b21b9548bb9b">
+          <AttributeID>Ht</AttributeID>
+          <Name>Ht</Name>
         </AttributeRelationship>
       </AttributeRelationships>
       <OrderBy>Key</OrderBy>
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="a3e07f58-d46d-456c-8642-b7109467731e">
+    <Attribute dwd:design-time-name="42723aef-3fff-450a-93ef-e01bc1100a6a">
       <ID>Country Id</ID>
       <Name>Country Id</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="f2267caa-acb7-45ca-9252-7ff981db66d3">
+        <KeyColumn dwd:design-time-name="c7840e0c-5da8-4274-bbc2-0f77336655b8">
           <DataType>WChar</DataType>
           <DataSize>3</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="9a1bd398-9cb6-4214-95a9-b8cec589c4b8">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="bcf9649b-74fc-4a9e-8224-96d2eeb6a041">
             <TableID>Group_11_Player</TableID>
             <ColumnID>country_id</ColumnID>
           </Source>
@@ -90,6 +136,84 @@
       </KeyColumns>
       <OrderBy>Key</OrderBy>
       <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="35e6ac5a-6df6-49ce-b295-135e0b82afcb">
+      <ID>Year Of Birth</ID>
+      <Name>Year Of Birth</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="4da7e6d4-ff13-4f63-b50f-5a97ed7a0cff">
+          <DataType>SmallInt</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="c60d6ac3-7167-44a8-a4cb-0637fa999e33">
+            <TableID>Group_11_Player</TableID>
+            <ColumnID>year_of_birth</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="e562eaac-2e24-433e-9cdb-f9575e5b4f4b">
+      <ID>Sex</ID>
+      <Name>Sex</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="34145b96-1611-435b-b7b8-c1348e8d2334">
+          <DataType>WChar</DataType>
+          <DataSize>6</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="d6d48e99-fca5-4fb5-a449-82e0bc9df248">
+            <TableID>Group_11_Player</TableID>
+            <ColumnID>sex</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="38903cfe-9abf-490a-8701-50b0880ffb26">
+      <ID>Name</ID>
+      <Name>Name</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="7d88814b-107f-478f-9d11-3840a5e46058">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="c88f9f1b-728a-4942-b8f2-70a5ae61768a">
+            <TableID>Group_11_Player</TableID>
+            <ColumnID>name</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="c7e03fad-c127-4718-bb55-2b43dee921b4">
+      <ID>Hand</ID>
+      <Name>Hand</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="0c3ad05c-3bd3-4f16-a08c-f99bec819b47">
+          <DataType>WChar</DataType>
+          <DataSize>1</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="5b65dbca-de17-4bd2-a2b3-6865d715fe23">
+            <TableID>Group_11_Player</TableID>
+            <ColumnID>hand</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="e94292dd-fe1f-4880-abca-1499c2f311ee">
+      <ID>Ht</ID>
+      <Name>Ht</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="8e8fdb63-1d0d-4c09-9a29-3847dde35bd7">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="a0ba544b-d139-441a-933b-ca100c6c15c1">
+            <TableID>Group_11_Player</TableID>
+            <ColumnID>ht</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>

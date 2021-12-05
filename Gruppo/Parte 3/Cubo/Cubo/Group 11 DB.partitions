@@ -1,17 +1,17 @@
-﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="42ae7dbd-7267-4d60-96d1-800328071d0b" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="26f1b523-2a6b-4685-96f2-3bd337eaf1f3" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
   <ID>Group 11 DB</ID>
   <MeasureGroups>
     <MeasureGroup>
       <ID>Date</ID>
       <Partitions>
-        <Partition dwd:design-time-name="aedcb534-faa5-4681-acfa-f9379de34dd3">
+        <Partition dwd:design-time-name="5afb957d-e76a-42e4-acd8-63179b0f5f41">
           <ID>Date</ID>
           <Name>Date</Name>
           <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
           <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
           <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
           <State>Unprocessed</State>
-          <Source xsi:type="DsvTableBinding" dwd:design-time-name="8a15e3fb-6640-401a-8006-48ad9ba66f1b">
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="2c2e3f5f-c6e9-416a-87b4-a01d499e58c6">
             <DataSourceViewID>Group 11 DB</DataSourceViewID>
             <TableID>Group_11_Date</TableID>
           </Source>
@@ -24,14 +24,14 @@
     <MeasureGroup>
       <ID>Geography</ID>
       <Partitions>
-        <Partition dwd:design-time-name="0af6451b-9055-4ded-b530-4aa59a46ebff">
+        <Partition dwd:design-time-name="4b5b2925-4880-4076-8015-e4b3f0aaffd3">
           <ID>Geography</ID>
           <Name>Geography</Name>
           <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
           <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
           <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
           <State>Unprocessed</State>
-          <Source xsi:type="DsvTableBinding" dwd:design-time-name="bf2ac1cf-bdc4-4228-9b49-ef5f2417470f">
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="4b283425-4e6c-4b9f-9ee8-19437e31fb6b">
             <DataSourceViewID>Group 11 DB</DataSourceViewID>
             <TableID>Group_11_Geography</TableID>
           </Source>
@@ -44,14 +44,14 @@
     <MeasureGroup>
       <ID>Match</ID>
       <Partitions>
-        <Partition dwd:design-time-name="6a4a2a2d-1577-46fe-bfcb-9649580a4675">
+        <Partition dwd:design-time-name="5959c48c-c46e-4579-bae5-8f7104cef966">
           <ID>Match</ID>
           <Name>Match</Name>
           <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
           <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
           <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
           <State>Unprocessed</State>
-          <Source xsi:type="DsvTableBinding" dwd:design-time-name="7e4691f6-7a6d-446e-9125-53bea48ef593">
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="f3efaf90-7f05-4cf6-a000-44c6ca75011d">
             <DataSourceViewID>Group 11 DB</DataSourceViewID>
             <TableID>Group_11_Match</TableID>
           </Source>
@@ -64,14 +64,14 @@
     <MeasureGroup>
       <ID>Player</ID>
       <Partitions>
-        <Partition dwd:design-time-name="74902448-b98f-411b-a834-5023c343c13b">
+        <Partition dwd:design-time-name="f768225d-a850-4a29-9f78-9d82124dfb02">
           <ID>Player</ID>
           <Name>Player</Name>
           <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
           <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
           <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
           <State>Unprocessed</State>
-          <Source xsi:type="DsvTableBinding" dwd:design-time-name="bef2b4b9-f150-474b-b3bf-7eaa639533d2">
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="648639fa-1190-462c-b387-a2dccbe992c2">
             <DataSourceViewID>Group 11 DB</DataSourceViewID>
             <TableID>Group_11_Player</TableID>
           </Source>
@@ -84,36 +84,16 @@
     <MeasureGroup>
       <ID>Tournament</ID>
       <Partitions>
-        <Partition dwd:design-time-name="4e101e9a-8a6c-49a5-a10f-3f4f7a8b5b6a">
+        <Partition dwd:design-time-name="c22aba2f-a9b0-44e9-8609-93e8ca62a228">
           <ID>Tournament</ID>
           <Name>Tournament</Name>
           <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
           <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
           <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
           <State>Unprocessed</State>
-          <Source xsi:type="DsvTableBinding" dwd:design-time-name="cf5a9114-da67-48cc-b016-6f494ab46326">
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="12d0560a-4855-4698-beb4-886b4187bb46">
             <DataSourceViewID>Group 11 DB</DataSourceViewID>
             <TableID>Group_11_Tournament</TableID>
-          </Source>
-          <StorageMode>Molap</StorageMode>
-          <CurrentStorageMode>Molap</CurrentStorageMode>
-          <ProcessingMode>Regular</ProcessingMode>
-        </Partition>
-      </Partitions>
-    </MeasureGroup>
-    <MeasureGroup>
-      <ID>Match 1</ID>
-      <Partitions>
-        <Partition dwd:design-time-name="1850d3b5-2409-4b11-915a-359b560ea5a5">
-          <ID>Match</ID>
-          <Name>Match</Name>
-          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
-          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
-          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
-          <State>Unprocessed</State>
-          <Source xsi:type="DsvTableBinding" dwd:design-time-name="620e17c8-d914-4f5b-a235-c441edc0b448">
-            <DataSourceViewID>Group 11 DB</DataSourceViewID>
-            <TableID>Group_11_Match</TableID>
           </Source>
           <StorageMode>Molap</StorageMode>
           <CurrentStorageMode>Molap</CurrentStorageMode>

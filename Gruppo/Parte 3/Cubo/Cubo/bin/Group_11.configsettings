@@ -12,6 +12,9 @@
     </DataSources>
     <Dimensions>
       <Dimension>
+        <ID>Date</ID>
+      </Dimension>
+      <Dimension>
         <ID>Geography</ID>
       </Dimension>
       <Dimension>
@@ -22,9 +25,6 @@
       </Dimension>
       <Dimension>
         <ID>Match</ID>
-      </Dimension>
-      <Dimension>
-        <ID>Date</ID>
       </Dimension>
     </Dimensions>
     <Cubes>
@@ -68,14 +68,6 @@
             <Partitions>
               <Partition>
                 <ID>Tournament</ID>
-              </Partition>
-            </Partitions>
-          </MeasureGroup>
-          <MeasureGroup>
-            <ID>Match 1</ID>
-            <Partitions>
-              <Partition>
-                <ID>Match</ID>
               </Partition>
             </Partitions>
           </MeasureGroup>
