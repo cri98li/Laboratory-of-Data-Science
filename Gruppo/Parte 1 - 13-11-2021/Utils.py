@@ -48,6 +48,18 @@ def DICTtoCSV(filepath="", data=[{}], header=True,):
         fileCSV.writerows(toWrite)
 
 
+def map_continent(x):
+    if(x == 'AF'):
+        return 'Africa'
+    elif(x == 'AS'):
+        return 'Asia'
+    elif(x == 'EU'):
+        return 'Europe'
+    elif(x == 'NA'):
+        return 'America'
+    else:
+        return 'Unkwown'
+
 # ------------ DB
 
 def connectDB(server, database, username, password):

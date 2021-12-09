@@ -1,5 +1,5 @@
 import pyodbc
-from Utils import CSVtoLISTDICT, connectDB, insert_db1
+from Utils import CSVtoLISTDICT, connectDB, insert_db1, map_continent
 
 cnxn = connectDB('131.114.72.230', 'Group_11_DB', 'Group_11', '9WGTTUCP')
 cnxn.autocommit = False
@@ -47,7 +47,7 @@ print('Paesi da aggiungere trovati in Players: ', country_to_add)
 
 #Recupero dei paesi mancanti usando countryInfo.tsv
 country_list = CSVtoLISTDICT("dati/countryInfo.tsv", True, "\t")
-new_countries = [ [ x['ISO3'], x['Country'], x['Continent'], x['Languages'].lower().split(",")[0] ]
+new_countries = [ [ x['ISO3'], x['Country'], map_continent(x['Continent']), x['Languages'].lower().split(",")[0] ]
                     for x in country_list if x['ISO3'] in country_to_add]
 
 unkwown_countries = country_to_add - {c[0] for c in new_countries}
