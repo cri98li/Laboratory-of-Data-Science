@@ -34,10 +34,61 @@ on rows
 from [Group 11 DB];
 
 
-
-
 -- Assignment 3: For each tournament, show the loser with the highest ratio between his loser rank
 -- points and the average winner rank points of that tournament.
+with member averageWinnerRankPoints as
+	([Loser].[Player Id].[All],
+	[Measures].[AvgWinnerRankPoints])
+
+member ratio as 
+	[Measures].[Loser Rank Points] / averageWinnerRankPoints
+
+select {ratio, averageWinnerRankPoints} on columns,
+	generate(
+		([Tournament].[Tourney Pk].[Tourney Pk]),
+		topcount(
+			filter(
+				([Tournament].[Tourney Pk].currentmember, [Loser].[Player Id].[Player Id]),
+				NOT ISEMPTY(ratio)
+			),
+			1,
+			ratio
+		)
+	) 
+on rows
+from [Group 11 DB];
+
+
+with member tourneyCount as
+([Loser].[Player Id].[All],
+	[Measures].[Match count]) 
+
+member winnerRankSum as
+([Loser].[Player Id].[All],
+	[Measures].[Winner Rank Points]) 
+
+member avgWinnerRankPoints as
+	winnerRankSum / tourneyCount
+
+member ratio as 
+	[Measures].[Loser Rank Points] / avgWinnerRankPoints
+
+select {ratio, avgWinnerRankPoints} on columns,
+	generate(
+		([Tournament].[Tourney Pk].[Tourney Pk]),
+		topcount(
+			filter(
+				([Tournament].[Tourney Pk].currentmember, [Loser].[Player Id].[Player Id]),
+				NOT ISEMPTY(ratio)
+			),
+			1,
+			ratio
+		)
+	) 
+on rows
+from [Group 11 DB];
+
+
 with member avgWinnerRankPoints as
 AVG(
 	([Loser].[Player Id].[All], [Match].[Match Id].[Match Id]),

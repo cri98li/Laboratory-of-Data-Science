@@ -1,0 +1,3 @@
+Prima parte:
+- Correzione valori continenti aggiungendo una funzione per mappare i valori errati a quelli corretti (Es: AF --> Africa)
+   i file cambiati sono Utils.py e Assignment2.py
