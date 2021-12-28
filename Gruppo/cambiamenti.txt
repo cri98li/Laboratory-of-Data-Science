@@ -1,3 +1,4 @@
 Prima parte:
-- Correzione valori continenti aggiungendo una funzione per mappare i valori errati a quelli corretti (Es: AF --> Africa)
+- Correzione valori attributo "continent" aggiungendo una funzione per mappare i valori da sigla a nome esteso (Es: AF --> Africa)
    i file cambiati sono Utils.py e Assignment2.py
+   

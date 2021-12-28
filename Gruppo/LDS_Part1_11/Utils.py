@@ -87,7 +87,7 @@ def insert_db1(cursor, data, query, table, chunk_size=300):
             return
 
 #Insert di un record per volta
-def insert_db2(cursor, data, query, table):
+def insert_db2(cursor, data, query):
 
     for i, record in enumerate(tqdm(data)):
         try:
