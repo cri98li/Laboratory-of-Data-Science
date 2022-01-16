@@ -1,4 +1,3 @@
-year,maxMatchPlayed,tourney_name
 2016,254,Australian Open
 2017,254,Roland Garros
 2017,254,US Open

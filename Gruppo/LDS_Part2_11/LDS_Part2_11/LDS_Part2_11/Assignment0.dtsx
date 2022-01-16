@@ -11,8 +11,8 @@
   DTS:LocaleID="1040"
   DTS:ObjectName="Package"
   DTS:PackageType="5"
-  DTS:VersionBuild="7"
-  DTS:VersionGUID="{7967B0AC-A161-4420-87D2-4B1149953115}">
+  DTS:VersionBuild="8"
+  DTS:VersionGUID="{9E003A31-751B-40D7-9E84-F0CBFC8B328D}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -71,6 +71,59 @@
       </DTS:ObjectData>
     </DTS:ConnectionManager>
     <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[Gestione connessione file flat 1]"
+      DTS:CreationName="FLATFILE"
+      DTS:DTSID="{96540FCD-CAF8-46C5-8542-A201943F1CE8}"
+      DTS:ObjectName="Gestione connessione file flat 1">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:Format="Delimited"
+          DTS:LocaleID="1040"
+          DTS:HeaderRowDelimiter="_x000D__x000A_"
+          DTS:RowDelimiter=""
+          DTS:TextQualifier="_x003C_none_x003E_"
+          DTS:CodePage="1252"
+          DTS:ConnectionString="C:\Users\cri98\Documents\Laboratory-of-Data-Science\Gruppo\LDS_Part2_11\Assignment0.txt">
+          <DTS:FlatFileColumns>
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:DataType="2"
+              DTS:TextQualified="True"
+              DTS:ObjectName="tourney_spectators"
+              DTS:DTSID="{DA61A1A2-50C5-45CD-BECE-FDAB9A04B7E2}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="150"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="tourney_pk"
+              DTS:DTSID="{77943FEF-3181-4F37-B557-9949789A75C1}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:DataType="2"
+              DTS:TextQualified="True"
+              DTS:ObjectName="year"
+              DTS:DTSID="{01FB2A60-7A95-4691-B274-3C1A3A306C86}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x000D__x000A_"
+              DTS:MaximumWidth="56"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="tourney_name"
+              DTS:DTSID="{F66CC1F9-00BF-4964-9610-13B324E7C774}"
+              DTS:CreationName="" />
+          </DTS:FlatFileColumns>
+        </DTS:ConnectionManager>
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
       DTS:refId="Package.ConnectionManagers[lds.di.unipi.it.Group_11_DB.Group_11]"
       DTS:CreationName="OLEDB"
       DTS:DTSID="{B5D31590-ECF9-4752-89BA-9C9C3C9BFBA7}"
@@ -83,7 +136,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAASwWrmCWQ4k6Jf9XW9NwqYwAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAADDEE6CQzvsl4YGZLdRwPD4YtQpQKT6vvMtMQVWwnGa7AAAAAAOgAAAAAIAACAAAABMjMxGypGsgyegy90wu13L4x+WQ4uLRdclaRU08zO4xiAAAAA1ARnSbskzPQQxg3ZIx/+JiMBG8gbyz6Jy8euXiqT3m0AAAADtlOIBBvp7LrK+XxGlpDnUv65Bv1jdbzEqVDxWjxlYGB9i+8mwXM7UBHHQH2nr6kcw8Hz9IUeDQVMu/aHlYUdA</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAtc2uT7mYpk6y+dP1/vhvLQAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAA4MyROm0/TdIUHEgdGGeJ6/6G9QMo3UJ4pJAGt8e13KQAAAAAOgAAAAAIAACAAAADqySVnIxRVE3t+NdNEiSRUuHvMWXL16maZqlkaUCf+JyAAAABZrzE9MXl7pU1TYG/CxqgUBr7MOsKRzKbfJsHZY9KBy0AAAADPDH8c59EuWGt/aPjhRUHIL5Bry3U8QVuNc9JchHtVIBq5+mzh5FYT/J4ATi4wJuBJVckenClhXVh+Aw49gBed</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -108,7 +161,7 @@
               componentClassID="Microsoft.FlatFileDestination"
               contactInfo="Destinazione file flat;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; Tutti i diritti sono riservati; http://www.microsoft.com/sql/support;1"
               description="Destinazione file flat"
-              localeId="1033"
+              localeId="1040"
               name="Destinazione file flat"
               version="1">
               <properties>
@@ -129,8 +182,8 @@
               <connections>
                 <connection
                   refId="Package\Attività Flusso di dati\Destinazione file flat.Connections[FlatFileConnection]"
-                  connectionManagerID="Package.ConnectionManagers[Gestione connessione file flat]"
-                  connectionManagerRefId="Package.ConnectionManagers[Gestione connessione file flat]"
+                  connectionManagerID="Package.ConnectionManagers[Gestione connessione file flat 1]"
+                  connectionManagerRefId="Package.ConnectionManagers[Gestione connessione file flat 1]"
                   name="FlatFileConnection" />
               </connections>
               <inputs>
@@ -773,21 +826,21 @@ where [refTable].[date_id] = ?</property>
       <GraphLayout
         Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
-          Size="164,41.6"
-          Id="Package\Attività Flusso di dati\Lookup Date_year"
-          TopLeft="220.571422671784,68.8823492089769" />
-        <NodeLayout
           Size="158.4,41.6"
           Id="Package\Attività Flusso di dati\Ordinamento year, #spettatori"
           TopLeft="529.285713932952,68.2941105687497" />
         <NodeLayout
-          Size="173.6,41.6"
-          Id="Package\Attività Flusso di dati\Destinazione file flat"
-          TopLeft="742.571431782781,63.7058735694029" />
-        <NodeLayout
           Size="136,41.6"
           Id="Package\Attività Flusso di dati\Tournament"
           TopLeft="41.8571343057008,66.1764683467706" />
+        <NodeLayout
+          Size="164,41.6"
+          Id="Package\Attività Flusso di dati\Lookup Date_year"
+          TopLeft="220.571422671784,68.8823492089769" />
+        <NodeLayout
+          Size="173.6,41.6"
+          Id="Package\Attività Flusso di dati\Destinazione file flat"
+          TopLeft="742.571431782781,63.7058735694029" />
         <EdgeLayout
           Id="Package\Attività Flusso di dati.Paths[Output origine OLE DB]"
           TopLeft="177.857134305701,88.3294087778738">
@@ -860,6 +913,19 @@ where [refTable].[date_id] = ?</property>
     </LayoutInfo>
   </TaskHost>
   <PipelineComponentMetadata
+    design-time-name="Package\Attività Flusso di dati\Tournament">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
     design-time-name="Package\Attività Flusso di dati\Lookup Date_year">
     <Properties>
       <Property>
@@ -879,19 +945,6 @@ where [refTable].[date_id] = ?</property>
       </Property>
       <Property>
         <Name>DataSourceViewID</Name>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\Attività Flusso di dati\Tournament">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q2:string">Table</Value>
       </Property>
     </Properties>
   </PipelineComponentMetadata>

@@ -11,8 +11,8 @@
   DTS:LocaleID="1040"
   DTS:ObjectName="Package1"
   DTS:PackageType="5"
-  DTS:VersionBuild="10"
-  DTS:VersionGUID="{B7835046-9E9A-4A57-A517-5151EE406391}">
+  DTS:VersionBuild="11"
+  DTS:VersionGUID="{B3316889-64DC-4C80-9D47-0E3AB8F0C580}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -125,6 +125,67 @@
       </DTS:ObjectData>
     </DTS:ConnectionManager>
     <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[Gestione connessione file flat 2]"
+      DTS:CreationName="FLATFILE"
+      DTS:DTSID="{392B2C1D-FBEE-42CF-8D06-23C1B00045EA}"
+      DTS:ObjectName="Gestione connessione file flat 2">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:Format="Delimited"
+          DTS:LocaleID="1040"
+          DTS:HeaderRowDelimiter="_x000D__x000A_"
+          DTS:RowDelimiter=""
+          DTS:TextQualifier="_x003C_none_x003E_"
+          DTS:CodePage="1252"
+          DTS:ConnectionString="C:\Users\cri98\Documents\Laboratory-of-Data-Science\Gruppo\LDS_Part2_11\Assignment1.txt">
+          <DTS:FlatFileColumns>
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:DataType="21"
+              DTS:TextQualified="True"
+              DTS:ObjectName="partite_perse"
+              DTS:DTSID="{98967A96-9D78-4F37-B1F0-D02DEECE7334}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:DataType="3"
+              DTS:TextQualified="True"
+              DTS:ObjectName="player_id"
+              DTS:DTSID="{4389AC82-6FAA-412B-9C60-752C533C268F}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:DataType="3"
+              DTS:TextQualified="True"
+              DTS:ObjectName="nemesis_id"
+              DTS:DTSID="{12D6AD33-773E-4A31-BF4D-716511E7EBA7}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="player_name"
+              DTS:DTSID="{2E73E01C-3F55-41EE-B395-0621D32DB380}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x000D__x000A_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="nemesis_name"
+              DTS:DTSID="{1C916957-C1BA-4585-8441-92D79B95018D}"
+              DTS:CreationName="" />
+          </DTS:FlatFileColumns>
+        </DTS:ConnectionManager>
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
       DTS:refId="Package.ConnectionManagers[lds.di.unipi.it.Group_11_DB.Group_11]"
       DTS:CreationName="OLEDB"
       DTS:DTSID="{184D0A3D-91A6-437F-971E-85849C609830}"
@@ -137,7 +198,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAASwWrmCWQ4k6Jf9XW9NwqYwAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAAZWnhc+LTAzM6bCcr1vWOikQ29Pug9thVWLCXaud137wAAAAAOgAAAAAIAACAAAAD3+QNHvFLlgJYNCySGqc7ZIh3L/4GdsQUqCPcA6ePrLSAAAABLiZUN8WY5lbT/NHbyarBTWo+vVC65bK0/QI12La6Qi0AAAABRH7rgiiZ6YnZSLM4Lr1o9ssvFdWFAI+6OK3MbF1ZLZu2q+h0FD/b/95EOJHQriDnaavMkNY6l9EMEPifLihoT</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAtc2uT7mYpk6y+dP1/vhvLQAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAADnLoJaN/cF8JxO/JJxenUZQK7dvgW7woriSSMb93kv7gAAAAAOgAAAAAIAACAAAACzK5PuOL5lgQGf3P3xjLNXiKoVp0OCN0LLOu8o0qG+ziAAAABraExm0msqaWiCDFhucjeiOd3VZp8M94QbkBRdc5eZAkAAAABbwxwBbziO4rGoC/ZRmHnRZG4yQxV4zHmMimYS6MwQNbs3618ZSYFNcM7Sy8DYqEdN23ObayNRNbpx0kVqGqRk</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -311,7 +372,7 @@
               componentClassID="Microsoft.FlatFileDestination"
               contactInfo="Destinazione file flat;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; Tutti i diritti sono riservati; http://www.microsoft.com/sql/support;1"
               description="Destinazione file flat"
-              localeId="1033"
+              localeId="1040"
               name="Destinazione file flat"
               version="1">
               <properties>
@@ -332,8 +393,8 @@
               <connections>
                 <connection
                   refId="Package\Attività Flusso di dati\Destinazione file flat.Connections[FlatFileConnection]"
-                  connectionManagerID="Package.ConnectionManagers[Gestione connessione file flat]"
-                  connectionManagerRefId="Package.ConnectionManagers[Gestione connessione file flat]"
+                  connectionManagerID="Package.ConnectionManagers[Gestione connessione file flat 2]"
+                  connectionManagerRefId="Package.ConnectionManagers[Gestione connessione file flat 2]"
                   name="FlatFileConnection" />
               </connections>
               <inputs>
@@ -466,7 +527,7 @@ where [refTable].[player_id] = ?</property>
                   containsID="true"
                   dataType="System.String"
                   description="Specifica l'elenco di identificatori di derivazione corrispondenti ai parametri utilizzati dall'istruzione SQL nella proprietà SQLCommand. Le voci nell'elenco sono separate da punti e virgola."
-                  name="ParameterMap">#{Package\Attività Flusso di dati\182:invalid};</property>
+                  name="ParameterMap">#{Package\Attività Flusso di dati\235:invalid};</property>
                 <property
                   dataType="System.Int32"
                   description="Specifica la tabella codici della colonna da utilizzare quando l'origine dati non rende disponibili informazioni sulla tabella codici."

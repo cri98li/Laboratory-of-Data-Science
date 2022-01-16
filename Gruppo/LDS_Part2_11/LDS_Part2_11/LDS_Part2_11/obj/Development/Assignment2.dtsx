@@ -11,8 +11,8 @@
   DTS:LocaleID="1040"
   DTS:ObjectName="Package1"
   DTS:PackageType="5"
-  DTS:VersionBuild="14"
-  DTS:VersionGUID="{FE62538E-FBA7-41B2-BDA8-8F0B0F6E8387}">
+  DTS:VersionBuild="16"
+  DTS:VersionGUID="{38F5DC28-07F7-4B2D-9476-AA56367551A0}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -62,6 +62,50 @@
       </DTS:ObjectData>
     </DTS:ConnectionManager>
     <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[Gestione connessione file flat 1]"
+      DTS:CreationName="FLATFILE"
+      DTS:DTSID="{298EB10C-E578-42F0-BC44-D71F97AC32B2}"
+      DTS:ObjectName="Gestione connessione file flat 1">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:Format="Delimited"
+          DTS:LocaleID="1040"
+          DTS:HeaderRowDelimiter="_x000D__x000A_"
+          DTS:RowDelimiter=""
+          DTS:TextQualifier="_x003C_none_x003E_"
+          DTS:CodePage="1252"
+          DTS:ConnectionString="C:\Users\cri98\Documents\Laboratory-of-Data-Science\Gruppo\LDS_Part2_11\Assignment2.txt">
+          <DTS:FlatFileColumns>
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:DataType="2"
+              DTS:TextQualified="True"
+              DTS:ObjectName="year"
+              DTS:DTSID="{17B1D887-77F9-4AA8-91D3-E1CE31232B0E}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:DataType="21"
+              DTS:TextQualified="True"
+              DTS:ObjectName="maxMatchPlayed"
+              DTS:DTSID="{78BAF01B-9BE4-4784-ACA9-99E5E7A49E23}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x000D__x000A_"
+              DTS:MaximumWidth="56"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="tourney_name"
+              DTS:DTSID="{435BB74F-A1BE-4505-A6E7-5482C82FD639}"
+              DTS:CreationName="" />
+          </DTS:FlatFileColumns>
+        </DTS:ConnectionManager>
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
       DTS:refId="Package.ConnectionManagers[lds.di.unipi.it.Group_11_DB.Group_11]"
       DTS:CreationName="OLEDB"
       DTS:DTSID="{9F4167DC-D723-4AD9-B30B-0CC1740EFD03}"
@@ -74,7 +118,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAASwWrmCWQ4k6Jf9XW9NwqYwAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAB0zTdQUfPUT8Q8ztF4ADwfutyAlo9r9s8IJeUjola8lwAAAAAOgAAAAAIAACAAAAArAtc95zx0Ug6ZSc16pG+H4rUMqFA2oUR73Ylp1kPncCAAAACmuTFq4G8PMneET0IfWg0+pPbbj8bAlK0HvAKfS9PrlkAAAAAxkZNbOKnEho22rzv6HBMY55E8RtuZ/3PX2Fap/ho/U2VmRhwzLZKNffJWNKGj26ouQE9+2H34CHlJBBrO7fs5</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAtc2uT7mYpk6y+dP1/vhvLQAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAADIH4/u5hEhLhQ2BxPqfuJKoXweIQ0xmQ0LnHpv3BHOcQAAAAAOgAAAAAIAACAAAABe8wVjhwjpqxreqxOWZYp+DjedxSkxa7M6YQETE7qQEyAAAABb0Bm98XgRJHob7mUl1q2TraYySlc9lX1awwkXfgc7vEAAAABB3bnN6Bf8Q/T3wS8FDKZWEeQDQ6ktf+lxY2kywZMGRQk1y7vdG8v2ZmTz2Ce+i1rUe6HS86fKLkk1YvCDUcbK</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -221,7 +265,7 @@
               componentClassID="Microsoft.FlatFileDestination"
               contactInfo="Destinazione file flat;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; Tutti i diritti sono riservati; http://www.microsoft.com/sql/support;1"
               description="Destinazione file flat"
-              localeId="1033"
+              localeId="1040"
               name="Destinazione file flat"
               version="1">
               <properties>
@@ -242,8 +286,8 @@
               <connections>
                 <connection
                   refId="Package\Attività Flusso di dati\Destinazione file flat.Connections[FlatFileConnection]"
-                  connectionManagerID="Package.ConnectionManagers[Gestione connessione file flat]"
-                  connectionManagerRefId="Package.ConnectionManagers[Gestione connessione file flat]"
+                  connectionManagerID="Package.ConnectionManagers[Gestione connessione file flat 1]"
+                  connectionManagerRefId="Package.ConnectionManagers[Gestione connessione file flat 1]"
                   name="FlatFileConnection" />
               </connections>
               <inputs>
@@ -2059,7 +2103,7 @@ where [refTable].[date_id] = ?</property>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
             <mssgm:EdgeLabel
-              BoundingBox="-1.12159062531521,5,133.5717578125,11.609375"
+              BoundingBox="-1.12159062531499,5,133.5717578125,11.609375"
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>

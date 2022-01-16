@@ -1,4 +1,3 @@
-tourney_spectators,tourney_pk,year,tourney_name
 18086,2016-M006P201610307Indian Wells,2016,Indian Wells
 18086,2016-M006M201610307Indian Wells Masters,2016,Indian Wells Masters
 13004,2016-580G201610118Australian Open,2016,Australian Open
