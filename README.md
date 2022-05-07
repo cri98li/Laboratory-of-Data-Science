@@ -12,7 +12,10 @@ Data Science and Business Intelligence, specifically software products for effec
 decision support.
 
 Syllabus:
- - Data Access. Location, Format and API for Accessing Data in Text Files. (Python)
+
+- Data Access. Location, Format and API for Accessing Data in Text Files. (Python)
 - Extract Transform and Load. Tool for ETL. Case studies.
 - Data Warehousing and OLAP. Tools for Dimensional Modeling. Case Studies. (Microsoft SQL Server)
 - Tools for Reporting and Multidimensional Browsing. Case Studies (Microsoft Power BI)
+
+For more information on the project see the report (pdf file in this folder, in Italian).
